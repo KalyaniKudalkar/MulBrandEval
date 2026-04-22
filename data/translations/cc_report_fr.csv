@@ -1,0 +1,51 @@
+prompt_id,category,image_id,caption_en,caption_translated,back_translated,cc_score,status,language
+P001,people,235836,A boy playing baseball about to hit a ball.,Un garçon jouant au base-ball s'apprête à frapper une balle.,A boy playing baseball is about to hit a ball.,0.9803,PASS,fr
+P002,people,186449,An elderly woman sits on a bench with a crowd behind her.,Une femme âgée est assise sur un banc avec une foule derrière elle.,An elderly woman sits on a bench with a crowd behind her.,1.0,PASS,fr
+P003,people,17436,A man sitting on a bench with a tall building behind him.,Un homme assis sur un banc avec un grand bâtiment derrière lui.,A man sitting on a bench with a large building behind him.,0.9756,PASS,fr
+P004,people,161781,A woman in gear skiing down a snowy slope,Une femme en tenue de ski sur une pente enneigée,A woman in ski gear on a snow-covered slope,0.9774,PASS,fr
+P005,people,2473,A man flying through the air while riding skis.,Un homme qui vole dans les airs en faisant du ski.,A man flying through the air while skiing.,0.9939,PASS,fr
+P006,people,438907,A man is doing a trick on a skateboard.,Un homme fait une figure sur un skateboard.,A man does a trick on a skateboard.,0.9951,PASS,fr
+P007,people,476415,A man wearing a white shirt and tie standing in  a room.,Un homme portant une chemise blanche et une cravate se tient dans une pièce.,A man wearing a white shirt and tie stands in a room.,0.9972,PASS,fr
+P008,people,572462,A group of people standing inside of a moving tram.,Un groupe de personnes à l'intérieur d'un tramway en marche.,A group of people inside a moving tram.,0.9811,PASS,fr
+P009,people,259690,A handicapped man in a wheelchair is being helped to hold the bat by another man on a tee ball,Un homme handicapé en fauteuil roulant est aidé à tenir la batte par un autre homme lors d'un match de tee-ball.,A disabled man in a wheelchair is helped to hold the bat by another man during a tee-ball match.,0.9659,PASS,fr
+P010,people,447187,A man is swinging a bat a ball being pitched at him.,Un homme donne un coup de batte à une balle qui lui est lancée.,A man swings a bat at a ball thrown at him.,0.9838,PASS,fr
+P011,people,308394,An older woman riding a train while sitting under it's window.,Une femme d'un certain âge monte dans un train et s'assoit sous la fenêtre.,An elderly woman gets on a train and sits down under the window.,0.97,PASS,fr
+P012,people,240250,A woman sitting down at a table with pizza.,Une femme assise à une table avec une pizza.,A woman sitting at a table with a pizza.,0.9966,PASS,fr
+P013,people,554156,A man holding a tennis racket in the air,Un homme tenant une raquette de tennis en l'air,A man holding a tennis racket in the air,1.0,PASS,fr
+P014,vehicles,152771,A bike in the middle of an empty parking lot next to trees,Un vélo au milieu d'un parking vide à côté d'arbres,A bike in the middle of an empty car park next to trees,0.9893,PASS,fr
+P015,vehicles,86220,A car and a public transit vehicle on a road.,Une voiture et un véhicule de transport en commun sur une route.,A car and a public transport vehicle on a road.,0.9962,PASS,fr
+P016,vehicles,245448,A man standing with his motorcycle outside of a repair shop.,Un homme debout avec sa moto à l'extérieur d'un atelier de réparation.,A man standing with his motorbike outside a repair shop.,0.9921,PASS,fr
+P017,vehicles,571264,a man is standing next to a motorcycle outside,un homme se tient à côté d'une moto à l'extérieur,a man stands next to a motorbike outside,0.9831,PASS,fr
+P018,vehicles,89556,A couple of silver cars parked around a fire hydrant.,Deux voitures argentées garées autour d'une bouche d'incendie.,Two silver cars parked around a fire hydrant.,0.9918,PASS,fr
+P019,vehicles,269632,A bright yellow transit bus is making it's way down a street in the dark.,Un bus de transport en commun jaune vif descend une rue dans l'obscurité.,A bright yellow public transport bus drives down a street in the dark.,0.963,PASS,fr
+P020,vehicles,574425,Two old fashioned buses parked on the side of the road.,Deux bus à l'ancienne stationnés sur le bord de la route.,Two old-fashioned buses parked on the side of the road.,0.9967,PASS,fr
+P021,vehicles,48924,A dirt bike parked near a tent in the woods.,Une moto tout-terrain garée près d'une tente dans les bois.,A dirt bike parked next to a tent in the woods.,0.9944,PASS,fr
+P022,vehicles,516143,a green and white bus is on the street,un bus vert et blanc est dans la rue,a green and white bus is on the street,1.0,PASS,fr
+P023,vehicles,259830,A moped is parked next to bicycles on a sidewalk.,Un cyclomoteur est garé à côté de vélos sur un trottoir.,A moped is parked next to bicycles on a pavement.,0.9921,PASS,fr
+P024,vehicles,286507,A long red train traveling through snow covered country side.,Un long train rouge traversant une campagne enneigée.,A long red train through snowy countryside.,0.9858,PASS,fr
+P025,vehicles,134722,Fast commuter train moving past an outdoor platform.,Train de banlieue rapide passant devant un quai extérieur.,Fast commuter train passing an outside platform.,0.9894,PASS,fr
+P026,vehicles,137727,A motorized cart fills a train with luggage,Un chariot motorisé remplit un train de bagages,A motorised trolley fills a luggage train,0.9629,PASS,fr
+P027,food,460929,A hot dog with mustard is next to a bottle of soda.,Un hot-dog avec de la moutarde se trouve à côté d'une bouteille de soda.,A hot dog with mustard is next to a bottle of soda.,1.0,PASS,fr
+P028,food,47112,A dining table has a large pizza and wine glasses.,La table à manger est équipée d'une grande pizza et de verres à vin.,The dining table is equipped with a large pizza and wine glasses.,0.9795,PASS,fr
+P029,food,99053,"A bowl of noodles, meat and broccoli with a fork.","Un bol de nouilles, de viande et de brocoli avec une fourchette.","A bowl of noodles, meat and broccoli with a fork.",1.0,PASS,fr
+P030,food,91406,Several women gathered together posing with 6 pizzas in take out boxes.,Plusieurs femmes rassemblées posent avec 6 pizzas dans des boîtes à emporter.,Several women pose together with 6 pizzas in takeaway boxes.,0.9764,PASS,fr
+P031,food,108253,A plate of cheese bread next to bread sticks and wine.,Une assiette de pain au fromage à côté de gressins et de vin.,A plate of cheese bread alongside breadsticks and wine.,0.9864,PASS,fr
+P032,food,371472,A pile of pineapple sitting next to a pile of bananas.,Une pile d'ananas à côté d'une pile de bananes.,A pile of pineapples next to a pile of bananas.,0.9915,PASS,fr
+P033,food,66706,A plate topped with banana slice covered pan cakes.,Une assiette garnie de pan cakes recouverts de tranches de banane.,A plate of pan cakes topped with banana slices.,0.9767,PASS,fr
+P034,food,348708,The banana is laying next to an almost empty bowl.,La banane est posée à côté d'un bol presque vide.,The banana sits next to an almost empty bowl.,0.9874,PASS,fr
+P035,food,323151,A pizza sitting on top of a white plate next to a glass of beer.,Une pizza posée sur une assiette blanche à côté d'un verre de bière.,A pizza on a white plate next to a glass of beer.,0.985,PASS,fr
+P036,food,286908,Various dishes of food sit in bowls on a table.,Divers plats de nourriture sont posés dans des bols sur une table.,Various dishes of food are placed in bowls on a table.,0.9869,PASS,fr
+P037,food,112378,A wooden table topped with a bunch of green bananas.,Une table en bois surmontée d'un régime de bananes vertes.,A wooden table topped with a bunch of green bananas.,1.0,PASS,fr
+P038,food,75456,A pizza with Canadian bacon and pineapple in a fluted pan.,Une pizza au bacon canadien et à l'ananas dans une poêle cannelée.,A Canadian bacon and pineapple pizza in a fluted pan.,0.9883,PASS,fr
+P039,animals,193162,a man on a three wheeler following behind a two dogs and a cow,un homme sur un véhicule à trois roues qui suit deux chiens et une vache,a man on a three-wheeled vehicle following two dogs and a cow,0.9631,PASS,fr
+P040,animals,90062,A black and white cow stands in a paddock with firewood in the background.,Une vache noire et blanche se tient dans un enclos avec du bois de chauffage en arrière-plan.,A black and white cow stands in a paddock with firewood in the background.,1.0,PASS,fr
+P041,animals,155571,An elephant walking across a green grass covered field.,Un éléphant marchant dans un champ couvert d'herbe verte.,An elephant walking through a field covered in green grass.,0.994,PASS,fr
+P042,animals,357060,A bird is trying to find food in the water.,Un oiseau essaie de trouver de la nourriture dans l'eau.,A bird tries to find food in the water.,0.993,PASS,fr
+P043,animals,345261,Two giraffe standing on to of a dry grass covered field.,Deux girafes debout dans un champ couvert d'herbe sèche.,Two giraffes standing in a field of dry grass.,0.9876,PASS,fr
+P044,animals,347664,A herd of cattle walking across a sandy beach near the ocean.,Troupeau de bovins marchant sur une plage de sable près de l'océan.,Herd of cattle walking on a sandy beach near the ocean.,0.9933,PASS,fr
+P045,animals,222235,A cat is playing with a plan in a park.,Un chat joue avec un plan dans un parc.,A cat plays with a map in a park.,0.9367,PASS,fr
+P046,animals,180011,"Four young giraffes in a zoo, with one of them being fed leaves by a person","Quatre jeunes girafes dans un zoo, l'une d'entre elles étant nourrie de feuilles par une personne.","Four young giraffes in a zoo, one of them being fed leaves by someone.",0.9889,PASS,fr
+P047,animals,512648,A brown cow under a tree in a grassy area.,Une vache brune sous un arbre dans une zone herbeuse.,A brown cow under a tree in a grassy area.,1.0,PASS,fr
+P048,animals,547383,Two adult sheep lay on the green grass.,Deux moutons adultes sont couchés sur l'herbe verte.,Two adult sheep are lying on the green grass.,0.9924,PASS,fr
+P049,animals,357081,A photograph of two cows grazing on a green pasture.,Photographie de deux vaches broutant dans un vert pâturage.,Photograph of two cows grazing in a green pasture.,0.9982,PASS,fr
+P050,animals,1675,A cat resting on an open laptop computer.,Un chat se reposant sur un ordinateur portable ouvert.,A cat resting on an open laptop.,0.9769,PASS,fr
