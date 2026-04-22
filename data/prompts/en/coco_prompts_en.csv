@@ -1,0 +1,51 @@
+prompt_id,image_id,caption,category
+P001,235836,A boy playing baseball about to hit a ball.,people
+P002,186449,An elderly woman sits on a bench with a crowd behind her.,people
+P003,17436,A man sitting on a bench with a tall building behind him.,people
+P004,161781,A woman in gear skiing down a snowy slope,people
+P005,2473,A man flying through the air while riding skis.,people
+P006,438907,A man is doing a trick on a skateboard.,people
+P007,476415,A man wearing a white shirt and tie standing in  a room.,people
+P008,572462,A group of people standing inside of a moving tram.,people
+P009,259690,A handicapped man in a wheelchair is being helped to hold the bat by another man on a tee ball,people
+P010,447187,A man is swinging a bat a ball being pitched at him.,people
+P011,308394,An older woman riding a train while sitting under it's window.,people
+P012,240250,A woman sitting down at a table with pizza.,people
+P013,554156,A man holding a tennis racket in the air,people
+P014,152771,A bike in the middle of an empty parking lot next to trees,vehicles
+P015,86220,A car and a public transit vehicle on a road.,vehicles
+P016,245448,A man standing with his motorcycle outside of a repair shop.,vehicles
+P017,571264,a man is standing next to a motorcycle outside,vehicles
+P018,89556,A couple of silver cars parked around a fire hydrant.,vehicles
+P019,269632,A bright yellow transit bus is making it's way down a street in the dark.,vehicles
+P020,574425,Two old fashioned buses parked on the side of the road.,vehicles
+P021,48924,A dirt bike parked near a tent in the woods.,vehicles
+P022,516143,a green and white bus is on the street,vehicles
+P023,259830,A moped is parked next to bicycles on a sidewalk.,vehicles
+P024,286507,A long red train traveling through snow covered country side.,vehicles
+P025,134722,Fast commuter train moving past an outdoor platform.,vehicles
+P026,137727,A motorized cart fills a train with luggage,vehicles
+P027,460929,A hot dog with mustard is next to a bottle of soda.,food
+P028,47112,A dining table has a large pizza and wine glasses.,food
+P029,99053,"A bowl of noodles, meat and broccoli with a fork.",food
+P030,91406,Several women gathered together posing with 6 pizzas in take out boxes.,food
+P031,108253,A plate of cheese bread next to bread sticks and wine.,food
+P032,371472,A pile of pineapple sitting next to a pile of bananas.,food
+P033,66706,A plate topped with banana slice covered pan cakes.,food
+P034,348708,The banana is laying next to an almost empty bowl.,food
+P035,323151,A pizza sitting on top of a white plate next to a glass of beer.,food
+P036,286908,Various dishes of food sit in bowls on a table.,food
+P037,112378,A wooden table topped with a bunch of green bananas.,food
+P038,75456,A pizza with Canadian bacon and pineapple in a fluted pan.,food
+P039,193162,a man on a three wheeler following behind a two dogs and a cow,animals
+P040,90062,A black and white cow stands in a paddock with firewood in the background.,animals
+P041,155571,An elephant walking across a green grass covered field.,animals
+P042,357060,A bird is trying to find food in the water.,animals
+P043,345261,Two giraffe standing on to of a dry grass covered field.,animals
+P044,347664,A herd of cattle walking across a sandy beach near the ocean.,animals
+P045,222235,A cat is playing with a plan in a park.,animals
+P046,180011,"Four young giraffes in a zoo, with one of them being fed leaves by a person",animals
+P047,512648,A brown cow under a tree in a grassy area.,animals
+P048,547383,Two adult sheep lay on the green grass.,animals
+P049,357081,A photograph of two cows grazing on a green pasture.,animals
+P050,1675,A cat resting on an open laptop computer.,animals
