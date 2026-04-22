@@ -1,0 +1,26 @@
+# Environment
+.env
+*.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Data & Models (too large for Git)
+data/generated_images/
+data/reference_images/
+*.ckpt
+*.safetensors
+*.bin
+*.pt
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Conda / venv
+env/
+venv/
+*.conda
