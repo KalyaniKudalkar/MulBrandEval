@@ -1,0 +1,51 @@
+prompt_id,caption,category,dag_node,source
+DB001,A black colored banana.,Colors,node3_attribute,DrawBench
+DB002,A blue bird and a brown bear.,Colors,node3_attribute,DrawBench
+DB003,A red colored car.,Colors,node3_attribute,DrawBench
+DB004,A blue cup and a green cell phone.,Colors,node3_attribute,DrawBench
+DB005,An orange colored sandwich.,Colors,node3_attribute,DrawBench
+DB006,A white colored sandwich.,Colors,node3_attribute,DrawBench
+DB007,A yellow colored giraffe.,Colors,node3_attribute,DrawBench
+DB008,A black colored car.,Colors,node3_attribute,DrawBench
+DB009,A black apple and a green backpack.,Colors,node3_attribute,DrawBench
+DB010,A blue colored dog.,Colors,node3_attribute,DrawBench
+DB011,A pink colored car.,Colors,node3_attribute,DrawBench
+DB012,A pink colored giraffe.,Colors,node3_attribute,DrawBench
+DB013,A red car and a white sheep.,Colors,node3_attribute,DrawBench
+DB014,One car on the street.,Counting,node1_object_presence,DrawBench
+DB015,One dog on the street.,Counting,node1_object_presence,DrawBench
+DB016,One cat and two dogs sitting on the grass.,Counting,node1_object_presence,DrawBench
+DB017,Two cars on the street.,Counting,node1_object_presence,DrawBench
+DB018,Four dogs on the street.,Counting,node1_object_presence,DrawBench
+DB019,Three cats and one dog sitting on the grass.,Counting,node1_object_presence,DrawBench
+DB020,Four cars on the street.,Counting,node1_object_presence,DrawBench
+DB021,Two cats and one dog sitting on the grass.,Counting,node1_object_presence,DrawBench
+DB022,Two cats and three dogs sitting on the grass.,Counting,node1_object_presence,DrawBench
+DB023,Three cats and two dogs sitting on the grass.,Counting,node1_object_presence,DrawBench
+DB024,Three cars on the street.,Counting,node1_object_presence,DrawBench
+DB025,Five dogs on the street.,Counting,node1_object_presence,DrawBench
+DB026,Three cats and three dogs sitting on the grass.,Counting,node1_object_presence,DrawBench
+DB027,A train on top of a surfboard.,Positional,node2_spatial,DrawBench
+DB028,A stop sign on the right of a refrigerator.,Positional,node2_spatial,DrawBench
+DB029,A pizza on the right of a suitcase.,Positional,node2_spatial,DrawBench
+DB030,A wine glass on top of a dog.,Positional,node2_spatial,DrawBench
+DB031,A tennis racket underneath a traffic light.,Positional,node2_spatial,DrawBench
+DB032,A giraffe underneath a microwave.,Positional,node2_spatial,DrawBench
+DB033,A couch on the left of a chair.,Positional,node2_spatial,DrawBench
+DB034,An umbrella on top of a spoon.,Positional,node2_spatial,DrawBench
+DB035,A sheep to the right of a wine glass.,Positional,node2_spatial,DrawBench
+DB036,A cat on the right of a tennis racket.,Positional,node2_spatial,DrawBench
+DB037,A cat on the left of a dog.,Positional,node2_spatial,DrawBench
+DB038,A bicycle on top of a boat.,Positional,node2_spatial,DrawBench
+DB039,A storefront with 'Hello World' written on it.,Text,node4_typography,DrawBench
+DB040,New York Skyline with 'NeurIPS' written with fireworks on the sky.,Text,node4_typography,DrawBench
+DB041,New York Skyline with 'Diffusion' written with fireworks on the sky.,Text,node4_typography,DrawBench
+DB042,A storefront with 'Diffusion' written on it.,Text,node4_typography,DrawBench
+DB043,A sign that says 'Diffusion'.,Text,node4_typography,DrawBench
+DB044,A storefront with 'Google Brain Toronto' written on it.,Text,node4_typography,DrawBench
+DB045,A sign that says 'Deep Learning'.,Text,node4_typography,DrawBench
+DB046,A storefront with 'NeurIPS' written on it.,Text,node4_typography,DrawBench
+DB047,New York Skyline with 'Deep Learning' written with fireworks on the sky.,Text,node4_typography,DrawBench
+DB048,New York Skyline with 'Text to Image' written with fireworks on the sky.,Text,node4_typography,DrawBench
+DB049,A sign that says 'Google Research Pizza Cafe'.,Text,node4_typography,DrawBench
+DB050,A storefront with 'Text to Image' written on it.,Text,node4_typography,DrawBench
