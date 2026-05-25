@@ -1,0 +1,51 @@
+prompt_id,caption,category,dag_node,source,human_score
+GB001,A peaceful pathway lined with blooming flowers leading to a hidden garden.,Spatial Relation,node2_spatial,GenAI-Bench,4.8333
+GB002,"A girl has three flower decorations in her hair, all of them daisies.",Spatial Relation,node2_spatial,GenAI-Bench,3.8333
+GB003,A mermaid with pearl hairpins beneath the waves.,Spatial Relation,node2_spatial,GenAI-Bench,3.4444
+GB004,A bear wearing a sweater and reading a book by the fireplace.,Spatial Relation,node2_spatial,GenAI-Bench,4.0556
+GB005,"In the pond, two ducks swim near each other: the larger one has a bright green head, while the smaller one is all brown.",Spatial Relation,node2_spatial,GenAI-Bench,3.4444
+GB006,"There are four roses in a clear glass vase, all of which are red, and all of which are not open.",Spatial Relation,node2_spatial,GenAI-Bench,2.5
+GB007,"In a basket, there are many cauliflowers, all green except for the one in the middle, which is yellow.",Spatial Relation,node2_spatial,GenAI-Bench,3.7222
+GB008,The brown dog chases the black dog around the tree.,Spatial Relation,node2_spatial,GenAI-Bench,3.4444
+GB009,"a futuristic cityscape at dusk, with flying cars zooming between neon-lit skyscrapers.",Spatial Relation,node2_spatial,GenAI-Bench,4.2778
+GB010,A ceramic bowl filled with water sits next to a steel door that leads to the garden.,Spatial Relation,node2_spatial,GenAI-Bench,3.9444
+GB011,"There are four train toys on the floor, none of which are adjacent to each other.",Spatial Relation,node2_spatial,GenAI-Bench,3.0
+GB012,"A dog, a cat and a bird on a chair.",Spatial Relation,node2_spatial,GenAI-Bench,3.2778
+GB013,a bouquet of tulips sprouting from an open book.,Spatial Relation,node2_spatial,GenAI-Bench,4.2222
+GB014,"A row of houses with chimneys, but no smoke coming out.",Spatial Relation,node2_spatial,GenAI-Bench,3.0
+GB015,"A cheerful dog with a frisbee in its mouth on the right, chasing a rolling ball on the left.",Spatial Relation,node2_spatial,GenAI-Bench,2.3889
+GB016,A person in a brown raincoat laughing with another person clad in a sleek black trench coat under a shared umbrella.,Spatial Relation,node2_spatial,GenAI-Bench,3.2222
+GB017,A painter on a ladder adds stars to a mural of the night sky on a city wall.,Spatial Relation,node2_spatial,GenAI-Bench,3.5556
+GB018,A sphinx talking with travelers in front of the Pyramids at sunset.,Spatial Relation,node2_spatial,GenAI-Bench,2.8889
+GB019,"Three small, non-blue boxes on a large blue box.",Spatial Relation,node2_spatial,GenAI-Bench,2.3889
+GB020,"A polished, copper kettle steams on the stove, catching the attention of a curious cat perched on a nearby chair.",Spatial Relation,node2_spatial,GenAI-Bench,2.8333
+GB021,Several umbrellas of varying colors leaned against stands in the hallway.,Spatial Relation,node2_spatial,GenAI-Bench,3.0556
+GB022,A hat is perched on the table and a coat is draped on the chair.,Spatial Relation,node2_spatial,GenAI-Bench,2.8333
+GB023,"Two children sitting on the bed, the one on the left making faces, the one on the right not making faces.",Spatial Relation,node2_spatial,GenAI-Bench,2.3889
+GB024,"A leather-bound notebook lying on a linen tablecloth, accompanied by a brass pen.",Spatial Relation,node2_spatial,GenAI-Bench,3.8333
+GB025,"A weeping willow as a poet, writing verses that sway with its branches by a serene lake.",Spatial Relation,node2_spatial,GenAI-Bench,2.4444
+GB026,"Three people are sitting elegantly around a round table, each holding a cup of coffee.",Attribute,node3_attribute,GenAI-Bench,3.8889
+GB027,A nurse not administering a vaccine to a young child.,Attribute,node3_attribute,GenAI-Bench,2.3333
+GB028,Eight wavy lines are under three polygonal signs.,Attribute,node3_attribute,GenAI-Bench,1.1667
+GB029,"An alchemist's workshop, bubbling cauldrons, and 'Elixir of Life' are labeled on a shelf.",Attribute,node3_attribute,GenAI-Bench,2.4444
+GB030,A crystal-clear lake reflecting a mountainous landscape.,Attribute,node3_attribute,GenAI-Bench,4.7778
+GB031,An octagonal window framing a spherical ornament.,Attribute,node3_attribute,GenAI-Bench,3.3889
+GB032,"A pair of socks, one is striped, but the other is not.",Attribute,node3_attribute,GenAI-Bench,2.0
+GB033,"There is one apple and two bananas on the table, and the bananas are not fresher than the apples.",Attribute,node3_attribute,GenAI-Bench,3.0556
+GB034,a dog's paw hidden under a fluffy blanket.,Attribute,node3_attribute,GenAI-Bench,3.1667
+GB035,An old windmill overlooking a field of blooming flowers.,Attribute,node3_attribute,GenAI-Bench,5.0
+GB036,"A laptop sticker that humorously states, 'This Machine Fights Zombies.'",Attribute,node3_attribute,GenAI-Bench,2.7222
+GB037,A lone lighthouse standing guard on a rocky coastline.,Attribute,node3_attribute,GenAI-Bench,4.5556
+GB038,"A playful kitten with a bell collar on the left, batting at a fluttering butterfly on the right.",Attribute,node3_attribute,GenAI-Bench,2.6667
+GB039,A serene stream winding through a lush meadow at sunrise.,Attribute,node3_attribute,GenAI-Bench,4.7222
+GB040,"Tea steams in a cup, next to a closed diary with a pen resting on its cover.",Attribute,node3_attribute,GenAI-Bench,2.7222
+GB041,"A mystical forest clearing, illuminated by 'Moonlit Path' glowing runes hovering above the ground, guiding wanderers at night.",Attribute,node3_attribute,GenAI-Bench,1.7222
+GB042,"A bustling shopping mall, alive with shoppers and bright store displays.",Attribute,node3_attribute,GenAI-Bench,4.8889
+GB043,A cat in jeans and a t-shirt lounging on a sunny window sill.,Attribute,node3_attribute,GenAI-Bench,3.1667
+GB044,An antique door knocker with 'Fortune Favors the Bold' inscribed around it.,Attribute,node3_attribute,GenAI-Bench,2.4444
+GB045,an SUV navigating through a rugged mountain trail.,Attribute,node3_attribute,GenAI-Bench,4.5556
+GB046,the Eiffel Tower adorned with colorful flowers in spring.,Attribute,node3_attribute,GenAI-Bench,3.6111
+GB047,Three white seagulls flying over a blue lake.,Attribute,node3_attribute,GenAI-Bench,4.4444
+GB048,"There are several sleek laptops on a table, all of which are closed",Attribute,node3_attribute,GenAI-Bench,2.1667
+GB049,A cherry blossom tree gracefully dancing in a kimono during a spring festival under moonlight.,Attribute,node3_attribute,GenAI-Bench,2.1667
+GB050,Five relaxed students but one overwhelmed teacher.,Attribute,node3_attribute,GenAI-Bench,2.3333
