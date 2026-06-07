@@ -1,0 +1,57 @@
+MulBrandEval — Phase 1B Results
+======================================================================
+
+METRIC SUMMARY — mean CLIP-Score / mean mCLIP / Vendi Score
+per (model x language)
+----------------------------------------------------------------------
+model language  n_images  mean_clip_score  mean_mclip_score  vendi_score
+ sd15       en       100        31.458692          0.317063    10.764889
+ sd15       de       100        27.485109          0.283015    10.753220
+ sd15       fr       100        28.400587          0.292548    11.232041
+ sd15       es       100        27.586829          0.282554     9.894080
+ sd15       ar       100        17.638995          0.203601     5.029979
+ flux       en       100        32.309796          0.325831    11.783632
+ flux       de       100        29.194488          0.297146    10.704953
+ flux       fr       100        30.263861          0.306309    11.764524
+ flux       es       100        28.692748          0.291777    11.554983
+ flux       ar       100        14.885797          0.178475     4.736233
+
+CLCG TABLE — Cross-Lingual Compliance Gap
+Formula : CLCG = Score(EN) - Score(Lang)
+Sign    : Positive = non-English WORSE than English (degradation)
+Metrics : CLIP-Score, mCLIP Score, Vendi Score (all higher = better)
+----------------------------------------------------------------------
+model language  clcg_clip  clcg_mclip  clcg_vendi
+ sd15       de     3.9736      0.0340      0.0117
+ sd15       fr     3.0581      0.0245     -0.4672
+ sd15       es     3.8719      0.0345      0.8708
+ sd15       ar    13.8197      0.1135      5.7349
+ flux       de     3.1153      0.0287      1.0787
+ flux       fr     2.0459      0.0195      0.0191
+ flux       es     3.6170      0.0341      0.2286
+ flux       ar    17.4240      0.1474      7.0474
+
+SPEARMAN rho — Automated Metrics vs GenAI-Bench Human Ratings (RQ1)
+GenAI-Bench prompts only (GB001–GB050, n=50 per condition)
+----------------------------------------------------------------------
+model language      metric  n_prompts  spearman_rho  p_value
+ sd15       en  clip_score         50        0.3466   0.0137
+ sd15       en mclip_score         50        0.2247   0.1167
+ sd15       de  clip_score         50        0.0832   0.5656
+ sd15       de mclip_score         50        0.1341   0.3532
+ sd15       fr  clip_score         50        0.5368   0.0001
+ sd15       fr mclip_score         50        0.3780   0.0068
+ sd15       es  clip_score         50        0.3744   0.0074
+ sd15       es mclip_score         50        0.2402   0.0929
+ sd15       ar  clip_score         50       -0.2385   0.0953
+ sd15       ar mclip_score         50       -0.0416   0.7745
+ flux       en  clip_score         50        0.2081   0.1470
+ flux       en mclip_score         50        0.0975   0.5007
+ flux       de  clip_score         50        0.2461   0.0850
+ flux       de mclip_score         50        0.0259   0.8583
+ flux       fr  clip_score         50        0.2452   0.0861
+ flux       fr mclip_score         50        0.1289   0.3723
+ flux       es  clip_score         50        0.4002   0.0040
+ flux       es mclip_score         50        0.1188   0.4114
+ flux       ar  clip_score         50       -0.1152   0.4256
+ flux       ar mclip_score         50       -0.0943   0.5150

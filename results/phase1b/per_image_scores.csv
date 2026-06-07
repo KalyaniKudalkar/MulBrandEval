@@ -1,0 +1,1001 @@
+model,language,prompt_id,seed,source,category,clip_score,mclip_score
+sd15,en,DB001,42,DrawBench,Colors,26.561472,0.255915
+sd15,en,DB002,42,DrawBench,Colors,36.309516,0.331503
+sd15,en,DB003,42,DrawBench,Colors,26.249948,0.249273
+sd15,en,DB004,42,DrawBench,Colors,28.019381,0.276878
+sd15,en,DB005,42,DrawBench,Colors,29.527918,0.315572
+sd15,en,DB006,42,DrawBench,Colors,30.277985,0.312453
+sd15,en,DB007,42,DrawBench,Colors,31.136674,0.302705
+sd15,en,DB008,42,DrawBench,Colors,27.86462,0.285977
+sd15,en,DB009,42,DrawBench,Colors,27.449059,0.255039
+sd15,en,DB010,42,DrawBench,Colors,33.974519,0.345314
+sd15,en,DB011,42,DrawBench,Colors,33.08365,0.330158
+sd15,en,DB012,42,DrawBench,Colors,32.957196,0.327104
+sd15,en,DB013,42,DrawBench,Colors,29.544771,0.280087
+sd15,en,DB014,42,DrawBench,Counting,27.66723,0.278963
+sd15,en,DB015,42,DrawBench,Counting,30.282936,0.304093
+sd15,en,DB016,42,DrawBench,Counting,28.137109,0.303623
+sd15,en,DB017,42,DrawBench,Counting,26.932615,0.280097
+sd15,en,DB018,42,DrawBench,Counting,33.349904,0.330376
+sd15,en,DB019,42,DrawBench,Counting,32.280102,0.334659
+sd15,en,DB020,42,DrawBench,Counting,27.523658,0.282193
+sd15,en,DB021,42,DrawBench,Counting,32.249045,0.341158
+sd15,en,DB022,42,DrawBench,Counting,30.62436,0.320679
+sd15,en,DB023,42,DrawBench,Counting,32.170391,0.339055
+sd15,en,DB024,42,DrawBench,Counting,27.995855,0.28684
+sd15,en,DB025,42,DrawBench,Counting,32.502753,0.322299
+sd15,en,DB026,42,DrawBench,Counting,32.314652,0.344071
+sd15,en,DB027,42,DrawBench,Positional,30.526161,0.290179
+sd15,en,DB028,42,DrawBench,Positional,29.316086,0.302653
+sd15,en,DB029,42,DrawBench,Positional,36.46006,0.353582
+sd15,en,DB030,42,DrawBench,Positional,24.930197,0.278708
+sd15,en,DB031,42,DrawBench,Positional,28.800562,0.295785
+sd15,en,DB032,42,DrawBench,Positional,33.76472,0.330049
+sd15,en,DB033,42,DrawBench,Positional,29.804552,0.300407
+sd15,en,DB034,42,DrawBench,Positional,28.2682,0.255645
+sd15,en,DB035,42,DrawBench,Positional,30.425867,0.287462
+sd15,en,DB036,42,DrawBench,Positional,32.755116,0.329422
+sd15,en,DB037,42,DrawBench,Positional,26.396525,0.265631
+sd15,en,DB038,42,DrawBench,Positional,33.905229,0.332205
+sd15,en,DB039,42,DrawBench,Text,31.842557,0.318127
+sd15,en,DB040,42,DrawBench,Text,30.812168,0.334217
+sd15,en,DB041,42,DrawBench,Text,32.179862,0.332439
+sd15,en,DB042,42,DrawBench,Text,36.11272,0.34361
+sd15,en,DB043,42,DrawBench,Text,33.926418,0.353221
+sd15,en,DB044,42,DrawBench,Text,37.64421,0.393834
+sd15,en,DB045,42,DrawBench,Text,34.163907,0.361821
+sd15,en,DB046,42,DrawBench,Text,28.977498,0.299288
+sd15,en,DB047,42,DrawBench,Text,33.428824,0.337134
+sd15,en,DB048,42,DrawBench,Text,31.659028,0.338578
+sd15,en,DB049,42,DrawBench,Text,34.025136,0.366282
+sd15,en,DB050,42,DrawBench,Text,31.75109,0.314523
+sd15,en,GB001,42,GenAI-Bench,Spatial Relation,35.316637,0.354732
+sd15,en,GB002,42,GenAI-Bench,Spatial Relation,34.358913,0.348302
+sd15,en,GB003,42,GenAI-Bench,Spatial Relation,31.911129,0.340919
+sd15,en,GB004,42,GenAI-Bench,Spatial Relation,39.651424,0.382682
+sd15,en,GB005,42,GenAI-Bench,Spatial Relation,32.490712,0.352853
+sd15,en,GB006,42,GenAI-Bench,Spatial Relation,29.689857,0.267771
+sd15,en,GB007,42,GenAI-Bench,Spatial Relation,37.042901,0.33394
+sd15,en,GB008,42,GenAI-Bench,Spatial Relation,29.076546,0.287173
+sd15,en,GB009,42,GenAI-Bench,Spatial Relation,34.556571,0.328034
+sd15,en,GB010,42,GenAI-Bench,Spatial Relation,34.304562,0.311978
+sd15,en,GB011,42,GenAI-Bench,Spatial Relation,28.986594,0.280231
+sd15,en,GB012,42,GenAI-Bench,Spatial Relation,25.444514,0.260242
+sd15,en,GB013,42,GenAI-Bench,Spatial Relation,34.424514,0.326401
+sd15,en,GB014,42,GenAI-Bench,Spatial Relation,29.257283,0.273717
+sd15,en,GB015,42,GenAI-Bench,Spatial Relation,33.150482,0.384022
+sd15,en,GB016,42,GenAI-Bench,Spatial Relation,25.878066,0.239557
+sd15,en,GB017,42,GenAI-Bench,Spatial Relation,35.047376,0.360227
+sd15,en,GB018,42,GenAI-Bench,Spatial Relation,34.566295,0.395221
+sd15,en,GB019,42,GenAI-Bench,Spatial Relation,29.026693,0.333431
+sd15,en,GB020,42,GenAI-Bench,Spatial Relation,31.970406,0.307813
+sd15,en,GB021,42,GenAI-Bench,Spatial Relation,30.963722,0.295058
+sd15,en,GB022,42,GenAI-Bench,Spatial Relation,30.693513,0.299845
+sd15,en,GB023,42,GenAI-Bench,Spatial Relation,30.917472,0.294683
+sd15,en,GB024,42,GenAI-Bench,Spatial Relation,33.734897,0.361575
+sd15,en,GB025,42,GenAI-Bench,Spatial Relation,35.499388,0.35053
+sd15,en,GB026,42,GenAI-Bench,Attribute,28.497207,0.312676
+sd15,en,GB027,42,GenAI-Bench,Attribute,33.445239,0.342281
+sd15,en,GB028,42,GenAI-Bench,Attribute,27.067512,0.268742
+sd15,en,GB029,42,GenAI-Bench,Attribute,31.879523,0.338337
+sd15,en,GB030,42,GenAI-Bench,Attribute,31.606269,0.328575
+sd15,en,GB031,42,GenAI-Bench,Attribute,32.007325,0.306977
+sd15,en,GB032,42,GenAI-Bench,Attribute,28.731015,0.317683
+sd15,en,GB033,42,GenAI-Bench,Attribute,30.257732,0.326253
+sd15,en,GB034,42,GenAI-Bench,Attribute,32.467112,0.323421
+sd15,en,GB035,42,GenAI-Bench,Attribute,32.059127,0.310377
+sd15,en,GB036,42,GenAI-Bench,Attribute,31.937337,0.287
+sd15,en,GB037,42,GenAI-Bench,Attribute,30.867317,0.318309
+sd15,en,GB038,42,GenAI-Bench,Attribute,33.781606,0.298783
+sd15,en,GB039,42,GenAI-Bench,Attribute,33.154893,0.309789
+sd15,en,GB040,42,GenAI-Bench,Attribute,31.643203,0.328661
+sd15,en,GB041,42,GenAI-Bench,Attribute,27.794507,0.294421
+sd15,en,GB042,42,GenAI-Bench,Attribute,29.791614,0.32126
+sd15,en,GB043,42,GenAI-Bench,Attribute,32.756865,0.339403
+sd15,en,GB044,42,GenAI-Bench,Attribute,30.619285,0.329997
+sd15,en,GB045,42,GenAI-Bench,Attribute,31.639642,0.308567
+sd15,en,GB046,42,GenAI-Bench,Attribute,39.401194,0.381241
+sd15,en,GB047,42,GenAI-Bench,Attribute,34.505621,0.356154
+sd15,en,GB048,42,GenAI-Bench,Attribute,31.494653,0.307805
+sd15,en,GB049,42,GenAI-Bench,Attribute,34.529704,0.354165
+sd15,en,GB050,42,GenAI-Bench,Attribute,27.109179,0.273572
+sd15,de,DB001,42,DrawBench,Colors,26.246801,0.270585
+sd15,de,DB002,42,DrawBench,Colors,25.661984,0.261029
+sd15,de,DB003,42,DrawBench,Colors,21.775648,0.22947
+sd15,de,DB004,42,DrawBench,Colors,25.217494,0.257283
+sd15,de,DB005,42,DrawBench,Colors,31.453511,0.319519
+sd15,de,DB006,42,DrawBench,Colors,29.440829,0.30065
+sd15,de,DB007,42,DrawBench,Colors,31.006068,0.293044
+sd15,de,DB008,42,DrawBench,Colors,25.994515,0.261741
+sd15,de,DB009,42,DrawBench,Colors,35.015404,0.317912
+sd15,de,DB010,42,DrawBench,Colors,28.828064,0.281125
+sd15,de,DB011,42,DrawBench,Colors,33.835763,0.32374
+sd15,de,DB012,42,DrawBench,Colors,28.783336,0.274978
+sd15,de,DB013,42,DrawBench,Colors,26.614794,0.254124
+sd15,de,DB014,42,DrawBench,Counting,27.614343,0.28316
+sd15,de,DB015,42,DrawBench,Counting,26.574078,0.268055
+sd15,de,DB016,42,DrawBench,Counting,26.561403,0.301704
+sd15,de,DB017,42,DrawBench,Counting,29.672596,0.304462
+sd15,de,DB018,42,DrawBench,Counting,31.0828,0.322016
+sd15,de,DB019,42,DrawBench,Counting,28.197569,0.267571
+sd15,de,DB020,42,DrawBench,Counting,28.807846,0.294249
+sd15,de,DB021,42,DrawBench,Counting,31.854048,0.295783
+sd15,de,DB022,42,DrawBench,Counting,26.001686,0.256741
+sd15,de,DB023,42,DrawBench,Counting,32.981572,0.31201
+sd15,de,DB024,42,DrawBench,Counting,29.968822,0.306986
+sd15,de,DB025,42,DrawBench,Counting,28.226435,0.293173
+sd15,de,DB026,42,DrawBench,Counting,33.067018,0.317777
+sd15,de,DB027,42,DrawBench,Positional,27.615401,0.260624
+sd15,de,DB028,42,DrawBench,Positional,16.945104,0.207473
+sd15,de,DB029,42,DrawBench,Positional,31.71469,0.288558
+sd15,de,DB030,42,DrawBench,Positional,21.043062,0.246393
+sd15,de,DB031,42,DrawBench,Positional,26.694933,0.28354
+sd15,de,DB032,42,DrawBench,Positional,27.882016,0.285563
+sd15,de,DB033,42,DrawBench,Positional,27.251655,0.267229
+sd15,de,DB034,42,DrawBench,Positional,24.573691,0.313197
+sd15,de,DB035,42,DrawBench,Positional,30.088973,0.290775
+sd15,de,DB036,42,DrawBench,Positional,33.539248,0.340757
+sd15,de,DB037,42,DrawBench,Positional,23.186399,0.243768
+sd15,de,DB038,42,DrawBench,Positional,29.35209,0.294772
+sd15,de,DB039,42,DrawBench,Text,37.31485,0.334127
+sd15,de,DB040,42,DrawBench,Text,26.195467,0.310763
+sd15,de,DB041,42,DrawBench,Text,26.206812,0.305291
+sd15,de,DB042,42,DrawBench,Text,35.021615,0.320634
+sd15,de,DB043,42,DrawBench,Text,29.300749,0.300278
+sd15,de,DB044,42,DrawBench,Text,35.117498,0.356758
+sd15,de,DB045,42,DrawBench,Text,28.38912,0.308966
+sd15,de,DB046,42,DrawBench,Text,31.150487,0.273255
+sd15,de,DB047,42,DrawBench,Text,29.385763,0.332653
+sd15,de,DB048,42,DrawBench,Text,27.671108,0.280061
+sd15,de,DB049,42,DrawBench,Text,31.526312,0.330963
+sd15,de,DB050,42,DrawBench,Text,27.131799,0.294282
+sd15,de,GB001,42,GenAI-Bench,Spatial Relation,27.693841,0.277458
+sd15,de,GB002,42,GenAI-Bench,Spatial Relation,28.885928,0.308201
+sd15,de,GB003,42,GenAI-Bench,Spatial Relation,24.437332,0.269843
+sd15,de,GB004,42,GenAI-Bench,Spatial Relation,24.340789,0.204407
+sd15,de,GB005,42,GenAI-Bench,Spatial Relation,30.146718,0.319521
+sd15,de,GB006,42,GenAI-Bench,Spatial Relation,27.571073,0.301818
+sd15,de,GB007,42,GenAI-Bench,Spatial Relation,27.405095,0.28372
+sd15,de,GB008,42,GenAI-Bench,Spatial Relation,27.741063,0.274277
+sd15,de,GB009,42,GenAI-Bench,Spatial Relation,24.603747,0.309389
+sd15,de,GB010,42,GenAI-Bench,Spatial Relation,20.465899,0.230052
+sd15,de,GB011,42,GenAI-Bench,Spatial Relation,22.871685,0.26807
+sd15,de,GB012,42,GenAI-Bench,Spatial Relation,25.381458,0.248658
+sd15,de,GB013,42,GenAI-Bench,Spatial Relation,32.991776,0.288886
+sd15,de,GB014,42,GenAI-Bench,Spatial Relation,17.207307,0.18432
+sd15,de,GB015,42,GenAI-Bench,Spatial Relation,27.848715,0.30808
+sd15,de,GB016,42,GenAI-Bench,Spatial Relation,22.906858,0.241937
+sd15,de,GB017,42,GenAI-Bench,Spatial Relation,25.765365,0.283037
+sd15,de,GB018,42,GenAI-Bench,Spatial Relation,34.097058,0.370719
+sd15,de,GB019,42,GenAI-Bench,Spatial Relation,17.845339,0.228359
+sd15,de,GB020,42,GenAI-Bench,Spatial Relation,24.994354,0.266342
+sd15,de,GB021,42,GenAI-Bench,Spatial Relation,29.158494,0.243878
+sd15,de,GB022,42,GenAI-Bench,Spatial Relation,29.367638,0.264479
+sd15,de,GB023,42,GenAI-Bench,Spatial Relation,31.136367,0.29149
+sd15,de,GB024,42,GenAI-Bench,Spatial Relation,28.513104,0.307248
+sd15,de,GB025,42,GenAI-Bench,Spatial Relation,17.319165,0.208342
+sd15,de,GB026,42,GenAI-Bench,Attribute,25.435495,0.27624
+sd15,de,GB027,42,GenAI-Bench,Attribute,22.179689,0.246842
+sd15,de,GB028,42,GenAI-Bench,Attribute,25.656393,0.244515
+sd15,de,GB029,42,GenAI-Bench,Attribute,25.069824,0.244414
+sd15,de,GB030,42,GenAI-Bench,Attribute,30.178353,0.3069
+sd15,de,GB031,42,GenAI-Bench,Attribute,24.471082,0.29215
+sd15,de,GB032,42,GenAI-Bench,Attribute,28.018907,0.270202
+sd15,de,GB033,42,GenAI-Bench,Attribute,23.173119,0.247229
+sd15,de,GB034,42,GenAI-Bench,Attribute,14.006348,0.220071
+sd15,de,GB035,42,GenAI-Bench,Attribute,33.519545,0.328651
+sd15,de,GB036,42,GenAI-Bench,Attribute,29.366687,0.311348
+sd15,de,GB037,42,GenAI-Bench,Attribute,26.736605,0.30046
+sd15,de,GB038,42,GenAI-Bench,Attribute,29.810438,0.289222
+sd15,de,GB039,42,GenAI-Bench,Attribute,27.919015,0.269552
+sd15,de,GB040,42,GenAI-Bench,Attribute,25.74394,0.275786
+sd15,de,GB041,42,GenAI-Bench,Attribute,25.890094,0.300762
+sd15,de,GB042,42,GenAI-Bench,Attribute,22.024064,0.24185
+sd15,de,GB043,42,GenAI-Bench,Attribute,31.436479,0.347613
+sd15,de,GB044,42,GenAI-Bench,Attribute,30.222985,0.301908
+sd15,de,GB045,42,GenAI-Bench,Attribute,28.781921,0.286958
+sd15,de,GB046,42,GenAI-Bench,Attribute,33.104262,0.33573
+sd15,de,GB047,42,GenAI-Bench,Attribute,24.01315,0.24646
+sd15,de,GB048,42,GenAI-Bench,Attribute,25.5238,0.253242
+sd15,de,GB049,42,GenAI-Bench,Attribute,31.546539,0.311399
+sd15,de,GB050,42,GenAI-Bench,Attribute,19.202745,0.229916
+sd15,fr,DB001,42,DrawBench,Colors,25.072777,0.249979
+sd15,fr,DB002,42,DrawBench,Colors,27.559775,0.257479
+sd15,fr,DB003,42,DrawBench,Colors,26.704714,0.260336
+sd15,fr,DB004,42,DrawBench,Colors,23.539063,0.264313
+sd15,fr,DB005,42,DrawBench,Colors,24.87665,0.268992
+sd15,fr,DB006,42,DrawBench,Colors,30.015385,0.309087
+sd15,fr,DB007,42,DrawBench,Colors,32.511884,0.306196
+sd15,fr,DB008,42,DrawBench,Colors,29.168284,0.286915
+sd15,fr,DB009,42,DrawBench,Colors,34.212801,0.304162
+sd15,fr,DB010,42,DrawBench,Colors,21.60605,0.242256
+sd15,fr,DB011,42,DrawBench,Colors,32.919279,0.289842
+sd15,fr,DB012,42,DrawBench,Colors,30.937141,0.301194
+sd15,fr,DB013,42,DrawBench,Colors,26.304284,0.247685
+sd15,fr,DB014,42,DrawBench,Counting,27.955231,0.293649
+sd15,fr,DB015,42,DrawBench,Counting,29.222038,0.295941
+sd15,fr,DB016,42,DrawBench,Counting,25.521505,0.289895
+sd15,fr,DB017,42,DrawBench,Counting,27.707523,0.279902
+sd15,fr,DB018,42,DrawBench,Counting,30.77994,0.308879
+sd15,fr,DB019,42,DrawBench,Counting,28.37474,0.306609
+sd15,fr,DB020,42,DrawBench,Counting,29.610741,0.297745
+sd15,fr,DB021,42,DrawBench,Counting,30.309868,0.322988
+sd15,fr,DB022,42,DrawBench,Counting,30.258322,0.313019
+sd15,fr,DB023,42,DrawBench,Counting,27.79901,0.309045
+sd15,fr,DB024,42,DrawBench,Counting,27.749434,0.284212
+sd15,fr,DB025,42,DrawBench,Counting,32.276565,0.310539
+sd15,fr,DB026,42,DrawBench,Counting,23.673275,0.253227
+sd15,fr,DB027,42,DrawBench,Positional,32.375419,0.315163
+sd15,fr,DB028,42,DrawBench,Positional,21.34217,0.236421
+sd15,fr,DB029,42,DrawBench,Positional,30.691743,0.29295
+sd15,fr,DB030,42,DrawBench,Positional,21.172546,0.244895
+sd15,fr,DB031,42,DrawBench,Positional,27.638119,0.296568
+sd15,fr,DB032,42,DrawBench,Positional,28.170034,0.299409
+sd15,fr,DB033,42,DrawBench,Positional,28.884745,0.29355
+sd15,fr,DB034,42,DrawBench,Positional,24.978398,0.303866
+sd15,fr,DB035,42,DrawBench,Positional,28.976399,0.266425
+sd15,fr,DB036,42,DrawBench,Positional,30.753499,0.312036
+sd15,fr,DB037,42,DrawBench,Positional,24.44489,0.260989
+sd15,fr,DB038,42,DrawBench,Positional,24.28188,0.231108
+sd15,fr,DB039,42,DrawBench,Text,35.924286,0.342053
+sd15,fr,DB040,42,DrawBench,Text,30.860662,0.314421
+sd15,fr,DB041,42,DrawBench,Text,33.665952,0.319515
+sd15,fr,DB042,42,DrawBench,Text,25.72099,0.274597
+sd15,fr,DB043,42,DrawBench,Text,24.554753,0.278134
+sd15,fr,DB044,42,DrawBench,Text,26.611903,0.292127
+sd15,fr,DB045,42,DrawBench,Text,29.696634,0.31863
+sd15,fr,DB046,42,DrawBench,Text,25.825667,0.251168
+sd15,fr,DB047,42,DrawBench,Text,29.440916,0.29912
+sd15,fr,DB048,42,DrawBench,Text,31.832224,0.316448
+sd15,fr,DB049,42,DrawBench,Text,33.648193,0.356438
+sd15,fr,DB050,42,DrawBench,Text,21.867368,0.239041
+sd15,fr,GB001,42,GenAI-Bench,Spatial Relation,30.760363,0.320961
+sd15,fr,GB002,42,GenAI-Bench,Spatial Relation,26.361772,0.251918
+sd15,fr,GB003,42,GenAI-Bench,Spatial Relation,30.49145,0.321616
+sd15,fr,GB004,42,GenAI-Bench,Spatial Relation,28.731611,0.333682
+sd15,fr,GB005,42,GenAI-Bench,Spatial Relation,28.823236,0.2922
+sd15,fr,GB006,42,GenAI-Bench,Spatial Relation,34.325644,0.367078
+sd15,fr,GB007,42,GenAI-Bench,Spatial Relation,32.731146,0.303121
+sd15,fr,GB008,42,GenAI-Bench,Spatial Relation,25.017348,0.255258
+sd15,fr,GB009,42,GenAI-Bench,Spatial Relation,36.614713,0.366834
+sd15,fr,GB010,42,GenAI-Bench,Spatial Relation,30.666035,0.31356
+sd15,fr,GB011,42,GenAI-Bench,Spatial Relation,22.945094,0.2452
+sd15,fr,GB012,42,GenAI-Bench,Spatial Relation,25.582448,0.267572
+sd15,fr,GB013,42,GenAI-Bench,Spatial Relation,33.32358,0.321562
+sd15,fr,GB014,42,GenAI-Bench,Spatial Relation,23.524293,0.26908
+sd15,fr,GB015,42,GenAI-Bench,Spatial Relation,23.900032,0.273185
+sd15,fr,GB016,42,GenAI-Bench,Spatial Relation,29.498151,0.300213
+sd15,fr,GB017,42,GenAI-Bench,Spatial Relation,30.099505,0.320974
+sd15,fr,GB018,42,GenAI-Bench,Spatial Relation,33.368161,0.376621
+sd15,fr,GB019,42,GenAI-Bench,Spatial Relation,27.417281,0.261421
+sd15,fr,GB020,42,GenAI-Bench,Spatial Relation,26.01071,0.293148
+sd15,fr,GB021,42,GenAI-Bench,Spatial Relation,28.817323,0.306023
+sd15,fr,GB022,42,GenAI-Bench,Spatial Relation,27.750289,0.260667
+sd15,fr,GB023,42,GenAI-Bench,Spatial Relation,26.578361,0.254575
+sd15,fr,GB024,42,GenAI-Bench,Spatial Relation,32.125401,0.305426
+sd15,fr,GB025,42,GenAI-Bench,Spatial Relation,25.617078,0.301064
+sd15,fr,GB026,42,GenAI-Bench,Attribute,28.232858,0.29711
+sd15,fr,GB027,42,GenAI-Bench,Attribute,21.483524,0.20805
+sd15,fr,GB028,42,GenAI-Bench,Attribute,24.111544,0.246587
+sd15,fr,GB029,42,GenAI-Bench,Attribute,28.345001,0.309674
+sd15,fr,GB030,42,GenAI-Bench,Attribute,31.135362,0.32602
+sd15,fr,GB031,42,GenAI-Bench,Attribute,34.059021,0.295359
+sd15,fr,GB032,42,GenAI-Bench,Attribute,24.136473,0.24162
+sd15,fr,GB033,42,GenAI-Bench,Attribute,29.648727,0.313658
+sd15,fr,GB034,42,GenAI-Bench,Attribute,27.658099,0.26433
+sd15,fr,GB035,42,GenAI-Bench,Attribute,37.234935,0.343405
+sd15,fr,GB036,42,GenAI-Bench,Attribute,26.849014,0.267495
+sd15,fr,GB037,42,GenAI-Bench,Attribute,27.192396,0.304393
+sd15,fr,GB038,42,GenAI-Bench,Attribute,28.459191,0.308799
+sd15,fr,GB039,42,GenAI-Bench,Attribute,29.831967,0.303436
+sd15,fr,GB040,42,GenAI-Bench,Attribute,25.035056,0.26833
+sd15,fr,GB041,42,GenAI-Bench,Attribute,22.366664,0.273369
+sd15,fr,GB042,42,GenAI-Bench,Attribute,26.361236,0.291854
+sd15,fr,GB043,42,GenAI-Bench,Attribute,29.833642,0.321137
+sd15,fr,GB044,42,GenAI-Bench,Attribute,29.630861,0.351723
+sd15,fr,GB045,42,GenAI-Bench,Attribute,29.683995,0.279913
+sd15,fr,GB046,42,GenAI-Bench,Attribute,38.042578,0.372785
+sd15,fr,GB047,42,GenAI-Bench,Attribute,31.217515,0.291642
+sd15,fr,GB048,42,GenAI-Bench,Attribute,26.440939,0.293206
+sd15,fr,GB049,42,GenAI-Bench,Attribute,31.947622,0.361821
+sd15,fr,GB050,42,GenAI-Bench,Attribute,20.013799,0.227005
+sd15,es,DB001,42,DrawBench,Colors,21.692356,0.222152
+sd15,es,DB002,42,DrawBench,Colors,27.193239,0.264802
+sd15,es,DB003,42,DrawBench,Colors,29.075325,0.292086
+sd15,es,DB004,42,DrawBench,Colors,26.340985,0.256581
+sd15,es,DB005,42,DrawBench,Colors,24.472106,0.25232
+sd15,es,DB006,42,DrawBench,Colors,30.208963,0.244316
+sd15,es,DB007,42,DrawBench,Colors,31.370428,0.317388
+sd15,es,DB008,42,DrawBench,Colors,28.683695,0.287375
+sd15,es,DB009,42,DrawBench,Colors,33.094496,0.312998
+sd15,es,DB010,42,DrawBench,Colors,29.802924,0.315666
+sd15,es,DB011,42,DrawBench,Colors,32.166061,0.304929
+sd15,es,DB012,42,DrawBench,Colors,33.797097,0.309433
+sd15,es,DB013,42,DrawBench,Colors,27.956867,0.277045
+sd15,es,DB014,42,DrawBench,Counting,27.825171,0.292161
+sd15,es,DB015,42,DrawBench,Counting,27.832785,0.289253
+sd15,es,DB016,42,DrawBench,Counting,23.513508,0.276094
+sd15,es,DB017,42,DrawBench,Counting,28.621155,0.294627
+sd15,es,DB018,42,DrawBench,Counting,32.333443,0.319772
+sd15,es,DB019,42,DrawBench,Counting,23.678482,0.275637
+sd15,es,DB020,42,DrawBench,Counting,29.09717,0.298112
+sd15,es,DB021,42,DrawBench,Counting,24.293455,0.276921
+sd15,es,DB022,42,DrawBench,Counting,23.980947,0.263664
+sd15,es,DB023,42,DrawBench,Counting,22.066151,0.258291
+sd15,es,DB024,42,DrawBench,Counting,22.292943,0.229973
+sd15,es,DB025,42,DrawBench,Counting,32.144323,0.311276
+sd15,es,DB026,42,DrawBench,Counting,23.088162,0.268503
+sd15,es,DB027,42,DrawBench,Positional,31.549883,0.3244
+sd15,es,DB028,42,DrawBench,Positional,18.762685,0.222222
+sd15,es,DB029,42,DrawBench,Positional,29.111445,0.277533
+sd15,es,DB030,42,DrawBench,Positional,21.198213,0.223728
+sd15,es,DB031,42,DrawBench,Positional,30.41701,0.314569
+sd15,es,DB032,42,DrawBench,Positional,37.840918,0.322661
+sd15,es,DB033,42,DrawBench,Positional,27.741361,0.288544
+sd15,es,DB034,42,DrawBench,Positional,24.700202,0.272575
+sd15,es,DB035,42,DrawBench,Positional,25.70636,0.273664
+sd15,es,DB036,42,DrawBench,Positional,27.035025,0.270585
+sd15,es,DB037,42,DrawBench,Positional,22.451663,0.232023
+sd15,es,DB038,42,DrawBench,Positional,28.540984,0.305621
+sd15,es,DB039,42,DrawBench,Text,25.492001,0.253208
+sd15,es,DB040,42,DrawBench,Text,30.236512,0.31406
+sd15,es,DB041,42,DrawBench,Text,32.920545,0.318855
+sd15,es,DB042,42,DrawBench,Text,27.909461,0.244883
+sd15,es,DB043,42,DrawBench,Text,22.715339,0.260001
+sd15,es,DB044,42,DrawBench,Text,25.162637,0.248577
+sd15,es,DB045,42,DrawBench,Text,24.959716,0.25016
+sd15,es,DB046,42,DrawBench,Text,19.63294,0.198046
+sd15,es,DB047,42,DrawBench,Text,31.814653,0.331059
+sd15,es,DB048,42,DrawBench,Text,31.879866,0.327251
+sd15,es,DB049,42,DrawBench,Text,35.152215,0.372677
+sd15,es,DB050,42,DrawBench,Text,29.157221,0.243987
+sd15,es,GB001,42,GenAI-Bench,Spatial Relation,27.659541,0.270561
+sd15,es,GB002,42,GenAI-Bench,Spatial Relation,30.813885,0.261952
+sd15,es,GB003,42,GenAI-Bench,Spatial Relation,25.812781,0.293461
+sd15,es,GB004,42,GenAI-Bench,Spatial Relation,33.84316,0.310538
+sd15,es,GB005,42,GenAI-Bench,Spatial Relation,31.513575,0.335078
+sd15,es,GB006,42,GenAI-Bench,Spatial Relation,33.471835,0.338253
+sd15,es,GB007,42,GenAI-Bench,Spatial Relation,32.033002,0.302995
+sd15,es,GB008,42,GenAI-Bench,Spatial Relation,29.985905,0.309969
+sd15,es,GB009,42,GenAI-Bench,Spatial Relation,30.491203,0.308062
+sd15,es,GB010,42,GenAI-Bench,Spatial Relation,32.919079,0.280399
+sd15,es,GB011,42,GenAI-Bench,Spatial Relation,24.558878,0.267544
+sd15,es,GB012,42,GenAI-Bench,Spatial Relation,27.507582,0.275852
+sd15,es,GB013,42,GenAI-Bench,Spatial Relation,35.634944,0.338318
+sd15,es,GB014,42,GenAI-Bench,Spatial Relation,21.393748,0.265252
+sd15,es,GB015,42,GenAI-Bench,Spatial Relation,27.297166,0.309341
+sd15,es,GB016,42,GenAI-Bench,Spatial Relation,27.207804,0.269641
+sd15,es,GB017,42,GenAI-Bench,Spatial Relation,25.177306,0.261372
+sd15,es,GB018,42,GenAI-Bench,Spatial Relation,17.902054,0.217878
+sd15,es,GB019,42,GenAI-Bench,Spatial Relation,26.579645,0.298341
+sd15,es,GB020,42,GenAI-Bench,Spatial Relation,21.742876,0.285447
+sd15,es,GB021,42,GenAI-Bench,Spatial Relation,27.411252,0.316055
+sd15,es,GB022,42,GenAI-Bench,Spatial Relation,26.909113,0.242027
+sd15,es,GB023,42,GenAI-Bench,Spatial Relation,27.294111,0.270203
+sd15,es,GB024,42,GenAI-Bench,Spatial Relation,31.728226,0.330841
+sd15,es,GB025,42,GenAI-Bench,Spatial Relation,24.326758,0.275174
+sd15,es,GB026,42,GenAI-Bench,Attribute,29.493946,0.299886
+sd15,es,GB027,42,GenAI-Bench,Attribute,15.01289,0.174938
+sd15,es,GB028,42,GenAI-Bench,Attribute,26.850277,0.261888
+sd15,es,GB029,42,GenAI-Bench,Attribute,27.804506,0.306694
+sd15,es,GB030,42,GenAI-Bench,Attribute,31.357634,0.322502
+sd15,es,GB031,42,GenAI-Bench,Attribute,30.670354,0.318607
+sd15,es,GB032,42,GenAI-Bench,Attribute,25.619471,0.25093
+sd15,es,GB033,42,GenAI-Bench,Attribute,27.055877,0.277936
+sd15,es,GB034,42,GenAI-Bench,Attribute,20.955479,0.264139
+sd15,es,GB035,42,GenAI-Bench,Attribute,28.700498,0.29079
+sd15,es,GB036,42,GenAI-Bench,Attribute,31.839728,0.292378
+sd15,es,GB037,42,GenAI-Bench,Attribute,30.217811,0.280273
+sd15,es,GB038,42,GenAI-Bench,Attribute,28.673878,0.284003
+sd15,es,GB039,42,GenAI-Bench,Attribute,22.890501,0.236308
+sd15,es,GB040,42,GenAI-Bench,Attribute,30.976993,0.279851
+sd15,es,GB041,42,GenAI-Bench,Attribute,25.886649,0.304297
+sd15,es,GB042,42,GenAI-Bench,Attribute,25.846657,0.271495
+sd15,es,GB043,42,GenAI-Bench,Attribute,28.61982,0.282827
+sd15,es,GB044,42,GenAI-Bench,Attribute,16.188626,0.251578
+sd15,es,GB045,42,GenAI-Bench,Attribute,24.03319,0.252169
+sd15,es,GB046,42,GenAI-Bench,Attribute,38.467515,0.367761
+sd15,es,GB047,42,GenAI-Bench,Attribute,31.328809,0.333665
+sd15,es,GB048,42,GenAI-Bench,Attribute,28.210944,0.255206
+sd15,es,GB049,42,GenAI-Bench,Attribute,29.456633,0.324001
+sd15,es,GB050,42,GenAI-Bench,Attribute,22.597645,0.234489
+sd15,ar,DB001,42,DrawBench,Colors,15.874611,0.230918
+sd15,ar,DB002,42,DrawBench,Colors,14.321902,0.196443
+sd15,ar,DB003,42,DrawBench,Colors,17.537974,0.183857
+sd15,ar,DB004,42,DrawBench,Colors,21.235405,0.2107
+sd15,ar,DB005,42,DrawBench,Colors,14.70879,0.161774
+sd15,ar,DB006,42,DrawBench,Colors,17.607476,0.201517
+sd15,ar,DB007,42,DrawBench,Colors,22.942697,0.226604
+sd15,ar,DB008,42,DrawBench,Colors,19.985814,0.197031
+sd15,ar,DB009,42,DrawBench,Colors,17.676133,0.20076
+sd15,ar,DB010,42,DrawBench,Colors,14.590538,0.175655
+sd15,ar,DB011,42,DrawBench,Colors,13.673285,0.172494
+sd15,ar,DB012,42,DrawBench,Colors,15.873763,0.206392
+sd15,ar,DB013,42,DrawBench,Colors,14.933462,0.172904
+sd15,ar,DB014,42,DrawBench,Counting,20.640984,0.222039
+sd15,ar,DB015,42,DrawBench,Counting,22.387202,0.225326
+sd15,ar,DB016,42,DrawBench,Counting,17.031898,0.182687
+sd15,ar,DB017,42,DrawBench,Counting,20.233479,0.23278
+sd15,ar,DB018,42,DrawBench,Counting,15.615843,0.183302
+sd15,ar,DB019,42,DrawBench,Counting,14.766714,0.177795
+sd15,ar,DB020,42,DrawBench,Counting,22.340323,0.243009
+sd15,ar,DB021,42,DrawBench,Counting,16.319154,0.185164
+sd15,ar,DB022,42,DrawBench,Counting,15.268697,0.154075
+sd15,ar,DB023,42,DrawBench,Counting,16.040282,0.159809
+sd15,ar,DB024,42,DrawBench,Counting,20.840694,0.229905
+sd15,ar,DB025,42,DrawBench,Counting,17.269056,0.188803
+sd15,ar,DB026,42,DrawBench,Counting,14.889227,0.153758
+sd15,ar,DB027,42,DrawBench,Positional,18.543071,0.242145
+sd15,ar,DB028,42,DrawBench,Positional,18.139373,0.179939
+sd15,ar,DB029,42,DrawBench,Positional,18.756805,0.191131
+sd15,ar,DB030,42,DrawBench,Positional,9.497698,0.152229
+sd15,ar,DB031,42,DrawBench,Positional,15.354019,0.180631
+sd15,ar,DB032,42,DrawBench,Positional,20.758113,0.229295
+sd15,ar,DB033,42,DrawBench,Positional,23.191349,0.201986
+sd15,ar,DB034,42,DrawBench,Positional,16.614158,0.209574
+sd15,ar,DB035,42,DrawBench,Positional,19.025661,0.174669
+sd15,ar,DB036,42,DrawBench,Positional,18.669508,0.170306
+sd15,ar,DB037,42,DrawBench,Positional,14.571309,0.185698
+sd15,ar,DB038,42,DrawBench,Positional,12.099832,0.165213
+sd15,ar,DB039,42,DrawBench,Text,25.430992,0.236524
+sd15,ar,DB040,42,DrawBench,Text,19.947484,0.261651
+sd15,ar,DB041,42,DrawBench,Text,21.465775,0.24925
+sd15,ar,DB042,42,DrawBench,Text,30.79519,0.275098
+sd15,ar,DB043,42,DrawBench,Text,19.476411,0.202458
+sd15,ar,DB044,42,DrawBench,Text,28.984201,0.300469
+sd15,ar,DB045,42,DrawBench,Text,18.612024,0.200404
+sd15,ar,DB046,42,DrawBench,Text,20.322101,0.228824
+sd15,ar,DB047,42,DrawBench,Text,19.163153,0.22855
+sd15,ar,DB048,42,DrawBench,Text,20.5504,0.228967
+sd15,ar,DB049,42,DrawBench,Text,18.431312,0.202224
+sd15,ar,DB050,42,DrawBench,Text,18.938315,0.206938
+sd15,ar,GB001,42,GenAI-Bench,Spatial Relation,13.636672,0.193734
+sd15,ar,GB002,42,GenAI-Bench,Spatial Relation,13.888361,0.16674
+sd15,ar,GB003,42,GenAI-Bench,Spatial Relation,14.376798,0.19324
+sd15,ar,GB004,42,GenAI-Bench,Spatial Relation,9.805903,0.183447
+sd15,ar,GB005,42,GenAI-Bench,Spatial Relation,18.116218,0.224092
+sd15,ar,GB006,42,GenAI-Bench,Spatial Relation,17.063457,0.207567
+sd15,ar,GB007,42,GenAI-Bench,Spatial Relation,13.031822,0.21806
+sd15,ar,GB008,42,GenAI-Bench,Spatial Relation,18.982792,0.168225
+sd15,ar,GB009,42,GenAI-Bench,Spatial Relation,28.266174,0.313027
+sd15,ar,GB010,42,GenAI-Bench,Spatial Relation,15.003759,0.198416
+sd15,ar,GB011,42,GenAI-Bench,Spatial Relation,18.632178,0.237647
+sd15,ar,GB012,42,GenAI-Bench,Spatial Relation,15.756205,0.156758
+sd15,ar,GB013,42,GenAI-Bench,Spatial Relation,22.800209,0.241462
+sd15,ar,GB014,42,GenAI-Bench,Spatial Relation,17.318645,0.186703
+sd15,ar,GB015,42,GenAI-Bench,Spatial Relation,16.613576,0.175582
+sd15,ar,GB016,42,GenAI-Bench,Spatial Relation,15.381815,0.168929
+sd15,ar,GB017,42,GenAI-Bench,Spatial Relation,19.819467,0.242556
+sd15,ar,GB018,42,GenAI-Bench,Spatial Relation,16.397764,0.253155
+sd15,ar,GB019,42,GenAI-Bench,Spatial Relation,16.805121,0.188903
+sd15,ar,GB020,42,GenAI-Bench,Spatial Relation,16.631025,0.20268
+sd15,ar,GB021,42,GenAI-Bench,Spatial Relation,18.388021,0.190483
+sd15,ar,GB022,42,GenAI-Bench,Spatial Relation,15.698999,0.164771
+sd15,ar,GB023,42,GenAI-Bench,Spatial Relation,17.93462,0.180969
+sd15,ar,GB024,42,GenAI-Bench,Spatial Relation,21.053955,0.235657
+sd15,ar,GB025,42,GenAI-Bench,Spatial Relation,15.346181,0.198862
+sd15,ar,GB026,42,GenAI-Bench,Attribute,18.614593,0.198711
+sd15,ar,GB027,42,GenAI-Bench,Attribute,14.140737,0.174222
+sd15,ar,GB028,42,GenAI-Bench,Attribute,22.382137,0.235343
+sd15,ar,GB029,42,GenAI-Bench,Attribute,22.491387,0.199047
+sd15,ar,GB030,42,GenAI-Bench,Attribute,14.58611,0.19003
+sd15,ar,GB031,42,GenAI-Bench,Attribute,15.344986,0.207879
+sd15,ar,GB032,42,GenAI-Bench,Attribute,16.523655,0.219747
+sd15,ar,GB033,42,GenAI-Bench,Attribute,20.101541,0.187387
+sd15,ar,GB034,42,GenAI-Bench,Attribute,11.809494,0.153691
+sd15,ar,GB035,42,GenAI-Bench,Attribute,10.627851,0.190156
+sd15,ar,GB036,42,GenAI-Bench,Attribute,18.473394,0.273522
+sd15,ar,GB037,42,GenAI-Bench,Attribute,13.637966,0.179596
+sd15,ar,GB038,42,GenAI-Bench,Attribute,22.526464,0.227505
+sd15,ar,GB039,42,GenAI-Bench,Attribute,14.356396,0.204216
+sd15,ar,GB040,42,GenAI-Bench,Attribute,17.626835,0.215944
+sd15,ar,GB041,42,GenAI-Bench,Attribute,14.87941,0.194988
+sd15,ar,GB042,42,GenAI-Bench,Attribute,22.644331,0.242897
+sd15,ar,GB043,42,GenAI-Bench,Attribute,13.193423,0.197671
+sd15,ar,GB044,42,GenAI-Bench,Attribute,16.926894,0.240436
+sd15,ar,GB045,42,GenAI-Bench,Attribute,15.648508,0.184896
+sd15,ar,GB046,42,GenAI-Bench,Attribute,14.739081,0.212441
+sd15,ar,GB047,42,GenAI-Bench,Attribute,14.28373,0.154503
+sd15,ar,GB048,42,GenAI-Bench,Attribute,18.027258,0.226623
+sd15,ar,GB049,42,GenAI-Bench,Attribute,16.258873,0.18599
+sd15,ar,GB050,42,GenAI-Bench,Attribute,15.361018,0.191286
+flux,en,DB001,42,DrawBench,Colors,33.310127,0.325954
+flux,en,DB002,42,DrawBench,Colors,33.912587,0.317112
+flux,en,DB003,42,DrawBench,Colors,26.828849,0.26898
+flux,en,DB004,42,DrawBench,Colors,34.457162,0.348793
+flux,en,DB005,42,DrawBench,Colors,30.954012,0.313785
+flux,en,DB006,42,DrawBench,Colors,28.79746,0.296375
+flux,en,DB007,42,DrawBench,Colors,30.166313,0.296762
+flux,en,DB008,42,DrawBench,Colors,26.738501,0.270577
+flux,en,DB009,42,DrawBench,Colors,38.504529,0.367358
+flux,en,DB010,42,DrawBench,Colors,33.464912,0.328597
+flux,en,DB011,42,DrawBench,Colors,32.707638,0.329696
+flux,en,DB012,42,DrawBench,Colors,33.643338,0.337509
+flux,en,DB013,42,DrawBench,Colors,35.606217,0.341572
+flux,en,DB014,42,DrawBench,Counting,25.912672,0.268822
+flux,en,DB015,42,DrawBench,Counting,28.046915,0.290005
+flux,en,DB016,42,DrawBench,Counting,24.829954,0.257218
+flux,en,DB017,42,DrawBench,Counting,27.508077,0.274662
+flux,en,DB018,42,DrawBench,Counting,31.527609,0.317594
+flux,en,DB019,42,DrawBench,Counting,28.845215,0.306817
+flux,en,DB020,42,DrawBench,Counting,28.592923,0.282099
+flux,en,DB021,42,DrawBench,Counting,29.365602,0.306497
+flux,en,DB022,42,DrawBench,Counting,27.129906,0.27331
+flux,en,DB023,42,DrawBench,Counting,29.059345,0.300901
+flux,en,DB024,42,DrawBench,Counting,27.224389,0.279298
+flux,en,DB025,42,DrawBench,Counting,31.261897,0.315775
+flux,en,DB026,42,DrawBench,Counting,26.479664,0.279568
+flux,en,DB027,42,DrawBench,Positional,31.163695,0.310562
+flux,en,DB028,42,DrawBench,Positional,34.875891,0.34579
+flux,en,DB029,42,DrawBench,Positional,27.274832,0.270824
+flux,en,DB030,42,DrawBench,Positional,32.086173,0.34329
+flux,en,DB031,42,DrawBench,Positional,24.727143,0.264909
+flux,en,DB032,42,DrawBench,Positional,39.487454,0.370758
+flux,en,DB033,42,DrawBench,Positional,27.426708,0.285171
+flux,en,DB034,42,DrawBench,Positional,30.914429,0.309264
+flux,en,DB035,42,DrawBench,Positional,34.371135,0.35774
+flux,en,DB036,42,DrawBench,Positional,34.292915,0.347318
+flux,en,DB037,42,DrawBench,Positional,31.871927,0.304892
+flux,en,DB038,42,DrawBench,Positional,33.324313,0.309339
+flux,en,DB039,42,DrawBench,Text,35.421833,0.350838
+flux,en,DB040,42,DrawBench,Text,30.442306,0.325302
+flux,en,DB041,42,DrawBench,Text,32.319772,0.29758
+flux,en,DB042,42,DrawBench,Text,37.918106,0.330035
+flux,en,DB043,42,DrawBench,Text,31.852159,0.331082
+flux,en,DB044,42,DrawBench,Text,36.969239,0.386933
+flux,en,DB045,42,DrawBench,Text,30.993503,0.339003
+flux,en,DB046,42,DrawBench,Text,32.428631,0.32053
+flux,en,DB047,42,DrawBench,Text,31.895524,0.326503
+flux,en,DB048,42,DrawBench,Text,30.294186,0.326323
+flux,en,DB049,42,DrawBench,Text,38.90264,0.410681
+flux,en,DB050,42,DrawBench,Text,34.054941,0.317405
+flux,en,GB001,42,GenAI-Bench,Spatial Relation,34.116536,0.345321
+flux,en,GB002,42,GenAI-Bench,Spatial Relation,37.570229,0.364249
+flux,en,GB003,42,GenAI-Bench,Spatial Relation,30.485949,0.332798
+flux,en,GB004,42,GenAI-Bench,Spatial Relation,39.462644,0.395264
+flux,en,GB005,42,GenAI-Bench,Spatial Relation,33.193934,0.358287
+flux,en,GB006,42,GenAI-Bench,Spatial Relation,31.026068,0.322396
+flux,en,GB007,42,GenAI-Bench,Spatial Relation,35.923904,0.340535
+flux,en,GB008,42,GenAI-Bench,Spatial Relation,30.365571,0.313744
+flux,en,GB009,42,GenAI-Bench,Spatial Relation,36.452708,0.351493
+flux,en,GB010,42,GenAI-Bench,Spatial Relation,36.306638,0.360487
+flux,en,GB011,42,GenAI-Bench,Spatial Relation,31.118304,0.331982
+flux,en,GB012,42,GenAI-Bench,Spatial Relation,29.217535,0.297098
+flux,en,GB013,42,GenAI-Bench,Spatial Relation,34.816322,0.337013
+flux,en,GB014,42,GenAI-Bench,Spatial Relation,29.710349,0.280167
+flux,en,GB015,42,GenAI-Bench,Spatial Relation,33.061978,0.36314
+flux,en,GB016,42,GenAI-Bench,Spatial Relation,37.435046,0.371387
+flux,en,GB017,42,GenAI-Bench,Spatial Relation,36.699405,0.369065
+flux,en,GB018,42,GenAI-Bench,Spatial Relation,34.436983,0.38496
+flux,en,GB019,42,GenAI-Bench,Spatial Relation,30.730477,0.317114
+flux,en,GB020,42,GenAI-Bench,Spatial Relation,35.590932,0.376087
+flux,en,GB021,42,GenAI-Bench,Spatial Relation,37.162864,0.347585
+flux,en,GB022,42,GenAI-Bench,Spatial Relation,36.874634,0.359648
+flux,en,GB023,42,GenAI-Bench,Spatial Relation,33.070683,0.306587
+flux,en,GB024,42,GenAI-Bench,Spatial Relation,34.964624,0.355318
+flux,en,GB025,42,GenAI-Bench,Spatial Relation,30.941728,0.32902
+flux,en,GB026,42,GenAI-Bench,Attribute,32.32893,0.328175
+flux,en,GB027,42,GenAI-Bench,Attribute,30.266109,0.316998
+flux,en,GB028,42,GenAI-Bench,Attribute,27.941504,0.290132
+flux,en,GB029,42,GenAI-Bench,Attribute,30.711156,0.334364
+flux,en,GB030,42,GenAI-Bench,Attribute,30.469224,0.32136
+flux,en,GB031,42,GenAI-Bench,Attribute,35.200566,0.316759
+flux,en,GB032,42,GenAI-Bench,Attribute,32.832831,0.34347
+flux,en,GB033,42,GenAI-Bench,Attribute,30.99848,0.329827
+flux,en,GB034,42,GenAI-Bench,Attribute,34.66216,0.354028
+flux,en,GB035,42,GenAI-Bench,Attribute,33.026063,0.319926
+flux,en,GB036,42,GenAI-Bench,Attribute,43.190303,0.411252
+flux,en,GB037,42,GenAI-Bench,Attribute,30.055794,0.303242
+flux,en,GB038,42,GenAI-Bench,Attribute,31.893453,0.319864
+flux,en,GB039,42,GenAI-Bench,Attribute,35.125771,0.330702
+flux,en,GB040,42,GenAI-Bench,Attribute,33.324063,0.350304
+flux,en,GB041,42,GenAI-Bench,Attribute,31.713757,0.339203
+flux,en,GB042,42,GenAI-Bench,Attribute,27.578017,0.295682
+flux,en,GB043,42,GenAI-Bench,Attribute,33.26228,0.339212
+flux,en,GB044,42,GenAI-Bench,Attribute,36.307943,0.335706
+flux,en,GB045,42,GenAI-Bench,Attribute,31.708544,0.326357
+flux,en,GB046,42,GenAI-Bench,Attribute,34.894863,0.352364
+flux,en,GB047,42,GenAI-Bench,Attribute,32.815391,0.333421
+flux,en,GB048,42,GenAI-Bench,Attribute,30.747759,0.303017
+flux,en,GB049,42,GenAI-Bench,Attribute,33.811966,0.348744
+flux,en,GB050,42,GenAI-Bench,Attribute,25.191393,0.250559
+flux,de,DB001,42,DrawBench,Colors,33.055246,0.329473
+flux,de,DB002,42,DrawBench,Colors,34.667796,0.31818
+flux,de,DB003,42,DrawBench,Colors,28.812411,0.291083
+flux,de,DB004,42,DrawBench,Colors,32.556364,0.310686
+flux,de,DB005,42,DrawBench,Colors,26.29258,0.271331
+flux,de,DB006,42,DrawBench,Colors,29.324618,0.297479
+flux,de,DB007,42,DrawBench,Colors,31.370923,0.308611
+flux,de,DB008,42,DrawBench,Colors,24.863663,0.254325
+flux,de,DB009,42,DrawBench,Colors,35.188204,0.321796
+flux,de,DB010,42,DrawBench,Colors,32.881868,0.325442
+flux,de,DB011,42,DrawBench,Colors,32.767552,0.334497
+flux,de,DB012,42,DrawBench,Colors,31.57824,0.300958
+flux,de,DB013,42,DrawBench,Colors,31.797561,0.312759
+flux,de,DB014,42,DrawBench,Counting,22.356069,0.238754
+flux,de,DB015,42,DrawBench,Counting,28.524992,0.300709
+flux,de,DB016,42,DrawBench,Counting,28.310782,0.310526
+flux,de,DB017,42,DrawBench,Counting,22.855516,0.242908
+flux,de,DB018,42,DrawBench,Counting,30.435616,0.316691
+flux,de,DB019,42,DrawBench,Counting,27.259007,0.288387
+flux,de,DB020,42,DrawBench,Counting,24.553663,0.257059
+flux,de,DB021,42,DrawBench,Counting,27.382934,0.283826
+flux,de,DB022,42,DrawBench,Counting,28.260088,0.275224
+flux,de,DB023,42,DrawBench,Counting,27.772582,0.272541
+flux,de,DB024,42,DrawBench,Counting,23.977488,0.254806
+flux,de,DB025,42,DrawBench,Counting,30.439577,0.309977
+flux,de,DB026,42,DrawBench,Counting,28.346673,0.282542
+flux,de,DB027,42,DrawBench,Positional,19.597292,0.201142
+flux,de,DB028,42,DrawBench,Positional,23.352449,0.261674
+flux,de,DB029,42,DrawBench,Positional,27.579701,0.266365
+flux,de,DB030,42,DrawBench,Positional,12.601326,0.166471
+flux,de,DB031,42,DrawBench,Positional,22.8632,0.273392
+flux,de,DB032,42,DrawBench,Positional,28.280783,0.30248
+flux,de,DB033,42,DrawBench,Positional,27.009344,0.263901
+flux,de,DB034,42,DrawBench,Positional,24.408329,0.298081
+flux,de,DB035,42,DrawBench,Positional,21.738425,0.223297
+flux,de,DB036,42,DrawBench,Positional,34.567541,0.352262
+flux,de,DB037,42,DrawBench,Positional,31.958354,0.302149
+flux,de,DB038,42,DrawBench,Positional,33.611578,0.320937
+flux,de,DB039,42,DrawBench,Text,30.121869,0.327585
+flux,de,DB040,42,DrawBench,Text,30.350465,0.338552
+flux,de,DB041,42,DrawBench,Text,31.44885,0.345026
+flux,de,DB042,42,DrawBench,Text,32.779172,0.307975
+flux,de,DB043,42,DrawBench,Text,32.282373,0.325704
+flux,de,DB044,42,DrawBench,Text,39.784443,0.417545
+flux,de,DB045,42,DrawBench,Text,31.782937,0.35664
+flux,de,DB046,42,DrawBench,Text,29.300255,0.264111
+flux,de,DB047,42,DrawBench,Text,29.512101,0.329723
+flux,de,DB048,42,DrawBench,Text,30.669844,0.301314
+flux,de,DB049,42,DrawBench,Text,37.627468,0.402424
+flux,de,DB050,42,DrawBench,Text,29.873887,0.327864
+flux,de,GB001,42,GenAI-Bench,Spatial Relation,33.211997,0.311012
+flux,de,GB002,42,GenAI-Bench,Spatial Relation,32.986578,0.300663
+flux,de,GB003,42,GenAI-Bench,Spatial Relation,18.842538,0.175136
+flux,de,GB004,42,GenAI-Bench,Spatial Relation,33.98017,0.343182
+flux,de,GB005,42,GenAI-Bench,Spatial Relation,31.421992,0.335169
+flux,de,GB006,42,GenAI-Bench,Spatial Relation,31.088606,0.312843
+flux,de,GB007,42,GenAI-Bench,Spatial Relation,26.733896,0.284876
+flux,de,GB008,42,GenAI-Bench,Spatial Relation,26.170266,0.233088
+flux,de,GB009,42,GenAI-Bench,Spatial Relation,32.62381,0.316412
+flux,de,GB010,42,GenAI-Bench,Spatial Relation,33.692059,0.287795
+flux,de,GB011,42,GenAI-Bench,Spatial Relation,22.80803,0.251182
+flux,de,GB012,42,GenAI-Bench,Spatial Relation,29.898384,0.307449
+flux,de,GB013,42,GenAI-Bench,Spatial Relation,30.460256,0.242231
+flux,de,GB014,42,GenAI-Bench,Spatial Relation,25.535035,0.270418
+flux,de,GB015,42,GenAI-Bench,Spatial Relation,32.08577,0.325445
+flux,de,GB016,42,GenAI-Bench,Spatial Relation,36.612496,0.361878
+flux,de,GB017,42,GenAI-Bench,Spatial Relation,33.776215,0.351999
+flux,de,GB018,42,GenAI-Bench,Spatial Relation,31.775886,0.348179
+flux,de,GB019,42,GenAI-Bench,Spatial Relation,24.218038,0.280225
+flux,de,GB020,42,GenAI-Bench,Spatial Relation,26.203215,0.292249
+flux,de,GB021,42,GenAI-Bench,Spatial Relation,27.01171,0.313881
+flux,de,GB022,42,GenAI-Bench,Spatial Relation,23.661943,0.225188
+flux,de,GB023,42,GenAI-Bench,Spatial Relation,31.103465,0.301723
+flux,de,GB024,42,GenAI-Bench,Spatial Relation,31.413057,0.326347
+flux,de,GB025,42,GenAI-Bench,Spatial Relation,21.055257,0.278132
+flux,de,GB026,42,GenAI-Bench,Attribute,29.45089,0.321297
+flux,de,GB027,42,GenAI-Bench,Attribute,28.881788,0.28052
+flux,de,GB028,42,GenAI-Bench,Attribute,27.397698,0.279925
+flux,de,GB029,42,GenAI-Bench,Attribute,31.004986,0.300428
+flux,de,GB030,42,GenAI-Bench,Attribute,30.040103,0.295218
+flux,de,GB031,42,GenAI-Bench,Attribute,28.754988,0.283365
+flux,de,GB032,42,GenAI-Bench,Attribute,26.751685,0.299137
+flux,de,GB033,42,GenAI-Bench,Attribute,31.097981,0.326908
+flux,de,GB034,42,GenAI-Bench,Attribute,24.171191,0.240659
+flux,de,GB035,42,GenAI-Bench,Attribute,32.616484,0.311709
+flux,de,GB036,42,GenAI-Bench,Attribute,38.732484,0.373743
+flux,de,GB037,42,GenAI-Bench,Attribute,28.037578,0.301205
+flux,de,GB038,42,GenAI-Bench,Attribute,30.553231,0.315258
+flux,de,GB039,42,GenAI-Bench,Attribute,28.819457,0.274811
+flux,de,GB040,42,GenAI-Bench,Attribute,34.716445,0.34302
+flux,de,GB041,42,GenAI-Bench,Attribute,30.443946,0.346955
+flux,de,GB042,42,GenAI-Bench,Attribute,26.508102,0.263003
+flux,de,GB043,42,GenAI-Bench,Attribute,33.608663,0.348181
+flux,de,GB044,42,GenAI-Bench,Attribute,28.430489,0.23028
+flux,de,GB045,42,GenAI-Bench,Attribute,28.187445,0.243622
+flux,de,GB046,42,GenAI-Bench,Attribute,29.924515,0.30278
+flux,de,GB047,42,GenAI-Bench,Attribute,32.928038,0.329751
+flux,de,GB048,42,GenAI-Bench,Attribute,28.556445,0.279832
+flux,de,GB049,42,GenAI-Bench,Attribute,28.536615,0.320872
+flux,de,GB050,42,GenAI-Bench,Attribute,24.192917,0.238271
+flux,fr,DB001,42,DrawBench,Colors,33.433551,0.329542
+flux,fr,DB002,42,DrawBench,Colors,30.106735,0.281897
+flux,fr,DB003,42,DrawBench,Colors,28.328097,0.281085
+flux,fr,DB004,42,DrawBench,Colors,29.002506,0.315573
+flux,fr,DB005,42,DrawBench,Colors,27.464077,0.291564
+flux,fr,DB006,42,DrawBench,Colors,28.158346,0.291293
+flux,fr,DB007,42,DrawBench,Colors,31.195524,0.300548
+flux,fr,DB008,42,DrawBench,Colors,25.035971,0.260483
+flux,fr,DB009,42,DrawBench,Colors,31.647608,0.31182
+flux,fr,DB010,42,DrawBench,Colors,33.71028,0.328916
+flux,fr,DB011,42,DrawBench,Colors,33.015278,0.315511
+flux,fr,DB012,42,DrawBench,Colors,31.8571,0.303525
+flux,fr,DB013,42,DrawBench,Colors,29.355043,0.286941
+flux,fr,DB014,42,DrawBench,Counting,25.341728,0.27054
+flux,fr,DB015,42,DrawBench,Counting,28.744376,0.300695
+flux,fr,DB016,42,DrawBench,Counting,26.213947,0.272921
+flux,fr,DB017,42,DrawBench,Counting,27.995926,0.284252
+flux,fr,DB018,42,DrawBench,Counting,31.291699,0.311442
+flux,fr,DB019,42,DrawBench,Counting,27.984408,0.287051
+flux,fr,DB020,42,DrawBench,Counting,27.233097,0.273949
+flux,fr,DB021,42,DrawBench,Counting,31.213695,0.31501
+flux,fr,DB022,42,DrawBench,Counting,26.824912,0.277864
+flux,fr,DB023,42,DrawBench,Counting,27.940646,0.287983
+flux,fr,DB024,42,DrawBench,Counting,26.984036,0.273882
+flux,fr,DB025,42,DrawBench,Counting,31.704485,0.314116
+flux,fr,DB026,42,DrawBench,Counting,28.390396,0.293014
+flux,fr,DB027,42,DrawBench,Positional,26.880413,0.272853
+flux,fr,DB028,42,DrawBench,Positional,21.71144,0.258177
+flux,fr,DB029,42,DrawBench,Positional,28.713226,0.290913
+flux,fr,DB030,42,DrawBench,Positional,30.783895,0.317832
+flux,fr,DB031,42,DrawBench,Positional,29.69186,0.260398
+flux,fr,DB032,42,DrawBench,Positional,27.340987,0.278963
+flux,fr,DB033,42,DrawBench,Positional,28.137195,0.280639
+flux,fr,DB034,42,DrawBench,Positional,26.828399,0.31827
+flux,fr,DB035,42,DrawBench,Positional,25.812542,0.282164
+flux,fr,DB036,42,DrawBench,Positional,33.540031,0.353333
+flux,fr,DB037,42,DrawBench,Positional,31.734762,0.304445
+flux,fr,DB038,42,DrawBench,Positional,30.19051,0.283437
+flux,fr,DB039,42,DrawBench,Text,33.246824,0.331155
+flux,fr,DB040,42,DrawBench,Text,30.263042,0.310761
+flux,fr,DB041,42,DrawBench,Text,30.800158,0.315965
+flux,fr,DB042,42,DrawBench,Text,36.641005,0.303027
+flux,fr,DB043,42,DrawBench,Text,30.856255,0.309628
+flux,fr,DB044,42,DrawBench,Text,41.56588,0.417247
+flux,fr,DB045,42,DrawBench,Text,31.611907,0.344101
+flux,fr,DB046,42,DrawBench,Text,29.447573,0.321478
+flux,fr,DB047,42,DrawBench,Text,29.881307,0.281844
+flux,fr,DB048,42,DrawBench,Text,33.732027,0.34468
+flux,fr,DB049,42,DrawBench,Text,39.27319,0.421968
+flux,fr,DB050,42,DrawBench,Text,36.034226,0.350989
+flux,fr,GB001,42,GenAI-Bench,Spatial Relation,32.804644,0.32469
+flux,fr,GB002,42,GenAI-Bench,Spatial Relation,32.664862,0.316824
+flux,fr,GB003,42,GenAI-Bench,Spatial Relation,26.184663,0.286444
+flux,fr,GB004,42,GenAI-Bench,Spatial Relation,36.204857,0.384025
+flux,fr,GB005,42,GenAI-Bench,Spatial Relation,29.716304,0.304457
+flux,fr,GB006,42,GenAI-Bench,Spatial Relation,30.674452,0.31153
+flux,fr,GB007,42,GenAI-Bench,Spatial Relation,29.793394,0.285553
+flux,fr,GB008,42,GenAI-Bench,Spatial Relation,31.265017,0.303531
+flux,fr,GB009,42,GenAI-Bench,Spatial Relation,33.734238,0.343637
+flux,fr,GB010,42,GenAI-Bench,Spatial Relation,38.257849,0.324355
+flux,fr,GB011,42,GenAI-Bench,Spatial Relation,26.769057,0.296645
+flux,fr,GB012,42,GenAI-Bench,Spatial Relation,29.245761,0.305018
+flux,fr,GB013,42,GenAI-Bench,Spatial Relation,34.970963,0.340665
+flux,fr,GB014,42,GenAI-Bench,Spatial Relation,28.849792,0.301902
+flux,fr,GB015,42,GenAI-Bench,Spatial Relation,34.492433,0.351776
+flux,fr,GB016,42,GenAI-Bench,Spatial Relation,26.485896,0.309144
+flux,fr,GB017,42,GenAI-Bench,Spatial Relation,38.083163,0.353847
+flux,fr,GB018,42,GenAI-Bench,Spatial Relation,34.05273,0.37759
+flux,fr,GB019,42,GenAI-Bench,Spatial Relation,26.168242,0.275668
+flux,fr,GB020,42,GenAI-Bench,Spatial Relation,30.541819,0.291061
+flux,fr,GB021,42,GenAI-Bench,Spatial Relation,26.237756,0.278325
+flux,fr,GB022,42,GenAI-Bench,Spatial Relation,36.503196,0.338416
+flux,fr,GB023,42,GenAI-Bench,Spatial Relation,30.592459,0.304415
+flux,fr,GB024,42,GenAI-Bench,Spatial Relation,32.243919,0.288109
+flux,fr,GB025,42,GenAI-Bench,Spatial Relation,26.72379,0.313678
+flux,fr,GB026,42,GenAI-Bench,Attribute,29.531243,0.306329
+flux,fr,GB027,42,GenAI-Bench,Attribute,29.990947,0.303729
+flux,fr,GB028,42,GenAI-Bench,Attribute,24.470851,0.244129
+flux,fr,GB029,42,GenAI-Bench,Attribute,27.411091,0.254003
+flux,fr,GB030,42,GenAI-Bench,Attribute,29.587457,0.308422
+flux,fr,GB031,42,GenAI-Bench,Attribute,32.72773,0.319119
+flux,fr,GB032,42,GenAI-Bench,Attribute,27.505818,0.291775
+flux,fr,GB033,42,GenAI-Bench,Attribute,31.128934,0.32856
+flux,fr,GB034,42,GenAI-Bench,Attribute,29.396084,0.318696
+flux,fr,GB035,42,GenAI-Bench,Attribute,33.359271,0.300702
+flux,fr,GB036,42,GenAI-Bench,Attribute,19.689594,0.204238
+flux,fr,GB037,42,GenAI-Bench,Attribute,26.084799,0.294628
+flux,fr,GB038,42,GenAI-Bench,Attribute,30.927217,0.297628
+flux,fr,GB039,42,GenAI-Bench,Attribute,32.744232,0.314724
+flux,fr,GB040,42,GenAI-Bench,Attribute,33.607662,0.323498
+flux,fr,GB041,42,GenAI-Bench,Attribute,28.627867,0.329206
+flux,fr,GB042,42,GenAI-Bench,Attribute,27.842063,0.278867
+flux,fr,GB043,42,GenAI-Bench,Attribute,31.706148,0.342911
+flux,fr,GB044,42,GenAI-Bench,Attribute,35.934457,0.378598
+flux,fr,GB045,42,GenAI-Bench,Attribute,27.809554,0.252131
+flux,fr,GB046,42,GenAI-Bench,Attribute,34.13547,0.34444
+flux,fr,GB047,42,GenAI-Bench,Attribute,26.343882,0.292298
+flux,fr,GB048,42,GenAI-Bench,Attribute,31.035027,0.28016
+flux,fr,GB049,42,GenAI-Bench,Attribute,30.636823,0.31661
+flux,fr,GB050,42,GenAI-Bench,Attribute,25.998482,0.278515
+flux,es,DB001,42,DrawBench,Colors,20.415887,0.211067
+flux,es,DB002,42,DrawBench,Colors,32.801193,0.302253
+flux,es,DB003,42,DrawBench,Colors,27.187142,0.268886
+flux,es,DB004,42,DrawBench,Colors,29.974031,0.308815
+flux,es,DB005,42,DrawBench,Colors,28.632933,0.300248
+flux,es,DB006,42,DrawBench,Colors,27.904293,0.265981
+flux,es,DB007,42,DrawBench,Colors,27.98371,0.29322
+flux,es,DB008,42,DrawBench,Colors,28.360203,0.285373
+flux,es,DB009,42,DrawBench,Colors,29.950532,0.285253
+flux,es,DB010,42,DrawBench,Colors,33.767545,0.32918
+flux,es,DB011,42,DrawBench,Colors,29.683447,0.286885
+flux,es,DB012,42,DrawBench,Colors,25.729278,0.257496
+flux,es,DB013,42,DrawBench,Colors,27.232328,0.261018
+flux,es,DB014,42,DrawBench,Counting,26.253211,0.280932
+flux,es,DB015,42,DrawBench,Counting,28.937304,0.296518
+flux,es,DB016,42,DrawBench,Counting,25.314277,0.281643
+flux,es,DB017,42,DrawBench,Counting,27.959609,0.278225
+flux,es,DB018,42,DrawBench,Counting,31.270972,0.309325
+flux,es,DB019,42,DrawBench,Counting,28.752881,0.314683
+flux,es,DB020,42,DrawBench,Counting,28.354385,0.276991
+flux,es,DB021,42,DrawBench,Counting,27.805576,0.284824
+flux,es,DB022,42,DrawBench,Counting,29.465646,0.311573
+flux,es,DB023,42,DrawBench,Counting,29.665437,0.319908
+flux,es,DB024,42,DrawBench,Counting,21.209762,0.2194
+flux,es,DB025,42,DrawBench,Counting,30.303437,0.299579
+flux,es,DB026,42,DrawBench,Counting,30.032665,0.322338
+flux,es,DB027,42,DrawBench,Positional,22.634922,0.220429
+flux,es,DB028,42,DrawBench,Positional,26.88733,0.254027
+flux,es,DB029,42,DrawBench,Positional,27.966312,0.278074
+flux,es,DB030,42,DrawBench,Positional,23.132561,0.240398
+flux,es,DB031,42,DrawBench,Positional,28.090709,0.289311
+flux,es,DB032,42,DrawBench,Positional,23.680635,0.252128
+flux,es,DB033,42,DrawBench,Positional,26.89634,0.275702
+flux,es,DB034,42,DrawBench,Positional,23.812109,0.269528
+flux,es,DB035,42,DrawBench,Positional,28.915489,0.29659
+flux,es,DB036,42,DrawBench,Positional,34.437457,0.358884
+flux,es,DB037,42,DrawBench,Positional,26.354954,0.274102
+flux,es,DB038,42,DrawBench,Positional,32.99841,0.326425
+flux,es,DB039,42,DrawBench,Text,20.092899,0.244276
+flux,es,DB040,42,DrawBench,Text,31.464586,0.320802
+flux,es,DB041,42,DrawBench,Text,32.164612,0.294647
+flux,es,DB042,42,DrawBench,Text,27.357686,0.267072
+flux,es,DB043,42,DrawBench,Text,28.99507,0.260325
+flux,es,DB044,42,DrawBench,Text,34.779081,0.380268
+flux,es,DB045,42,DrawBench,Text,22.697146,0.245074
+flux,es,DB046,42,DrawBench,Text,29.520118,0.291582
+flux,es,DB047,42,DrawBench,Text,30.628452,0.31311
+flux,es,DB048,42,DrawBench,Text,31.388661,0.349601
+flux,es,DB049,42,DrawBench,Text,33.266675,0.38127
+flux,es,DB050,42,DrawBench,Text,19.436127,0.219332
+flux,es,GB001,42,GenAI-Bench,Spatial Relation,32.585689,0.31515
+flux,es,GB002,42,GenAI-Bench,Spatial Relation,31.340009,0.338021
+flux,es,GB003,42,GenAI-Bench,Spatial Relation,27.514973,0.294267
+flux,es,GB004,42,GenAI-Bench,Spatial Relation,38.769412,0.371249
+flux,es,GB005,42,GenAI-Bench,Spatial Relation,32.666841,0.329332
+flux,es,GB006,42,GenAI-Bench,Spatial Relation,33.047196,0.322329
+flux,es,GB007,42,GenAI-Bench,Spatial Relation,26.27151,0.287206
+flux,es,GB008,42,GenAI-Bench,Spatial Relation,22.757861,0.227104
+flux,es,GB009,42,GenAI-Bench,Spatial Relation,32.623962,0.310939
+flux,es,GB010,42,GenAI-Bench,Spatial Relation,32.784146,0.285442
+flux,es,GB011,42,GenAI-Bench,Spatial Relation,27.546382,0.309317
+flux,es,GB012,42,GenAI-Bench,Spatial Relation,28.748101,0.301062
+flux,es,GB013,42,GenAI-Bench,Spatial Relation,35.957828,0.348377
+flux,es,GB014,42,GenAI-Bench,Spatial Relation,19.778921,0.256525
+flux,es,GB015,42,GenAI-Bench,Spatial Relation,30.586889,0.310698
+flux,es,GB016,42,GenAI-Bench,Spatial Relation,24.727166,0.289174
+flux,es,GB017,42,GenAI-Bench,Spatial Relation,36.926565,0.353827
+flux,es,GB018,42,GenAI-Bench,Spatial Relation,25.236258,0.223555
+flux,es,GB019,42,GenAI-Bench,Spatial Relation,30.823633,0.305806
+flux,es,GB020,42,GenAI-Bench,Spatial Relation,30.720225,0.354393
+flux,es,GB021,42,GenAI-Bench,Spatial Relation,28.01967,0.304721
+flux,es,GB022,42,GenAI-Bench,Spatial Relation,31.85524,0.299017
+flux,es,GB023,42,GenAI-Bench,Spatial Relation,31.744367,0.321299
+flux,es,GB024,42,GenAI-Bench,Spatial Relation,30.271783,0.311249
+flux,es,GB025,42,GenAI-Bench,Spatial Relation,19.843081,0.246595
+flux,es,GB026,42,GenAI-Bench,Attribute,31.823611,0.324994
+flux,es,GB027,42,GenAI-Bench,Attribute,29.215464,0.306865
+flux,es,GB028,42,GenAI-Bench,Attribute,26.095116,0.267902
+flux,es,GB029,42,GenAI-Bench,Attribute,23.186749,0.259915
+flux,es,GB030,42,GenAI-Bench,Attribute,29.777586,0.3057
+flux,es,GB031,42,GenAI-Bench,Attribute,32.778019,0.300221
+flux,es,GB032,42,GenAI-Bench,Attribute,28.573573,0.297928
+flux,es,GB033,42,GenAI-Bench,Attribute,27.538908,0.274888
+flux,es,GB034,42,GenAI-Bench,Attribute,29.313773,0.279492
+flux,es,GB035,42,GenAI-Bench,Attribute,34.315181,0.295874
+flux,es,GB036,42,GenAI-Bench,Attribute,33.227581,0.324173
+flux,es,GB037,42,GenAI-Bench,Attribute,31.48177,0.272715
+flux,es,GB038,42,GenAI-Bench,Attribute,31.359491,0.336052
+flux,es,GB039,42,GenAI-Bench,Attribute,33.993244,0.259254
+flux,es,GB040,42,GenAI-Bench,Attribute,32.315853,0.293598
+flux,es,GB041,42,GenAI-Bench,Attribute,30.62602,0.359137
+flux,es,GB042,42,GenAI-Bench,Attribute,28.463426,0.282422
+flux,es,GB043,42,GenAI-Bench,Attribute,30.34648,0.302146
+flux,es,GB044,42,GenAI-Bench,Attribute,26.548705,0.292633
+flux,es,GB045,42,GenAI-Bench,Attribute,24.575575,0.269083
+flux,es,GB046,42,GenAI-Bench,Attribute,29.988357,0.303363
+flux,es,GB047,42,GenAI-Bench,Attribute,31.869984,0.303557
+flux,es,GB048,42,GenAI-Bench,Attribute,16.236587,0.197781
+flux,es,GB049,42,GenAI-Bench,Attribute,25.918832,0.262321
+flux,es,GB050,42,GenAI-Bench,Attribute,24.011192,0.234481
+flux,ar,DB001,42,DrawBench,Colors,14.354375,0.189015
+flux,ar,DB002,42,DrawBench,Colors,18.318574,0.21182
+flux,ar,DB003,42,DrawBench,Colors,16.342753,0.189404
+flux,ar,DB004,42,DrawBench,Colors,14.030361,0.193104
+flux,ar,DB005,42,DrawBench,Colors,20.993273,0.23376
+flux,ar,DB006,42,DrawBench,Colors,18.019994,0.204875
+flux,ar,DB007,42,DrawBench,Colors,21.529989,0.265757
+flux,ar,DB008,42,DrawBench,Colors,17.284308,0.174574
+flux,ar,DB009,42,DrawBench,Colors,12.691119,0.167667
+flux,ar,DB010,42,DrawBench,Colors,16.007029,0.154101
+flux,ar,DB011,42,DrawBench,Colors,11.61856,0.152537
+flux,ar,DB012,42,DrawBench,Colors,12.562954,0.206809
+flux,ar,DB013,42,DrawBench,Colors,16.27799,0.173536
+flux,ar,DB014,42,DrawBench,Counting,13.236855,0.154155
+flux,ar,DB015,42,DrawBench,Counting,19.862853,0.204557
+flux,ar,DB016,42,DrawBench,Counting,9.937406,0.111858
+flux,ar,DB017,42,DrawBench,Counting,15.352766,0.179136
+flux,ar,DB018,42,DrawBench,Counting,16.049489,0.168815
+flux,ar,DB019,42,DrawBench,Counting,7.066977,0.091359
+flux,ar,DB020,42,DrawBench,Counting,15.629672,0.172362
+flux,ar,DB021,42,DrawBench,Counting,9.835738,0.112605
+flux,ar,DB022,42,DrawBench,Counting,11.264589,0.108653
+flux,ar,DB023,42,DrawBench,Counting,10.000502,0.10248
+flux,ar,DB024,42,DrawBench,Counting,16.466197,0.168594
+flux,ar,DB025,42,DrawBench,Counting,14.631221,0.171081
+flux,ar,DB026,42,DrawBench,Counting,10.23571,0.106765
+flux,ar,DB027,42,DrawBench,Positional,10.542021,0.175448
+flux,ar,DB028,42,DrawBench,Positional,15.161698,0.172251
+flux,ar,DB029,42,DrawBench,Positional,19.411992,0.199207
+flux,ar,DB030,42,DrawBench,Positional,10.96594,0.170946
+flux,ar,DB031,42,DrawBench,Positional,14.889173,0.18039
+flux,ar,DB032,42,DrawBench,Positional,16.082391,0.21925
+flux,ar,DB033,42,DrawBench,Positional,16.057295,0.176646
+flux,ar,DB034,42,DrawBench,Positional,16.76383,0.198508
+flux,ar,DB035,42,DrawBench,Positional,17.240995,0.180286
+flux,ar,DB036,42,DrawBench,Positional,14.104936,0.127333
+flux,ar,DB037,42,DrawBench,Positional,13.427487,0.148877
+flux,ar,DB038,42,DrawBench,Positional,14.926952,0.182355
+flux,ar,DB039,42,DrawBench,Text,18.406096,0.230259
+flux,ar,DB040,42,DrawBench,Text,18.081748,0.268783
+flux,ar,DB041,42,DrawBench,Text,15.625969,0.193047
+flux,ar,DB042,42,DrawBench,Text,15.485601,0.209256
+flux,ar,DB043,42,DrawBench,Text,21.576644,0.203093
+flux,ar,DB044,42,DrawBench,Text,23.594609,0.279011
+flux,ar,DB045,42,DrawBench,Text,19.269325,0.215048
+flux,ar,DB046,42,DrawBench,Text,24.882278,0.285296
+flux,ar,DB047,42,DrawBench,Text,11.982255,0.219913
+flux,ar,DB048,42,DrawBench,Text,12.166268,0.198349
+flux,ar,DB049,42,DrawBench,Text,19.460994,0.218207
+flux,ar,DB050,42,DrawBench,Text,17.636353,0.215394
+flux,ar,GB001,42,GenAI-Bench,Spatial Relation,18.299454,0.241193
+flux,ar,GB002,42,GenAI-Bench,Spatial Relation,17.059998,0.175967
+flux,ar,GB003,42,GenAI-Bench,Spatial Relation,16.202383,0.160442
+flux,ar,GB004,42,GenAI-Bench,Spatial Relation,14.460303,0.22197
+flux,ar,GB005,42,GenAI-Bench,Spatial Relation,13.233803,0.180197
+flux,ar,GB006,42,GenAI-Bench,Spatial Relation,23.21517,0.22503
+flux,ar,GB007,42,GenAI-Bench,Spatial Relation,16.773736,0.184854
+flux,ar,GB008,42,GenAI-Bench,Spatial Relation,10.592382,0.103449
+flux,ar,GB009,42,GenAI-Bench,Spatial Relation,5.721029,0.105505
+flux,ar,GB010,42,GenAI-Bench,Spatial Relation,16.931386,0.167434
+flux,ar,GB011,42,GenAI-Bench,Spatial Relation,8.464023,0.148945
+flux,ar,GB012,42,GenAI-Bench,Spatial Relation,9.21898,0.086199
+flux,ar,GB013,42,GenAI-Bench,Spatial Relation,25.328213,0.246829
+flux,ar,GB014,42,GenAI-Bench,Spatial Relation,13.205156,0.193521
+flux,ar,GB015,42,GenAI-Bench,Spatial Relation,14.142175,0.189614
+flux,ar,GB016,42,GenAI-Bench,Spatial Relation,6.696016,0.105172
+flux,ar,GB017,42,GenAI-Bench,Spatial Relation,3.705246,0.107076
+flux,ar,GB018,42,GenAI-Bench,Spatial Relation,8.396753,0.171509
+flux,ar,GB019,42,GenAI-Bench,Spatial Relation,17.919588,0.185686
+flux,ar,GB020,42,GenAI-Bench,Spatial Relation,15.534462,0.174241
+flux,ar,GB021,42,GenAI-Bench,Spatial Relation,14.61122,0.2048
+flux,ar,GB022,42,GenAI-Bench,Spatial Relation,14.23132,0.179844
+flux,ar,GB023,42,GenAI-Bench,Spatial Relation,12.623215,0.137794
+flux,ar,GB024,42,GenAI-Bench,Spatial Relation,14.575517,0.153578
+flux,ar,GB025,42,GenAI-Bench,Spatial Relation,15.394633,0.177038
+flux,ar,GB026,42,GenAI-Bench,Attribute,17.122321,0.176348
+flux,ar,GB027,42,GenAI-Bench,Attribute,15.214272,0.197431
+flux,ar,GB028,42,GenAI-Bench,Attribute,19.120826,0.216425
+flux,ar,GB029,42,GenAI-Bench,Attribute,14.934397,0.166127
+flux,ar,GB030,42,GenAI-Bench,Attribute,10.098062,0.163677
+flux,ar,GB031,42,GenAI-Bench,Attribute,17.207272,0.149449
+flux,ar,GB032,42,GenAI-Bench,Attribute,16.854654,0.200409
+flux,ar,GB033,42,GenAI-Bench,Attribute,21.317661,0.210863
+flux,ar,GB034,42,GenAI-Bench,Attribute,12.459933,0.129189
+flux,ar,GB035,42,GenAI-Bench,Attribute,14.961129,0.249216
+flux,ar,GB036,42,GenAI-Bench,Attribute,12.701532,0.188638
+flux,ar,GB037,42,GenAI-Bench,Attribute,10.421181,0.154706
+flux,ar,GB038,42,GenAI-Bench,Attribute,12.997484,0.153449
+flux,ar,GB039,42,GenAI-Bench,Attribute,13.708854,0.181129
+flux,ar,GB040,42,GenAI-Bench,Attribute,17.389983,0.187338
+flux,ar,GB041,42,GenAI-Bench,Attribute,13.733763,0.140023
+flux,ar,GB042,42,GenAI-Bench,Attribute,15.839408,0.180893
+flux,ar,GB043,42,GenAI-Bench,Attribute,13.022663,0.188322
+flux,ar,GB044,42,GenAI-Bench,Attribute,13.764128,0.21518
+flux,ar,GB045,42,GenAI-Bench,Attribute,11.427897,0.152281
+flux,ar,GB046,42,GenAI-Bench,Attribute,24.042331,0.218135
+flux,ar,GB047,42,GenAI-Bench,Attribute,5.881465,0.047941
+flux,ar,GB048,42,GenAI-Bench,Attribute,16.691953,0.201493
+flux,ar,GB049,42,GenAI-Bench,Attribute,5.8601,0.097308
+flux,ar,GB050,42,GenAI-Bench,Attribute,17.926134,0.217123
