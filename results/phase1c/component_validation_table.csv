@@ -1,0 +1,2 @@
+node,capability,tool,dataset,metric,score,target,pass_fail,calibrated_threshold
+Node 1,Object Presence,GPT-4o mini VQA,MS-COCO val2017 (n=50 images),F1,0.8308,>= 0.8,PASS,binary yes/no VQA boundary

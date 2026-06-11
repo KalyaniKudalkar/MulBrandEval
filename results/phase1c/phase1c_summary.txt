@@ -1,0 +1,3 @@
+MulBrandEval Phase 1C - Component Validation Summary
+============================================================
+Node 1 | Object Presence | GPT-4o mini VQA | F1=0.8308 | target>=0.80 | PASS | P=1.0000 R=0.7105 | TP=108 FP=0 FN=44 TN=152
