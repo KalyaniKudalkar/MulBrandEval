@@ -2,6 +2,7 @@ import os
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 import json
+import re
 import random
 import base64
 import time
@@ -24,8 +25,11 @@ random.seed(SEED)
 COCO_IMAGES_DIR   = Path("data/reference_images/coco_phase1a")
 COCO_ANNOTATIONS  = Path("annotations/instances_val2017.json")
 PROMPTS_CSV       = Path("data/prompts/en/coco_prompts_en.csv")
+PHASE1B_IMAGES_DIR = Path("data/generated_images/phase1b")
+PHASE1B_PROMPTS_EN = Path("data/prompts/en/phase1b_prompts_en.csv")
 RESULTS_DIR       = Path("results/phase1c")
 NODE1_CSV         = RESULTS_DIR / "node1_object_presence.csv"
+NODE4_CSV         = RESULTS_DIR / "node4_typography.csv"
 VALIDATION_TABLE  = RESULTS_DIR / "component_validation_table.csv"
 SUMMARY_TXT       = RESULTS_DIR / "phase1c_summary.txt"
 
@@ -223,9 +227,225 @@ def run_node1():
 
 
 # ══════════════════════════════════════════════════════════════════════════════
+# NODE 4 — Typography Validation
+# Validates: EasyOCR correctly extracts text from T2I-generated images
+# Dataset:   12 DrawBench Text prompts, English, seed 42, both models (24 images)
+# Metric:    Levenshtein accuracy   |   Target: accuracy >= 0.75
+# ══════════════════════════════════════════════════════════════════════════════
+
+def run_node4():
+    print("=" * 65)
+    print("NODE 4 — Typography Validation")
+    print("=" * 65)
+
+    # ── Load DrawBench Text prompts ───────────────────────────────────────────
+    df = pd.read_csv(PHASE1B_PROMPTS_EN)
+    text_df = df[(df["category"] == "Text") & (df["source"] == "DrawBench")].copy()
+    print(f"\n  DrawBench Text prompts loaded: {len(text_df)}")
+
+    # ── Extract required text string from each caption ────────────────────────
+    def extract_required_text(caption: str) -> str:
+        match = re.search(r"'([^']+)'", caption)
+        return match.group(1) if match else ""
+
+    text_df["required_text"] = text_df["caption"].apply(extract_required_text)
+
+    print("  Required text strings:")
+    for _, row in text_df.iterrows():
+        print(f"    {row['prompt_id']} → '{row['required_text']}'")
+
+    # ── Levenshtein similarity helpers ────────────────────────────────────────
+    def levenshtein_distance(s1: str, s2: str) -> int:
+        m, n = len(s1), len(s2)
+        dp = list(range(n + 1))
+        for i in range(1, m + 1):
+            prev = dp[0]
+            dp[0] = i
+            for j in range(1, n + 1):
+                temp = dp[j]
+                dp[j] = prev if s1[i-1] == s2[j-1] else 1 + min(prev, dp[j], dp[j-1])
+                prev = temp
+        return dp[n]
+
+    def norm_lev_sim(s1: str, s2: str) -> float:
+        s1, s2 = s1.lower().strip(), s2.lower().strip()
+        if not s1 and not s2:
+            return 1.0
+        if not s1 or not s2:
+            return 0.0
+        dist = levenshtein_distance(s1, s2)
+        return 1.0 - dist / max(len(s1), len(s2))
+
+    def best_match_score(required: str, detected_texts: list) -> float:
+        """
+        Compute best match score between required text and EasyOCR detections.
+        Strategy 1: substring match in joined detections → score = 1.0
+        Strategy 2: Levenshtein similarity vs each fragment and joined text → take max
+        """
+        if not detected_texts:
+            return 0.0
+        req_lower = required.lower().strip()
+        joined    = " ".join(detected_texts).lower()
+
+        # Exact substring match is the strongest signal
+        if req_lower in joined:
+            return 1.0
+
+        # Levenshtein fallback: try each fragment and the full join
+        candidates = [t.lower() for t in detected_texts] + [joined]
+        return max(norm_lev_sim(req_lower, c) for c in candidates)
+
+    # ── Initialise EasyOCR ────────────────────────────────────────────────────
+    import easyocr
+    print("\n  Initialising EasyOCR (English, CPU)...")
+    reader = easyocr.Reader(["en"], gpu=False, verbose=False)
+    print("  EasyOCR ready.\n")
+
+    MODELS        = ["sd15", "flux"]
+    CONF_THRESHOLD = 0.3   # EasyOCR confidence filter
+    HIT_THRESHOLD  = 0.5   # Levenshtein similarity to count as a hit
+
+    results = []
+
+    print(f"  Processing {len(text_df)} prompts × {len(MODELS)} models "
+          f"= {len(text_df) * len(MODELS)} images...\n")
+
+    for _, row in text_df.iterrows():
+        prompt_id     = row["prompt_id"]
+        required_text = row["required_text"]
+
+        for model in MODELS:
+            image_path = PHASE1B_IMAGES_DIR / model / "en" / f"{prompt_id}_seed42.png"
+
+            if not image_path.exists():
+                print(f"  [WARNING] Not found: {image_path} — skipping")
+                results.append({
+                    "prompt_id":       prompt_id,
+                    "model":           model,
+                    "required_text":   required_text,
+                    "extracted_text":  "",
+                    "best_similarity": 0.0,
+                    "hit":             0,
+                    "image_found":     0,
+                })
+                continue
+
+            # Run EasyOCR
+            ocr_out = reader.readtext(str(image_path), detail=1)
+            detected = [text for _, text, conf in ocr_out if conf >= CONF_THRESHOLD]
+            joined   = " ".join(detected)
+
+            score = best_match_score(required_text, detected)
+            hit   = 1 if score >= HIT_THRESHOLD else 0
+
+            status_str = "HIT " if hit else "MISS"
+            print(f"  [{status_str}] {prompt_id} | {model:4s} | "
+                  f"required: '{required_text}' | "
+                  f"extracted: '{joined}' | sim={score:.3f}")
+
+            results.append({
+                "prompt_id":       prompt_id,
+                "model":           model,
+                "required_text":   required_text,
+                "extracted_text":  joined,
+                "best_similarity": round(score, 4),
+                "hit":             hit,
+                "image_found":     1,
+            })
+
+    # ── Save detailed results ─────────────────────────────────────────────────
+    results_df = pd.DataFrame(results)
+    results_df.to_csv(NODE4_CSV, index=False, encoding="utf-8")
+    print(f"\n  Detailed results saved: {NODE4_CSV}  ({len(results_df)} rows)")
+
+    # ── Compute accuracy ──────────────────────────────────────────────────────
+    valid = results_df[results_df["image_found"] == 1]
+    total = len(valid)
+    hits  = int(valid["hit"].sum())
+    accuracy = hits / total if total > 0 else 0.0
+
+    print("\n  Per-model breakdown:")
+    for model in MODELS:
+        m = valid[valid["model"] == model]
+        m_hits = int(m["hit"].sum())
+        m_acc  = m_hits / len(m) if len(m) > 0 else 0.0
+        print(f"    {model:4s}: {m_hits}/{len(m)} hits  accuracy={m_acc:.4f}")
+
+    TARGET    = 0.75
+    pass_fail = "PASS" if accuracy >= TARGET else "FAIL"
+    threshold = (f"EasyOCR confidence >= {CONF_THRESHOLD}; "
+                 f"Levenshtein similarity >= {HIT_THRESHOLD} or substring match")
+
+    print("\n" + "-" * 45)
+    print(f"  Total images : {total}")
+    print(f"  Hits         : {hits}")
+    print(f"  Accuracy     : {accuracy:.4f}  (target >= {TARGET})")
+    print(f"  Status       : {pass_fail}")
+    print("-" * 45)
+
+    if pass_fail == "FAIL":
+        print("\n  NOTE: Accuracy below target.")
+        print("  This likely reflects T2I model text-rendering quality")
+        print("  (especially SD v1.5), not EasyOCR capability.")
+        print("  Review the per-model breakdown above for details.")
+
+    # ── Append to component validation table ─────────────────────────────────
+    table_row = {
+        "node":                 "Node 4",
+        "capability":           "Typography",
+        "tool":                 "EasyOCR 1.7.1",
+        "dataset":              "DrawBench Text (n=12 prompts, 24 images)",
+        "metric":               "Levenshtein accuracy",
+        "score":                round(accuracy, 4),
+        "target":               f">= {TARGET}",
+        "pass_fail":            pass_fail,
+        "calibrated_threshold": threshold,
+    }
+
+    write_header = not VALIDATION_TABLE.exists()
+    with open(VALIDATION_TABLE, "a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=list(table_row.keys()))
+        if write_header:
+            writer.writeheader()
+        writer.writerow(table_row)
+
+    print(f"\n  Component validation table updated: {VALIDATION_TABLE}")
+
+    # ── Append Node 4 row to summary text ────────────────────────────────────
+    node4_summary = (
+        f"Node 4 | Typography | EasyOCR 1.7.1 | "
+        f"Accuracy={accuracy:.4f} | target>=0.75 | {pass_fail} | "
+        f"hits={hits}/{total} | "
+        f"conf_threshold={CONF_THRESHOLD} | lev_threshold={HIT_THRESHOLD}\n"
+    )
+    with open(SUMMARY_TXT, "a", encoding="utf-8") as f:
+        f.write(node4_summary)
+
+    print(f"  Summary written: {SUMMARY_TXT}")
+    print("\nNode 4 validation complete.")
+    return accuracy, pass_fail
+
+
+# ══════════════════════════════════════════════════════════════════════════════
 # MAIN
+# Usage:
+#   python phase1c_agent_validation/phase1c_validate.py 1   → run Node 1 only
+#   python phase1c_agent_validation/phase1c_validate.py 4   → run Node 4 only
+#   python phase1c_agent_validation/phase1c_validate.py     → run all nodes
 # ══════════════════════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
-    f1, status = run_node1()
-    sys.exit(0 if status == "PASS" else 1)
+    node = sys.argv[1] if len(sys.argv) > 1 else "all"
+
+    results = {}
+
+    if node in ("1", "all"):
+        f1, status = run_node1()
+        results["node1"] = status
+
+    if node in ("4", "all"):
+        accuracy, status = run_node4()
+        results["node4"] = status
+
+    all_pass = all(v == "PASS" for v in results.values())
+    sys.exit(0 if all_pass else 1)

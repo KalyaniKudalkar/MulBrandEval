@@ -1,2 +1,3 @@
 node,capability,tool,dataset,metric,score,target,pass_fail,calibrated_threshold
 Node 1,Object Presence,GPT-4o mini VQA,MS-COCO val2017 (n=50 images),F1,0.8308,>= 0.8,PASS,binary yes/no VQA boundary
+Node 4,Typography,EasyOCR 1.7.1,"DrawBench Text (n=12 prompts, 24 images)",Levenshtein accuracy,0.5417,>= 0.75,FAIL,"FLUX: conf>=0.3, lev_sim>=0.5 (acc=0.9167, PASS); SD v1.5: text rendering limits OCR (acc=0.1667)"

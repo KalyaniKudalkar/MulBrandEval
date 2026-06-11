@@ -1,0 +1,25 @@
+prompt_id,model,required_text,extracted_text,best_similarity,hit,image_found
+DB039,sd15,Hello World,,0.0,0,1
+DB039,flux,Hello World,Hello World,1.0,1,1
+DB040,sd15,NeurIPS,,0.0,0,1
+DB040,flux,NeurIPS,NeyrIPs,0.8571,1,1
+DB041,sd15,Diffusion,,0.0,0,1
+DB041,flux,Diffusion,Diffusion,1.0,1,1
+DB042,sd15,Diffusion,'R Sid n,0.2222,0,1
+DB042,flux,Diffusion,Diffusion,1.0,1,1
+DB043,sd15,Diffusion,DIFFUSIION,0.9,1,1
+DB043,flux,Diffusion,Diffusion,1.0,1,1
+DB044,sd15,Google Brain Toronto,Gooe BBAIN,0.45,0,1
+DB044,flux,Google Brain Toronto,Google Brain yolr ecnk _,0.6667,1,1
+DB045,sd15,Deep Learning,DEEP LEIRINNG,0.7692,1,1
+DB045,flux,Deep Learning,DEEP LEARNiNG,1.0,1,1
+DB046,sd15,NeurIPS,,0.0,0,1
+DB046,flux,NeurIPS,NeurIPS,1.0,1,1
+DB047,sd15,Deep Learning,,0.0,0,1
+DB047,flux,Deep Learning,Learning Deep,0.6154,1,1
+DB048,sd15,Text to Image,,0.0,0,1
+DB048,flux,Text to Image,,0.0,0,1
+DB049,sd15,Google Research Pizza Cafe,0 RUeach oge nge Pizza,0.4231,0,1
+DB049,flux,Google Research Pizza Cafe,Google Research Pizza Cafe,1.0,1,1
+DB050,sd15,Text to Image,TO TO 0,0.3846,0,1
+DB050,flux,Text to Image,TEXT TO IMAGE ISPR,1.0,1,1
