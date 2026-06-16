@@ -1,0 +1,3 @@
+# Packages installed via conda (not pip)
+# Install with: conda install -c conda-forge pycocotools -y
+pycocotools=2.0.11

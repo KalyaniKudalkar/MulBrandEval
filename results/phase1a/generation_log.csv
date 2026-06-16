@@ -1,0 +1,1312 @@
+timestamp,model,language,prompt_id,seed,status,output_path,error,duration_s
+2026-05-21T21:51:36.484029,sd15,en,P001,42,FAIL,,"ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)",0.9
+2026-05-21T21:51:41.644818,sd15,en,P001,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.1
+2026-05-21T21:51:48.447894,sd15,en,P002,42,FAIL,,"ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)",1.8
+2026-05-21T21:51:53.794053,sd15,en,P002,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.3
+2026-05-21T21:51:59.212048,sd15,en,P003,42,FAIL,,"ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)",0.4
+2026-05-21T21:52:04.555900,sd15,en,P003,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.3
+2026-05-21T21:52:09.807216,sd15,en,P004,42,FAIL,,"ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)",0.2
+2026-05-21T21:52:15.171523,sd15,en,P004,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.3
+2026-05-21T21:52:20.656869,sd15,en,P005,42,FAIL,,"ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)",0.5
+2026-05-21T21:52:25.840563,sd15,en,P005,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.2
+2026-05-21T21:52:31.127670,sd15,en,P006,42,FAIL,,"ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)",0.3
+2026-05-21T21:52:36.491428,sd15,en,P006,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.3
+2026-05-21T21:52:42.809919,sd15,en,P007,42,FAIL,,"ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)",1.3
+2026-05-21T21:52:48.487496,sd15,en,P007,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.7
+2026-05-21T21:52:54.405410,sd15,en,P008,42,FAIL,,"ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)",0.9
+2026-05-21T21:53:00.222370,sd15,en,P008,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.8
+2026-05-21T21:53:05.871767,sd15,en,P009,42,FAIL,,"ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)",0.6
+2026-05-21T21:53:11.072739,sd15,en,P009,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.2
+2026-05-21T21:53:16.486361,sd15,en,P010,42,FAIL,,"ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)",0.4
+2026-05-21T21:53:21.661211,sd15,en,P010,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.2
+2026-05-21T21:53:27.087914,sd15,en,P011,42,FAIL,,"ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)",0.4
+2026-05-21T21:53:32.249324,sd15,en,P011,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.1
+2026-05-21T21:53:37.553605,sd15,en,P012,42,FAIL,,"ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)",0.3
+2026-05-21T22:41:02.154054,sd15,en,P001,42,SUCCESS,data\generated_images\phase1a\sd15\en\P001_seed42.png,,4.7
+2026-05-21T22:41:05.309807,sd15,en,P001,123,SUCCESS,data\generated_images\phase1a\sd15\en\P001_seed123.png,,3.2
+2026-05-21T22:41:07.944402,sd15,en,P002,42,SUCCESS,data\generated_images\phase1a\sd15\en\P002_seed42.png,,2.6
+2026-05-21T22:41:10.761674,sd15,en,P002,123,SUCCESS,data\generated_images\phase1a\sd15\en\P002_seed123.png,,2.8
+2026-05-21T22:41:18.733779,sd15,en,P003,42,SUCCESS,data\generated_images\phase1a\sd15\en\P003_seed42.png,,8.0
+2026-05-21T22:41:21.874550,sd15,en,P003,123,SUCCESS,data\generated_images\phase1a\sd15\en\P003_seed123.png,,3.1
+2026-05-21T22:41:24.433882,sd15,en,P004,42,SUCCESS,data\generated_images\phase1a\sd15\en\P004_seed42.png,,2.6
+2026-05-21T22:41:27.178738,sd15,en,P004,123,SUCCESS,data\generated_images\phase1a\sd15\en\P004_seed123.png,,2.7
+2026-05-21T22:41:29.818830,sd15,en,P005,42,SUCCESS,data\generated_images\phase1a\sd15\en\P005_seed42.png,,2.6
+2026-05-21T22:41:32.471933,sd15,en,P005,123,SUCCESS,data\generated_images\phase1a\sd15\en\P005_seed123.png,,2.7
+2026-05-21T22:41:34.923968,sd15,en,P006,42,SUCCESS,data\generated_images\phase1a\sd15\en\P006_seed42.png,,2.4
+2026-05-21T22:41:37.473995,sd15,en,P006,123,SUCCESS,data\generated_images\phase1a\sd15\en\P006_seed123.png,,2.5
+2026-05-21T22:41:40.083903,sd15,en,P007,42,SUCCESS,data\generated_images\phase1a\sd15\en\P007_seed42.png,,2.6
+2026-05-21T22:41:42.533795,sd15,en,P007,123,SUCCESS,data\generated_images\phase1a\sd15\en\P007_seed123.png,,2.4
+2026-05-21T22:41:44.903665,sd15,en,P008,42,SUCCESS,data\generated_images\phase1a\sd15\en\P008_seed42.png,,2.4
+2026-05-21T22:41:47.394114,sd15,en,P008,123,SUCCESS,data\generated_images\phase1a\sd15\en\P008_seed123.png,,2.5
+2026-05-21T22:41:50.388967,sd15,en,P009,42,SUCCESS,data\generated_images\phase1a\sd15\en\P009_seed42.png,,3.0
+2026-05-21T22:41:52.968862,sd15,en,P009,123,SUCCESS,data\generated_images\phase1a\sd15\en\P009_seed123.png,,2.6
+2026-05-21T22:41:55.518863,sd15,en,P010,42,SUCCESS,data\generated_images\phase1a\sd15\en\P010_seed42.png,,2.5
+2026-05-21T22:41:57.993952,sd15,en,P010,123,SUCCESS,data\generated_images\phase1a\sd15\en\P010_seed123.png,,2.5
+2026-05-21T22:42:00.513567,sd15,en,P011,42,SUCCESS,data\generated_images\phase1a\sd15\en\P011_seed42.png,,2.5
+2026-05-21T22:42:03.007733,sd15,en,P011,123,SUCCESS,data\generated_images\phase1a\sd15\en\P011_seed123.png,,2.5
+2026-05-21T22:42:05.952442,sd15,en,P012,42,SUCCESS,data\generated_images\phase1a\sd15\en\P012_seed42.png,,2.9
+2026-05-21T22:42:07.608402,sd15,en,P012,123,FAIL,,"NSFW content detected. Try running it again, or try a different prompt.",1.7
+2026-05-21T22:42:15.528706,sd15,en,P013,42,SUCCESS,data\generated_images\phase1a\sd15\en\P013_seed42.png,,2.9
+2026-05-21T22:42:18.033947,sd15,en,P013,123,SUCCESS,data\generated_images\phase1a\sd15\en\P013_seed123.png,,2.5
+2026-05-21T22:42:20.398612,sd15,en,P014,42,SUCCESS,data\generated_images\phase1a\sd15\en\P014_seed42.png,,2.4
+2026-05-21T22:42:22.857068,sd15,en,P014,123,SUCCESS,data\generated_images\phase1a\sd15\en\P014_seed123.png,,2.5
+2026-05-21T22:42:25.221594,sd15,en,P015,42,SUCCESS,data\generated_images\phase1a\sd15\en\P015_seed42.png,,2.4
+2026-05-21T22:42:27.548011,sd15,en,P015,123,SUCCESS,data\generated_images\phase1a\sd15\en\P015_seed123.png,,2.3
+2026-05-21T22:42:30.014010,sd15,en,P016,42,SUCCESS,data\generated_images\phase1a\sd15\en\P016_seed42.png,,2.5
+2026-05-21T22:42:32.824014,sd15,en,P016,123,SUCCESS,data\generated_images\phase1a\sd15\en\P016_seed123.png,,2.8
+2026-05-21T22:42:35.256644,sd15,en,P017,42,SUCCESS,data\generated_images\phase1a\sd15\en\P017_seed42.png,,2.4
+2026-05-21T22:42:37.598640,sd15,en,P017,123,SUCCESS,data\generated_images\phase1a\sd15\en\P017_seed123.png,,2.3
+2026-05-21T22:42:39.913856,sd15,en,P018,42,SUCCESS,data\generated_images\phase1a\sd15\en\P018_seed42.png,,2.3
+2026-05-21T22:42:42.413548,sd15,en,P018,123,SUCCESS,data\generated_images\phase1a\sd15\en\P018_seed123.png,,2.5
+2026-05-21T22:42:45.233723,sd15,en,P019,42,SUCCESS,data\generated_images\phase1a\sd15\en\P019_seed42.png,,2.8
+2026-05-21T22:42:47.933728,sd15,en,P019,123,SUCCESS,data\generated_images\phase1a\sd15\en\P019_seed123.png,,2.7
+2026-05-21T22:42:50.503759,sd15,en,P020,42,SUCCESS,data\generated_images\phase1a\sd15\en\P020_seed42.png,,2.6
+2026-05-21T22:42:53.093751,sd15,en,P020,123,SUCCESS,data\generated_images\phase1a\sd15\en\P020_seed123.png,,2.6
+2026-05-21T22:42:55.973566,sd15,en,P021,42,SUCCESS,data\generated_images\phase1a\sd15\en\P021_seed42.png,,2.9
+2026-05-21T22:42:58.603758,sd15,en,P021,123,SUCCESS,data\generated_images\phase1a\sd15\en\P021_seed123.png,,2.6
+2026-05-21T22:43:01.187479,sd15,en,P022,42,SUCCESS,data\generated_images\phase1a\sd15\en\P022_seed42.png,,2.6
+2026-05-21T22:43:03.843518,sd15,en,P022,123,SUCCESS,data\generated_images\phase1a\sd15\en\P022_seed123.png,,2.7
+2026-05-21T22:43:06.388607,sd15,en,P023,42,SUCCESS,data\generated_images\phase1a\sd15\en\P023_seed42.png,,2.5
+2026-05-21T22:43:09.138354,sd15,en,P023,123,SUCCESS,data\generated_images\phase1a\sd15\en\P023_seed123.png,,2.7
+2026-05-21T22:43:11.604007,sd15,en,P024,42,SUCCESS,data\generated_images\phase1a\sd15\en\P024_seed42.png,,2.5
+2026-05-21T22:43:14.113647,sd15,en,P024,123,SUCCESS,data\generated_images\phase1a\sd15\en\P024_seed123.png,,2.5
+2026-05-21T22:43:16.587803,sd15,en,P025,42,SUCCESS,data\generated_images\phase1a\sd15\en\P025_seed42.png,,2.5
+2026-05-21T22:43:19.453686,sd15,en,P025,123,SUCCESS,data\generated_images\phase1a\sd15\en\P025_seed123.png,,2.9
+2026-05-21T22:43:22.237571,sd15,en,P026,42,SUCCESS,data\generated_images\phase1a\sd15\en\P026_seed42.png,,2.8
+2026-05-21T22:43:24.828577,sd15,en,P026,123,SUCCESS,data\generated_images\phase1a\sd15\en\P026_seed123.png,,2.6
+2026-05-21T22:43:27.543636,sd15,en,P027,42,SUCCESS,data\generated_images\phase1a\sd15\en\P027_seed42.png,,2.7
+2026-05-21T22:43:30.378890,sd15,en,P027,123,SUCCESS,data\generated_images\phase1a\sd15\en\P027_seed123.png,,2.8
+2026-05-21T22:43:33.128551,sd15,en,P028,42,SUCCESS,data\generated_images\phase1a\sd15\en\P028_seed42.png,,2.7
+2026-05-21T22:43:35.636045,sd15,en,P028,123,SUCCESS,data\generated_images\phase1a\sd15\en\P028_seed123.png,,2.5
+2026-05-21T22:43:38.185767,sd15,en,P029,42,SUCCESS,data\generated_images\phase1a\sd15\en\P029_seed42.png,,2.5
+2026-05-21T22:43:40.903602,sd15,en,P029,123,SUCCESS,data\generated_images\phase1a\sd15\en\P029_seed123.png,,2.7
+2026-05-21T22:43:43.700324,sd15,en,P030,42,SUCCESS,data\generated_images\phase1a\sd15\en\P030_seed42.png,,2.8
+2026-05-21T22:43:46.218757,sd15,en,P030,123,SUCCESS,data\generated_images\phase1a\sd15\en\P030_seed123.png,,2.5
+2026-05-21T22:43:48.673784,sd15,en,P031,42,SUCCESS,data\generated_images\phase1a\sd15\en\P031_seed42.png,,2.5
+2026-05-21T22:43:51.163662,sd15,en,P031,123,SUCCESS,data\generated_images\phase1a\sd15\en\P031_seed123.png,,2.5
+2026-05-21T22:43:53.923385,sd15,en,P032,42,SUCCESS,data\generated_images\phase1a\sd15\en\P032_seed42.png,,2.8
+2026-05-21T22:43:56.503778,sd15,en,P032,123,SUCCESS,data\generated_images\phase1a\sd15\en\P032_seed123.png,,2.6
+2026-05-21T22:43:58.950355,sd15,en,P033,42,SUCCESS,data\generated_images\phase1a\sd15\en\P033_seed42.png,,2.4
+2026-05-21T22:44:01.488539,sd15,en,P033,123,SUCCESS,data\generated_images\phase1a\sd15\en\P033_seed123.png,,2.5
+2026-05-21T22:44:04.043859,sd15,en,P034,42,SUCCESS,data\generated_images\phase1a\sd15\en\P034_seed42.png,,2.6
+2026-05-21T22:44:07.006874,sd15,en,P034,123,SUCCESS,data\generated_images\phase1a\sd15\en\P034_seed123.png,,3.0
+2026-05-21T22:44:09.643692,sd15,en,P035,42,SUCCESS,data\generated_images\phase1a\sd15\en\P035_seed42.png,,2.6
+2026-05-21T22:44:12.588727,sd15,en,P035,123,SUCCESS,data\generated_images\phase1a\sd15\en\P035_seed123.png,,2.9
+2026-05-21T22:44:15.163488,sd15,en,P036,42,SUCCESS,data\generated_images\phase1a\sd15\en\P036_seed42.png,,2.6
+2026-05-21T22:44:17.756028,sd15,en,P036,123,SUCCESS,data\generated_images\phase1a\sd15\en\P036_seed123.png,,2.6
+2026-05-21T22:44:20.583719,sd15,en,P037,42,SUCCESS,data\generated_images\phase1a\sd15\en\P037_seed42.png,,2.7
+2026-05-21T22:44:23.343438,sd15,en,P037,123,SUCCESS,data\generated_images\phase1a\sd15\en\P037_seed123.png,,2.8
+2026-05-21T22:44:26.815624,sd15,en,P038,42,SUCCESS,data\generated_images\phase1a\sd15\en\P038_seed42.png,,3.5
+2026-05-21T22:44:29.873849,sd15,en,P038,123,SUCCESS,data\generated_images\phase1a\sd15\en\P038_seed123.png,,3.1
+2026-05-21T22:44:32.728685,sd15,en,P039,42,SUCCESS,data\generated_images\phase1a\sd15\en\P039_seed42.png,,2.9
+2026-05-21T22:44:35.216443,sd15,en,P039,123,SUCCESS,data\generated_images\phase1a\sd15\en\P039_seed123.png,,2.5
+2026-05-21T22:44:39.303555,sd15,en,P040,42,SUCCESS,data\generated_images\phase1a\sd15\en\P040_seed42.png,,4.1
+2026-05-21T22:44:44.473568,sd15,en,P040,123,SUCCESS,data\generated_images\phase1a\sd15\en\P040_seed123.png,,5.2
+2026-05-21T22:44:48.348263,sd15,en,P041,42,SUCCESS,data\generated_images\phase1a\sd15\en\P041_seed42.png,,3.9
+2026-05-21T22:44:51.223428,sd15,en,P041,123,SUCCESS,data\generated_images\phase1a\sd15\en\P041_seed123.png,,2.9
+2026-05-21T22:44:53.923530,sd15,en,P042,42,SUCCESS,data\generated_images\phase1a\sd15\en\P042_seed42.png,,2.7
+2026-05-21T22:44:56.503662,sd15,en,P042,123,SUCCESS,data\generated_images\phase1a\sd15\en\P042_seed123.png,,2.6
+2026-05-21T22:44:59.283793,sd15,en,P043,42,SUCCESS,data\generated_images\phase1a\sd15\en\P043_seed42.png,,2.8
+2026-05-21T22:45:02.053531,sd15,en,P043,123,SUCCESS,data\generated_images\phase1a\sd15\en\P043_seed123.png,,2.8
+2026-05-21T22:45:04.608660,sd15,en,P044,42,SUCCESS,data\generated_images\phase1a\sd15\en\P044_seed42.png,,2.6
+2026-05-21T22:45:07.223780,sd15,en,P044,123,SUCCESS,data\generated_images\phase1a\sd15\en\P044_seed123.png,,2.6
+2026-05-21T22:45:10.003622,sd15,en,P045,42,SUCCESS,data\generated_images\phase1a\sd15\en\P045_seed42.png,,2.8
+2026-05-21T22:45:12.513535,sd15,en,P045,123,SUCCESS,data\generated_images\phase1a\sd15\en\P045_seed123.png,,2.5
+2026-05-21T22:45:15.203711,sd15,en,P046,42,SUCCESS,data\generated_images\phase1a\sd15\en\P046_seed42.png,,2.7
+2026-05-21T22:45:17.638486,sd15,en,P046,123,SUCCESS,data\generated_images\phase1a\sd15\en\P046_seed123.png,,2.4
+2026-05-21T22:45:20.123906,sd15,en,P047,42,SUCCESS,data\generated_images\phase1a\sd15\en\P047_seed42.png,,2.5
+2026-05-21T22:45:22.798809,sd15,en,P047,123,SUCCESS,data\generated_images\phase1a\sd15\en\P047_seed123.png,,2.7
+2026-05-21T22:45:25.293462,sd15,en,P048,42,SUCCESS,data\generated_images\phase1a\sd15\en\P048_seed42.png,,2.5
+2026-05-21T22:45:27.893468,sd15,en,P048,123,SUCCESS,data\generated_images\phase1a\sd15\en\P048_seed123.png,,2.6
+2026-05-21T22:45:30.668390,sd15,en,P049,42,SUCCESS,data\generated_images\phase1a\sd15\en\P049_seed42.png,,2.8
+2026-05-21T22:45:33.393777,sd15,en,P049,123,SUCCESS,data\generated_images\phase1a\sd15\en\P049_seed123.png,,2.7
+2026-05-21T22:45:35.783572,sd15,en,P050,42,SUCCESS,data\generated_images\phase1a\sd15\en\P050_seed42.png,,2.4
+2026-05-21T22:45:38.243869,sd15,en,P050,123,SUCCESS,data\generated_images\phase1a\sd15\en\P050_seed123.png,,2.5
+2026-05-21T22:45:40.873425,sd15,de,P001,42,SUCCESS,data\generated_images\phase1a\sd15\de\P001_seed42.png,,2.6
+2026-05-21T22:45:44.283468,sd15,de,P001,123,SUCCESS,data\generated_images\phase1a\sd15\de\P001_seed123.png,,3.4
+2026-05-21T22:45:47.513459,sd15,de,P002,42,SUCCESS,data\generated_images\phase1a\sd15\de\P002_seed42.png,,3.2
+2026-05-21T22:45:50.093514,sd15,de,P002,123,SUCCESS,data\generated_images\phase1a\sd15\de\P002_seed123.png,,2.6
+2026-05-21T22:45:52.733407,sd15,de,P003,42,SUCCESS,data\generated_images\phase1a\sd15\de\P003_seed42.png,,2.6
+2026-05-21T22:45:55.363563,sd15,de,P003,123,SUCCESS,data\generated_images\phase1a\sd15\de\P003_seed123.png,,2.6
+2026-05-21T22:45:58.088301,sd15,de,P004,42,SUCCESS,data\generated_images\phase1a\sd15\de\P004_seed42.png,,2.7
+2026-05-21T22:46:00.983741,sd15,de,P004,123,SUCCESS,data\generated_images\phase1a\sd15\de\P004_seed123.png,,2.9
+2026-05-21T22:46:05.693479,sd15,de,P005,42,SUCCESS,data\generated_images\phase1a\sd15\de\P005_seed42.png,,4.7
+2026-05-21T22:46:11.483569,sd15,de,P005,123,SUCCESS,data\generated_images\phase1a\sd15\de\P005_seed123.png,,5.8
+2026-05-21T22:46:16.523817,sd15,de,P006,42,SUCCESS,data\generated_images\phase1a\sd15\de\P006_seed42.png,,5.0
+2026-05-21T22:46:21.853744,sd15,de,P006,123,SUCCESS,data\generated_images\phase1a\sd15\de\P006_seed123.png,,5.3
+2026-05-21T22:46:25.808644,sd15,de,P007,42,SUCCESS,data\generated_images\phase1a\sd15\de\P007_seed42.png,,3.9
+2026-05-21T22:46:31.893787,sd15,de,P007,123,SUCCESS,data\generated_images\phase1a\sd15\de\P007_seed123.png,,6.1
+2026-05-21T22:46:36.728407,sd15,de,P008,42,SUCCESS,data\generated_images\phase1a\sd15\de\P008_seed42.png,,4.8
+2026-05-21T22:46:40.523374,sd15,de,P008,123,SUCCESS,data\generated_images\phase1a\sd15\de\P008_seed123.png,,3.8
+2026-05-21T22:46:46.083435,sd15,de,P009,42,SUCCESS,data\generated_images\phase1a\sd15\de\P009_seed42.png,,5.6
+2026-05-21T22:46:49.593383,sd15,de,P009,123,SUCCESS,data\generated_images\phase1a\sd15\de\P009_seed123.png,,3.5
+2026-05-21T22:46:52.313393,sd15,de,P010,42,SUCCESS,data\generated_images\phase1a\sd15\de\P010_seed42.png,,2.7
+2026-05-21T22:46:54.832805,sd15,de,P010,123,SUCCESS,data\generated_images\phase1a\sd15\de\P010_seed123.png,,2.5
+2026-05-21T22:46:57.514141,sd15,de,P011,42,SUCCESS,data\generated_images\phase1a\sd15\de\P011_seed42.png,,2.7
+2026-05-21T22:47:00.023414,sd15,de,P011,123,SUCCESS,data\generated_images\phase1a\sd15\de\P011_seed123.png,,2.5
+2026-05-21T22:47:02.553459,sd15,de,P012,42,SUCCESS,data\generated_images\phase1a\sd15\de\P012_seed42.png,,2.5
+2026-05-21T22:47:05.203688,sd15,de,P012,123,SUCCESS,data\generated_images\phase1a\sd15\de\P012_seed123.png,,2.7
+2026-05-21T22:47:08.106451,sd15,de,P013,42,SUCCESS,data\generated_images\phase1a\sd15\de\P013_seed42.png,,2.9
+2026-05-21T22:47:10.809207,sd15,de,P013,123,SUCCESS,data\generated_images\phase1a\sd15\de\P013_seed123.png,,2.7
+2026-05-21T22:47:13.778645,sd15,de,P014,42,SUCCESS,data\generated_images\phase1a\sd15\de\P014_seed42.png,,3.0
+2026-05-21T22:47:16.243601,sd15,de,P014,123,SUCCESS,data\generated_images\phase1a\sd15\de\P014_seed123.png,,2.5
+2026-05-21T22:47:18.964928,sd15,de,P015,42,SUCCESS,data\generated_images\phase1a\sd15\de\P015_seed42.png,,2.7
+2026-05-21T22:47:21.463255,sd15,de,P015,123,SUCCESS,data\generated_images\phase1a\sd15\de\P015_seed123.png,,2.5
+2026-05-21T22:47:24.278319,sd15,de,P016,42,SUCCESS,data\generated_images\phase1a\sd15\de\P016_seed42.png,,2.8
+2026-05-21T22:47:26.873501,sd15,de,P016,123,SUCCESS,data\generated_images\phase1a\sd15\de\P016_seed123.png,,2.6
+2026-05-21T22:47:30.143529,sd15,de,P017,42,SUCCESS,data\generated_images\phase1a\sd15\de\P017_seed42.png,,3.3
+2026-05-21T22:47:33.023638,sd15,de,P017,123,SUCCESS,data\generated_images\phase1a\sd15\de\P017_seed123.png,,2.9
+2026-05-21T22:47:35.823536,sd15,de,P018,42,SUCCESS,data\generated_images\phase1a\sd15\de\P018_seed42.png,,2.8
+2026-05-21T22:47:40.428646,sd15,de,P018,123,SUCCESS,data\generated_images\phase1a\sd15\de\P018_seed123.png,,4.6
+2026-05-21T22:47:43.411725,sd15,de,P019,42,SUCCESS,data\generated_images\phase1a\sd15\de\P019_seed42.png,,3.0
+2026-05-21T22:47:46.193207,sd15,de,P019,123,SUCCESS,data\generated_images\phase1a\sd15\de\P019_seed123.png,,2.8
+2026-05-21T22:47:48.823359,sd15,de,P020,42,SUCCESS,data\generated_images\phase1a\sd15\de\P020_seed42.png,,2.6
+2026-05-21T22:47:51.468642,sd15,de,P020,123,SUCCESS,data\generated_images\phase1a\sd15\de\P020_seed123.png,,2.6
+2026-05-21T22:47:54.053247,sd15,de,P021,42,SUCCESS,data\generated_images\phase1a\sd15\de\P021_seed42.png,,2.6
+2026-05-21T22:47:56.674521,sd15,de,P021,123,SUCCESS,data\generated_images\phase1a\sd15\de\P021_seed123.png,,2.6
+2026-05-21T22:47:59.198318,sd15,de,P022,42,SUCCESS,data\generated_images\phase1a\sd15\de\P022_seed42.png,,2.5
+2026-05-21T22:48:01.693485,sd15,de,P022,123,SUCCESS,data\generated_images\phase1a\sd15\de\P022_seed123.png,,2.5
+2026-05-21T22:48:04.473668,sd15,de,P023,42,SUCCESS,data\generated_images\phase1a\sd15\de\P023_seed42.png,,2.8
+2026-05-21T22:48:07.273393,sd15,de,P023,123,SUCCESS,data\generated_images\phase1a\sd15\de\P023_seed123.png,,2.8
+2026-05-21T22:48:10.263114,sd15,de,P024,42,SUCCESS,data\generated_images\phase1a\sd15\de\P024_seed42.png,,3.0
+2026-05-21T22:48:13.648561,sd15,de,P024,123,SUCCESS,data\generated_images\phase1a\sd15\de\P024_seed123.png,,3.3
+2026-05-21T22:48:16.543424,sd15,de,P025,42,SUCCESS,data\generated_images\phase1a\sd15\de\P025_seed42.png,,2.8
+2026-05-21T22:48:19.373528,sd15,de,P025,123,SUCCESS,data\generated_images\phase1a\sd15\de\P025_seed123.png,,2.8
+2026-05-21T22:48:22.923639,sd15,de,P026,42,SUCCESS,data\generated_images\phase1a\sd15\de\P026_seed42.png,,3.6
+2026-05-21T22:48:25.808367,sd15,de,P026,123,SUCCESS,data\generated_images\phase1a\sd15\de\P026_seed123.png,,2.9
+2026-05-21T22:48:28.743639,sd15,de,P027,42,SUCCESS,data\generated_images\phase1a\sd15\de\P027_seed42.png,,2.9
+2026-05-21T22:48:31.893447,sd15,de,P027,123,SUCCESS,data\generated_images\phase1a\sd15\de\P027_seed123.png,,3.1
+2026-05-21T22:48:33.614545,sd15,de,P028,42,FAIL,,"NSFW content detected. Try running it again, or try a different prompt.",1.7
+2026-05-21T22:48:44.253711,sd15,de,P028,123,SUCCESS,data\generated_images\phase1a\sd15\de\P028_seed123.png,,5.6
+2026-05-21T22:48:47.268363,sd15,de,P029,42,SUCCESS,data\generated_images\phase1a\sd15\de\P029_seed42.png,,3.0
+2026-05-21T22:48:50.193673,sd15,de,P029,123,SUCCESS,data\generated_images\phase1a\sd15\de\P029_seed123.png,,2.9
+2026-05-21T22:48:53.013517,sd15,de,P030,42,SUCCESS,data\generated_images\phase1a\sd15\de\P030_seed42.png,,2.8
+2026-05-21T22:48:55.913718,sd15,de,P030,123,SUCCESS,data\generated_images\phase1a\sd15\de\P030_seed123.png,,2.9
+2026-05-21T22:48:58.483082,sd15,de,P031,42,SUCCESS,data\generated_images\phase1a\sd15\de\P031_seed42.png,,2.6
+2026-05-21T22:49:05.078500,sd15,de,P031,123,SUCCESS,data\generated_images\phase1a\sd15\de\P031_seed123.png,,6.6
+2026-05-21T22:49:08.128583,sd15,de,P032,42,SUCCESS,data\generated_images\phase1a\sd15\de\P032_seed42.png,,3.1
+2026-05-21T22:49:10.853331,sd15,de,P032,123,SUCCESS,data\generated_images\phase1a\sd15\de\P032_seed123.png,,2.7
+2026-05-21T22:49:13.653414,sd15,de,P033,42,SUCCESS,data\generated_images\phase1a\sd15\de\P033_seed42.png,,2.8
+2026-05-21T22:49:16.513337,sd15,de,P033,123,SUCCESS,data\generated_images\phase1a\sd15\de\P033_seed123.png,,2.9
+2026-05-21T22:49:19.985075,sd15,de,P034,42,SUCCESS,data\generated_images\phase1a\sd15\de\P034_seed42.png,,3.5
+2026-05-21T22:49:23.743381,sd15,de,P034,123,SUCCESS,data\generated_images\phase1a\sd15\de\P034_seed123.png,,3.8
+2026-05-21T22:49:26.863560,sd15,de,P035,42,SUCCESS,data\generated_images\phase1a\sd15\de\P035_seed42.png,,3.1
+2026-05-21T22:49:31.685535,sd15,de,P035,123,SUCCESS,data\generated_images\phase1a\sd15\de\P035_seed123.png,,4.8
+2026-05-21T22:49:34.828281,sd15,de,P036,42,SUCCESS,data\generated_images\phase1a\sd15\de\P036_seed42.png,,3.1
+2026-05-21T22:49:37.898259,sd15,de,P036,123,SUCCESS,data\generated_images\phase1a\sd15\de\P036_seed123.png,,3.1
+2026-05-21T22:49:41.284924,sd15,de,P037,42,SUCCESS,data\generated_images\phase1a\sd15\de\P037_seed42.png,,3.4
+2026-05-21T22:49:44.678373,sd15,de,P037,123,SUCCESS,data\generated_images\phase1a\sd15\de\P037_seed123.png,,3.4
+2026-05-21T22:49:48.248426,sd15,de,P038,42,SUCCESS,data\generated_images\phase1a\sd15\de\P038_seed42.png,,3.6
+2026-05-21T22:49:51.948245,sd15,de,P038,123,SUCCESS,data\generated_images\phase1a\sd15\de\P038_seed123.png,,3.7
+2026-05-21T22:49:55.088306,sd15,de,P039,42,SUCCESS,data\generated_images\phase1a\sd15\de\P039_seed42.png,,3.1
+2026-05-21T22:49:58.573639,sd15,de,P039,123,SUCCESS,data\generated_images\phase1a\sd15\de\P039_seed123.png,,3.5
+2026-05-21T22:50:01.766517,sd15,de,P040,42,SUCCESS,data\generated_images\phase1a\sd15\de\P040_seed42.png,,3.2
+2026-05-21T22:50:05.303384,sd15,de,P040,123,SUCCESS,data\generated_images\phase1a\sd15\de\P040_seed123.png,,3.5
+2026-05-21T22:50:08.728224,sd15,de,P041,42,SUCCESS,data\generated_images\phase1a\sd15\de\P041_seed42.png,,3.4
+2026-05-21T22:50:13.038267,sd15,de,P041,123,SUCCESS,data\generated_images\phase1a\sd15\de\P041_seed123.png,,4.3
+2026-05-21T22:50:16.203353,sd15,de,P042,42,SUCCESS,data\generated_images\phase1a\sd15\de\P042_seed42.png,,3.2
+2026-05-21T22:50:19.998743,sd15,de,P042,123,SUCCESS,data\generated_images\phase1a\sd15\de\P042_seed123.png,,3.8
+2026-05-21T22:50:24.030928,sd15,de,P043,42,SUCCESS,data\generated_images\phase1a\sd15\de\P043_seed42.png,,4.0
+2026-05-21T22:50:29.830615,sd15,de,P043,123,SUCCESS,data\generated_images\phase1a\sd15\de\P043_seed123.png,,5.8
+2026-05-21T22:50:34.747623,sd15,de,P044,42,SUCCESS,data\generated_images\phase1a\sd15\de\P044_seed42.png,,4.9
+2026-05-21T22:50:39.729669,sd15,de,P044,123,SUCCESS,data\generated_images\phase1a\sd15\de\P044_seed123.png,,5.0
+2026-05-21T22:50:43.430499,sd15,de,P045,42,SUCCESS,data\generated_images\phase1a\sd15\de\P045_seed42.png,,3.7
+2026-05-21T22:50:47.833370,sd15,de,P045,123,SUCCESS,data\generated_images\phase1a\sd15\de\P045_seed123.png,,4.4
+2026-05-21T22:50:51.699317,sd15,de,P046,42,SUCCESS,data\generated_images\phase1a\sd15\de\P046_seed42.png,,3.9
+2026-05-21T22:50:55.739178,sd15,de,P046,123,SUCCESS,data\generated_images\phase1a\sd15\de\P046_seed123.png,,4.0
+2026-05-21T22:50:59.418833,sd15,de,P047,42,SUCCESS,data\generated_images\phase1a\sd15\de\P047_seed42.png,,3.7
+2026-05-21T22:51:03.336749,sd15,de,P047,123,SUCCESS,data\generated_images\phase1a\sd15\de\P047_seed123.png,,3.9
+2026-05-21T22:51:07.450779,sd15,de,P048,42,SUCCESS,data\generated_images\phase1a\sd15\de\P048_seed42.png,,4.1
+2026-05-21T22:51:11.039372,sd15,de,P048,123,SUCCESS,data\generated_images\phase1a\sd15\de\P048_seed123.png,,3.6
+2026-05-21T22:51:14.776140,sd15,de,P049,42,SUCCESS,data\generated_images\phase1a\sd15\de\P049_seed42.png,,3.7
+2026-05-21T22:51:18.637005,sd15,de,P049,123,SUCCESS,data\generated_images\phase1a\sd15\de\P049_seed123.png,,3.8
+2026-05-21T22:51:21.987749,sd15,de,P050,42,SUCCESS,data\generated_images\phase1a\sd15\de\P050_seed42.png,,3.3
+2026-05-21T22:51:25.400001,sd15,de,P050,123,SUCCESS,data\generated_images\phase1a\sd15\de\P050_seed123.png,,3.4
+2026-05-21T22:51:28.743629,sd15,fr,P001,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P001_seed42.png,,3.3
+2026-05-21T22:51:31.989179,sd15,fr,P001,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P001_seed123.png,,3.2
+2026-05-21T22:51:35.216720,sd15,fr,P002,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P002_seed42.png,,3.2
+2026-05-21T22:51:38.758878,sd15,fr,P002,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P002_seed123.png,,3.5
+2026-05-21T22:51:41.529370,sd15,fr,P003,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P003_seed42.png,,2.8
+2026-05-21T22:51:45.057389,sd15,fr,P003,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P003_seed123.png,,3.5
+2026-05-21T22:51:48.024836,sd15,fr,P004,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P004_seed42.png,,3.0
+2026-05-21T22:51:51.315752,sd15,fr,P004,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P004_seed123.png,,3.3
+2026-05-21T22:51:54.610862,sd15,fr,P005,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P005_seed42.png,,3.3
+2026-05-21T22:51:58.628602,sd15,fr,P005,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P005_seed123.png,,4.0
+2026-05-21T22:52:01.500812,sd15,fr,P006,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P006_seed42.png,,2.9
+2026-05-21T22:52:05.007712,sd15,fr,P006,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P006_seed123.png,,3.5
+2026-05-21T22:52:08.619515,sd15,fr,P007,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P007_seed42.png,,3.6
+2026-05-21T22:52:12.523824,sd15,fr,P007,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P007_seed123.png,,3.9
+2026-05-21T22:52:16.347679,sd15,fr,P008,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P008_seed42.png,,3.8
+2026-05-21T22:52:20.704695,sd15,fr,P008,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P008_seed123.png,,4.4
+2026-05-21T22:52:24.004432,sd15,fr,P009,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P009_seed42.png,,3.3
+2026-05-21T22:52:35.729770,sd15,fr,P009,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P009_seed123.png,,11.7
+2026-05-21T22:52:42.058742,sd15,fr,P010,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P010_seed42.png,,6.3
+2026-05-21T22:52:47.284316,sd15,fr,P010,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P010_seed123.png,,5.2
+2026-05-21T22:52:53.804017,sd15,fr,P011,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P011_seed42.png,,6.5
+2026-05-21T22:52:58.098614,sd15,fr,P011,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P011_seed123.png,,4.3
+2026-05-21T22:53:01.544060,sd15,fr,P012,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P012_seed42.png,,3.4
+2026-05-21T22:53:06.981216,sd15,fr,P012,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P012_seed123.png,,5.4
+2026-05-21T22:53:10.305977,sd15,fr,P013,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P013_seed42.png,,3.3
+2026-05-21T22:53:15.094300,sd15,fr,P013,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P013_seed123.png,,4.8
+2026-05-21T22:53:19.234315,sd15,fr,P014,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P014_seed42.png,,4.1
+2026-05-21T22:53:22.964340,sd15,fr,P014,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P014_seed123.png,,3.7
+2026-05-21T22:53:26.458895,sd15,fr,P015,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P015_seed42.png,,3.5
+2026-05-21T22:53:29.973939,sd15,fr,P015,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P015_seed123.png,,3.5
+2026-05-21T22:53:33.464176,sd15,fr,P016,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P016_seed42.png,,3.5
+2026-05-21T22:53:37.497794,sd15,fr,P016,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P016_seed123.png,,4.0
+2026-05-21T22:53:40.896624,sd15,fr,P017,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P017_seed42.png,,3.4
+2026-05-21T22:53:44.600512,sd15,fr,P017,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P017_seed123.png,,3.7
+2026-05-21T22:53:48.288802,sd15,fr,P018,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P018_seed42.png,,3.7
+2026-05-21T22:53:51.645438,sd15,fr,P018,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P018_seed123.png,,3.4
+2026-05-21T22:53:54.694094,sd15,fr,P019,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P019_seed42.png,,3.0
+2026-05-21T22:53:57.744085,sd15,fr,P019,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P019_seed123.png,,3.0
+2026-05-21T22:54:00.893997,sd15,fr,P020,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P020_seed42.png,,3.1
+2026-05-21T22:54:04.079151,sd15,fr,P020,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P020_seed123.png,,3.2
+2026-05-21T22:54:07.794271,sd15,fr,P021,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P021_seed42.png,,3.7
+2026-05-21T22:54:11.599255,sd15,fr,P021,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P021_seed123.png,,3.8
+2026-05-21T22:54:15.004167,sd15,fr,P022,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P022_seed42.png,,3.4
+2026-05-21T22:54:18.168956,sd15,fr,P022,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P022_seed123.png,,3.2
+2026-05-21T22:54:21.614107,sd15,fr,P023,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P023_seed42.png,,3.4
+2026-05-21T22:54:24.674371,sd15,fr,P023,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P023_seed123.png,,3.1
+2026-05-21T22:54:27.958921,sd15,fr,P024,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P024_seed42.png,,3.3
+2026-05-21T22:54:31.149248,sd15,fr,P024,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P024_seed123.png,,3.2
+2026-05-21T22:54:34.724240,sd15,fr,P025,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P025_seed42.png,,3.6
+2026-05-21T22:54:41.743828,sd15,fr,P025,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P025_seed123.png,,7.0
+2026-05-21T22:54:44.413955,sd15,fr,P026,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P026_seed42.png,,2.7
+2026-05-21T22:54:47.594111,sd15,fr,P026,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P026_seed123.png,,3.2
+2026-05-21T22:54:50.384243,sd15,fr,P027,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P027_seed42.png,,2.8
+2026-05-21T22:54:53.474110,sd15,fr,P027,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P027_seed123.png,,3.1
+2026-05-21T22:54:56.299030,sd15,fr,P028,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P028_seed42.png,,2.8
+2026-05-21T22:54:59.428922,sd15,fr,P028,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P028_seed123.png,,3.1
+2026-05-21T22:55:02.204181,sd15,fr,P029,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P029_seed42.png,,2.8
+2026-05-21T22:55:04.753894,sd15,fr,P029,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P029_seed123.png,,2.5
+2026-05-21T22:55:07.654079,sd15,fr,P030,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P030_seed42.png,,2.9
+2026-05-21T22:55:11.994438,sd15,fr,P030,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P030_seed123.png,,4.3
+2026-05-21T22:55:15.384243,sd15,fr,P031,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P031_seed42.png,,3.4
+2026-05-21T22:55:18.928031,sd15,fr,P031,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P031_seed123.png,,3.5
+2026-05-21T22:55:22.654015,sd15,fr,P032,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P032_seed42.png,,3.7
+2026-05-21T22:55:26.359044,sd15,fr,P032,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P032_seed123.png,,3.7
+2026-05-21T22:55:29.624220,sd15,fr,P033,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P033_seed42.png,,3.3
+2026-05-21T22:55:32.879333,sd15,fr,P033,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P033_seed123.png,,3.3
+2026-05-21T22:55:35.894213,sd15,fr,P034,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P034_seed42.png,,3.0
+2026-05-21T22:55:39.344074,sd15,fr,P034,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P034_seed123.png,,3.4
+2026-05-21T22:55:42.870347,sd15,fr,P035,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P035_seed42.png,,3.5
+2026-05-21T22:55:46.319129,sd15,fr,P035,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P035_seed123.png,,3.4
+2026-05-21T22:55:49.674023,sd15,fr,P036,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P036_seed42.png,,3.4
+2026-05-21T22:55:53.573789,sd15,fr,P036,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P036_seed123.png,,3.9
+2026-05-21T22:55:57.049215,sd15,fr,P037,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P037_seed42.png,,3.5
+2026-05-21T22:56:00.484045,sd15,fr,P037,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P037_seed123.png,,3.4
+2026-05-21T22:56:04.724314,sd15,fr,P038,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P038_seed42.png,,4.2
+2026-05-21T22:56:08.164073,sd15,fr,P038,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P038_seed123.png,,3.4
+2026-05-21T22:56:11.384155,sd15,fr,P039,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P039_seed42.png,,3.2
+2026-05-21T22:56:15.329197,sd15,fr,P039,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P039_seed123.png,,3.9
+2026-05-21T22:56:19.826725,sd15,fr,P040,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P040_seed42.png,,4.5
+2026-05-21T22:56:23.133842,sd15,fr,P040,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P040_seed123.png,,3.3
+2026-05-21T22:56:27.194244,sd15,fr,P041,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P041_seed42.png,,4.1
+2026-05-21T22:56:31.163990,sd15,fr,P041,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P041_seed123.png,,4.0
+2026-05-21T22:56:34.323942,sd15,fr,P042,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P042_seed42.png,,3.2
+2026-05-21T22:56:38.093878,sd15,fr,P042,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P042_seed123.png,,3.8
+2026-05-21T22:56:41.573976,sd15,fr,P043,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P043_seed42.png,,3.5
+2026-05-21T22:56:45.194099,sd15,fr,P043,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P043_seed123.png,,3.6
+2026-05-21T22:56:48.304093,sd15,fr,P044,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P044_seed42.png,,3.1
+2026-05-21T22:56:52.383981,sd15,fr,P044,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P044_seed123.png,,4.1
+2026-05-21T22:56:55.423927,sd15,fr,P045,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P045_seed42.png,,3.0
+2026-05-21T22:56:58.454071,sd15,fr,P045,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P045_seed123.png,,3.0
+2026-05-21T22:57:02.038768,sd15,fr,P046,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P046_seed42.png,,3.6
+2026-05-21T22:57:05.154100,sd15,fr,P046,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P046_seed123.png,,3.1
+2026-05-21T22:57:08.183749,sd15,fr,P047,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P047_seed42.png,,3.0
+2026-05-21T22:57:11.133726,sd15,fr,P047,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P047_seed123.png,,2.9
+2026-05-21T22:57:13.973976,sd15,fr,P048,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P048_seed42.png,,2.8
+2026-05-21T22:57:17.094181,sd15,fr,P048,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P048_seed123.png,,3.1
+2026-05-21T22:57:20.454067,sd15,fr,P049,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P049_seed42.png,,3.4
+2026-05-21T22:57:23.798875,sd15,fr,P049,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P049_seed123.png,,3.3
+2026-05-21T22:57:26.723897,sd15,fr,P050,42,SUCCESS,data\generated_images\phase1a\sd15\fr\P050_seed42.png,,2.9
+2026-05-21T22:57:30.074033,sd15,fr,P050,123,SUCCESS,data\generated_images\phase1a\sd15\fr\P050_seed123.png,,3.4
+2026-05-21T22:57:33.323708,sd15,es,P001,42,SUCCESS,data\generated_images\phase1a\sd15\es\P001_seed42.png,,3.2
+2026-05-21T22:57:36.704038,sd15,es,P001,123,SUCCESS,data\generated_images\phase1a\sd15\es\P001_seed123.png,,3.4
+2026-05-21T22:57:39.613789,sd15,es,P002,42,SUCCESS,data\generated_images\phase1a\sd15\es\P002_seed42.png,,2.9
+2026-05-21T22:57:42.538867,sd15,es,P002,123,SUCCESS,data\generated_images\phase1a\sd15\es\P002_seed123.png,,2.9
+2026-05-21T22:57:45.493683,sd15,es,P003,42,SUCCESS,data\generated_images\phase1a\sd15\es\P003_seed42.png,,3.0
+2026-05-21T22:57:48.414140,sd15,es,P003,123,SUCCESS,data\generated_images\phase1a\sd15\es\P003_seed123.png,,2.9
+2026-05-21T22:57:51.303847,sd15,es,P004,42,SUCCESS,data\generated_images\phase1a\sd15\es\P004_seed42.png,,2.9
+2026-05-21T22:57:54.683878,sd15,es,P004,123,SUCCESS,data\generated_images\phase1a\sd15\es\P004_seed123.png,,3.4
+2026-05-21T22:57:57.580133,sd15,es,P005,42,SUCCESS,data\generated_images\phase1a\sd15\es\P005_seed42.png,,2.9
+2026-05-21T22:58:00.733650,sd15,es,P005,123,SUCCESS,data\generated_images\phase1a\sd15\es\P005_seed123.png,,3.1
+2026-05-21T22:58:03.764031,sd15,es,P006,42,SUCCESS,data\generated_images\phase1a\sd15\es\P006_seed42.png,,3.0
+2026-05-21T22:58:06.913884,sd15,es,P006,123,SUCCESS,data\generated_images\phase1a\sd15\es\P006_seed123.png,,3.1
+2026-05-21T22:58:10.274124,sd15,es,P007,42,SUCCESS,data\generated_images\phase1a\sd15\es\P007_seed42.png,,3.4
+2026-05-21T22:58:13.553538,sd15,es,P007,123,SUCCESS,data\generated_images\phase1a\sd15\es\P007_seed123.png,,3.3
+2026-05-21T22:58:16.918748,sd15,es,P008,42,SUCCESS,data\generated_images\phase1a\sd15\es\P008_seed42.png,,3.4
+2026-05-21T22:58:21.914062,sd15,es,P008,123,SUCCESS,data\generated_images\phase1a\sd15\es\P008_seed123.png,,5.0
+2026-05-21T22:58:25.253699,sd15,es,P009,42,SUCCESS,data\generated_images\phase1a\sd15\es\P009_seed42.png,,3.3
+2026-05-21T22:58:29.074039,sd15,es,P009,123,SUCCESS,data\generated_images\phase1a\sd15\es\P009_seed123.png,,3.8
+2026-05-21T22:58:32.633867,sd15,es,P010,42,SUCCESS,data\generated_images\phase1a\sd15\es\P010_seed42.png,,3.6
+2026-05-21T22:58:36.694219,sd15,es,P010,123,SUCCESS,data\generated_images\phase1a\sd15\es\P010_seed123.png,,4.1
+2026-05-21T22:58:40.273826,sd15,es,P011,42,SUCCESS,data\generated_images\phase1a\sd15\es\P011_seed42.png,,3.6
+2026-05-21T22:58:43.968718,sd15,es,P011,123,SUCCESS,data\generated_images\phase1a\sd15\es\P011_seed123.png,,3.7
+2026-05-21T22:58:48.069073,sd15,es,P012,42,SUCCESS,data\generated_images\phase1a\sd15\es\P012_seed42.png,,4.1
+2026-05-21T22:58:51.643688,sd15,es,P012,123,SUCCESS,data\generated_images\phase1a\sd15\es\P012_seed123.png,,3.6
+2026-05-21T22:58:54.968989,sd15,es,P013,42,SUCCESS,data\generated_images\phase1a\sd15\es\P013_seed42.png,,3.3
+2026-05-21T22:58:59.723774,sd15,es,P013,123,SUCCESS,data\generated_images\phase1a\sd15\es\P013_seed123.png,,4.8
+2026-05-21T22:59:03.318889,sd15,es,P014,42,SUCCESS,data\generated_images\phase1a\sd15\es\P014_seed42.png,,3.6
+2026-05-21T22:59:06.530795,sd15,es,P014,123,SUCCESS,data\generated_images\phase1a\sd15\es\P014_seed123.png,,3.2
+2026-05-21T22:59:09.773649,sd15,es,P015,42,SUCCESS,data\generated_images\phase1a\sd15\es\P015_seed42.png,,3.2
+2026-05-21T22:59:13.418933,sd15,es,P015,123,SUCCESS,data\generated_images\phase1a\sd15\es\P015_seed123.png,,3.6
+2026-05-21T22:59:16.916540,sd15,es,P016,42,SUCCESS,data\generated_images\phase1a\sd15\es\P016_seed42.png,,3.5
+2026-05-21T22:59:20.618941,sd15,es,P016,123,SUCCESS,data\generated_images\phase1a\sd15\es\P016_seed123.png,,3.7
+2026-05-21T22:59:22.714060,sd15,es,P017,42,FAIL,,"NSFW content detected. Try running it again, or try a different prompt.",2.1
+2026-05-21T22:59:32.063942,sd15,es,P017,123,SUCCESS,data\generated_images\phase1a\sd15\es\P017_seed123.png,,4.3
+2026-05-21T22:59:37.029126,sd15,es,P018,42,SUCCESS,data\generated_images\phase1a\sd15\es\P018_seed42.png,,5.0
+2026-05-21T22:59:43.934685,sd15,es,P018,123,SUCCESS,data\generated_images\phase1a\sd15\es\P018_seed123.png,,6.9
+2026-05-21T22:59:46.578687,sd15,es,P019,42,SUCCESS,data\generated_images\phase1a\sd15\es\P019_seed42.png,,2.6
+2026-05-21T22:59:49.114041,sd15,es,P019,123,SUCCESS,data\generated_images\phase1a\sd15\es\P019_seed123.png,,2.5
+2026-05-21T22:59:51.633933,sd15,es,P020,42,SUCCESS,data\generated_images\phase1a\sd15\es\P020_seed42.png,,2.5
+2026-05-21T22:59:54.133822,sd15,es,P020,123,SUCCESS,data\generated_images\phase1a\sd15\es\P020_seed123.png,,2.5
+2026-05-21T22:59:55.797790,sd15,es,P021,42,FAIL,,"NSFW content detected. Try running it again, or try a different prompt.",1.6
+2026-05-21T23:00:03.698808,sd15,es,P021,123,SUCCESS,data\generated_images\phase1a\sd15\es\P021_seed123.png,,2.9
+2026-05-21T23:00:06.128794,sd15,es,P022,42,SUCCESS,data\generated_images\phase1a\sd15\es\P022_seed42.png,,2.4
+2026-05-21T23:00:08.863970,sd15,es,P022,123,SUCCESS,data\generated_images\phase1a\sd15\es\P022_seed123.png,,2.7
+2026-05-21T23:00:11.653565,sd15,es,P023,42,SUCCESS,data\generated_images\phase1a\sd15\es\P023_seed42.png,,2.8
+2026-05-21T23:00:14.433509,sd15,es,P023,123,SUCCESS,data\generated_images\phase1a\sd15\es\P023_seed123.png,,2.8
+2026-05-21T23:00:16.963573,sd15,es,P024,42,SUCCESS,data\generated_images\phase1a\sd15\es\P024_seed42.png,,2.5
+2026-05-21T23:00:19.794675,sd15,es,P024,123,SUCCESS,data\generated_images\phase1a\sd15\es\P024_seed123.png,,2.8
+2026-05-21T23:00:22.443688,sd15,es,P025,42,SUCCESS,data\generated_images\phase1a\sd15\es\P025_seed42.png,,2.6
+2026-05-21T23:00:24.993911,sd15,es,P025,123,SUCCESS,data\generated_images\phase1a\sd15\es\P025_seed123.png,,2.5
+2026-05-21T23:00:27.478863,sd15,es,P026,42,SUCCESS,data\generated_images\phase1a\sd15\es\P026_seed42.png,,2.5
+2026-05-21T23:00:30.198687,sd15,es,P026,123,SUCCESS,data\generated_images\phase1a\sd15\es\P026_seed123.png,,2.7
+2026-05-21T23:00:32.668516,sd15,es,P027,42,SUCCESS,data\generated_images\phase1a\sd15\es\P027_seed42.png,,2.5
+2026-05-21T23:00:35.363892,sd15,es,P027,123,SUCCESS,data\generated_images\phase1a\sd15\es\P027_seed123.png,,2.7
+2026-05-21T23:00:38.048767,sd15,es,P028,42,SUCCESS,data\generated_images\phase1a\sd15\es\P028_seed42.png,,2.7
+2026-05-21T23:00:40.563786,sd15,es,P028,123,SUCCESS,data\generated_images\phase1a\sd15\es\P028_seed123.png,,2.5
+2026-05-21T23:00:43.154812,sd15,es,P029,42,SUCCESS,data\generated_images\phase1a\sd15\es\P029_seed42.png,,2.6
+2026-05-21T23:00:45.673576,sd15,es,P029,123,SUCCESS,data\generated_images\phase1a\sd15\es\P029_seed123.png,,2.5
+2026-05-21T23:00:48.218542,sd15,es,P030,42,SUCCESS,data\generated_images\phase1a\sd15\es\P030_seed42.png,,2.5
+2026-05-21T23:00:51.013751,sd15,es,P030,123,SUCCESS,data\generated_images\phase1a\sd15\es\P030_seed123.png,,2.8
+2026-05-21T23:00:53.483622,sd15,es,P031,42,SUCCESS,data\generated_images\phase1a\sd15\es\P031_seed42.png,,2.5
+2026-05-21T23:00:56.424880,sd15,es,P031,123,SUCCESS,data\generated_images\phase1a\sd15\es\P031_seed123.png,,2.9
+2026-05-21T23:00:59.128594,sd15,es,P032,42,SUCCESS,data\generated_images\phase1a\sd15\es\P032_seed42.png,,2.7
+2026-05-21T23:01:02.074122,sd15,es,P032,123,SUCCESS,data\generated_images\phase1a\sd15\es\P032_seed123.png,,2.9
+2026-05-21T23:01:04.618861,sd15,es,P033,42,SUCCESS,data\generated_images\phase1a\sd15\es\P033_seed42.png,,2.5
+2026-05-21T23:01:07.248605,sd15,es,P033,123,SUCCESS,data\generated_images\phase1a\sd15\es\P033_seed123.png,,2.6
+2026-05-21T23:01:09.793915,sd15,es,P034,42,SUCCESS,data\generated_images\phase1a\sd15\es\P034_seed42.png,,2.5
+2026-05-21T23:01:12.248687,sd15,es,P034,123,SUCCESS,data\generated_images\phase1a\sd15\es\P034_seed123.png,,2.5
+2026-05-21T23:01:14.633506,sd15,es,P035,42,SUCCESS,data\generated_images\phase1a\sd15\es\P035_seed42.png,,2.4
+2026-05-21T23:01:17.777070,sd15,es,P035,123,SUCCESS,data\generated_images\phase1a\sd15\es\P035_seed123.png,,3.1
+2026-05-21T23:01:20.243770,sd15,es,P036,42,SUCCESS,data\generated_images\phase1a\sd15\es\P036_seed42.png,,2.5
+2026-05-21T23:01:23.208763,sd15,es,P036,123,SUCCESS,data\generated_images\phase1a\sd15\es\P036_seed123.png,,3.0
+2026-05-21T23:01:28.313555,sd15,es,P037,42,SUCCESS,data\generated_images\phase1a\sd15\es\P037_seed42.png,,5.1
+2026-05-21T23:01:30.928591,sd15,es,P037,123,SUCCESS,data\generated_images\phase1a\sd15\es\P037_seed123.png,,2.6
+2026-05-21T23:01:32.666201,sd15,es,P038,42,FAIL,,"NSFW content detected. Try running it again, or try a different prompt.",1.7
+2026-05-21T23:01:40.483751,sd15,es,P038,123,SUCCESS,data\generated_images\phase1a\sd15\es\P038_seed123.png,,2.8
+2026-05-21T23:01:42.903711,sd15,es,P039,42,SUCCESS,data\generated_images\phase1a\sd15\es\P039_seed42.png,,2.4
+2026-05-21T23:01:45.675135,sd15,es,P039,123,SUCCESS,data\generated_images\phase1a\sd15\es\P039_seed123.png,,2.8
+2026-05-21T23:01:50.893973,sd15,es,P040,42,SUCCESS,data\generated_images\phase1a\sd15\es\P040_seed42.png,,5.2
+2026-05-21T23:01:54.243630,sd15,es,P040,123,SUCCESS,data\generated_images\phase1a\sd15\es\P040_seed123.png,,3.3
+2026-05-21T23:01:57.723800,sd15,es,P041,42,SUCCESS,data\generated_images\phase1a\sd15\es\P041_seed42.png,,3.5
+2026-05-21T23:02:00.533515,sd15,es,P041,123,SUCCESS,data\generated_images\phase1a\sd15\es\P041_seed123.png,,2.8
+2026-05-21T23:02:03.458932,sd15,es,P042,42,SUCCESS,data\generated_images\phase1a\sd15\es\P042_seed42.png,,2.9
+2026-05-21T23:02:06.253720,sd15,es,P042,123,SUCCESS,data\generated_images\phase1a\sd15\es\P042_seed123.png,,2.8
+2026-05-21T23:02:08.753486,sd15,es,P043,42,SUCCESS,data\generated_images\phase1a\sd15\es\P043_seed42.png,,2.5
+2026-05-21T23:02:11.493545,sd15,es,P043,123,SUCCESS,data\generated_images\phase1a\sd15\es\P043_seed123.png,,2.7
+2026-05-21T23:02:14.203517,sd15,es,P044,42,SUCCESS,data\generated_images\phase1a\sd15\es\P044_seed42.png,,2.7
+2026-05-21T23:02:16.883428,sd15,es,P044,123,SUCCESS,data\generated_images\phase1a\sd15\es\P044_seed123.png,,2.7
+2026-05-21T23:02:19.443562,sd15,es,P045,42,SUCCESS,data\generated_images\phase1a\sd15\es\P045_seed42.png,,2.6
+2026-05-21T23:02:22.078710,sd15,es,P045,123,SUCCESS,data\generated_images\phase1a\sd15\es\P045_seed123.png,,2.6
+2026-05-21T23:02:24.743471,sd15,es,P046,42,SUCCESS,data\generated_images\phase1a\sd15\es\P046_seed42.png,,2.7
+2026-05-21T23:02:27.075903,sd15,es,P046,123,SUCCESS,data\generated_images\phase1a\sd15\es\P046_seed123.png,,2.3
+2026-05-21T23:02:33.963903,sd15,es,P047,42,SUCCESS,data\generated_images\phase1a\sd15\es\P047_seed42.png,,6.9
+2026-05-21T23:02:36.593628,sd15,es,P047,123,SUCCESS,data\generated_images\phase1a\sd15\es\P047_seed123.png,,2.6
+2026-05-21T23:02:39.033647,sd15,es,P048,42,SUCCESS,data\generated_images\phase1a\sd15\es\P048_seed42.png,,2.4
+2026-05-21T23:02:41.693500,sd15,es,P048,123,SUCCESS,data\generated_images\phase1a\sd15\es\P048_seed123.png,,2.7
+2026-05-21T23:02:44.573921,sd15,es,P049,42,SUCCESS,data\generated_images\phase1a\sd15\es\P049_seed42.png,,2.9
+2026-05-21T23:02:47.204297,sd15,es,P049,123,SUCCESS,data\generated_images\phase1a\sd15\es\P049_seed123.png,,2.6
+2026-05-21T23:02:49.863631,sd15,es,P050,42,SUCCESS,data\generated_images\phase1a\sd15\es\P050_seed42.png,,2.7
+2026-05-21T23:02:52.353555,sd15,es,P050,123,SUCCESS,data\generated_images\phase1a\sd15\es\P050_seed123.png,,2.5
+2026-05-21T23:02:54.903712,sd15,ar,P001,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P001_seed42.png,,2.6
+2026-05-21T23:02:57.733694,sd15,ar,P001,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P001_seed123.png,,2.8
+2026-05-21T23:03:00.323860,sd15,ar,P002,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P002_seed42.png,,2.6
+2026-05-21T23:03:01.983586,sd15,ar,P002,123,FAIL,,"NSFW content detected. Try running it again, or try a different prompt.",1.7
+2026-05-21T23:03:09.943639,sd15,ar,P003,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P003_seed42.png,,3.0
+2026-05-21T23:03:12.473411,sd15,ar,P003,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P003_seed123.png,,2.5
+2026-05-21T23:03:14.993853,sd15,ar,P004,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P004_seed42.png,,2.5
+2026-05-21T23:03:17.798667,sd15,ar,P004,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P004_seed123.png,,2.8
+2026-05-21T23:03:20.393571,sd15,ar,P005,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P005_seed42.png,,2.6
+2026-05-21T23:03:23.113679,sd15,ar,P005,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P005_seed123.png,,2.7
+2026-05-21T23:03:25.923439,sd15,ar,P006,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P006_seed42.png,,2.8
+2026-05-21T23:03:28.758613,sd15,ar,P006,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P006_seed123.png,,2.8
+2026-05-21T23:03:31.923392,sd15,ar,P007,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P007_seed42.png,,3.2
+2026-05-21T23:03:34.633677,sd15,ar,P007,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P007_seed123.png,,2.7
+2026-05-21T23:03:37.263674,sd15,ar,P008,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P008_seed42.png,,2.6
+2026-05-21T23:03:39.913854,sd15,ar,P008,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P008_seed123.png,,2.7
+2026-05-21T23:03:42.913499,sd15,ar,P009,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P009_seed42.png,,3.0
+2026-05-21T23:03:45.643510,sd15,ar,P009,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P009_seed123.png,,2.7
+2026-05-21T23:03:48.563560,sd15,ar,P010,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P010_seed42.png,,2.9
+2026-05-21T23:03:51.173430,sd15,ar,P010,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P010_seed123.png,,2.6
+2026-05-21T23:03:53.703631,sd15,ar,P011,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P011_seed42.png,,2.5
+2026-05-21T23:03:56.238360,sd15,ar,P011,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P011_seed123.png,,2.5
+2026-05-21T23:03:59.263650,sd15,ar,P012,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P012_seed42.png,,3.0
+2026-05-21T23:04:00.923496,sd15,ar,P012,123,FAIL,,"NSFW content detected. Try running it again, or try a different prompt.",1.7
+2026-05-21T23:04:07.643685,sd15,ar,P013,42,FAIL,,"NSFW content detected. Try running it again, or try a different prompt.",1.7
+2026-05-21T23:04:18.250239,sd15,ar,P013,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P013_seed123.png,,5.6
+2026-05-21T23:04:22.203451,sd15,ar,P014,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P014_seed42.png,,3.8
+2026-05-21T23:04:28.433770,sd15,ar,P014,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P014_seed123.png,,6.2
+2026-05-21T23:04:32.593705,sd15,ar,P015,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P015_seed42.png,,4.2
+2026-05-21T23:04:35.663541,sd15,ar,P015,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P015_seed123.png,,3.1
+2026-05-21T23:04:38.753625,sd15,ar,P016,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P016_seed42.png,,3.1
+2026-05-21T23:04:41.483473,sd15,ar,P016,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P016_seed123.png,,2.7
+2026-05-21T23:04:44.429041,sd15,ar,P017,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P017_seed42.png,,2.9
+2026-05-21T23:04:47.273573,sd15,ar,P017,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P017_seed123.png,,2.8
+2026-05-21T23:04:49.993571,sd15,ar,P018,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P018_seed42.png,,2.7
+2026-05-21T23:04:53.933362,sd15,ar,P018,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P018_seed123.png,,3.9
+2026-05-21T23:04:57.203279,sd15,ar,P019,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P019_seed42.png,,3.3
+2026-05-21T23:05:00.183627,sd15,ar,P019,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P019_seed123.png,,3.0
+2026-05-21T23:05:03.025275,sd15,ar,P020,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P020_seed42.png,,2.8
+2026-05-21T23:05:05.694210,sd15,ar,P020,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P020_seed123.png,,2.7
+2026-05-21T23:05:08.763633,sd15,ar,P021,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P021_seed42.png,,3.0
+2026-05-21T23:05:11.478592,sd15,ar,P021,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P021_seed123.png,,2.7
+2026-05-21T23:05:14.188648,sd15,ar,P022,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P022_seed42.png,,2.7
+2026-05-21T23:05:17.283347,sd15,ar,P022,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P022_seed123.png,,3.1
+2026-05-21T23:05:20.073928,sd15,ar,P023,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P023_seed42.png,,2.8
+2026-05-21T23:05:23.748335,sd15,ar,P023,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P023_seed123.png,,3.7
+2026-05-21T23:05:26.617905,sd15,ar,P024,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P024_seed42.png,,2.9
+2026-05-21T23:05:29.093571,sd15,ar,P024,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P024_seed123.png,,2.5
+2026-05-21T23:05:34.425932,sd15,ar,P025,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P025_seed42.png,,5.3
+2026-05-21T23:05:37.681881,sd15,ar,P025,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P025_seed123.png,,3.3
+2026-05-21T23:05:40.175220,sd15,ar,P026,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P026_seed42.png,,2.5
+2026-05-21T23:05:42.548208,sd15,ar,P026,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P026_seed123.png,,2.4
+2026-05-21T23:05:46.463579,sd15,ar,P027,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P027_seed42.png,,3.9
+2026-05-21T23:05:49.983386,sd15,ar,P027,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P027_seed123.png,,3.5
+2026-05-21T23:05:53.073552,sd15,ar,P028,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P028_seed42.png,,3.1
+2026-05-21T23:05:57.093680,sd15,ar,P028,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P028_seed123.png,,4.0
+2026-05-21T23:06:01.203342,sd15,ar,P029,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P029_seed42.png,,4.1
+2026-05-21T23:06:03.127774,sd15,ar,P029,123,FAIL,,"NSFW content detected. Try running it again, or try a different prompt.",1.9
+2026-05-21T23:06:11.987283,sd15,ar,P030,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P030_seed42.png,,3.8
+2026-05-21T23:06:15.498363,sd15,ar,P030,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P030_seed123.png,,3.5
+2026-05-21T23:06:18.553880,sd15,ar,P031,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P031_seed42.png,,3.0
+2026-05-21T23:06:22.368616,sd15,ar,P031,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P031_seed123.png,,3.8
+2026-05-21T23:06:26.043667,sd15,ar,P032,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P032_seed42.png,,3.7
+2026-05-21T23:06:29.090926,sd15,ar,P032,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P032_seed123.png,,3.0
+2026-05-21T23:06:31.712225,sd15,ar,P033,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P033_seed42.png,,2.6
+2026-05-21T23:06:34.560905,sd15,ar,P033,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P033_seed123.png,,2.8
+2026-05-21T23:06:37.569614,sd15,ar,P034,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P034_seed42.png,,3.0
+2026-05-21T23:06:40.210652,sd15,ar,P034,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P034_seed123.png,,2.6
+2026-05-21T23:06:42.913134,sd15,ar,P035,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P035_seed42.png,,2.7
+2026-05-21T23:06:46.159387,sd15,ar,P035,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P035_seed123.png,,3.2
+2026-05-21T23:06:49.093138,sd15,ar,P036,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P036_seed42.png,,2.9
+2026-05-21T23:06:51.873353,sd15,ar,P036,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P036_seed123.png,,2.8
+2026-05-21T23:06:54.648349,sd15,ar,P037,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P037_seed42.png,,2.8
+2026-05-21T23:06:57.503226,sd15,ar,P037,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P037_seed123.png,,2.8
+2026-05-21T23:07:00.143094,sd15,ar,P038,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P038_seed42.png,,2.6
+2026-05-21T23:07:02.745342,sd15,ar,P038,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P038_seed123.png,,2.6
+2026-05-21T23:07:05.318184,sd15,ar,P039,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P039_seed42.png,,2.6
+2026-05-21T23:07:07.913656,sd15,ar,P039,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P039_seed123.png,,2.6
+2026-05-21T23:07:10.573423,sd15,ar,P040,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P040_seed42.png,,2.7
+2026-05-21T23:07:13.173261,sd15,ar,P040,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P040_seed123.png,,2.6
+2026-05-21T23:07:15.988235,sd15,ar,P041,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P041_seed42.png,,2.8
+2026-05-21T23:07:18.434611,sd15,ar,P041,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P041_seed123.png,,2.4
+2026-05-21T23:07:20.894772,sd15,ar,P042,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P042_seed42.png,,2.5
+2026-05-21T23:07:23.463189,sd15,ar,P042,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P042_seed123.png,,2.6
+2026-05-21T23:07:26.203279,sd15,ar,P043,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P043_seed42.png,,2.7
+2026-05-21T23:07:28.809315,sd15,ar,P043,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P043_seed123.png,,2.6
+2026-05-21T23:07:31.703076,sd15,ar,P044,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P044_seed42.png,,2.9
+2026-05-21T23:07:34.448217,sd15,ar,P044,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P044_seed123.png,,2.7
+2026-05-21T23:07:37.483459,sd15,ar,P045,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P045_seed42.png,,3.0
+2026-05-21T23:07:40.179601,sd15,ar,P045,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P045_seed123.png,,2.7
+2026-05-21T23:07:44.273185,sd15,ar,P046,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P046_seed42.png,,4.1
+2026-05-21T23:07:47.883383,sd15,ar,P046,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P046_seed123.png,,3.6
+2026-05-21T23:07:50.623425,sd15,ar,P047,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P047_seed42.png,,2.7
+2026-05-21T23:07:53.163389,sd15,ar,P047,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P047_seed123.png,,2.5
+2026-05-21T23:07:55.858455,sd15,ar,P048,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P048_seed42.png,,2.7
+2026-05-21T23:07:58.273208,sd15,ar,P048,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P048_seed123.png,,2.4
+2026-05-21T23:08:00.933496,sd15,ar,P049,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P049_seed42.png,,2.7
+2026-05-21T23:08:03.493294,sd15,ar,P049,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P049_seed123.png,,2.5
+2026-05-21T23:08:06.043404,sd15,ar,P050,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P050_seed42.png,,2.6
+2026-05-21T23:08:08.663098,sd15,ar,P050,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P050_seed123.png,,2.6
+2026-05-21T23:08:14.318373,flux,en,P001,42,SUCCESS,data\generated_images\phase1a\flux\en\P001_seed42.png,,5.7
+2026-05-21T23:08:19.463306,flux,en,P001,123,SUCCESS,data\generated_images\phase1a\flux\en\P001_seed123.png,,5.1
+2026-05-21T23:08:25.103102,flux,en,P002,42,SUCCESS,data\generated_images\phase1a\flux\en\P002_seed42.png,,5.6
+2026-05-21T23:08:31.948720,flux,en,P002,123,SUCCESS,data\generated_images\phase1a\flux\en\P002_seed123.png,,6.8
+2026-05-21T23:08:40.565003,flux,en,P003,42,SUCCESS,data\generated_images\phase1a\flux\en\P003_seed42.png,,8.6
+2026-05-21T23:08:49.403319,flux,en,P003,123,SUCCESS,data\generated_images\phase1a\flux\en\P003_seed123.png,,8.8
+2026-05-21T23:08:55.198209,flux,en,P004,42,SUCCESS,data\generated_images\phase1a\flux\en\P004_seed42.png,,5.8
+2026-05-21T23:08:59.783199,flux,en,P004,123,SUCCESS,data\generated_images\phase1a\flux\en\P004_seed123.png,,4.6
+2026-05-21T23:09:04.488490,flux,en,P005,42,SUCCESS,data\generated_images\phase1a\flux\en\P005_seed42.png,,4.7
+2026-05-21T23:09:11.468358,flux,en,P005,123,SUCCESS,data\generated_images\phase1a\flux\en\P005_seed123.png,,7.0
+2026-05-21T23:09:16.965263,flux,en,P006,42,SUCCESS,data\generated_images\phase1a\flux\en\P006_seed42.png,,5.5
+2026-05-21T23:09:25.946802,flux,en,P006,123,SUCCESS,data\generated_images\phase1a\flux\en\P006_seed123.png,,9.0
+2026-05-21T23:09:33.783867,flux,en,P007,42,SUCCESS,data\generated_images\phase1a\flux\en\P007_seed42.png,,7.8
+2026-05-21T23:09:42.445436,flux,en,P007,123,SUCCESS,data\generated_images\phase1a\flux\en\P007_seed123.png,,8.7
+2026-05-21T23:09:47.804907,flux,en,P008,42,SUCCESS,data\generated_images\phase1a\flux\en\P008_seed42.png,,5.4
+2026-05-21T23:09:54.438041,flux,en,P008,123,SUCCESS,data\generated_images\phase1a\flux\en\P008_seed123.png,,6.6
+2026-05-21T23:10:00.294434,flux,en,P009,42,SUCCESS,data\generated_images\phase1a\flux\en\P009_seed42.png,,5.9
+2026-05-21T23:10:04.893237,flux,en,P009,123,SUCCESS,data\generated_images\phase1a\flux\en\P009_seed123.png,,4.6
+2026-05-21T23:10:09.613392,flux,en,P010,42,SUCCESS,data\generated_images\phase1a\flux\en\P010_seed42.png,,4.7
+2026-05-21T23:10:14.853224,flux,en,P010,123,SUCCESS,data\generated_images\phase1a\flux\en\P010_seed123.png,,5.2
+2026-05-21T23:10:21.153088,flux,en,P011,42,SUCCESS,data\generated_images\phase1a\flux\en\P011_seed42.png,,6.2
+2026-05-21T23:10:25.513406,flux,en,P011,123,SUCCESS,data\generated_images\phase1a\flux\en\P011_seed123.png,,4.4
+2026-05-21T23:10:30.003323,flux,en,P012,42,SUCCESS,data\generated_images\phase1a\flux\en\P012_seed42.png,,4.5
+2026-05-21T23:10:37.053124,flux,en,P012,123,SUCCESS,data\generated_images\phase1a\flux\en\P012_seed123.png,,7.0
+2026-05-21T23:10:42.393169,flux,en,P013,42,SUCCESS,data\generated_images\phase1a\flux\en\P013_seed42.png,,5.3
+2026-05-21T23:10:47.618247,flux,en,P013,123,SUCCESS,data\generated_images\phase1a\flux\en\P013_seed123.png,,5.2
+2026-05-21T23:10:52.988178,flux,en,P014,42,SUCCESS,data\generated_images\phase1a\flux\en\P014_seed42.png,,5.4
+2026-05-21T23:10:58.953183,flux,en,P014,123,SUCCESS,data\generated_images\phase1a\flux\en\P014_seed123.png,,6.0
+2026-05-21T23:11:06.707546,flux,en,P015,42,SUCCESS,data\generated_images\phase1a\flux\en\P015_seed42.png,,7.8
+2026-05-21T23:11:12.703088,flux,en,P015,123,SUCCESS,data\generated_images\phase1a\flux\en\P015_seed123.png,,6.0
+2026-05-21T23:11:17.108171,flux,en,P016,42,SUCCESS,data\generated_images\phase1a\flux\en\P016_seed42.png,,4.4
+2026-05-21T23:11:21.688414,flux,en,P016,123,SUCCESS,data\generated_images\phase1a\flux\en\P016_seed123.png,,4.6
+2026-05-21T23:11:26.683443,flux,en,P017,42,SUCCESS,data\generated_images\phase1a\flux\en\P017_seed42.png,,5.0
+2026-05-21T23:11:32.023156,flux,en,P017,123,SUCCESS,data\generated_images\phase1a\flux\en\P017_seed123.png,,5.3
+2026-05-21T23:11:37.202991,flux,en,P018,42,SUCCESS,data\generated_images\phase1a\flux\en\P018_seed42.png,,5.2
+2026-05-21T23:11:44.423007,flux,en,P018,123,SUCCESS,data\generated_images\phase1a\flux\en\P018_seed123.png,,7.2
+2026-05-21T23:11:49.243418,flux,en,P019,42,SUCCESS,data\generated_images\phase1a\flux\en\P019_seed42.png,,4.8
+2026-05-21T23:11:55.423220,flux,en,P019,123,SUCCESS,data\generated_images\phase1a\flux\en\P019_seed123.png,,6.2
+2026-05-21T23:12:02.623036,flux,en,P020,42,SUCCESS,data\generated_images\phase1a\flux\en\P020_seed42.png,,7.2
+2026-05-21T23:12:07.803089,flux,en,P020,123,SUCCESS,data\generated_images\phase1a\flux\en\P020_seed123.png,,5.2
+2026-05-21T23:12:14.493189,flux,en,P021,42,SUCCESS,data\generated_images\phase1a\flux\en\P021_seed42.png,,6.7
+2026-05-21T23:12:22.518055,flux,en,P021,123,SUCCESS,data\generated_images\phase1a\flux\en\P021_seed123.png,,8.0
+2026-05-21T23:12:28.212952,flux,en,P022,42,SUCCESS,data\generated_images\phase1a\flux\en\P022_seed42.png,,5.7
+2026-05-21T23:12:36.232943,flux,en,P022,123,SUCCESS,data\generated_images\phase1a\flux\en\P022_seed123.png,,8.0
+2026-05-21T23:12:41.368260,flux,en,P023,42,SUCCESS,data\generated_images\phase1a\flux\en\P023_seed42.png,,5.1
+2026-05-21T23:12:46.327843,flux,en,P023,123,SUCCESS,data\generated_images\phase1a\flux\en\P023_seed123.png,,5.0
+2026-05-21T23:12:52.383134,flux,en,P024,42,SUCCESS,data\generated_images\phase1a\flux\en\P024_seed42.png,,6.1
+2026-05-21T23:12:56.973078,flux,en,P024,123,SUCCESS,data\generated_images\phase1a\flux\en\P024_seed123.png,,4.6
+2026-05-21T23:13:01.832907,flux,en,P025,42,SUCCESS,data\generated_images\phase1a\flux\en\P025_seed42.png,,4.9
+2026-05-21T23:13:07.652928,flux,en,P025,123,SUCCESS,data\generated_images\phase1a\flux\en\P025_seed123.png,,5.8
+2026-05-21T23:13:42.383003,flux,en,P026,42,SUCCESS,data\generated_images\phase1a\flux\en\P026_seed42.png,,34.7
+2026-05-21T23:13:46.713027,flux,en,P026,123,SUCCESS,data\generated_images\phase1a\flux\en\P026_seed123.png,,4.3
+2026-05-21T23:13:51.272854,flux,en,P027,42,SUCCESS,data\generated_images\phase1a\flux\en\P027_seed42.png,,4.6
+2026-05-21T23:13:55.113008,flux,en,P027,123,SUCCESS,data\generated_images\phase1a\flux\en\P027_seed123.png,,3.8
+2026-05-21T23:13:59.652937,flux,en,P028,42,SUCCESS,data\generated_images\phase1a\flux\en\P028_seed42.png,,4.5
+2026-05-21T23:14:05.003164,flux,en,P028,123,SUCCESS,data\generated_images\phase1a\flux\en\P028_seed123.png,,5.4
+2026-05-21T23:14:09.952880,flux,en,P029,42,SUCCESS,data\generated_images\phase1a\flux\en\P029_seed42.png,,4.9
+2026-05-21T23:14:14.803219,flux,en,P029,123,SUCCESS,data\generated_images\phase1a\flux\en\P029_seed123.png,,4.9
+2026-05-21T23:14:20.272891,flux,en,P030,42,SUCCESS,data\generated_images\phase1a\flux\en\P030_seed42.png,,5.5
+2026-05-21T23:14:24.765788,flux,en,P030,123,SUCCESS,data\generated_images\phase1a\flux\en\P030_seed123.png,,4.5
+2026-05-21T23:14:29.773151,flux,en,P031,42,SUCCESS,data\generated_images\phase1a\flux\en\P031_seed42.png,,5.0
+2026-05-21T23:14:34.202913,flux,en,P031,123,SUCCESS,data\generated_images\phase1a\flux\en\P031_seed123.png,,4.4
+2026-05-21T23:14:39.133003,flux,en,P032,42,SUCCESS,data\generated_images\phase1a\flux\en\P032_seed42.png,,4.9
+2026-05-21T23:14:43.903060,flux,en,P032,123,SUCCESS,data\generated_images\phase1a\flux\en\P032_seed123.png,,4.8
+2026-05-21T23:14:48.472903,flux,en,P033,42,SUCCESS,data\generated_images\phase1a\flux\en\P033_seed42.png,,4.6
+2026-05-21T23:14:52.822365,flux,en,P033,123,SUCCESS,data\generated_images\phase1a\flux\en\P033_seed123.png,,4.3
+2026-05-21T23:14:57.269564,flux,en,P034,42,SUCCESS,data\generated_images\phase1a\flux\en\P034_seed42.png,,4.4
+2026-05-21T23:15:01.259568,flux,en,P034,123,SUCCESS,data\generated_images\phase1a\flux\en\P034_seed123.png,,4.0
+2026-05-21T23:15:05.568758,flux,en,P035,42,SUCCESS,data\generated_images\phase1a\flux\en\P035_seed42.png,,4.3
+2026-05-21T23:15:09.992895,flux,en,P035,123,SUCCESS,data\generated_images\phase1a\flux\en\P035_seed123.png,,4.4
+2026-05-21T23:15:14.833135,flux,en,P036,42,SUCCESS,data\generated_images\phase1a\flux\en\P036_seed42.png,,4.8
+2026-05-21T23:15:19.463038,flux,en,P036,123,SUCCESS,data\generated_images\phase1a\flux\en\P036_seed123.png,,4.6
+2026-05-21T23:15:24.517068,flux,en,P037,42,SUCCESS,data\generated_images\phase1a\flux\en\P037_seed42.png,,5.1
+2026-05-21T23:15:28.757635,flux,en,P037,123,SUCCESS,data\generated_images\phase1a\flux\en\P037_seed123.png,,4.2
+2026-05-21T23:15:33.704685,flux,en,P038,42,SUCCESS,data\generated_images\phase1a\flux\en\P038_seed42.png,,4.9
+2026-05-21T23:15:39.567640,flux,en,P038,123,SUCCESS,data\generated_images\phase1a\flux\en\P038_seed123.png,,5.9
+2026-05-21T23:15:43.792863,flux,en,P039,42,SUCCESS,data\generated_images\phase1a\flux\en\P039_seed42.png,,4.2
+2026-05-21T23:15:48.452787,flux,en,P039,123,SUCCESS,data\generated_images\phase1a\flux\en\P039_seed123.png,,4.7
+2026-05-21T23:15:52.872929,flux,en,P040,42,SUCCESS,data\generated_images\phase1a\flux\en\P040_seed42.png,,4.4
+2026-05-21T23:15:57.607306,flux,en,P040,123,SUCCESS,data\generated_images\phase1a\flux\en\P040_seed123.png,,4.7
+2026-05-21T23:16:02.432681,flux,en,P041,42,SUCCESS,data\generated_images\phase1a\flux\en\P041_seed42.png,,4.8
+2026-05-21T23:16:06.598036,flux,en,P041,123,SUCCESS,data\generated_images\phase1a\flux\en\P041_seed123.png,,4.2
+2026-05-21T23:16:11.978803,flux,en,P042,42,SUCCESS,data\generated_images\phase1a\flux\en\P042_seed42.png,,5.4
+2026-05-21T23:16:16.496713,flux,en,P042,123,SUCCESS,data\generated_images\phase1a\flux\en\P042_seed123.png,,4.5
+2026-05-21T23:16:20.684950,flux,en,P043,42,SUCCESS,data\generated_images\phase1a\flux\en\P043_seed42.png,,4.2
+2026-05-21T23:16:24.969361,flux,en,P043,123,SUCCESS,data\generated_images\phase1a\flux\en\P043_seed123.png,,4.3
+2026-05-21T23:16:29.076083,flux,en,P044,42,SUCCESS,data\generated_images\phase1a\flux\en\P044_seed42.png,,4.1
+2026-05-21T23:16:33.272684,flux,en,P044,123,SUCCESS,data\generated_images\phase1a\flux\en\P044_seed123.png,,4.2
+2026-05-21T23:16:37.026498,flux,en,P045,42,SUCCESS,data\generated_images\phase1a\flux\en\P045_seed42.png,,3.7
+2026-05-21T23:16:41.612790,flux,en,P045,123,SUCCESS,data\generated_images\phase1a\flux\en\P045_seed123.png,,4.6
+2026-05-21T23:16:46.232941,flux,en,P046,42,SUCCESS,data\generated_images\phase1a\flux\en\P046_seed42.png,,4.6
+2026-05-21T23:16:50.352538,flux,en,P046,123,SUCCESS,data\generated_images\phase1a\flux\en\P046_seed123.png,,4.1
+2026-05-21T23:16:56.013011,flux,en,P047,42,SUCCESS,data\generated_images\phase1a\flux\en\P047_seed42.png,,5.7
+2026-05-21T23:17:00.632913,flux,en,P047,123,SUCCESS,data\generated_images\phase1a\flux\en\P047_seed123.png,,4.6
+2026-05-21T23:17:04.944521,flux,en,P048,42,SUCCESS,data\generated_images\phase1a\flux\en\P048_seed42.png,,4.3
+2026-05-21T23:17:09.616191,flux,en,P048,123,SUCCESS,data\generated_images\phase1a\flux\en\P048_seed123.png,,4.7
+2026-05-21T23:17:15.402862,flux,en,P049,42,SUCCESS,data\generated_images\phase1a\flux\en\P049_seed42.png,,5.8
+2026-05-21T23:17:20.283043,flux,en,P049,123,SUCCESS,data\generated_images\phase1a\flux\en\P049_seed123.png,,4.9
+2026-05-21T23:17:24.856844,flux,en,P050,42,SUCCESS,data\generated_images\phase1a\flux\en\P050_seed42.png,,4.6
+2026-05-21T23:17:30.312963,flux,en,P050,123,SUCCESS,data\generated_images\phase1a\flux\en\P050_seed123.png,,5.5
+2026-05-21T23:17:34.918753,flux,de,P001,42,SUCCESS,data\generated_images\phase1a\flux\de\P001_seed42.png,,4.6
+2026-05-21T23:17:38.852778,flux,de,P001,123,SUCCESS,data\generated_images\phase1a\flux\de\P001_seed123.png,,3.9
+2026-05-21T23:17:43.142845,flux,de,P002,42,SUCCESS,data\generated_images\phase1a\flux\de\P002_seed42.png,,4.3
+2026-05-21T23:17:47.212955,flux,de,P002,123,SUCCESS,data\generated_images\phase1a\flux\de\P002_seed123.png,,4.1
+2026-05-21T23:17:51.355983,flux,de,P003,42,SUCCESS,data\generated_images\phase1a\flux\de\P003_seed42.png,,4.1
+2026-05-21T23:17:55.314243,flux,de,P003,123,SUCCESS,data\generated_images\phase1a\flux\de\P003_seed123.png,,4.0
+2026-05-21T23:17:59.142829,flux,de,P004,42,SUCCESS,data\generated_images\phase1a\flux\de\P004_seed42.png,,3.8
+2026-05-21T23:18:03.973038,flux,de,P004,123,SUCCESS,data\generated_images\phase1a\flux\de\P004_seed123.png,,4.8
+2026-05-21T23:18:08.447712,flux,de,P005,42,SUCCESS,data\generated_images\phase1a\flux\de\P005_seed42.png,,4.5
+2026-05-21T23:18:12.539031,flux,de,P005,123,SUCCESS,data\generated_images\phase1a\flux\de\P005_seed123.png,,4.1
+2026-05-21T23:18:16.523001,flux,de,P006,42,SUCCESS,data\generated_images\phase1a\flux\de\P006_seed42.png,,4.0
+2026-05-21T23:18:22.042644,flux,de,P006,123,SUCCESS,data\generated_images\phase1a\flux\de\P006_seed123.png,,5.5
+2026-05-21T23:18:26.342808,flux,de,P007,42,SUCCESS,data\generated_images\phase1a\flux\de\P007_seed42.png,,4.3
+2026-05-21T23:18:30.482465,flux,de,P007,123,SUCCESS,data\generated_images\phase1a\flux\de\P007_seed123.png,,4.1
+2026-05-21T23:18:35.192488,flux,de,P008,42,SUCCESS,data\generated_images\phase1a\flux\de\P008_seed42.png,,4.7
+2026-05-21T23:18:39.156560,flux,de,P008,123,SUCCESS,data\generated_images\phase1a\flux\de\P008_seed123.png,,4.0
+2026-05-21T23:18:43.797510,flux,de,P009,42,SUCCESS,data\generated_images\phase1a\flux\de\P009_seed42.png,,4.6
+2026-05-21T23:18:48.582719,flux,de,P009,123,SUCCESS,data\generated_images\phase1a\flux\de\P009_seed123.png,,4.8
+2026-05-21T23:18:53.122812,flux,de,P010,42,SUCCESS,data\generated_images\phase1a\flux\de\P010_seed42.png,,4.5
+2026-05-21T23:18:56.953605,flux,de,P010,123,SUCCESS,data\generated_images\phase1a\flux\de\P010_seed123.png,,3.8
+2026-05-21T23:19:01.262887,flux,de,P011,42,SUCCESS,data\generated_images\phase1a\flux\de\P011_seed42.png,,4.3
+2026-05-21T23:19:05.302951,flux,de,P011,123,SUCCESS,data\generated_images\phase1a\flux\de\P011_seed123.png,,4.0
+2026-05-21T23:19:09.362908,flux,de,P012,42,SUCCESS,data\generated_images\phase1a\flux\de\P012_seed42.png,,4.1
+2026-05-21T23:19:13.853743,flux,de,P012,123,SUCCESS,data\generated_images\phase1a\flux\de\P012_seed123.png,,4.5
+2026-05-21T23:19:17.859723,flux,de,P013,42,SUCCESS,data\generated_images\phase1a\flux\de\P013_seed42.png,,4.0
+2026-05-21T23:19:23.081893,flux,de,P013,123,SUCCESS,data\generated_images\phase1a\flux\de\P013_seed123.png,,5.2
+2026-05-21T23:19:27.289134,flux,de,P014,42,SUCCESS,data\generated_images\phase1a\flux\de\P014_seed42.png,,4.2
+2026-05-21T23:19:31.775765,flux,de,P014,123,SUCCESS,data\generated_images\phase1a\flux\de\P014_seed123.png,,4.5
+2026-05-21T23:19:35.985854,flux,de,P015,42,SUCCESS,data\generated_images\phase1a\flux\de\P015_seed42.png,,4.2
+2026-05-21T23:19:40.477965,flux,de,P015,123,SUCCESS,data\generated_images\phase1a\flux\de\P015_seed123.png,,4.5
+2026-05-21T23:19:44.829373,flux,de,P016,42,SUCCESS,data\generated_images\phase1a\flux\de\P016_seed42.png,,4.3
+2026-05-21T23:19:48.995147,flux,de,P016,123,SUCCESS,data\generated_images\phase1a\flux\de\P016_seed123.png,,4.2
+2026-05-21T23:19:53.491029,flux,de,P017,42,SUCCESS,data\generated_images\phase1a\flux\de\P017_seed42.png,,4.5
+2026-05-21T23:19:57.508665,flux,de,P017,123,SUCCESS,data\generated_images\phase1a\flux\de\P017_seed123.png,,4.0
+2026-05-21T23:20:01.648827,flux,de,P018,42,SUCCESS,data\generated_images\phase1a\flux\de\P018_seed42.png,,4.1
+2026-05-21T23:20:06.428219,flux,de,P018,123,SUCCESS,data\generated_images\phase1a\flux\de\P018_seed123.png,,4.8
+2026-05-21T23:20:10.893663,flux,de,P019,42,SUCCESS,data\generated_images\phase1a\flux\de\P019_seed42.png,,4.5
+2026-05-21T23:20:15.527327,flux,de,P019,123,SUCCESS,data\generated_images\phase1a\flux\de\P019_seed123.png,,4.6
+2026-05-21T23:20:20.139132,flux,de,P020,42,SUCCESS,data\generated_images\phase1a\flux\de\P020_seed42.png,,4.6
+2026-05-21T23:20:24.655391,flux,de,P020,123,SUCCESS,data\generated_images\phase1a\flux\de\P020_seed123.png,,4.5
+2026-05-21T23:20:29.242393,flux,de,P021,42,SUCCESS,data\generated_images\phase1a\flux\de\P021_seed42.png,,4.6
+2026-05-21T23:20:33.712139,flux,de,P021,123,SUCCESS,data\generated_images\phase1a\flux\de\P021_seed123.png,,4.5
+2026-05-21T23:20:38.641920,flux,de,P022,42,SUCCESS,data\generated_images\phase1a\flux\de\P022_seed42.png,,4.9
+2026-05-21T23:20:43.156631,flux,de,P022,123,SUCCESS,data\generated_images\phase1a\flux\de\P022_seed123.png,,4.5
+2026-05-21T23:20:47.791859,flux,de,P023,42,SUCCESS,data\generated_images\phase1a\flux\de\P023_seed42.png,,4.6
+2026-05-21T23:20:52.051993,flux,de,P023,123,SUCCESS,data\generated_images\phase1a\flux\de\P023_seed123.png,,4.3
+2026-05-21T23:20:56.340701,flux,de,P024,42,SUCCESS,data\generated_images\phase1a\flux\de\P024_seed42.png,,4.3
+2026-05-21T23:21:00.970460,flux,de,P024,123,SUCCESS,data\generated_images\phase1a\flux\de\P024_seed123.png,,4.6
+2026-05-21T23:21:05.580520,flux,de,P025,42,SUCCESS,data\generated_images\phase1a\flux\de\P025_seed42.png,,4.6
+2026-05-21T23:21:10.762197,flux,de,P025,123,SUCCESS,data\generated_images\phase1a\flux\de\P025_seed123.png,,5.2
+2026-05-21T23:21:15.202382,flux,de,P026,42,SUCCESS,data\generated_images\phase1a\flux\de\P026_seed42.png,,4.4
+2026-05-21T23:21:19.863763,flux,de,P026,123,SUCCESS,data\generated_images\phase1a\flux\de\P026_seed123.png,,4.7
+2026-05-21T23:21:24.182386,flux,de,P027,42,SUCCESS,data\generated_images\phase1a\flux\de\P027_seed42.png,,4.3
+2026-05-21T23:21:28.362907,flux,de,P027,123,SUCCESS,data\generated_images\phase1a\flux\de\P027_seed123.png,,4.2
+2026-05-21T23:21:32.856162,flux,de,P028,42,SUCCESS,data\generated_images\phase1a\flux\de\P028_seed42.png,,4.5
+2026-05-21T23:21:37.032694,flux,de,P028,123,SUCCESS,data\generated_images\phase1a\flux\de\P028_seed123.png,,4.2
+2026-05-21T23:21:41.546605,flux,de,P029,42,SUCCESS,data\generated_images\phase1a\flux\de\P029_seed42.png,,4.5
+2026-05-21T23:21:46.111912,flux,de,P029,123,SUCCESS,data\generated_images\phase1a\flux\de\P029_seed123.png,,4.6
+2026-05-21T23:21:50.413115,flux,de,P030,42,SUCCESS,data\generated_images\phase1a\flux\de\P030_seed42.png,,4.3
+2026-05-21T23:21:54.562961,flux,de,P030,123,SUCCESS,data\generated_images\phase1a\flux\de\P030_seed123.png,,4.1
+2026-05-21T23:21:59.212552,flux,de,P031,42,SUCCESS,data\generated_images\phase1a\flux\de\P031_seed42.png,,4.6
+2026-05-21T23:22:03.662587,flux,de,P031,123,SUCCESS,data\generated_images\phase1a\flux\de\P031_seed123.png,,4.5
+2026-05-21T23:22:08.082543,flux,de,P032,42,SUCCESS,data\generated_images\phase1a\flux\de\P032_seed42.png,,4.4
+2026-05-21T23:22:12.312786,flux,de,P032,123,SUCCESS,data\generated_images\phase1a\flux\de\P032_seed123.png,,4.2
+2026-05-21T23:22:16.462765,flux,de,P033,42,SUCCESS,data\generated_images\phase1a\flux\de\P033_seed42.png,,4.1
+2026-05-21T23:22:20.987330,flux,de,P033,123,SUCCESS,data\generated_images\phase1a\flux\de\P033_seed123.png,,4.5
+2026-05-21T23:22:25.093390,flux,de,P034,42,SUCCESS,data\generated_images\phase1a\flux\de\P034_seed42.png,,4.1
+2026-05-21T23:22:29.352664,flux,de,P034,123,SUCCESS,data\generated_images\phase1a\flux\de\P034_seed123.png,,4.3
+2026-05-21T23:22:33.526419,flux,de,P035,42,SUCCESS,data\generated_images\phase1a\flux\de\P035_seed42.png,,4.2
+2026-05-21T23:22:37.578772,flux,de,P035,123,SUCCESS,data\generated_images\phase1a\flux\de\P035_seed123.png,,4.0
+2026-05-21T23:22:42.136501,flux,de,P036,42,SUCCESS,data\generated_images\phase1a\flux\de\P036_seed42.png,,4.6
+2026-05-21T23:22:46.617612,flux,de,P036,123,SUCCESS,data\generated_images\phase1a\flux\de\P036_seed123.png,,4.5
+2026-05-21T23:22:50.865871,flux,de,P037,42,SUCCESS,data\generated_images\phase1a\flux\de\P037_seed42.png,,4.2
+2026-05-21T23:22:55.342530,flux,de,P037,123,SUCCESS,data\generated_images\phase1a\flux\de\P037_seed123.png,,4.5
+2026-05-21T23:22:59.993198,flux,de,P038,42,SUCCESS,data\generated_images\phase1a\flux\de\P038_seed42.png,,4.7
+2026-05-21T23:23:05.244067,flux,de,P038,123,SUCCESS,data\generated_images\phase1a\flux\de\P038_seed123.png,,5.3
+2026-05-21T23:23:09.952296,flux,de,P039,42,SUCCESS,data\generated_images\phase1a\flux\de\P039_seed42.png,,4.7
+2026-05-21T23:23:14.233958,flux,de,P039,123,SUCCESS,data\generated_images\phase1a\flux\de\P039_seed123.png,,4.3
+2026-05-21T23:23:18.702680,flux,de,P040,42,SUCCESS,data\generated_images\phase1a\flux\de\P040_seed42.png,,4.5
+2026-05-21T23:23:23.506996,flux,de,P040,123,SUCCESS,data\generated_images\phase1a\flux\de\P040_seed123.png,,4.8
+2026-05-21T23:23:28.003712,flux,de,P041,42,SUCCESS,data\generated_images\phase1a\flux\de\P041_seed42.png,,4.5
+2026-05-21T23:23:32.750820,flux,de,P041,123,SUCCESS,data\generated_images\phase1a\flux\de\P041_seed123.png,,4.7
+2026-05-21T23:23:36.856288,flux,de,P042,42,SUCCESS,data\generated_images\phase1a\flux\de\P042_seed42.png,,4.1
+2026-05-21T23:23:40.992706,flux,de,P042,123,SUCCESS,data\generated_images\phase1a\flux\de\P042_seed123.png,,4.1
+2026-05-21T23:23:45.122710,flux,de,P043,42,SUCCESS,data\generated_images\phase1a\flux\de\P043_seed42.png,,4.1
+2026-05-21T23:23:49.355997,flux,de,P043,123,SUCCESS,data\generated_images\phase1a\flux\de\P043_seed123.png,,4.2
+2026-05-21T23:23:53.982638,flux,de,P044,42,SUCCESS,data\generated_images\phase1a\flux\de\P044_seed42.png,,4.6
+2026-05-21T23:23:58.156032,flux,de,P044,123,SUCCESS,data\generated_images\phase1a\flux\de\P044_seed123.png,,4.2
+2026-05-21T23:24:02.606729,flux,de,P045,42,SUCCESS,data\generated_images\phase1a\flux\de\P045_seed42.png,,4.4
+2026-05-21T23:24:07.047431,flux,de,P045,123,SUCCESS,data\generated_images\phase1a\flux\de\P045_seed123.png,,4.4
+2026-05-21T23:24:11.642416,flux,de,P046,42,SUCCESS,data\generated_images\phase1a\flux\de\P046_seed42.png,,4.6
+2026-05-21T23:24:16.693169,flux,de,P046,123,SUCCESS,data\generated_images\phase1a\flux\de\P046_seed123.png,,5.0
+2026-05-21T23:24:21.720182,flux,de,P047,42,SUCCESS,data\generated_images\phase1a\flux\de\P047_seed42.png,,5.0
+2026-05-21T23:24:25.867349,flux,de,P047,123,SUCCESS,data\generated_images\phase1a\flux\de\P047_seed123.png,,4.1
+2026-05-21T23:24:30.892239,flux,de,P048,42,SUCCESS,data\generated_images\phase1a\flux\de\P048_seed42.png,,5.0
+2026-05-21T23:24:35.487395,flux,de,P048,123,SUCCESS,data\generated_images\phase1a\flux\de\P048_seed123.png,,4.6
+2026-05-21T23:24:40.165397,flux,de,P049,42,SUCCESS,data\generated_images\phase1a\flux\de\P049_seed42.png,,4.7
+2026-05-21T23:24:44.592565,flux,de,P049,123,SUCCESS,data\generated_images\phase1a\flux\de\P049_seed123.png,,4.4
+2026-05-21T23:24:48.641240,flux,de,P050,42,SUCCESS,data\generated_images\phase1a\flux\de\P050_seed42.png,,4.0
+2026-05-21T23:24:53.202938,flux,de,P050,123,SUCCESS,data\generated_images\phase1a\flux\de\P050_seed123.png,,4.6
+2026-05-21T23:24:57.172215,flux,fr,P001,42,SUCCESS,data\generated_images\phase1a\flux\fr\P001_seed42.png,,4.0
+2026-05-21T23:25:01.322267,flux,fr,P001,123,SUCCESS,data\generated_images\phase1a\flux\fr\P001_seed123.png,,4.2
+2026-05-21T23:25:05.685840,flux,fr,P002,42,SUCCESS,data\generated_images\phase1a\flux\fr\P002_seed42.png,,4.4
+2026-05-21T23:25:10.122229,flux,fr,P002,123,SUCCESS,data\generated_images\phase1a\flux\fr\P002_seed123.png,,4.4
+2026-05-21T23:25:14.227399,flux,fr,P003,42,SUCCESS,data\generated_images\phase1a\flux\fr\P003_seed42.png,,4.1
+2026-05-21T23:25:18.422291,flux,fr,P003,123,SUCCESS,data\generated_images\phase1a\flux\fr\P003_seed123.png,,4.2
+2026-05-21T23:25:22.472262,flux,fr,P004,42,SUCCESS,data\generated_images\phase1a\flux\fr\P004_seed42.png,,4.0
+2026-05-21T23:25:27.151745,flux,fr,P004,123,SUCCESS,data\generated_images\phase1a\flux\fr\P004_seed123.png,,4.7
+2026-05-21T23:25:31.322612,flux,fr,P005,42,SUCCESS,data\generated_images\phase1a\flux\fr\P005_seed42.png,,4.2
+2026-05-21T23:25:35.254083,flux,fr,P005,123,SUCCESS,data\generated_images\phase1a\flux\fr\P005_seed123.png,,3.9
+2026-05-21T23:25:39.253328,flux,fr,P006,42,SUCCESS,data\generated_images\phase1a\flux\fr\P006_seed42.png,,4.0
+2026-05-21T23:25:43.717366,flux,fr,P006,123,SUCCESS,data\generated_images\phase1a\flux\fr\P006_seed123.png,,4.5
+2026-05-21T23:25:47.462443,flux,fr,P007,42,SUCCESS,data\generated_images\phase1a\flux\fr\P007_seed42.png,,3.7
+2026-05-21T23:25:52.012280,flux,fr,P007,123,SUCCESS,data\generated_images\phase1a\flux\fr\P007_seed123.png,,4.5
+2026-05-21T23:25:56.433609,flux,fr,P008,42,SUCCESS,data\generated_images\phase1a\flux\fr\P008_seed42.png,,4.4
+2026-05-21T23:26:01.060330,flux,fr,P008,123,SUCCESS,data\generated_images\phase1a\flux\fr\P008_seed123.png,,4.6
+2026-05-21T23:26:05.016795,flux,fr,P009,42,SUCCESS,data\generated_images\phase1a\flux\fr\P009_seed42.png,,3.9
+2026-05-21T23:26:09.183503,flux,fr,P009,123,SUCCESS,data\generated_images\phase1a\flux\fr\P009_seed123.png,,4.2
+2026-05-21T23:26:13.655354,flux,fr,P010,42,SUCCESS,data\generated_images\phase1a\flux\fr\P010_seed42.png,,4.5
+2026-05-21T23:26:17.867937,flux,fr,P010,123,SUCCESS,data\generated_images\phase1a\flux\fr\P010_seed123.png,,4.2
+2026-05-21T23:26:22.794960,flux,fr,P011,42,SUCCESS,data\generated_images\phase1a\flux\fr\P011_seed42.png,,4.9
+2026-05-21T23:26:32.693240,flux,fr,P011,123,SUCCESS,data\generated_images\phase1a\flux\fr\P011_seed123.png,,9.9
+2026-05-21T23:26:37.472962,flux,fr,P012,42,SUCCESS,data\generated_images\phase1a\flux\fr\P012_seed42.png,,4.7
+2026-05-21T23:26:41.775486,flux,fr,P012,123,SUCCESS,data\generated_images\phase1a\flux\fr\P012_seed123.png,,4.3
+2026-05-21T23:26:45.818040,flux,fr,P013,42,SUCCESS,data\generated_images\phase1a\flux\fr\P013_seed42.png,,4.0
+2026-05-21T23:26:55.174955,flux,fr,P013,123,SUCCESS,data\generated_images\phase1a\flux\fr\P013_seed123.png,,9.4
+2026-05-21T23:27:03.071153,flux,fr,P014,42,SUCCESS,data\generated_images\phase1a\flux\fr\P014_seed42.png,,7.9
+2026-05-21T23:27:07.580259,flux,fr,P014,123,SUCCESS,data\generated_images\phase1a\flux\fr\P014_seed123.png,,4.5
+2026-05-21T23:27:11.482155,flux,fr,P015,42,SUCCESS,data\generated_images\phase1a\flux\fr\P015_seed42.png,,3.9
+2026-05-21T23:27:15.546759,flux,fr,P015,123,SUCCESS,data\generated_images\phase1a\flux\fr\P015_seed123.png,,4.1
+2026-05-21T23:27:20.714959,flux,fr,P016,42,SUCCESS,data\generated_images\phase1a\flux\fr\P016_seed42.png,,5.2
+2026-05-21T23:27:24.651634,flux,fr,P016,123,SUCCESS,data\generated_images\phase1a\flux\fr\P016_seed123.png,,3.9
+2026-05-21T23:27:29.300328,flux,fr,P017,42,SUCCESS,data\generated_images\phase1a\flux\fr\P017_seed42.png,,4.6
+2026-05-21T23:27:33.529209,flux,fr,P017,123,SUCCESS,data\generated_images\phase1a\flux\fr\P017_seed123.png,,4.2
+2026-05-21T23:27:37.781637,flux,fr,P018,42,SUCCESS,data\generated_images\phase1a\flux\fr\P018_seed42.png,,4.2
+2026-05-21T23:27:43.782256,flux,fr,P018,123,SUCCESS,data\generated_images\phase1a\flux\fr\P018_seed123.png,,6.0
+2026-05-21T23:27:48.762302,flux,fr,P019,42,SUCCESS,data\generated_images\phase1a\flux\fr\P019_seed42.png,,5.0
+2026-05-21T23:27:53.144859,flux,fr,P019,123,SUCCESS,data\generated_images\phase1a\flux\fr\P019_seed123.png,,4.4
+2026-05-21T23:27:58.082437,flux,fr,P020,42,SUCCESS,data\generated_images\phase1a\flux\fr\P020_seed42.png,,4.9
+2026-05-21T23:28:03.161977,flux,fr,P020,123,SUCCESS,data\generated_images\phase1a\flux\fr\P020_seed123.png,,5.1
+2026-05-21T23:28:07.381854,flux,fr,P021,42,SUCCESS,data\generated_images\phase1a\flux\fr\P021_seed42.png,,4.2
+2026-05-21T23:28:13.632306,flux,fr,P021,123,SUCCESS,data\generated_images\phase1a\flux\fr\P021_seed123.png,,6.3
+2026-05-21T23:28:18.238438,flux,fr,P022,42,SUCCESS,data\generated_images\phase1a\flux\fr\P022_seed42.png,,4.6
+2026-05-21T23:28:23.317351,flux,fr,P022,123,SUCCESS,data\generated_images\phase1a\flux\fr\P022_seed123.png,,5.1
+2026-05-21T23:28:28.263162,flux,fr,P023,42,SUCCESS,data\generated_images\phase1a\flux\fr\P023_seed42.png,,4.9
+2026-05-21T23:28:32.812391,flux,fr,P023,123,SUCCESS,data\generated_images\phase1a\flux\fr\P023_seed123.png,,4.5
+2026-05-21T23:28:37.543973,flux,fr,P024,42,SUCCESS,data\generated_images\phase1a\flux\fr\P024_seed42.png,,4.7
+2026-05-21T23:28:42.192450,flux,fr,P024,123,SUCCESS,data\generated_images\phase1a\flux\fr\P024_seed123.png,,4.6
+2026-05-21T23:28:47.087212,flux,fr,P025,42,SUCCESS,data\generated_images\phase1a\flux\fr\P025_seed42.png,,4.9
+2026-05-21T23:28:51.083080,flux,fr,P025,123,SUCCESS,data\generated_images\phase1a\flux\fr\P025_seed123.png,,4.0
+2026-05-21T23:28:55.776976,flux,fr,P026,42,SUCCESS,data\generated_images\phase1a\flux\fr\P026_seed42.png,,4.7
+2026-05-21T23:29:00.201393,flux,fr,P026,123,SUCCESS,data\generated_images\phase1a\flux\fr\P026_seed123.png,,4.4
+2026-05-21T23:29:04.463013,flux,fr,P027,42,SUCCESS,data\generated_images\phase1a\flux\fr\P027_seed42.png,,4.3
+2026-05-21T23:29:08.545952,flux,fr,P027,123,SUCCESS,data\generated_images\phase1a\flux\fr\P027_seed123.png,,4.1
+2026-05-21T23:29:13.562373,flux,fr,P028,42,SUCCESS,data\generated_images\phase1a\flux\fr\P028_seed42.png,,5.0
+2026-05-21T23:29:18.191902,flux,fr,P028,123,SUCCESS,data\generated_images\phase1a\flux\fr\P028_seed123.png,,4.6
+2026-05-21T23:29:22.901987,flux,fr,P029,42,SUCCESS,data\generated_images\phase1a\flux\fr\P029_seed42.png,,4.7
+2026-05-21T23:29:28.212194,flux,fr,P029,123,SUCCESS,data\generated_images\phase1a\flux\fr\P029_seed123.png,,5.3
+2026-05-21T23:29:32.357549,flux,fr,P030,42,SUCCESS,data\generated_images\phase1a\flux\fr\P030_seed42.png,,4.1
+2026-05-21T23:29:37.062021,flux,fr,P030,123,SUCCESS,data\generated_images\phase1a\flux\fr\P030_seed123.png,,4.7
+2026-05-21T23:29:41.576983,flux,fr,P031,42,SUCCESS,data\generated_images\phase1a\flux\fr\P031_seed42.png,,4.5
+2026-05-21T23:29:45.894082,flux,fr,P031,123,SUCCESS,data\generated_images\phase1a\flux\fr\P031_seed123.png,,4.3
+2026-05-21T23:29:50.575748,flux,fr,P032,42,SUCCESS,data\generated_images\phase1a\flux\fr\P032_seed42.png,,4.7
+2026-05-21T23:29:55.505915,flux,fr,P032,123,SUCCESS,data\generated_images\phase1a\flux\fr\P032_seed123.png,,4.9
+2026-05-21T23:29:59.812079,flux,fr,P033,42,SUCCESS,data\generated_images\phase1a\flux\fr\P033_seed42.png,,4.3
+2026-05-21T23:30:03.991939,flux,fr,P033,123,SUCCESS,data\generated_images\phase1a\flux\fr\P033_seed123.png,,4.2
+2026-05-21T23:30:07.938417,flux,fr,P034,42,SUCCESS,data\generated_images\phase1a\flux\fr\P034_seed42.png,,3.9
+2026-05-21T23:30:11.843949,flux,fr,P034,123,SUCCESS,data\generated_images\phase1a\flux\fr\P034_seed123.png,,3.9
+2026-05-21T23:30:16.162163,flux,fr,P035,42,SUCCESS,data\generated_images\phase1a\flux\fr\P035_seed42.png,,4.3
+2026-05-21T23:30:20.724805,flux,fr,P035,123,SUCCESS,data\generated_images\phase1a\flux\fr\P035_seed123.png,,4.6
+2026-05-21T23:30:25.122486,flux,fr,P036,42,SUCCESS,data\generated_images\phase1a\flux\fr\P036_seed42.png,,4.4
+2026-05-21T23:30:30.141913,flux,fr,P036,123,SUCCESS,data\generated_images\phase1a\flux\fr\P036_seed123.png,,5.0
+2026-05-21T23:30:34.122013,flux,fr,P037,42,SUCCESS,data\generated_images\phase1a\flux\fr\P037_seed42.png,,4.0
+2026-05-21T23:30:38.638125,flux,fr,P037,123,SUCCESS,data\generated_images\phase1a\flux\fr\P037_seed123.png,,4.5
+2026-05-21T23:30:43.527195,flux,fr,P038,42,SUCCESS,data\generated_images\phase1a\flux\fr\P038_seed42.png,,4.9
+2026-05-21T23:30:47.547003,flux,fr,P038,123,SUCCESS,data\generated_images\phase1a\flux\fr\P038_seed123.png,,4.0
+2026-05-21T23:30:52.072251,flux,fr,P039,42,SUCCESS,data\generated_images\phase1a\flux\fr\P039_seed42.png,,4.5
+2026-05-21T23:30:56.753989,flux,fr,P039,123,SUCCESS,data\generated_images\phase1a\flux\fr\P039_seed123.png,,4.7
+2026-05-21T23:31:01.422040,flux,fr,P040,42,SUCCESS,data\generated_images\phase1a\flux\fr\P040_seed42.png,,4.7
+2026-05-21T23:31:05.564878,flux,fr,P040,123,SUCCESS,data\generated_images\phase1a\flux\fr\P040_seed123.png,,4.1
+2026-05-21T23:31:09.791977,flux,fr,P041,42,SUCCESS,data\generated_images\phase1a\flux\fr\P041_seed42.png,,4.2
+2026-05-21T23:31:14.055591,flux,fr,P041,123,SUCCESS,data\generated_images\phase1a\flux\fr\P041_seed123.png,,4.3
+2026-05-21T23:31:18.342216,flux,fr,P042,42,SUCCESS,data\generated_images\phase1a\flux\fr\P042_seed42.png,,4.3
+2026-05-21T23:31:22.407253,flux,fr,P042,123,SUCCESS,data\generated_images\phase1a\flux\fr\P042_seed123.png,,4.1
+2026-05-21T23:31:26.951917,flux,fr,P043,42,SUCCESS,data\generated_images\phase1a\flux\fr\P043_seed42.png,,4.5
+2026-05-21T23:31:31.321948,flux,fr,P043,123,SUCCESS,data\generated_images\phase1a\flux\fr\P043_seed123.png,,4.4
+2026-05-21T23:31:36.435068,flux,fr,P044,42,SUCCESS,data\generated_images\phase1a\flux\fr\P044_seed42.png,,5.1
+2026-05-21T23:31:41.002083,flux,fr,P044,123,SUCCESS,data\generated_images\phase1a\flux\fr\P044_seed123.png,,4.6
+2026-05-21T23:31:45.291938,flux,fr,P045,42,SUCCESS,data\generated_images\phase1a\flux\fr\P045_seed42.png,,4.3
+2026-05-21T23:31:49.507003,flux,fr,P045,123,SUCCESS,data\generated_images\phase1a\flux\fr\P045_seed123.png,,4.2
+2026-05-21T23:31:54.266788,flux,fr,P046,42,SUCCESS,data\generated_images\phase1a\flux\fr\P046_seed42.png,,4.8
+2026-05-21T23:31:58.583159,flux,fr,P046,123,SUCCESS,data\generated_images\phase1a\flux\fr\P046_seed123.png,,4.3
+2026-05-21T23:32:02.834847,flux,fr,P047,42,SUCCESS,data\generated_images\phase1a\flux\fr\P047_seed42.png,,4.3
+2026-05-21T23:32:07.246019,flux,fr,P047,123,SUCCESS,data\generated_images\phase1a\flux\fr\P047_seed123.png,,4.4
+2026-05-21T23:32:11.442066,flux,fr,P048,42,SUCCESS,data\generated_images\phase1a\flux\fr\P048_seed42.png,,4.2
+2026-05-21T23:32:15.733292,flux,fr,P048,123,SUCCESS,data\generated_images\phase1a\flux\fr\P048_seed123.png,,4.3
+2026-05-21T23:32:20.333920,flux,fr,P049,42,SUCCESS,data\generated_images\phase1a\flux\fr\P049_seed42.png,,4.6
+2026-05-21T23:32:24.465350,flux,fr,P049,123,SUCCESS,data\generated_images\phase1a\flux\fr\P049_seed123.png,,4.1
+2026-05-21T23:32:28.351991,flux,fr,P050,42,SUCCESS,data\generated_images\phase1a\flux\fr\P050_seed42.png,,3.9
+2026-05-21T23:32:32.684999,flux,fr,P050,123,SUCCESS,data\generated_images\phase1a\flux\fr\P050_seed123.png,,4.3
+2026-05-21T23:32:36.881934,flux,es,P001,42,SUCCESS,data\generated_images\phase1a\flux\es\P001_seed42.png,,4.2
+2026-05-21T23:32:41.082811,flux,es,P001,123,SUCCESS,data\generated_images\phase1a\flux\es\P001_seed123.png,,4.2
+2026-05-21T23:32:45.851861,flux,es,P002,42,SUCCESS,data\generated_images\phase1a\flux\es\P002_seed42.png,,4.8
+2026-05-21T23:32:50.142121,flux,es,P002,123,SUCCESS,data\generated_images\phase1a\flux\es\P002_seed123.png,,4.3
+2026-05-21T23:32:54.481808,flux,es,P003,42,SUCCESS,data\generated_images\phase1a\flux\es\P003_seed42.png,,4.3
+2026-05-21T23:32:58.981867,flux,es,P003,123,SUCCESS,data\generated_images\phase1a\flux\es\P003_seed123.png,,4.5
+2026-05-21T23:33:03.448101,flux,es,P004,42,SUCCESS,data\generated_images\phase1a\flux\es\P004_seed42.png,,4.5
+2026-05-21T23:33:08.031794,flux,es,P004,123,SUCCESS,data\generated_images\phase1a\flux\es\P004_seed123.png,,4.6
+2026-05-21T23:33:12.138950,flux,es,P005,42,SUCCESS,data\generated_images\phase1a\flux\es\P005_seed42.png,,4.1
+2026-05-21T23:33:16.352163,flux,es,P005,123,SUCCESS,data\generated_images\phase1a\flux\es\P005_seed123.png,,4.2
+2026-05-21T23:33:21.103371,flux,es,P006,42,SUCCESS,data\generated_images\phase1a\flux\es\P006_seed42.png,,4.8
+2026-05-21T23:33:25.527035,flux,es,P006,123,SUCCESS,data\generated_images\phase1a\flux\es\P006_seed123.png,,4.4
+2026-05-21T23:33:29.382192,flux,es,P007,42,SUCCESS,data\generated_images\phase1a\flux\es\P007_seed42.png,,3.9
+2026-05-21T23:33:36.431961,flux,es,P007,123,SUCCESS,data\generated_images\phase1a\flux\es\P007_seed123.png,,7.0
+2026-05-21T23:33:41.328622,flux,es,P008,42,SUCCESS,data\generated_images\phase1a\flux\es\P008_seed42.png,,4.9
+2026-05-21T23:33:46.262076,flux,es,P008,123,SUCCESS,data\generated_images\phase1a\flux\es\P008_seed123.png,,4.9
+2026-05-21T23:33:50.482993,flux,es,P009,42,SUCCESS,data\generated_images\phase1a\flux\es\P009_seed42.png,,4.2
+2026-05-21T23:33:54.781833,flux,es,P009,123,SUCCESS,data\generated_images\phase1a\flux\es\P009_seed123.png,,4.3
+2026-05-21T23:33:59.261730,flux,es,P010,42,SUCCESS,data\generated_images\phase1a\flux\es\P010_seed42.png,,4.5
+2026-05-21T23:34:03.052619,flux,es,P010,123,SUCCESS,data\generated_images\phase1a\flux\es\P010_seed123.png,,3.8
+2026-05-21T23:34:07.618832,flux,es,P011,42,SUCCESS,data\generated_images\phase1a\flux\es\P011_seed42.png,,4.6
+2026-05-21T23:34:14.522060,flux,es,P011,123,SUCCESS,data\generated_images\phase1a\flux\es\P011_seed123.png,,6.6
+2026-05-21T23:34:20.601978,flux,es,P012,42,SUCCESS,data\generated_images\phase1a\flux\es\P012_seed42.png,,6.1
+2026-05-21T23:34:26.197836,flux,es,P012,123,SUCCESS,data\generated_images\phase1a\flux\es\P012_seed123.png,,5.6
+2026-05-21T23:34:30.671609,flux,es,P013,42,SUCCESS,data\generated_images\phase1a\flux\es\P013_seed42.png,,4.5
+2026-05-21T23:34:35.116885,flux,es,P013,123,SUCCESS,data\generated_images\phase1a\flux\es\P013_seed123.png,,4.4
+2026-05-21T23:34:39.478074,flux,es,P014,42,SUCCESS,data\generated_images\phase1a\flux\es\P014_seed42.png,,4.4
+2026-05-21T23:34:48.945103,flux,es,P014,123,SUCCESS,data\generated_images\phase1a\flux\es\P014_seed123.png,,9.5
+2026-05-21T23:34:53.531690,flux,es,P015,42,SUCCESS,data\generated_images\phase1a\flux\es\P015_seed42.png,,4.6
+2026-05-21T23:34:57.624298,flux,es,P015,123,SUCCESS,data\generated_images\phase1a\flux\es\P015_seed123.png,,4.1
+2026-05-21T23:35:02.076437,flux,es,P016,42,SUCCESS,data\generated_images\phase1a\flux\es\P016_seed42.png,,4.4
+2026-05-21T23:35:07.207795,flux,es,P016,123,SUCCESS,data\generated_images\phase1a\flux\es\P016_seed123.png,,5.1
+2026-05-21T23:35:11.533423,flux,es,P017,42,SUCCESS,data\generated_images\phase1a\flux\es\P017_seed42.png,,4.3
+2026-05-21T23:35:16.574618,flux,es,P017,123,SUCCESS,data\generated_images\phase1a\flux\es\P017_seed123.png,,5.0
+2026-05-21T23:35:24.981920,flux,es,P018,42,SUCCESS,data\generated_images\phase1a\flux\es\P018_seed42.png,,8.3
+2026-05-21T23:35:29.741969,flux,es,P018,123,SUCCESS,data\generated_images\phase1a\flux\es\P018_seed123.png,,4.7
+2026-05-21T23:35:33.955778,flux,es,P019,42,SUCCESS,data\generated_images\phase1a\flux\es\P019_seed42.png,,4.2
+2026-05-21T23:35:38.161817,flux,es,P019,123,SUCCESS,data\generated_images\phase1a\flux\es\P019_seed123.png,,4.2
+2026-05-21T23:35:43.613208,flux,es,P020,42,SUCCESS,data\generated_images\phase1a\flux\es\P020_seed42.png,,5.5
+2026-05-21T23:35:48.241675,flux,es,P020,123,SUCCESS,data\generated_images\phase1a\flux\es\P020_seed123.png,,4.6
+2026-05-21T23:35:53.101762,flux,es,P021,42,SUCCESS,data\generated_images\phase1a\flux\es\P021_seed42.png,,4.9
+2026-05-21T23:35:58.349209,flux,es,P021,123,SUCCESS,data\generated_images\phase1a\flux\es\P021_seed123.png,,5.2
+2026-05-21T23:36:03.631987,flux,es,P022,42,SUCCESS,data\generated_images\phase1a\flux\es\P022_seed42.png,,5.3
+2026-05-21T23:36:08.547045,flux,es,P022,123,SUCCESS,data\generated_images\phase1a\flux\es\P022_seed123.png,,4.9
+2026-05-21T23:36:14.456074,flux,es,P023,42,SUCCESS,data\generated_images\phase1a\flux\es\P023_seed42.png,,5.9
+2026-05-21T23:36:18.771743,flux,es,P023,123,SUCCESS,data\generated_images\phase1a\flux\es\P023_seed123.png,,4.3
+2026-05-21T23:36:23.771647,flux,es,P024,42,SUCCESS,data\generated_images\phase1a\flux\es\P024_seed42.png,,5.0
+2026-05-21T23:36:28.096934,flux,es,P024,123,SUCCESS,data\generated_images\phase1a\flux\es\P024_seed123.png,,4.3
+2026-05-21T23:36:34.346956,flux,es,P025,42,SUCCESS,data\generated_images\phase1a\flux\es\P025_seed42.png,,6.3
+2026-05-21T23:36:38.796779,flux,es,P025,123,SUCCESS,data\generated_images\phase1a\flux\es\P025_seed123.png,,4.4
+2026-05-21T23:36:43.472521,flux,es,P026,42,SUCCESS,data\generated_images\phase1a\flux\es\P026_seed42.png,,4.7
+2026-05-21T23:36:47.894088,flux,es,P026,123,SUCCESS,data\generated_images\phase1a\flux\es\P026_seed123.png,,4.4
+2026-05-21T23:36:54.169574,flux,es,P027,42,SUCCESS,data\generated_images\phase1a\flux\es\P027_seed42.png,,6.3
+2026-05-21T23:37:00.491859,flux,es,P027,123,SUCCESS,data\generated_images\phase1a\flux\es\P027_seed123.png,,6.3
+2026-05-21T23:37:05.261912,flux,es,P028,42,SUCCESS,data\generated_images\phase1a\flux\es\P028_seed42.png,,4.8
+2026-05-21T23:37:09.711202,flux,es,P028,123,SUCCESS,data\generated_images\phase1a\flux\es\P028_seed123.png,,4.4
+2026-05-21T23:37:14.973064,flux,es,P029,42,SUCCESS,data\generated_images\phase1a\flux\es\P029_seed42.png,,5.3
+2026-05-21T23:37:19.775647,flux,es,P029,123,SUCCESS,data\generated_images\phase1a\flux\es\P029_seed123.png,,4.8
+2026-05-21T23:37:29.623353,flux,es,P030,42,SUCCESS,data\generated_images\phase1a\flux\es\P030_seed42.png,,9.8
+2026-05-21T23:37:34.434684,flux,es,P030,123,SUCCESS,data\generated_images\phase1a\flux\es\P030_seed123.png,,4.8
+2026-05-21T23:37:39.121686,flux,es,P031,42,SUCCESS,data\generated_images\phase1a\flux\es\P031_seed42.png,,4.7
+2026-05-21T23:37:43.491718,flux,es,P031,123,SUCCESS,data\generated_images\phase1a\flux\es\P031_seed123.png,,4.4
+2026-05-21T23:37:48.067104,flux,es,P032,42,SUCCESS,data\generated_images\phase1a\flux\es\P032_seed42.png,,4.6
+2026-05-21T23:37:52.600998,flux,es,P032,123,SUCCESS,data\generated_images\phase1a\flux\es\P032_seed123.png,,4.5
+2026-05-21T23:37:57.627012,flux,es,P033,42,SUCCESS,data\generated_images\phase1a\flux\es\P033_seed42.png,,5.0
+2026-05-21T23:38:02.101566,flux,es,P033,123,SUCCESS,data\generated_images\phase1a\flux\es\P033_seed123.png,,4.5
+2026-05-21T23:38:06.806532,flux,es,P034,42,SUCCESS,data\generated_images\phase1a\flux\es\P034_seed42.png,,4.7
+2026-05-21T23:38:11.301907,flux,es,P034,123,SUCCESS,data\generated_images\phase1a\flux\es\P034_seed123.png,,4.5
+2026-05-21T23:38:15.756574,flux,es,P035,42,SUCCESS,data\generated_images\phase1a\flux\es\P035_seed42.png,,4.5
+2026-05-21T23:38:20.356891,flux,es,P035,123,SUCCESS,data\generated_images\phase1a\flux\es\P035_seed123.png,,4.6
+2026-05-21T23:38:24.941697,flux,es,P036,42,SUCCESS,data\generated_images\phase1a\flux\es\P036_seed42.png,,4.6
+2026-05-21T23:38:29.549981,flux,es,P036,123,SUCCESS,data\generated_images\phase1a\flux\es\P036_seed123.png,,4.6
+2026-05-21T23:38:33.850134,flux,es,P037,42,SUCCESS,data\generated_images\phase1a\flux\es\P037_seed42.png,,4.3
+2026-05-21T23:38:38.623610,flux,es,P037,123,SUCCESS,data\generated_images\phase1a\flux\es\P037_seed123.png,,4.8
+2026-05-21T23:38:43.231493,flux,es,P038,42,SUCCESS,data\generated_images\phase1a\flux\es\P038_seed42.png,,4.6
+2026-05-21T23:38:47.901926,flux,es,P038,123,SUCCESS,data\generated_images\phase1a\flux\es\P038_seed123.png,,4.7
+2026-05-21T23:38:52.371834,flux,es,P039,42,SUCCESS,data\generated_images\phase1a\flux\es\P039_seed42.png,,4.5
+2026-05-21T23:38:57.221660,flux,es,P039,123,SUCCESS,data\generated_images\phase1a\flux\es\P039_seed123.png,,4.8
+2026-05-21T23:39:02.247487,flux,es,P040,42,SUCCESS,data\generated_images\phase1a\flux\es\P040_seed42.png,,5.0
+2026-05-21T23:39:07.756597,flux,es,P040,123,SUCCESS,data\generated_images\phase1a\flux\es\P040_seed123.png,,5.5
+2026-05-21T23:39:12.251488,flux,es,P041,42,SUCCESS,data\generated_images\phase1a\flux\es\P041_seed42.png,,4.5
+2026-05-21T23:39:16.539177,flux,es,P041,123,SUCCESS,data\generated_images\phase1a\flux\es\P041_seed123.png,,4.3
+2026-05-21T23:39:21.171513,flux,es,P042,42,SUCCESS,data\generated_images\phase1a\flux\es\P042_seed42.png,,4.6
+2026-05-21T23:39:25.051615,flux,es,P042,123,SUCCESS,data\generated_images\phase1a\flux\es\P042_seed123.png,,3.9
+2026-05-21T23:39:25.370404,flux,es,P043,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.3
+2026-05-21T23:39:30.553017,flux,es,P043,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.2
+2026-05-21T23:39:39.656425,flux,es,P044,42,SUCCESS,data\generated_images\phase1a\flux\es\P044_seed42.png,,4.1
+2026-05-21T23:39:39.780630,flux,es,P044,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:39:44.952844,flux,es,P045,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.2
+2026-05-21T23:39:54.601598,flux,es,P045,123,SUCCESS,data\generated_images\phase1a\flux\es\P045_seed123.png,,4.6
+2026-05-21T23:39:54.737032,flux,es,P046,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:40:00.148065,flux,es,P046,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.4
+2026-05-21T23:40:10.943443,flux,es,P047,42,SUCCESS,data\generated_images\phase1a\flux\es\P047_seed42.png,,5.8
+2026-05-21T23:40:11.283426,flux,es,P047,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.3
+2026-05-21T23:40:21.576264,flux,es,P048,42,SUCCESS,data\generated_images\phase1a\flux\es\P048_seed42.png,,5.3
+2026-05-21T23:40:21.882175,flux,es,P048,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.3
+2026-05-21T23:40:31.751264,flux,es,P049,42,SUCCESS,data\generated_images\phase1a\flux\es\P049_seed42.png,,4.9
+2026-05-21T23:40:31.869082,flux,es,P049,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:40:37.011496,flux,es,P050,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.1
+2026-05-21T23:40:47.611507,flux,es,P050,123,SUCCESS,data\generated_images\phase1a\flux\es\P050_seed123.png,,5.6
+2026-05-21T23:40:47.911725,flux,ar,P001,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.3
+2026-05-21T23:40:57.481645,flux,ar,P001,123,SUCCESS,data\generated_images\phase1a\flux\ar\P001_seed123.png,,4.6
+2026-05-21T23:40:57.611534,flux,ar,P002,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:41:02.950389,flux,ar,P002,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.3
+2026-05-21T23:41:12.874134,flux,ar,P003,42,SUCCESS,data\generated_images\phase1a\flux\ar\P003_seed42.png,,4.9
+2026-05-21T23:41:12.991564,flux,ar,P003,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:41:18.189983,flux,ar,P004,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.2
+2026-05-21T23:41:27.606591,flux,ar,P004,123,SUCCESS,data\generated_images\phase1a\flux\ar\P004_seed123.png,,4.4
+2026-05-21T23:41:27.723624,flux,ar,P005,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:41:33.011515,flux,ar,P005,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.3
+2026-05-21T23:41:42.373096,flux,ar,P006,42,SUCCESS,data\generated_images\phase1a\flux\ar\P006_seed42.png,,4.4
+2026-05-21T23:41:42.494394,flux,ar,P006,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:41:47.661593,flux,ar,P007,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.2
+2026-05-21T23:41:57.116601,flux,ar,P007,123,SUCCESS,data\generated_images\phase1a\flux\ar\P007_seed123.png,,4.5
+2026-05-21T23:41:57.231803,flux,ar,P008,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:42:02.411759,flux,ar,P008,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.2
+2026-05-21T23:42:10.508684,flux,ar,P009,42,FAIL,,All generated images contained NSFW content. Try running it again with a different prompt.,3.1
+2026-05-21T23:42:15.805311,flux,ar,P009,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~2s.",0.3
+2026-05-21T23:42:27.154705,flux,ar,P010,42,SUCCESS,data\generated_images\phase1a\flux\ar\P010_seed42.png,,6.3
+2026-05-21T23:42:27.273919,flux,ar,P010,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~4s.",0.1
+2026-05-21T23:42:36.591471,flux,ar,P011,42,SUCCESS,data\generated_images\phase1a\flux\ar\P011_seed42.png,,4.3
+2026-05-21T23:42:36.727703,flux,ar,P011,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:42:41.943173,flux,ar,P012,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.2
+2026-05-21T23:42:54.003607,flux,ar,P012,123,SUCCESS,data\generated_images\phase1a\flux\ar\P012_seed123.png,,7.0
+2026-05-21T23:42:54.225096,flux,ar,P013,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~3s.",0.2
+2026-05-21T23:43:03.653638,flux,ar,P013,123,SUCCESS,data\generated_images\phase1a\flux\ar\P013_seed123.png,,4.4
+2026-05-21T23:43:03.771252,flux,ar,P014,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:43:09.091215,flux,ar,P014,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.3
+2026-05-21T23:43:18.585428,flux,ar,P015,42,SUCCESS,data\generated_images\phase1a\flux\ar\P015_seed42.png,,4.5
+2026-05-21T23:43:18.724322,flux,ar,P015,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:43:24.088056,flux,ar,P016,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.3
+2026-05-21T23:43:33.471327,flux,ar,P016,123,SUCCESS,data\generated_images\phase1a\flux\ar\P016_seed123.png,,4.4
+2026-05-21T23:43:33.592733,flux,ar,P017,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:43:38.772927,flux,ar,P017,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.2
+2026-05-21T23:43:48.303155,flux,ar,P018,42,SUCCESS,data\generated_images\phase1a\flux\ar\P018_seed42.png,,4.5
+2026-05-21T23:43:48.423045,flux,ar,P018,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:43:53.604756,flux,ar,P019,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.2
+2026-05-21T23:44:03.806468,flux,ar,P019,123,SUCCESS,data\generated_images\phase1a\flux\ar\P019_seed123.png,,5.2
+2026-05-21T23:44:03.922843,flux,ar,P020,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.1
+2026-05-21T23:44:13.821260,flux,ar,P020,123,SUCCESS,data\generated_images\phase1a\flux\ar\P020_seed123.png,,4.9
+2026-05-21T23:44:13.983032,flux,ar,P021,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:44:19.141659,flux,ar,P021,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.2
+2026-05-21T23:44:28.606351,flux,ar,P022,42,SUCCESS,data\generated_images\phase1a\flux\ar\P022_seed42.png,,4.5
+2026-05-21T23:44:28.741593,flux,ar,P022,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:44:34.092026,flux,ar,P023,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.3
+2026-05-21T23:44:44.247180,flux,ar,P023,123,SUCCESS,data\generated_images\phase1a\flux\ar\P023_seed123.png,,5.1
+2026-05-21T23:44:44.360413,flux,ar,P024,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.1
+2026-05-21T23:44:54.135204,flux,ar,P024,123,SUCCESS,data\generated_images\phase1a\flux\ar\P024_seed123.png,,4.8
+2026-05-21T23:44:54.265444,flux,ar,P025,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:45:04.401532,flux,ar,P025,123,SUCCESS,data\generated_images\phase1a\flux\ar\P025_seed123.png,,5.1
+2026-05-21T23:45:04.521423,flux,ar,P026,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:45:14.481375,flux,ar,P026,123,SUCCESS,data\generated_images\phase1a\flux\ar\P026_seed123.png,,4.9
+2026-05-21T23:45:14.601467,flux,ar,P027,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:45:24.588078,flux,ar,P027,123,SUCCESS,data\generated_images\phase1a\flux\ar\P027_seed123.png,,4.9
+2026-05-21T23:45:24.707909,flux,ar,P028,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:45:35.061878,flux,ar,P028,123,SUCCESS,data\generated_images\phase1a\flux\ar\P028_seed123.png,,5.3
+2026-05-21T23:45:35.196947,flux,ar,P029,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.1
+2026-05-21T23:45:45.465584,flux,ar,P029,123,SUCCESS,data\generated_images\phase1a\flux\ar\P029_seed123.png,,5.3
+2026-05-21T23:45:45.751484,flux,ar,P030,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.3
+2026-05-21T23:45:59.994263,flux,ar,P030,123,SUCCESS,data\generated_images\phase1a\flux\ar\P030_seed123.png,,9.2
+2026-05-21T23:46:00.131882,flux,ar,P031,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.1
+2026-05-21T23:46:10.252159,flux,ar,P031,123,SUCCESS,data\generated_images\phase1a\flux\ar\P031_seed123.png,,5.1
+2026-05-21T23:46:10.401377,flux,ar,P032,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:46:19.909280,flux,ar,P032,123,SUCCESS,data\generated_images\phase1a\flux\ar\P032_seed123.png,,4.5
+2026-05-21T23:46:20.031132,flux,ar,P033,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:46:25.382646,flux,ar,P033,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.3
+2026-05-21T23:46:36.413890,flux,ar,P034,42,SUCCESS,data\generated_images\phase1a\flux\ar\P034_seed42.png,,6.0
+2026-05-21T23:46:36.531559,flux,ar,P034,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.1
+2026-05-21T23:46:46.693953,flux,ar,P035,42,SUCCESS,data\generated_images\phase1a\flux\ar\P035_seed42.png,,5.1
+2026-05-21T23:46:47.002824,flux,ar,P035,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.3
+2026-05-21T23:46:56.721145,flux,ar,P036,42,SUCCESS,data\generated_images\phase1a\flux\ar\P036_seed42.png,,4.7
+2026-05-21T23:46:56.831287,flux,ar,P036,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:47:02.001164,flux,ar,P037,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.2
+2026-05-21T23:47:11.991182,flux,ar,P037,123,SUCCESS,data\generated_images\phase1a\flux\ar\P037_seed123.png,,5.0
+2026-05-21T23:47:12.113395,flux,ar,P038,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:47:21.685208,flux,ar,P038,123,SUCCESS,data\generated_images\phase1a\flux\ar\P038_seed123.png,,4.6
+2026-05-21T23:47:21.816475,flux,ar,P039,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:47:26.941265,flux,ar,P039,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.1
+2026-05-21T23:47:42.661441,flux,ar,P040,42,SUCCESS,data\generated_images\phase1a\flux\ar\P040_seed42.png,,10.7
+2026-05-21T23:47:47.666366,flux,ar,P040,123,SUCCESS,data\generated_images\phase1a\flux\ar\P040_seed123.png,,5.0
+2026-05-21T23:47:47.791263,flux,ar,P041,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:47:57.641177,flux,ar,P041,123,SUCCESS,data\generated_images\phase1a\flux\ar\P041_seed123.png,,4.8
+2026-05-21T23:47:57.775026,flux,ar,P042,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:48:07.381077,flux,ar,P042,123,SUCCESS,data\generated_images\phase1a\flux\ar\P042_seed123.png,,4.6
+2026-05-21T23:48:07.491413,flux,ar,P043,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:48:12.843238,flux,ar,P043,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.3
+2026-05-21T23:48:28.087208,flux,ar,P044,42,SUCCESS,data\generated_images\phase1a\flux\ar\P044_seed42.png,,10.2
+2026-05-21T23:48:32.875501,flux,ar,P044,123,SUCCESS,data\generated_images\phase1a\flux\ar\P044_seed123.png,,4.8
+2026-05-21T23:48:33.004692,flux,ar,P045,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:48:47.740036,flux,ar,P045,123,SUCCESS,data\generated_images\phase1a\flux\ar\P045_seed123.png,,9.7
+2026-05-21T23:48:47.860663,flux,ar,P046,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.1
+2026-05-21T23:48:58.297533,flux,ar,P046,123,SUCCESS,data\generated_images\phase1a\flux\ar\P046_seed123.png,,5.4
+2026-05-21T23:48:58.426096,flux,ar,P047,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~5s.",0.1
+2026-05-21T23:49:08.371162,flux,ar,P047,123,SUCCESS,data\generated_images\phase1a\flux\ar\P047_seed123.png,,4.9
+2026-05-21T23:49:08.487209,flux,ar,P048,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:49:18.306269,flux,ar,P048,123,SUCCESS,data\generated_images\phase1a\flux\ar\P048_seed123.png,,4.8
+2026-05-21T23:49:18.420968,flux,ar,P049,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~6s.",0.1
+2026-05-21T23:49:23.571278,flux,ar,P049,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~1s.",0.1
+2026-05-21T23:49:36.175963,flux,ar,P050,42,SUCCESS,data\generated_images\phase1a\flux\ar\P050_seed42.png,,7.6
+2026-05-21T23:49:36.301394,flux,ar,P050,123,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~3s.",0.1
+2026-05-22T12:37:28.828355,sd15,en,P012,123,SUCCESS,data\generated_images\phase1a\sd15\en\P012_seed123.png,,4.0
+2026-05-22T12:37:28.962628,sd15,de,P028,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~7s.",0.1
+2026-05-22T12:37:34.382469,sd15,es,P017,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~2s.",0.3
+2026-05-22T12:37:42.444583,sd15,es,P021,42,SUCCESS,data\generated_images\phase1a\sd15\es\P021_seed42.png,,3.0
+2026-05-22T12:37:42.562698,sd15,es,P038,42,FAIL,,"ReplicateError Details:
+status: 429
+detail: Request was throttled. Your rate limit for creating predictions is reduced to 6 requests per minute with a burst of 1 requests while you have less than $5.0 in credit. Your rate limit resets in ~8s.",0.1
+2026-05-22T12:39:44.068550,sd15,de,P028,42,SUCCESS,data\generated_images\phase1a\sd15\de\P028_seed42.png,,3.7
+2026-05-22T12:39:45.765693,sd15,es,P017,42,FAIL,,"NSFW content detected. Try running it again, or try a different prompt.",1.7
+2026-05-22T12:39:53.716507,sd15,es,P038,42,SUCCESS,data\generated_images\phase1a\sd15\es\P038_seed42.png,,2.9
+2026-05-22T12:39:56.231664,sd15,ar,P002,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P002_seed123.png,,2.5
+2026-05-22T12:39:58.144463,sd15,ar,P012,123,FAIL,,"NSFW content detected. Try running it again, or try a different prompt.",1.9
+2026-05-22T12:40:06.267674,sd15,ar,P013,42,SUCCESS,data\generated_images\phase1a\sd15\ar\P013_seed42.png,,3.1
+2026-05-22T12:40:07.931479,sd15,ar,P029,123,FAIL,,"NSFW content detected. Try running it again, or try a different prompt.",1.7
+2026-05-22T12:40:17.616696,flux,es,P043,42,SUCCESS,data\generated_images\phase1a\flux\es\P043_seed42.png,,4.6
+2026-05-22T12:40:22.691935,flux,es,P043,123,SUCCESS,data\generated_images\phase1a\flux\es\P043_seed123.png,,5.1
+2026-05-22T12:40:27.072022,flux,es,P044,123,SUCCESS,data\generated_images\phase1a\flux\es\P044_seed123.png,,4.4
+2026-05-22T12:40:31.454830,flux,es,P045,42,SUCCESS,data\generated_images\phase1a\flux\es\P045_seed42.png,,4.4
+2026-05-22T12:40:35.891771,flux,es,P046,42,SUCCESS,data\generated_images\phase1a\flux\es\P046_seed42.png,,4.4
+2026-05-22T12:40:40.281482,flux,es,P046,123,SUCCESS,data\generated_images\phase1a\flux\es\P046_seed123.png,,4.4
+2026-05-22T12:40:44.676773,flux,es,P047,123,SUCCESS,data\generated_images\phase1a\flux\es\P047_seed123.png,,4.4
+2026-05-22T12:40:49.153400,flux,es,P048,123,SUCCESS,data\generated_images\phase1a\flux\es\P048_seed123.png,,4.5
+2026-05-22T12:40:53.191505,flux,es,P049,123,SUCCESS,data\generated_images\phase1a\flux\es\P049_seed123.png,,4.0
+2026-05-22T12:40:59.011867,flux,es,P050,42,SUCCESS,data\generated_images\phase1a\flux\es\P050_seed42.png,,5.8
+2026-05-22T12:41:03.660432,flux,ar,P001,42,SUCCESS,data\generated_images\phase1a\flux\ar\P001_seed42.png,,4.6
+2026-05-22T12:41:10.452207,flux,ar,P002,42,SUCCESS,data\generated_images\phase1a\flux\ar\P002_seed42.png,,6.8
+2026-05-22T12:41:15.335558,flux,ar,P002,123,SUCCESS,data\generated_images\phase1a\flux\ar\P002_seed123.png,,4.9
+2026-05-22T12:41:20.171548,flux,ar,P003,123,SUCCESS,data\generated_images\phase1a\flux\ar\P003_seed123.png,,4.8
+2026-05-22T12:41:24.902456,flux,ar,P004,42,SUCCESS,data\generated_images\phase1a\flux\ar\P004_seed42.png,,4.7
+2026-05-22T12:41:29.261410,flux,ar,P005,42,SUCCESS,data\generated_images\phase1a\flux\ar\P005_seed42.png,,4.4
+2026-05-22T12:41:33.951553,flux,ar,P005,123,SUCCESS,data\generated_images\phase1a\flux\ar\P005_seed123.png,,4.7
+2026-05-22T12:41:38.761729,flux,ar,P006,123,SUCCESS,data\generated_images\phase1a\flux\ar\P006_seed123.png,,4.8
+2026-05-22T12:41:44.133501,flux,ar,P007,42,SUCCESS,data\generated_images\phase1a\flux\ar\P007_seed42.png,,5.4
+2026-05-22T12:41:48.221688,flux,ar,P008,42,SUCCESS,data\generated_images\phase1a\flux\ar\P008_seed42.png,,4.1
+2026-05-22T12:41:53.071784,flux,ar,P008,123,SUCCESS,data\generated_images\phase1a\flux\ar\P008_seed123.png,,4.9
+2026-05-22T12:41:55.836439,flux,ar,P009,42,FAIL,,All generated images contained NSFW content. Try running it again with a different prompt.,2.8
+2026-05-22T12:42:04.783253,flux,ar,P009,123,SUCCESS,data\generated_images\phase1a\flux\ar\P009_seed123.png,,3.9
+2026-05-22T12:42:11.601753,flux,ar,P010,123,SUCCESS,data\generated_images\phase1a\flux\ar\P010_seed123.png,,6.8
+2026-05-22T12:42:16.351738,flux,ar,P011,123,SUCCESS,data\generated_images\phase1a\flux\ar\P011_seed123.png,,4.7
+2026-05-22T12:42:21.401571,flux,ar,P012,42,SUCCESS,data\generated_images\phase1a\flux\ar\P012_seed42.png,,5.0
+2026-05-22T12:42:26.048731,flux,ar,P013,42,SUCCESS,data\generated_images\phase1a\flux\ar\P013_seed42.png,,4.6
+2026-05-22T12:42:30.848521,flux,ar,P014,42,SUCCESS,data\generated_images\phase1a\flux\ar\P014_seed42.png,,4.8
+2026-05-22T12:42:35.701329,flux,ar,P014,123,SUCCESS,data\generated_images\phase1a\flux\ar\P014_seed123.png,,4.9
+2026-05-22T12:42:40.321459,flux,ar,P015,123,SUCCESS,data\generated_images\phase1a\flux\ar\P015_seed123.png,,4.6
+2026-05-22T12:42:44.647922,flux,ar,P016,42,SUCCESS,data\generated_images\phase1a\flux\ar\P016_seed42.png,,4.3
+2026-05-22T12:42:49.886482,flux,ar,P017,42,SUCCESS,data\generated_images\phase1a\flux\ar\P017_seed42.png,,5.2
+2026-05-22T12:42:54.351551,flux,ar,P017,123,SUCCESS,data\generated_images\phase1a\flux\ar\P017_seed123.png,,4.5
+2026-05-22T12:42:58.613926,flux,ar,P018,123,SUCCESS,data\generated_images\phase1a\flux\ar\P018_seed123.png,,4.3
+2026-05-22T12:43:03.356665,flux,ar,P019,42,SUCCESS,data\generated_images\phase1a\flux\ar\P019_seed42.png,,4.7
+2026-05-22T12:43:07.841420,flux,ar,P020,42,SUCCESS,data\generated_images\phase1a\flux\ar\P020_seed42.png,,4.5
+2026-05-22T12:43:12.156669,flux,ar,P021,42,SUCCESS,data\generated_images\phase1a\flux\ar\P021_seed42.png,,4.2
+2026-05-22T12:43:16.673638,flux,ar,P021,123,SUCCESS,data\generated_images\phase1a\flux\ar\P021_seed123.png,,4.5
+2026-05-22T12:43:21.562927,flux,ar,P022,123,SUCCESS,data\generated_images\phase1a\flux\ar\P022_seed123.png,,4.9
+2026-05-22T12:43:26.300223,flux,ar,P023,42,SUCCESS,data\generated_images\phase1a\flux\ar\P023_seed42.png,,4.7
+2026-05-22T12:43:30.991542,flux,ar,P024,42,SUCCESS,data\generated_images\phase1a\flux\ar\P024_seed42.png,,4.7
+2026-05-22T12:43:35.490276,flux,ar,P025,42,SUCCESS,data\generated_images\phase1a\flux\ar\P025_seed42.png,,4.5
+2026-05-22T12:43:39.921820,flux,ar,P026,42,SUCCESS,data\generated_images\phase1a\flux\ar\P026_seed42.png,,4.4
+2026-05-22T12:43:44.431414,flux,ar,P027,42,SUCCESS,data\generated_images\phase1a\flux\ar\P027_seed42.png,,4.5
+2026-05-22T12:43:49.149031,flux,ar,P028,42,SUCCESS,data\generated_images\phase1a\flux\ar\P028_seed42.png,,4.7
+2026-05-22T12:43:55.644602,flux,ar,P029,42,SUCCESS,data\generated_images\phase1a\flux\ar\P029_seed42.png,,6.5
+2026-05-22T12:44:00.395403,flux,ar,P030,42,SUCCESS,data\generated_images\phase1a\flux\ar\P030_seed42.png,,4.8
+2026-05-22T12:44:06.308532,flux,ar,P031,42,SUCCESS,data\generated_images\phase1a\flux\ar\P031_seed42.png,,5.9
+2026-05-22T12:44:10.914077,flux,ar,P032,42,SUCCESS,data\generated_images\phase1a\flux\ar\P032_seed42.png,,4.6
+2026-05-22T12:44:15.366971,flux,ar,P033,42,SUCCESS,data\generated_images\phase1a\flux\ar\P033_seed42.png,,4.5
+2026-05-22T12:44:20.093352,flux,ar,P033,123,SUCCESS,data\generated_images\phase1a\flux\ar\P033_seed123.png,,4.7
+2026-05-22T12:44:24.501448,flux,ar,P034,123,SUCCESS,data\generated_images\phase1a\flux\ar\P034_seed123.png,,4.4
+2026-05-22T12:44:28.983538,flux,ar,P035,123,SUCCESS,data\generated_images\phase1a\flux\ar\P035_seed123.png,,4.5
+2026-05-22T12:44:33.161464,flux,ar,P036,123,SUCCESS,data\generated_images\phase1a\flux\ar\P036_seed123.png,,4.2
+2026-05-22T12:44:37.736304,flux,ar,P037,42,SUCCESS,data\generated_images\phase1a\flux\ar\P037_seed42.png,,4.6
+2026-05-22T12:44:44.076286,flux,ar,P038,42,SUCCESS,data\generated_images\phase1a\flux\ar\P038_seed42.png,,6.3
+2026-05-22T12:44:48.911449,flux,ar,P039,42,SUCCESS,data\generated_images\phase1a\flux\ar\P039_seed42.png,,4.8
+2026-05-22T12:44:53.151515,flux,ar,P039,123,SUCCESS,data\generated_images\phase1a\flux\ar\P039_seed123.png,,4.2
+2026-05-22T12:44:57.461332,flux,ar,P041,42,SUCCESS,data\generated_images\phase1a\flux\ar\P041_seed42.png,,4.3
+2026-05-22T12:45:02.566211,flux,ar,P042,42,SUCCESS,data\generated_images\phase1a\flux\ar\P042_seed42.png,,5.1
+2026-05-22T12:45:07.311275,flux,ar,P043,42,SUCCESS,data\generated_images\phase1a\flux\ar\P043_seed42.png,,4.7
+2026-05-22T12:45:12.211261,flux,ar,P043,123,SUCCESS,data\generated_images\phase1a\flux\ar\P043_seed123.png,,4.9
+2026-05-22T12:45:17.011272,flux,ar,P045,42,SUCCESS,data\generated_images\phase1a\flux\ar\P045_seed42.png,,4.8
+2026-05-22T12:45:21.761222,flux,ar,P046,42,SUCCESS,data\generated_images\phase1a\flux\ar\P046_seed42.png,,4.7
+2026-05-22T12:45:26.946109,flux,ar,P047,42,SUCCESS,data\generated_images\phase1a\flux\ar\P047_seed42.png,,5.2
+2026-05-22T12:45:31.691364,flux,ar,P048,42,SUCCESS,data\generated_images\phase1a\flux\ar\P048_seed42.png,,4.7
+2026-05-22T12:45:36.631358,flux,ar,P049,42,SUCCESS,data\generated_images\phase1a\flux\ar\P049_seed42.png,,4.9
+2026-05-22T12:45:41.423997,flux,ar,P049,123,SUCCESS,data\generated_images\phase1a\flux\ar\P049_seed123.png,,4.8
+2026-05-22T12:45:48.790191,flux,ar,P050,123,SUCCESS,data\generated_images\phase1a\flux\ar\P050_seed123.png,,7.4
+2026-05-22T12:55:58.150669,sd15,es,P017,42,SUCCESS,data\generated_images\phase1a\sd15\es\P017_seed42.png,,3.9
+2026-05-22T12:56:00.844861,sd15,ar,P012,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P012_seed123.png,,2.7
+2026-05-22T12:56:03.450777,sd15,ar,P029,123,SUCCESS,data\generated_images\phase1a\sd15\ar\P029_seed123.png,,2.6
+2026-05-22T12:56:09.436032,flux,ar,P009,42,FAIL,,All generated images contained NSFW content. Try running it again with a different prompt.,5.9
+2026-05-22T12:56:57.880531,flux,ar,P009,42,FAIL,,All generated images contained NSFW content. Try running it again with a different prompt.,3.3
+2026-05-22T13:07:42.448581,flux,ar,P009,42,FAIL,,All generated images contained NSFW content. Try running it again with a different prompt.,3.8
+2026-05-22T13:12:18.354218,flux,ar,P009,42,FAIL,,All generated images contained NSFW content. Try running it again with a different prompt.,3.4

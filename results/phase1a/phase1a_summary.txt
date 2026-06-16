@@ -1,0 +1,29 @@
+MulBrandEval — Phase 1A Results
+============================================================
+
+RAW SCORES (FID / CMMD) per model × language
+------------------------------------------------------------
+model language  n_images      fid     cmmd
+ sd15       en       100 186.3794 0.584841
+ sd15       de       100 217.2180 0.575423
+ sd15       fr       100 197.5717 0.534654
+ sd15       es       100 210.8383 0.497937
+ sd15       ar       100 328.2191 2.542138
+ flux       en       100 185.2617 0.951290
+ flux       de       100 191.3335 1.061440
+ flux       fr       100 187.2185 1.048565
+ flux       es       100 195.3290 1.074553
+ flux       ar        99 316.6553 3.446937
+
+CLCG TABLE (non-English vs English baseline)
+Positive = non-English performs WORSE than English
+------------------------------------------------------------
+model language  clcg_fid  clcg_cmmd
+ sd15       de   30.8386  -0.009418
+ sd15       fr   11.1923  -0.050187
+ sd15       es   24.4589  -0.086904
+ sd15       ar  141.8397   1.957297
+ flux       de    6.0718   0.110150
+ flux       fr    1.9568   0.097275
+ flux       es   10.0673   0.123263
+ flux       ar  131.3936   2.495647
