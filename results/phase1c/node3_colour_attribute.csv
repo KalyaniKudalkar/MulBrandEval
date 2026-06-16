@@ -1,0 +1,61 @@
+prompt_id,model,prompt_text,color_pairs,blip_score,mclip_score,image_found
+CV001,sd15,a blue bench and a green cake,"[('blue', 'bench'), ('green', 'cake')]",0.5,0.2842,1
+CV002,sd15,a red orange and a brown sheep,"[('red', 'orange'), ('brown', 'sheep')]",0.5,0.2883,1
+CV003,sd15,a brown orange and a red sheep,"[('red', 'sheep'), ('brown', 'orange')]",0.0,0.3116,1
+CV004,sd15,a brown banana and a green dog,"[('green', 'dog'), ('brown', 'banana')]",,,0
+CV005,sd15,a green banana and a brown horse,"[('green', 'banana'), ('brown', 'horse')]",0.5,0.2811,1
+CV006,sd15,a blue backpack and a green banana,"[('blue', 'backpack'), ('green', 'banana')]",0.5,0.3363,1
+CV007,sd15,a red horse and a brown orange,"[('red', 'horse'), ('brown', 'orange')]",0.0,0.3073,1
+CV008,sd15,a blue backpack and a gold clock,"[('blue', 'backpack'), ('gold', 'clock')]",0.5,0.3237,1
+CV009,sd15,a brown backpack and a blue sheep,"[('blue', 'sheep'), ('brown', 'backpack')]",0.5,0.3343,1
+CV010,sd15,a blue bowl and a red train,"[('red', 'train'), ('blue', 'bowl')]",1.0,0.3678,1
+CV011,sd15,a brown giraffe and a red train,"[('red', 'train'), ('brown', 'giraffe')]",1.0,0.316,1
+CV012,sd15,a blue boat and a red suitcase,"[('red', 'suitcase'), ('blue', 'boat')]",1.0,0.3219,1
+CV013,sd15,a blue backpack and a red car,"[('red', 'car'), ('blue', 'backpack')]",1.0,0.3506,1
+CV014,sd15,a brown banana and a green cow,"[('green', 'cow'), ('brown', 'banana')]",0.0,0.3165,1
+CV015,sd15,a brown giraffe and a blue vase,"[('blue', 'vase'), ('brown', 'giraffe')]",1.0,0.3739,1
+CV016,sd15,a blue giraffe and a brown vase,"[('blue', 'giraffe'), ('brown', 'vase')]",0.5,0.3128,1
+CV017,sd15,a red cow and a brown suitcase,"[('red', 'cow'), ('brown', 'suitcase')]",0.5,0.3507,1
+CV018,sd15,a green banana and a brown giraffe,"[('green', 'banana'), ('brown', 'giraffe')]",1.0,0.2782,1
+CV019,sd15,a red chair and a brown sheep,"[('red', 'chair'), ('brown', 'sheep')]",0.5,0.3492,1
+CV020,sd15,a yellow apple and red bananas,"[('red', 'bananas'), ('yellow', 'apple')]",0.5,0.2656,1
+CV021,sd15,a red hat and a black scarf,"[('red', 'hat'), ('black', 'scarf')]",0.5,0.3111,1
+CV022,sd15,a yellow grass and a green dandelion,"[('green', 'dandelion'), ('yellow', 'grass')]",0.0,0.3231,1
+CV023,sd15,a gray cat and a black mouse,"[('black', 'mouse'), ('gray', 'cat')]",1.0,0.3294,1
+CV024,sd15,a yellow tomato and a red pepper,"[('red', 'pepper'), ('yellow', 'tomato')]",0.5,0.2905,1
+CV025,sd15,a green jay and a blue parrot,"[('blue', 'parrot'), ('green', 'jay')]",0.5,0.2996,1
+CV026,sd15,a black squirrel and a brown nut,"[('brown', 'nut'), ('black', 'squirrel')]",0.5,0.3178,1
+CV027,sd15,a black jacket and a brown hat,"[('brown', 'hat'), ('black', 'jacket')]",0.5,0.2762,1
+CV028,sd15,Bathroom scene with white background and tan accents.,"[('white', 'background')]",1.0,0.2747,1
+CV029,sd15,A white carpet in a bathroom with red fixtures.,"[('red', 'fixtures'), ('white', 'carpet')]",0.5,0.3055,1
+CV030,sd15,"Bathroom scene, white commode and matching white sink on light brown tone tiled floor.","[('brown', 'tone'), ('white', 'commode'), ('white', 'sink')]",1.0,0.3155,1
+CV001,flux,a blue bench and a green cake,"[('blue', 'bench'), ('green', 'cake')]",1.0,0.3293,1
+CV002,flux,a red orange and a brown sheep,"[('red', 'orange'), ('brown', 'sheep')]",0.0,0.3189,1
+CV003,flux,a brown orange and a red sheep,"[('red', 'sheep'), ('brown', 'orange')]",0.5,0.2888,1
+CV004,flux,a brown banana and a green dog,"[('green', 'dog'), ('brown', 'banana')]",0.5,0.3373,1
+CV005,flux,a green banana and a brown horse,"[('green', 'banana'), ('brown', 'horse')]",0.5,0.3473,1
+CV006,flux,a blue backpack and a green banana,"[('blue', 'backpack'), ('green', 'banana')]",0.5,0.3646,1
+CV007,flux,a red horse and a brown orange,"[('red', 'horse'), ('brown', 'orange')]",0.5,0.3015,1
+CV008,flux,a blue backpack and a gold clock,"[('blue', 'backpack'), ('gold', 'clock')]",1.0,0.3487,1
+CV009,flux,a brown backpack and a blue sheep,"[('blue', 'sheep'), ('brown', 'backpack')]",1.0,0.338,1
+CV010,flux,a blue bowl and a red train,"[('red', 'train'), ('blue', 'bowl')]",1.0,0.306,1
+CV011,flux,a brown giraffe and a red train,"[('red', 'train'), ('brown', 'giraffe')]",1.0,0.3516,1
+CV012,flux,a blue boat and a red suitcase,"[('red', 'suitcase'), ('blue', 'boat')]",1.0,0.3463,1
+CV013,flux,a blue backpack and a red car,"[('red', 'car'), ('blue', 'backpack')]",1.0,0.3458,1
+CV014,flux,a brown banana and a green cow,"[('green', 'cow'), ('brown', 'banana')]",0.5,0.3398,1
+CV015,flux,a brown giraffe and a blue vase,"[('blue', 'vase'), ('brown', 'giraffe')]",1.0,0.3491,1
+CV016,flux,a blue giraffe and a brown vase,"[('blue', 'giraffe'), ('brown', 'vase')]",0.5,0.3541,1
+CV017,flux,a red cow and a brown suitcase,"[('red', 'cow'), ('brown', 'suitcase')]",1.0,0.3821,1
+CV018,flux,a green banana and a brown giraffe,"[('green', 'banana'), ('brown', 'giraffe')]",1.0,0.3409,1
+CV019,flux,a red chair and a brown sheep,"[('red', 'chair'), ('brown', 'sheep')]",0.5,0.3359,1
+CV020,flux,a yellow apple and red bananas,"[('red', 'bananas'), ('yellow', 'apple')]",1.0,0.3389,1
+CV021,flux,a red hat and a black scarf,"[('red', 'hat'), ('black', 'scarf')]",1.0,0.3086,1
+CV022,flux,a yellow grass and a green dandelion,"[('green', 'dandelion'), ('yellow', 'grass')]",0.0,0.3042,1
+CV023,flux,a gray cat and a black mouse,"[('black', 'mouse'), ('gray', 'cat')]",0.5,0.3142,1
+CV024,flux,a yellow tomato and a red pepper,"[('red', 'pepper'), ('yellow', 'tomato')]",0.5,0.3347,1
+CV025,flux,a green jay and a blue parrot,"[('blue', 'parrot'), ('green', 'jay')]",0.5,0.2923,1
+CV026,flux,a black squirrel and a brown nut,"[('brown', 'nut'), ('black', 'squirrel')]",1.0,0.296,1
+CV027,flux,a black jacket and a brown hat,"[('brown', 'hat'), ('black', 'jacket')]",1.0,0.2868,1
+CV028,flux,Bathroom scene with white background and tan accents.,"[('white', 'background')]",1.0,0.301,1
+CV029,flux,A white carpet in a bathroom with red fixtures.,"[('red', 'fixtures'), ('white', 'carpet')]",1.0,0.3312,1
+CV030,flux,"Bathroom scene, white commode and matching white sink on light brown tone tiled floor.","[('brown', 'tone'), ('white', 'commode'), ('white', 'sink')]",0.6667,0.295,1
