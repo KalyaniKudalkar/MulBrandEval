@@ -1,0 +1,31 @@
+scene_id,text,obj0,obj1,direction,opposite,pred_positive,pred_negative,correct_positive,correct_negative
+spatial_val_02619,there are 2 objects. one is a bench and the other is a bench. the bench is below the bench,bench,bench,below,above,0,1,0,0
+spatial_val_00456,a fire hydrant is above a person,person,fire hydrant,above,below,0,0,0,1
+spatial_val_00102,a bird is left to a fire hydrant,fire hydrant,bird,left,right,1,0,1,1
+spatial_val_01126,there are 2 objects. one is a person and the other is a airplane. the airplane is right to the person,person,airplane,right,left,1,0,1,1
+spatial_val_01003,there are 2 objects. one is a fire hydrant and the other is a bear. the bear is left to the fire hydrant,fire hydrant,bear,left,right,1,0,1,1
+spatial_val_00914,there are 2 objects. one is a person and the other is a potted plant. the potted plant is left to the person,person,potted plant,left,right,0,0,0,1
+spatial_val_00571,a airplane is above a umbrella,umbrella,airplane,above,below,1,0,1,1
+spatial_val_00419,a potted plant is right to a bird,bird,potted plant,right,left,1,0,1,1
+spatial_val_02233,there are 2 objects. one is a bear and the other is a bear. the bear is right to the bear,bear,bear,right,left,0,0,0,1
+spatial_val_00356,a traffic light is right to a umbrella,umbrella,traffic light,right,left,1,0,1,1
+spatial_val_02418,there are 2 objects. one is a dog and the other is a traffic light. the dog is above the traffic light,traffic light,dog,above,below,1,0,1,1
+spatial_val_01728,there are 2 objects. one is a suitcase and the other is a dog. the dog is below the suitcase,suitcase,dog,below,above,1,0,1,1
+spatial_val_00130,a suitcase is left to a umbrella,umbrella,suitcase,left,right,0,0,0,1
+spatial_val_00122,a bicycle is left to a umbrella,umbrella,bicycle,left,right,0,0,0,1
+spatial_val_00383,a umbrella is right to a suitcase,suitcase,umbrella,right,left,1,0,1,1
+spatial_val_00895,a suitcase is below a potted plant,potted plant,suitcase,below,above,1,0,1,1
+spatial_val_00952,there are 2 objects. one is a dog and the other is a stop sign. the stop sign is left to the dog,dog,stop sign,left,right,1,0,1,1
+spatial_val_02069,there are 2 objects. one is a potted plant and the other is a bicycle. the potted plant is right to the bicycle,bicycle,potted plant,right,left,0,0,0,1
+spatial_val_02465,there are 2 objects. one is a car and the other is a potted plant. the car is above the potted plant,potted plant,car,above,below,1,0,1,1
+spatial_val_00108,a dog is left to a stop sign,stop sign,dog,left,right,1,0,1,1
+spatial_val_02298,there are 2 objects. one is a dog and the other is a dog. the dog is above the dog,dog,dog,above,below,1,1,1,0
+spatial_val_00814,a boat is below a bench,bench,boat,below,above,1,0,1,1
+spatial_val_02661,there are 2 objects. one is a fire hydrant and the other is a bird. the fire hydrant is below the bird,bird,fire hydrant,below,above,1,0,1,1
+spatial_val_02232,there are 2 objects. one is a bird and the other is a bear. the bird is right to the bear,bear,bird,right,left,1,0,1,1
+spatial_val_01718,there are 2 objects. one is a bench and the other is a umbrella. the umbrella is below the bench,bench,umbrella,below,above,1,0,1,1
+spatial_val_00902,there are 2 objects. one is a person and the other is a bicycle. the bicycle is left to the person,person,bicycle,left,right,0,0,0,1
+spatial_val_01839,there are 2 objects. one is a bench and the other is a bicycle. the bench is left to the bicycle,bicycle,bench,left,right,0,0,0,1
+spatial_val_02413,there are 2 objects. one is a bear and the other is a suitcase. the bear is above the suitcase,suitcase,bear,above,below,0,0,0,1
+spatial_val_01139,there are 2 objects. one is a person and the other is a potted plant. the potted plant is right to the person,person,potted plant,right,left,1,0,1,1
+spatial_val_00026,a traffic light is left to a airplane,airplane,traffic light,left,right,1,1,1,0

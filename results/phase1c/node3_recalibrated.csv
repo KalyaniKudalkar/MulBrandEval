@@ -32,7 +32,7 @@ CV001,flux,a blue bench and a green cake,"[('blue', 'bench'), ('green', 'cake')]
 CV002,flux,a red orange and a brown sheep,"[('red', 'orange'), ('brown', 'sheep')]",0.5,0.0
 CV003,flux,a brown orange and a red sheep,"[('red', 'sheep'), ('brown', 'orange')]",0.5,0.5
 CV004,flux,a brown banana and a green dog,"[('green', 'dog'), ('brown', 'banana')]",0.5,0.5
-CV005,flux,a green banana and a brown horse,"[('green', 'banana'), ('brown', 'horse')]",0.5,0.5
+CV005,flux,a green banana and a brown horse,"[('green', 'banana'), ('brown', 'horse')]",1.0,0.5
 CV006,flux,a blue backpack and a green banana,"[('blue', 'backpack'), ('green', 'banana')]",1.0,0.5
 CV007,flux,a red horse and a brown orange,"[('red', 'horse'), ('brown', 'orange')]",0.5,0.5
 CV008,flux,a blue backpack and a gold clock,"[('blue', 'backpack'), ('gold', 'clock')]",1.0,1.0
