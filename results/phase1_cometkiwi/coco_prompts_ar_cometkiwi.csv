@@ -1,0 +1,51 @@
+prompt_id,category,image_id,caption_en,caption_translated,back_translated,cc_score,status,language,cometkiwi_score
+P001,people,235836,A boy playing baseball about to hit a ball.,صبي يلعب البيسبول على وشك أن يضرب الكرة.,A boy playing baseball is about to hit the ball.,0.9742,PASS,ar,0.8185302019119263
+P002,people,186449,An elderly woman sits on a bench with a crowd behind her.,امرأة مسنة تجلس على مقعد وخلفها حشد من الناس.,An elderly woman sits on a bench with a crowd of people behind her.,0.9967,PASS,ar,0.8494362831115723
+P003,people,17436,A man sitting on a bench with a tall building behind him.,رجل يجلس على مقعد وخلفه مبنى مرتفع.,A man sits on a bench with a tall building behind him.,0.9979,PASS,ar,0.8457846641540527
+P004,people,161781,A woman in gear skiing down a snowy slope,امرأة في ترس تتزلج على منحدر ثلجي,Woman in gear skiing down a snowy slope,0.9919,PASS,ar,0.6611917018890381
+P005,people,2473,A man flying through the air while riding skis.,رجل يطير في الهواء أثناء ركوبه الزلاجات.,A man flies through the air while riding skis.,0.9947,PASS,ar,0.6256985664367676
+P006,people,438907,A man is doing a trick on a skateboard.,رجل يقوم بخدعة على لوح تزلج.,A man doing a trick on a skateboard.,0.9913,PASS,ar,0.765849769115448
+P007,people,476415,A man wearing a white shirt and tie standing in  a room.,رجل يرتدي قميصاً أبيض وربطة عنق بيضاء يقف في غرفة.,A man wearing a white shirt and white tie stands in a room.,0.9922,PASS,ar,0.8449181318283081
+P008,people,572462,A group of people standing inside of a moving tram.,مجموعة من الأشخاص يقفون داخل ترام متحرك.,A group of people standing inside a moving tram.,0.9992,PASS,ar,0.8388423919677734
+P009,people,259690,A handicapped man in a wheelchair is being helped to hold the bat by another man on a tee ball,رجل معاق على كرسي متحرك يساعده رجل آخر في حمل المضرب على كرة القدم,A disabled man in a wheelchair is helped by another man to carry a football bat,0.9499,PASS,ar,0.6348637342453003
+P010,people,447187,A man is swinging a bat a ball being pitched at him.,رجل يتأرجح بمضربه على كرة تُقذف إليه.,A man swings his bat at a ball thrown to him.,0.9816,PASS,ar,0.526893138885498
+P011,people,308394,An older woman riding a train while sitting under it's window.,امرأة عجوز تركب القطار بينما تجلس تحت نافذته.,An old woman rides the train while sitting under the window.,0.9839,PASS,ar,0.805899441242218
+P012,people,240250,A woman sitting down at a table with pizza.,امرأة تجلس على طاولة عليها بيتزا.,A woman sits at a table with a pizza on it.,0.9913,PASS,ar,0.8267291784286499
+P013,people,554156,A man holding a tennis racket in the air,رجل يمسك بمضرب تنس في الهواء,Man holding a tennis racket in the air,0.9941,PASS,ar,0.8014639019966125
+P014,vehicles,152771,A bike in the middle of an empty parking lot next to trees,دراجة في وسط موقف سيارات فارغ بجوار الأشجار,Bike in the middle of an empty car park next to trees,0.9794,PASS,ar,0.8427338600158691
+P015,vehicles,86220,A car and a public transit vehicle on a road.,سيارة ومركبة نقل عام على الطريق.,A car and a public transport vehicle on the road.,0.9917,PASS,ar,0.8018161058425903
+P016,vehicles,245448,A man standing with his motorcycle outside of a repair shop.,رجل يقف بدراجته النارية خارج ورشة تصليح.,A man stands with his motorbike outside a repair shop.,0.9884,PASS,ar,0.8498343229293823
+P017,vehicles,571264,a man is standing next to a motorcycle outside,رجل يقف إلى جانب دراجة نارية في الخارج,A man stands next to a motorbike outside,0.9806,PASS,ar,0.8321579098701477
+P018,vehicles,89556,A couple of silver cars parked around a fire hydrant.,سيارتان فضيّتان متوقفتان حول صنبور إطفاء الحريق.,Two silver cars parked around the fire hydrant.,0.9917,PASS,ar,0.8259618282318115
+P019,vehicles,269632,A bright yellow transit bus is making it's way down a street in the dark.,حافلة نقل صفراء زاهية اللون تشق طريقها في الشارع في الظلام.,A bright yellow bus makes its way down the street in the dark.,0.9854,PASS,ar,0.8271830081939697
+P020,vehicles,574425,Two old fashioned buses parked on the side of the road.,حافلتان من الطراز القديم متوقفتان على جانب الطريق.,Two old-fashioned buses are parked on the side of the road.,0.9863,PASS,ar,0.772789478302002
+P021,vehicles,48924,A dirt bike parked near a tent in the woods.,دراجة ترابية متوقفة بالقرب من خيمة في الغابة.,A dirt bike parked near a tent in the forest.,0.9901,PASS,ar,0.830092191696167
+P022,vehicles,516143,a green and white bus is on the street,حافلة خضراء وبيضاء في الشارع,Green and white bus on the street,0.9833,PASS,ar,0.7417771816253662
+P023,vehicles,259830,A moped is parked next to bicycles on a sidewalk.,دراجة بخارية متوقفة بجانب الدراجات على الرصيف.,A motorbike parked next to bicycles on the pavement.,0.9722,PASS,ar,0.8477082252502441
+P024,vehicles,286507,A long red train traveling through snow covered country side.,قطار طويل أحمر اللون يسافر عبر الجانب الريفي المغطى بالثلوج.,A long red train travelling through the snow-covered countryside.,0.9878,PASS,ar,0.819536566734314
+P025,vehicles,134722,Fast commuter train moving past an outdoor platform.,قطار ركاب سريع يمر من أمام رصيف خارجي.,An express passenger train passes in front of an outdoor platform.,0.9026,PASS,ar,0.8242183923721313
+P026,vehicles,137727,A motorized cart fills a train with luggage,عربة بمحرك تملأ قطاراً بالأمتعة,Motorised trolley fills a train with luggage,0.9555,PASS,ar,0.8282349109649658
+P027,food,460929,A hot dog with mustard is next to a bottle of soda.,هوت دوج مع الخردل بجانب زجاجة صودا.,Hot dog with mustard next to a bottle of soda.,0.9866,PASS,ar,0.6641258597373962
+P028,food,47112,A dining table has a large pizza and wine glasses.,تحتوي طاولة الطعام على بيتزا كبيرة وكؤوس نبيذ.,The dining table has large pizzas and wine glasses.,0.9823,PASS,ar,0.8370748162269592
+P029,food,99053,"A bowl of noodles, meat and broccoli with a fork.",وعاء من النودلز واللحم والبروكلي بالشوكة.,"A bowl of noodles, meat and broccoli with a fork.",1.0,PASS,ar,0.6931091547012329
+P030,food,91406,Several women gathered together posing with 6 pizzas in take out boxes.,اجتمعت عدة نساء معًا وهن يحملن 6 قطع بيتزا في صناديق إخراجها.,Several women gathered together carrying 6 pizzas in their takeaway boxes.,0.9636,PASS,ar,0.6971543431282043
+P031,food,108253,A plate of cheese bread next to bread sticks and wine.,طبق من خبز الجبن بجانب أصابع الخبز والنبيذ.,A plate of cheese bread with a side of breadsticks and wine.,0.9817,PASS,ar,0.6921665072441101
+P032,food,371472,A pile of pineapple sitting next to a pile of bananas.,كومة من الأناناس بجانب كومة من الموز.,A stack of pineapple next to a stack of bananas.,0.9475,PASS,ar,0.8021377325057983
+P033,food,66706,A plate topped with banana slice covered pan cakes.,طبق مغطى بقطع الموز المغطاة بقطع الموز.,Plate topped with banana slices.,0.9511,PASS,ar,0.4760587811470032
+P034,food,348708,The banana is laying next to an almost empty bowl.,الموزة موضوعة بجانب وعاء شبه فارغ.,The banana is placed next to a semi-empty bowl.,0.9656,PASS,ar,0.836656928062439
+P035,food,323151,A pizza sitting on top of a white plate next to a glass of beer.,بيتزا موضوعة فوق طبق أبيض بجانب كأس من البيرة.,Pizza placed on a white plate next to a glass of beer.,0.9799,PASS,ar,0.8461589813232422
+P036,food,286908,Various dishes of food sit in bowls on a table.,أطباق مختلفة من الطعام موضوعة في أوعية على الطاولة.,Different dishes of food placed in bowls on the table.,0.986,PASS,ar,0.8493285179138184
+P037,food,112378,A wooden table topped with a bunch of green bananas.,طاولة خشبية تعلوها مجموعة من الموز الأخضر.,A wooden table with a bunch of green bananas on top.,0.9943,PASS,ar,0.798733115196228
+P038,food,75456,A pizza with Canadian bacon and pineapple in a fluted pan.,بيتزا مع لحم الخنزير المقدد الكندي والأناناس في مقلاة مخدد.,Pizza with Canadian bacon and pineapple in a fluted pan.,0.9919,PASS,ar,0.6303340792655945
+P039,animals,193162,a man on a three wheeler following behind a two dogs and a cow,رجل على عربة بثلاث عجلات يتبعه كلبان وبقرة,A man on a three-wheeler followed by two dogs and a cow,0.9825,PASS,ar,0.7751040458679199
+P040,animals,90062,A black and white cow stands in a paddock with firewood in the background.,بقرة بيضاء وسوداء تقف في حقل مع حطب في الخلفية.,Black and white cow standing in a field with firewood in the background.,0.9522,PASS,ar,0.7702468037605286
+P041,animals,155571,An elephant walking across a green grass covered field.,فيل يمشي عبر حقل مغطى بالعشب الأخضر.,An elephant walks across a field covered in green grass.,0.987,PASS,ar,0.8232361078262329
+P042,animals,357060,A bird is trying to find food in the water.,طائر يحاول العثور على الطعام في الماء.,A bird trying to find food in the water.,0.9936,PASS,ar,0.8661251068115234
+P043,animals,345261,Two giraffe standing on to of a dry grass covered field.,زرافتان تقفان على حقل مغطى بالعشب الجاف.,Two giraffes stand on a field covered with dry grass.,0.985,PASS,ar,0.7664240598678589
+P044,animals,347664,A herd of cattle walking across a sandy beach near the ocean.,قطيع من الماشية يسير على شاطئ رملي بالقرب من المحيط.,A herd of cattle walking on a sandy beach near the ocean.,0.9992,PASS,ar,0.8253180980682373
+P045,animals,222235,A cat is playing with a plan in a park.,قطة تلعب بخطة في الحديقة.,A cat playing with a plan in the garden.,0.9408,PASS,ar,0.7684669494628906
+P046,animals,180011,"Four young giraffes in a zoo, with one of them being fed leaves by a person",أربع زرافات صغيرة في حديقة حيوانات، وإحداها يطعمها شخص أوراق الشجر,"Four baby giraffes in a zoo, one of which is being fed leaves by a person",0.9681,PASS,ar,0.8234455585479736
+P047,animals,512648,A brown cow under a tree in a grassy area.,بقرة بنية اللون تحت شجرة في منطقة عشبية.,A brown cow under a tree in a grassy area.,1.0,PASS,ar,0.821897566318512
+P048,animals,547383,Two adult sheep lay on the green grass.,يرقد خروفان بالغان على العشب الأخضر.,Two adult sheep lie on the green grass.,0.992,PASS,ar,0.8246307373046875
+P049,animals,357081,A photograph of two cows grazing on a green pasture.,صورة لبقرتين ترعيان في مرعى أخضر.,Image of two cows grazing in a green pasture.,0.9925,PASS,ar,0.8132544755935669
+P050,animals,1675,A cat resting on an open laptop computer.,قطة تستريح على كمبيوتر محمول مفتوح.,A cat resting on an open laptop.,0.9769,PASS,ar,0.8260270953178406
