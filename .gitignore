@@ -24,3 +24,5 @@ Thumbs.db
 env/
 venv/
 *.conda
+# Point 3 - regenerable embedding/feature caches, not needed in version control
+results/*/cache/
