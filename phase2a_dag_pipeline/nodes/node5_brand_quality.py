@@ -10,6 +10,14 @@ PASS threshold: normalised_score >= 0.20
 (lenient floor — this node measures aesthetic quality, not constraint compliance)
 
 No API calls. Model downloaded from HuggingFace on first run (~1.7 GB, cached).
+
+Language note (Point 2 resolution): scores against prompt_text_en, the
+English original, regardless of which language's image is being evaluated.
+PickScore's text encoder (CLIP-ViT-H, LAION-trained) is predominantly
+English-trained — feeding it translated (e.g. Arabic) text would depress
+scores for encoder-reliability reasons unrelated to image quality. Locking
+to English keeps Node 5 language-invariant, same principle as required_text
+in Nodes 1/3/4.
 """
 import torch
 from PIL import Image
@@ -66,7 +74,7 @@ def run_node5(state: BrandComplianceState) -> dict:
     """
     brief_id   = state.get("brief_id", "UNKNOWN")
     image_path = state["image_path"]
-    prompt     = state["prompt_text"]
+    prompt     = state["prompt_text_en"]   # English-locked (Point 2) — was state["prompt_text"]
 
     score     = _pickscore(prompt, image_path)
     pass_fail = score >= PASS_THRESHOLD

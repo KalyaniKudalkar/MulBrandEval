@@ -14,6 +14,12 @@ load_dotenv()
 df    = pd.read_csv("data/prompts/mbb/mbb_briefs_en.csv")
 brief = df.iloc[0].to_dict()
 
+# Phase 2A is English-only — prompt_text_en is always identical to prompt_text.
+# This becomes a real distinction only in Phase 2B, where prompt_text is
+# translated and prompt_text_en stays locked to the English original for
+# Node 5 (Point 2 resolution — see node5_brand_quality.py).
+brief["prompt_text_en"] = brief["prompt_text"]
+
 # ── Use a Phase 1A image as test input ────────────────────────────────────────
 # This is a COCO image, NOT an MBB image — wrong content on purpose.
 # Expect Node 1 FAIL + short-circuit. Proves the DAG routing works correctly.

@@ -8,13 +8,17 @@ from typing import TypedDict, Optional
 class BrandComplianceState(TypedDict):
 
     # ── Inputs (set before graph runs) ──────────────────────────────────────
-    brief_id:    str
-    industry:    str
-    brand_name:  str
-    prompt_text: str
-    image_path:  str
-    model:       str    # "sd15" | "flux"
-    language:    str    # "en" | "de" | "fr" | "es" | "ar"
+    brief_id:       str
+    industry:       str
+    brand_name:     str
+    prompt_text:    str
+    prompt_text_en: str  # Always the English original — Node 5 reads this,
+                          # never prompt_text (which becomes the translated
+                          # version in Phase 2B). Keeps PickScore evaluation
+                          # language-invariant, same principle as required_text.
+    image_path:     str
+    model:          str    # "sd15" | "flux"
+    language:       str    # "en" | "de" | "fr" | "es" | "ar"
 
     # ── Node 0 — Prompt Parser ───────────────────────────────────────────────
     # Initially strings from CSV; Node 0 parses into Python objects
