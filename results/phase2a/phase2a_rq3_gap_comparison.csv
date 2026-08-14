@@ -1,4 +1,4 @@
 comparison,label,rel_gap_difference,bca_ci_low,bca_ci_high,significant_at_95
-B_full_dag vs A_clip_baseline,"Configuration B (full DAG, short-circuit) vs Configuration A (CLIP-Score baseline)",1.3497324645689828,1.0133460178205183,1.770546076613841,True
-B_full_dag vs TIFA_baseline,"Configuration B (full DAG, short-circuit) vs TIFA Baseline",0.6579102932125009,0.4073463516940555,0.9770308258267154,True
-B_full_dag vs C_flat_dag,"Configuration B (full DAG, short-circuit) vs Configuration C (flat DAG, no short-circuit)",0.5918190982682223,0.36427150838463773,0.8873970918238253,True
+B_full_dag vs A_clip_baseline,"Configuration B (full DAG, short-circuit) vs Configuration A (CLIP-Score baseline)",1.3382302336743717,1.0036256666121555,1.755947038222367,True
+B_full_dag vs TIFA_baseline,"Configuration B (full DAG, short-circuit) vs TIFA Baseline",0.6464080623178898,0.39829845078254467,0.9605936936957568,True
+B_full_dag vs C_flat_dag,"Configuration B (full DAG, short-circuit) vs Configuration C (flat DAG, no short-circuit)",0.5803168673736112,0.3559583817303185,0.87842126031975,True
