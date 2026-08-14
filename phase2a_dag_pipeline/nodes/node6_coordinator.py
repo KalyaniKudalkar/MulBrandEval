@@ -192,8 +192,14 @@ def run_node6(state: BrandComplianceState) -> dict:
                 else None
             ),
             "weight":     weights["node4"],
-            # False only for SD v1.5 — short-circuit skip does not affect CLCG interpretability
-            "clcg_interpretable": not node4_arch_skipped,
+            # Always False for SD v1.5, regardless of whether Node 4 actually
+            # ran or was bypassed by the Node 1 short-circuit. Deriving this
+            # from `model` directly (rather than from node4_arch_skipped,
+            # which relies on state["node4_skipped"] having been set by
+            # run_node4) fixes a bug where short-circuited SD v1.5 rows never
+            # execute run_node4, so node4_skipped defaults to False and
+            # clcg_interpretable was incorrectly coming out True.
+            "clcg_interpretable": model != "sd15",
         },
         "node5": {
             "pass":   node5_pass,
