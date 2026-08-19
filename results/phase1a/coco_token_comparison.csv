@@ -1,0 +1,51 @@
+prompt_id,caption_en,caption_ar,tokens_en,tokens_ar,en_truncated,ar_truncated,ar_tokens_dropped,token_ratio_ar_over_en
+P001,A boy playing baseball about to hit a ball.,صبي يلعب البيسبول على وشك أن يضرب الكرة.,10,35,False,False,0,3.5
+P002,An elderly woman sits on a bench with a crowd behind her.,امرأة مسنة تجلس على مقعد وخلفها حشد من الناس.,13,38,False,False,0,2.923076923076923
+P003,A man sitting on a bench with a tall building behind him.,رجل يجلس على مقعد وخلفه مبنى مرتفع.,13,33,False,False,0,2.5384615384615383
+P004,A woman in gear skiing down a snowy slope,امرأة في ترس تتزلج على منحدر ثلجي,9,31,False,False,0,3.4444444444444446
+P005,A man flying through the air while riding skis.,رجل يطير في الهواء أثناء ركوبه الزلاجات.,10,34,False,False,0,3.4
+P006,A man is doing a trick on a skateboard.,رجل يقوم بخدعة على لوح تزلج.,10,26,False,False,0,2.6
+P007,A man wearing a white shirt and tie standing in  a room.,رجل يرتدي قميصاً أبيض وربطة عنق بيضاء يقف في غرفة.,13,46,False,False,0,3.5384615384615383
+P008,A group of people standing inside of a moving tram.,مجموعة من الأشخاص يقفون داخل ترام متحرك.,11,35,False,False,0,3.1818181818181817
+P009,A handicapped man in a wheelchair is being helped to hold the bat by another man on a tee ball,رجل معاق على كرسي متحرك يساعده رجل آخر في حمل المضرب على كرة القدم,21,56,False,False,0,2.6666666666666665
+P010,A man is swinging a bat a ball being pitched at him.,رجل يتأرجح بمضربه على كرة تُقذف إليه.,13,39,False,False,0,3.0
+P011,An older woman riding a train while sitting under it's window.,امرأة عجوز تركب القطار بينما تجلس تحت نافذته.,13,40,False,False,0,3.076923076923077
+P012,A woman sitting down at a table with pizza.,امرأة تجلس على طاولة عليها بيتزا.,10,30,False,False,0,3.0
+P013,A man holding a tennis racket in the air,رجل يمسك بمضرب تنس في الهواء,9,25,False,False,0,2.7777777777777777
+P014,A bike in the middle of an empty parking lot next to trees,دراجة في وسط موقف سيارات فارغ بجوار الأشجار,13,37,False,False,0,2.8461538461538463
+P015,A car and a public transit vehicle on a road.,سيارة ومركبة نقل عام على الطريق.,11,26,False,False,0,2.3636363636363638
+P016,A man standing with his motorcycle outside of a repair shop.,رجل يقف بدراجته النارية خارج ورشة تصليح.,12,33,False,False,0,2.75
+P017,a man is standing next to a motorcycle outside,رجل يقف إلى جانب دراجة نارية في الخارج,9,31,False,False,0,3.4444444444444446
+P018,A couple of silver cars parked around a fire hydrant.,سيارتان فضيّتان متوقفتان حول صنبور إطفاء الحريق.,12,40,False,False,0,3.3333333333333335
+P019,A bright yellow transit bus is making it's way down a street in the dark.,حافلة نقل صفراء زاهية اللون تشق طريقها في الشارع في الظلام.,17,47,False,False,0,2.764705882352941
+P020,Two old fashioned buses parked on the side of the road.,حافلتان من الطراز القديم متوقفتان على جانب الطريق.,12,38,False,False,0,3.1666666666666665
+P021,A dirt bike parked near a tent in the woods.,دراجة ترابية متوقفة بالقرب من خيمة في الغابة.,11,36,False,False,0,3.272727272727273
+P022,a green and white bus is on the street,حافلة خضراء وبيضاء في الشارع,9,25,False,False,0,2.7777777777777777
+P023,A moped is parked next to bicycles on a sidewalk.,دراجة بخارية متوقفة بجانب الدراجات على الرصيف.,12,38,False,False,0,3.1666666666666665
+P024,A long red train traveling through snow covered country side.,قطار طويل أحمر اللون يسافر عبر الجانب الريفي المغطى بالثلوج.,11,48,False,False,0,4.363636363636363
+P025,Fast commuter train moving past an outdoor platform.,قطار ركاب سريع يمر من أمام رصيف خارجي.,9,32,False,False,0,3.5555555555555554
+P026,A motorized cart fills a train with luggage,عربة بمحرك تملأ قطاراً بالأمتعة,9,29,False,False,0,3.2222222222222223
+P027,A hot dog with mustard is next to a bottle of soda.,هوت دوج مع الخردل بجانب زجاجة صودا.,13,29,False,False,0,2.230769230769231
+P028,A dining table has a large pizza and wine glasses.,تحتوي طاولة الطعام على بيتزا كبيرة وكؤوس نبيذ.,11,42,False,False,0,3.8181818181818183
+P029,"A bowl of noodles, meat and broccoli with a fork.",وعاء من النودلز واللحم والبروكلي بالشوكة.,12,33,False,False,0,2.75
+P030,Several women gathered together posing with 6 pizzas in take out boxes.,اجتمعت عدة نساء معًا وهن يحملن 6 قطع بيتزا في صناديق إخراجها.,13,55,False,False,0,4.230769230769231
+P031,A plate of cheese bread next to bread sticks and wine.,طبق من خبز الجبن بجانب أصابع الخبز والنبيذ.,12,38,False,False,0,3.1666666666666665
+P032,A pile of pineapple sitting next to a pile of bananas.,كومة من الأناناس بجانب كومة من الموز.,12,29,False,False,0,2.4166666666666665
+P033,A plate topped with banana slice covered pan cakes.,طبق مغطى بقطع الموز المغطاة بقطع الموز.,10,36,False,False,0,3.6
+P034,The banana is laying next to an almost empty bowl.,الموزة موضوعة بجانب وعاء شبه فارغ.,11,28,False,False,0,2.5454545454545454
+P035,A pizza sitting on top of a white plate next to a glass of beer.,بيتزا موضوعة فوق طبق أبيض بجانب كأس من البيرة.,16,43,False,False,0,2.6875
+P036,Various dishes of food sit in bowls on a table.,أطباق مختلفة من الطعام موضوعة في أوعية على الطاولة.,11,45,False,False,0,4.090909090909091
+P037,A wooden table topped with a bunch of green bananas.,طاولة خشبية تعلوها مجموعة من الموز الأخضر.,11,37,False,False,0,3.3636363636363638
+P038,A pizza with Canadian bacon and pineapple in a fluted pan.,بيتزا مع لحم الخنزير المقدد الكندي والأناناس في مقلاة مخدد.,13,47,False,False,0,3.6153846153846154
+P039,a man on a three wheeler following behind a two dogs and a cow,رجل على عربة بثلاث عجلات يتبعه كلبان وبقرة,14,36,False,False,0,2.5714285714285716
+P040,A black and white cow stands in a paddock with firewood in the background.,بقرة بيضاء وسوداء تقف في حقل مع حطب في الخلفية.,16,40,False,False,0,2.5
+P041,An elephant walking across a green grass covered field.,فيل يمشي عبر حقل مغطى بالعشب الأخضر.,10,31,False,False,0,3.1
+P042,A bird is trying to find food in the water.,طائر يحاول العثور على الطعام في الماء.,11,31,False,False,0,2.8181818181818183
+P043,Two giraffe standing on to of a dry grass covered field.,زرافتان تقفان على حقل مغطى بالعشب الجاف.,12,32,False,False,0,2.6666666666666665
+P044,A herd of cattle walking across a sandy beach near the ocean.,قطيع من الماشية يسير على شاطئ رملي بالقرب من المحيط.,13,44,False,False,0,3.3846153846153846
+P045,A cat is playing with a plan in a park.,قطة تلعب بخطة في الحديقة.,11,20,False,False,0,1.8181818181818181
+P046,"Four young giraffes in a zoo, with one of them being fed leaves by a person",أربع زرافات صغيرة في حديقة حيوانات، وإحداها يطعمها شخص أوراق الشجر,18,59,False,False,0,3.2777777777777777
+P047,A brown cow under a tree in a grassy area.,بقرة بنية اللون تحت شجرة في منطقة عشبية.,11,32,False,False,0,2.909090909090909
+P048,Two adult sheep lay on the green grass.,يرقد خروفان بالغان على العشب الأخضر.,9,29,False,False,0,3.2222222222222223
+P049,A photograph of two cows grazing on a green pasture.,صورة لبقرتين ترعيان في مرعى أخضر.,11,29,False,False,0,2.6363636363636362
+P050,A cat resting on an open laptop computer.,قطة تستريح على كمبيوتر محمول مفتوح.,10,32,False,False,0,3.2

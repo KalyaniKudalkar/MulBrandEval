@@ -1,0 +1,101 @@
+prompt_id,caption_en,caption_ar,tokens_en,tokens_ar,en_truncated,ar_truncated,ar_tokens_dropped,token_ratio_ar_over_en
+DB001,A black colored banana.,موزة سوداء اللون,5,13,False,False,0,2.6
+DB002,A blue bird and a brown bear.,طائر أزرق ودب بني اللون,8,20,False,False,0,2.5
+DB003,A red colored car.,سيارة حمراء اللون.,5,14,False,False,0,2.8
+DB004,A blue cup and a green cell phone.,كوب أزرق وهاتف خلوي أخضر,9,25,False,False,0,2.7777777777777777
+DB005,An orange colored sandwich.,شطيرة برتقالية اللون,5,16,False,False,0,3.2
+DB006,A white colored sandwich.,ساندويتش أبيض اللون,5,18,False,False,0,3.6
+DB007,A yellow colored giraffe.,زرافة صفراء اللون.,5,15,False,False,0,3.0
+DB008,A black colored car.,سيارة سوداء اللون أسود اللون.,5,23,False,False,0,4.6
+DB009,A black apple and a green backpack.,تفاحة سوداء وحقيبة ظهر خضراء.,8,27,False,False,0,3.375
+DB010,A blue colored dog.,كلب أزرق اللون أزرق اللون,5,23,False,False,0,4.6
+DB011,A pink colored car.,سيارة وردية اللون.,5,13,False,False,0,2.6
+DB012,A pink colored giraffe.,زرافة وردية اللون,5,13,False,False,0,2.6
+DB013,A red car and a white sheep.,سيارة حمراء وخروف أبيض.,8,22,False,False,0,2.75
+DB014,One car on the street.,سيارة واحدة في الشارع,6,16,False,False,0,2.6666666666666665
+DB015,One dog on the street.,كلب واحد في الشارع,6,14,False,False,0,2.3333333333333335
+DB016,One cat and two dogs sitting on the grass.,قطة واحدة وكلبان يجلسون على العشب.,10,28,False,False,0,2.8
+DB017,Two cars on the street.,سيارتان في الشارع,6,12,False,False,0,2.0
+DB018,Four dogs on the street.,أربعة كلاب في الشارع,6,17,False,False,0,2.8333333333333335
+DB019,Three cats and one dog sitting on the grass.,ثلاث قطط وكلب واحد يجلسون على العشب.,10,32,False,False,0,3.2
+DB020,Four cars on the street.,أربع سيارات في الشارع,6,18,False,False,0,3.0
+DB021,Two cats and one dog sitting on the grass.,قطتان وكلب واحد يجلسون على العشب.,10,27,False,False,0,2.7
+DB022,Two cats and three dogs sitting on the grass.,قطتان وثلاثة كلاب يجلسون على العشب.,10,30,False,False,0,3.0
+DB023,Three cats and two dogs sitting on the grass.,ثلاث قطط وكلبان يجلسون على العشب.,10,29,False,False,0,2.9
+DB024,Three cars on the street.,ثلاث سيارات في الشارع,6,17,False,False,0,2.8333333333333335
+DB025,Five dogs on the street.,خمسة كلاب في الشارع,6,15,False,False,0,2.5
+DB026,Three cats and three dogs sitting on the grass.,ثلاث قطط وثلاثة كلاب تجلس على العشب.,10,34,False,False,0,3.4
+DB027,A train on top of a surfboard.,قطار فوق لوح تزلج,9,17,False,False,0,1.8888888888888888
+DB028,A stop sign on the right of a refrigerator.,علامة توقف على يمين الثلاجة.,10,25,False,False,0,2.5
+DB029,A pizza on the right of a suitcase.,بيتزا على يمين الحقيبة.,9,20,False,False,0,2.2222222222222223
+DB030,A wine glass on top of a dog.,كأس نبيذ فوق كلب,9,17,False,False,0,1.8888888888888888
+DB031,A tennis racket underneath a traffic light.,مضرب تنس تحت إشارة مرور.,8,22,False,False,0,2.75
+DB032,A giraffe underneath a microwave.,زرافة تحت الميكروويف.,6,19,False,False,0,3.1666666666666665
+DB033,A couch on the left of a chair.,أريكة على يسار الكرسي.,9,19,False,False,0,2.111111111111111
+DB034,An umbrella on top of a spoon.,مظلة فوق ملعقة.,8,15,False,False,0,1.875
+DB035,A sheep to the right of a wine glass.,خروف على يمين كأس النبيذ.,10,25,False,False,0,2.5
+DB036,A cat on the right of a tennis racket.,قطة على يمين مضرب التنس.,10,22,False,False,0,2.2
+DB037,A cat on the left of a dog.,قطة على يسار كلب,9,14,False,False,0,1.5555555555555556
+DB038,A bicycle on top of a boat.,دراجة هوائية فوق قارب,8,18,False,False,0,2.25
+DB039,A storefront with 'Hello World' written on it.,"واجهة متجر مكتوب عليها ""مرحباً بالعالم"".",12,33,False,False,0,2.75
+DB040,New York Skyline with 'NeurIPS' written with fireworks on the sky.,"أفق نيويورك مع عبارة ""NeurIPS"" مكتوب عليها ""NeurIPS"" مع ألعاب نارية في السماء.",15,58,False,False,0,3.8666666666666667
+DB041,New York Skyline with 'Diffusion' written with fireworks on the sky.,"أفق نيويورك مع كلمة ""انتشار"" مكتوب عليها ألعاب نارية في السماء.",15,54,False,False,0,3.6
+DB042,A storefront with 'Diffusion' written on it.,"واجهة متجر مكتوب عليها ""Diffusion"".",12,23,False,False,0,1.9166666666666667
+DB043,A sign that says 'Diffusion'.,"لافتة مكتوب عليها ""انتشار"".",8,22,False,False,0,2.75
+DB044,A storefront with 'Google Brain Toronto' written on it.,"واجهة متجر مكتوب عليها ""Google Brain Toronto"".",13,24,False,False,0,1.8461538461538463
+DB045,A sign that says 'Deep Learning'.,"لافتة مكتوب عليها ""التعلم العميق"".",9,28,False,False,0,3.111111111111111
+DB046,A storefront with 'NeurIPS' written on it.,"واجهة متجر مكتوب عليها ""NeurIPS"".",12,23,False,False,0,1.9166666666666667
+DB047,New York Skyline with 'Deep Learning' written with fireworks on the sky.,"أفق نيويورك مع عبارة ""التعلم العميق"" مكتوب عليها ""التعلم العميق"" مع الألعاب النارية في السماء.",16,78,False,True,3,4.875
+DB048,New York Skyline with 'Text to Image' written with fireworks on the sky.,"أفق نيويورك مع ""نص إلى صورة"" مكتوب عليه ""نص إلى صورة"" مع ألعاب نارية في السماء.",16,71,False,False,0,4.4375
+DB049,A sign that says 'Google Research Pizza Cafe'.,"لافتة مكتوب عليها ""مقهى بيتزا أبحاث جوجل"".",10,37,False,False,0,3.7
+DB050,A storefront with 'Text to Image' written on it.,"واجهة متجر مكتوب عليها ""نص إلى صورة"".",13,32,False,False,0,2.4615384615384617
+GB001,A peaceful pathway lined with blooming flowers leading to a hidden garden.,ممر هادئ تصطف على جانبيه أزهار متفتحة تؤدي إلى حديقة مخفية.,13,55,False,False,0,4.230769230769231
+GB002,"A girl has three flower decorations in her hair, all of them daisies.",فتاة لديها ثلاث زخارف من الزهور في شعرها، وكلها زهور الأقحوان.,15,52,False,False,0,3.466666666666667
+GB003,A mermaid with pearl hairpins beneath the waves.,حورية بحر مع دبابيس شعر من اللؤلؤ تحت الأمواج.,10,40,False,False,0,4.0
+GB004,A bear wearing a sweater and reading a book by the fireplace.,دب يرتدي سترة ويقرأ كتاباً بجوار المدفأة.,13,37,False,False,0,2.8461538461538463
+GB005,"In the pond, two ducks swim near each other: the larger one has a bright green head, while the smaller one is all brown.",في البركة، تسبح بطتان بالقرب من بعضهما البعض: البطة الأكبر لها رأس أخضر لامع بينما الأصغر لونها بني بالكامل.,28,91,False,True,16,3.25
+GB006,"There are four roses in a clear glass vase, all of which are red, and all of which are not open.",توجد أربع ورود في مزهرية زجاجية شفافة، وكلها حمراء اللون وجميعها غير مفتوحة.,24,64,False,False,0,2.6666666666666665
+GB007,"In a basket, there are many cauliflowers, all green except for the one in the middle, which is yellow.",في سلة، يوجد العديد من القرنبيط في سلة، وكلها خضراء ما عدا التي في المنتصف فهي صفراء.,24,70,False,False,0,2.9166666666666665
+GB008,The brown dog chases the black dog around the tree.,يطارد الكلب البني الكلب الأسود حول الشجرة.,11,31,False,False,0,2.8181818181818183
+GB009,"a futuristic cityscape at dusk, with flying cars zooming between neon-lit skyscrapers.",مشهد مستقبلي للمدينة عند الغسق، مع سيارات طائرة تنطلق بين ناطحات السحاب المضاءة بالنيون.,19,75,False,False,0,3.9473684210526314
+GB010,A ceramic bowl filled with water sits next to a steel door that leads to the garden.,يوجد وعاء خزفي مملوء بالماء بجوار باب فولاذي يؤدي إلى الحديقة.,18,54,False,False,0,3.0
+GB011,"There are four train toys on the floor, none of which are adjacent to each other.",توجد أربع ألعاب قطار على الأرض، لا توجد أي منها متجاورة مع بعضها البعض.,18,67,False,False,0,3.7222222222222223
+GB012,"A dog, a cat and a bird on a chair.",كلب وقطة وطائر على كرسي.,12,21,False,False,0,1.75
+GB013,a bouquet of tulips sprouting from an open book.,باقة من زهور التوليب تنبت من كتاب مفتوح.,11,33,False,False,0,3.0
+GB014,"A row of houses with chimneys, but no smoke coming out.",صف من المنازل ذات المداخن، ولكن لا دخان يتصاعد منها.,14,43,False,False,0,3.0714285714285716
+GB015,"A cheerful dog with a frisbee in its mouth on the right, chasing a rolling ball on the left.",كلب مبتهج يحمل طبق طائر في فمه على اليمين، ويطارد كرة متدحرجة على اليسار.,21,62,False,False,0,2.9523809523809526
+GB016,A person in a brown raincoat laughing with another person clad in a sleek black trench coat under a shared umbrella.,شخص يرتدي معطف مطر بني اللون يضحك مع شخص آخر يرتدي معطفاً أسود أنيقاً تحت مظلة مشتركة.,23,81,False,True,6,3.5217391304347827
+GB017,A painter on a ladder adds stars to a mural of the night sky on a city wall.,رسام على سلم يضيف النجوم إلى لوحة جدارية للسماء ليلاً على جدار المدينة.,19,63,False,False,0,3.3157894736842106
+GB018,A sphinx talking with travelers in front of the Pyramids at sunset.,أبو الهول يتحدث مع المسافرين أمام الأهرامات عند غروب الشمس.,13,50,False,False,0,3.8461538461538463
+GB019,"Three small, non-blue boxes on a large blue box.",ثلاثة صناديق صغيرة غير زرقاء على صندوق أزرق كبير.,13,47,False,False,0,3.6153846153846154
+GB020,"A polished, copper kettle steams on the stove, catching the attention of a curious cat perched on a nearby chair.",غلاية نحاسية مصقولة تتصاعد منها البخار على الموقد، مما يلفت انتباه قطة فضولية تجلس على كرسي قريب.,24,82,False,True,7,3.4166666666666665
+GB021,Several umbrellas of varying colors leaned against stands in the hallway.,اتكأت عدة مظلات بألوان مختلفة على حوامل في الردهة.,13,43,False,False,0,3.3076923076923075
+GB022,A hat is perched on the table and a coat is draped on the chair.,قبعة موضوعة على الطاولة ومعطف ملفوف على الكرسي.,16,43,False,False,0,2.6875
+GB023,"Two children sitting on the bed, the one on the left making faces, the one on the right not making faces.",طفلان يجلسان على السرير، الطفل الذي على اليسار يصنع الوجوه، والطفل الذي على اليمين لا يصنع الوجوه.,24,79,False,True,4,3.2916666666666665
+GB024,"A leather-bound notebook lying on a linen tablecloth, accompanied by a brass pen.",دفتر مجلد بالجلد ملقى على مفرش من الكتان مع قلم نحاسي.,19,45,False,False,0,2.3684210526315788
+GB025,"A weeping willow as a poet, writing verses that sway with its branches by a serene lake.",صفصاف باكي كشاعر، يكتب أبياتًا تتمايل بأغصانها على ضفاف بحيرة هادئة.,19,64,False,False,0,3.3684210526315788
+GB026,"Three people are sitting elegantly around a round table, each holding a cup of coffee.",ثلاثة أشخاص يجلسون بأناقة حول مائدة مستديرة وكل منهم يحمل فنجان قهوة.,18,60,False,False,0,3.3333333333333335
+GB027,A nurse not administering a vaccine to a young child.,ممرضة لا تعطي لقاحاً لطفل صغير.,12,28,False,False,0,2.3333333333333335
+GB028,Eight wavy lines are under three polygonal signs.,توجد ثمانية خطوط متموجة تحت ثلاث علامات متعددة الأضلاع.,11,49,False,False,0,4.454545454545454
+GB029,"An alchemist's workshop, bubbling cauldrons, and 'Elixir of Life' are labeled on a shelf.","ورشة عمل كيميائي ومراجل فقاقيع و""إكسير الحياة"" على أحد الرفوف.",23,55,False,False,0,2.391304347826087
+GB030,A crystal-clear lake reflecting a mountainous landscape.,بحيرة صافية تعكس مناظر طبيعية جبلية.,11,32,False,False,0,2.909090909090909
+GB031,An octagonal window framing a spherical ornament.,نافذة مثمنة تؤطر زخرفة كروية الشكل.,10,32,False,False,0,3.2
+GB032,"A pair of socks, one is striped, but the other is not.",زوج من الجوارب، أحدهما مخطط والآخر غير مخطط.,15,40,False,False,0,2.6666666666666665
+GB033,"There is one apple and two bananas on the table, and the bananas are not fresher than the apples.",توجد تفاحة واحدة وموزتان على المائدة، والموز ليس طازجاً أكثر من التفاح.,21,63,False,False,0,3.0
+GB034,a dog's paw hidden under a fluffy blanket.,مخلب كلب مخبأ تحت بطانية منفوشة.,10,27,False,False,0,2.7
+GB035,An old windmill overlooking a field of blooming flowers.,طاحونة قديمة تطل على حقل من الزهور المتفتحة.,10,36,False,False,0,3.6
+GB036,"A laptop sticker that humorously states, 'This Machine Fights Zombies.'","ملصق كمبيوتر محمول مكتوب عليه بطريقة فكاهية ""هذه الآلة تحارب الزومبي"".",14,58,False,False,0,4.142857142857143
+GB037,A lone lighthouse standing guard on a rocky coastline.,منارة وحيدة تقف حارسة على ساحل صخري.,10,30,False,False,0,3.0
+GB038,"A playful kitten with a bell collar on the left, batting at a fluttering butterfly on the right.",قطة مرحة ذات طوق جرس على اليسار، تضرب فراشة ترفرف على اليمين.,22,56,False,False,0,2.5454545454545454
+GB039,A serene stream winding through a lush meadow at sunrise.,مجرى مائي هادئ يمر عبر مرج خصب عند شروق الشمس.,11,41,False,False,0,3.727272727272727
+GB040,"Tea steams in a cup, next to a closed diary with a pen resting on its cover.",يتبخّر الشاي في فنجان، وبجواره مفكرة مغلقة مع قلم يرتكز على غلافها.,20,59,False,False,0,2.95
+GB041,"A mystical forest clearing, illuminated by 'Moonlit Path' glowing runes hovering above the ground, guiding wanderers at night.","مساحة غابة غامضة مضاءة بـ ""مسار القمر"" الذي يضيء بأحرف رونية متوهجة تحوم فوق الأرض لترشد المتجولين ليلاً.",25,95,False,True,20,3.8
+GB042,"A bustling shopping mall, alive with shoppers and bright store displays.",مركز تسوق صاخب، يعج بالمتسوقين وعروض المتاجر الزاهية.,14,48,False,False,0,3.4285714285714284
+GB043,A cat in jeans and a t-shirt lounging on a sunny window sill.,قطة ترتدي بنطلون جينز وقميصاً وترتدي قميصاً مستلقية على عتبة نافذة مشمسة.,16,67,False,False,0,4.1875
+GB044,An antique door knocker with 'Fortune Favors the Bold' inscribed around it.,"مطرقة باب عتيقة منقوش عليها عبارة ""الحظ يحابي الشجعان"".",16,44,False,False,0,2.75
+GB045,an SUV navigating through a rugged mountain trail.,سيارة دفع رباعي تتنقل عبر ممر جبلي وعر.,9,32,False,False,0,3.5555555555555554
+GB046,the Eiffel Tower adorned with colorful flowers in spring.,برج إيفل المزين بالزهور الملونة في الربيع.,10,35,False,False,0,3.5
+GB047,Three white seagulls flying over a blue lake.,ثلاثة طيور نورس بيضاء تحلق فوق بحيرة زرقاء.,9,40,False,False,0,4.444444444444445
+GB048,"There are several sleek laptops on a table, all of which are closed",هناك العديد من أجهزة الكمبيوتر المحمولة الأنيقة على طاولة، وكلها مغلقة,14,60,False,False,0,4.285714285714286
+GB049,A cherry blossom tree gracefully dancing in a kimono during a spring festival under moonlight.,شجرة أزهار الكرز ترقص برشاقة في ثوب كيمونو خلال مهرجان الربيع تحت ضوء القمر.,17,66,False,False,0,3.8823529411764706
+GB050,Five relaxed students but one overwhelmed teacher.,خمسة طلاب مرتاحون ومعلم واحد مرتبك.,8,31,False,False,0,3.875

@@ -1,0 +1,18 @@
+======================================================================
+Phase 1A — CLIP Token Analysis (COCO prompts, Arabic vs English)
+50 matched prompts
+======================================================================
+
+English tokens -- mean: 11.9, median: 11, min: 9, max: 21
+Arabic tokens  -- mean: 36.1, median: 35, min: 20, max: 59
+Mean token ratio (AR/EN): 3.07x
+
+English prompts truncated (>75 tokens): 0 / 50
+Arabic prompts truncated (>75 tokens):  0 / 50 (0.0%)
+
+Interpretation: if ar_truncated is 0 or near-0 here, this shows
+Arabic COCO captions are short enough to avoid truncation entirely,
+which isolates the deeper cause -- CLIP's Arabic text conditioning
+failing regardless of length -- from the compounding truncation
+effect seen separately in Phase 2B's longer MBB briefs.
+======================================================================

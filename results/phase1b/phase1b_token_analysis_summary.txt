@@ -1,0 +1,18 @@
+======================================================================
+Phase 1B — CLIP Token Analysis (DrawBench/GenAI-Bench, Arabic vs English)
+100 matched prompts
+======================================================================
+
+English tokens -- mean: 12.3, median: 10, min: 5, max: 28
+Arabic tokens  -- mean: 38.2, median: 32, min: 12, max: 95
+Mean token ratio (AR/EN): 3.06x
+
+English prompts truncated (>75 tokens): 0 / 100
+Arabic prompts truncated (>75 tokens):  6 / 100 (6.0%)
+
+Interpretation: if ar_truncated is 0 or near-0 here, this shows
+Arabic Phase 1B prompts are short enough to avoid truncation entirely,
+which isolates the deeper cause -- CLIP's Arabic text conditioning
+failing regardless of length -- from the compounding truncation
+effect seen separately in Phase 2B's longer MBB briefs.
+======================================================================

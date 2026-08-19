@@ -1,0 +1,19 @@
+======================================================================
+Phase 2B — CLIP Token Truncation Analysis (Arabic vs English)
+All 150 MBB briefs
+======================================================================
+
+English tokens -- mean: 29.6, median: 30, min: 24, max: 35
+Arabic tokens  -- mean: 137.1, median: 136, min: 103, max: 196
+Mean token ratio (AR/EN): 4.64x
+
+English prompts truncated (>75 tokens): 0 / 150
+Arabic prompts truncated (>75 tokens):  150 / 150 (100.0%)
+
+Among truncated Arabic prompts, tokens dropped -- mean: 62.1, max: 121
+
+Brand name char-position -- mean fraction through sentence: 0.700
+Brand name char-position -- median fraction through sentence: 0.707
+Briefs where brand name is likely in the truncated tail: 143 / 150 (95.3%)
+
+======================================================================
