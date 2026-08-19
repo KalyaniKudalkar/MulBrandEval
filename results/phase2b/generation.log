@@ -1,0 +1,1038 @@
+2026-08-15 12:36:49,596  INFO  Phase 2B [PILOT] — 80 total images | 0 already done | 80 to generate
+2026-08-15 12:36:54,203  INFO  [OK] sd15 | de | MB004 | seed=42 -> saved in 4.6s
+2026-08-15 12:36:56,890  INFO  [OK] sd15 | de | MB024 | seed=42 -> saved in 2.7s
+2026-08-15 12:36:59,996  INFO  [OK] sd15 | de | MB038 | seed=42 -> saved in 3.1s
+2026-08-15 12:37:02,652  INFO  [OK] sd15 | de | MB039 | seed=42 -> saved in 2.7s
+2026-08-15 12:37:10,426  INFO  [OK] sd15 | de | MB061 | seed=42 -> saved in 7.8s
+2026-08-15 12:37:13,563  INFO  [OK] sd15 | de | MB084 | seed=42 -> saved in 3.1s
+2026-08-15 12:37:16,456  INFO  [OK] sd15 | de | MB094 | seed=42 -> saved in 2.9s
+2026-08-15 12:37:18,832  INFO  [OK] sd15 | de | MB111 | seed=42 -> saved in 2.4s
+2026-08-15 12:37:21,183  INFO  [OK] sd15 | de | MB125 | seed=42 -> saved in 2.4s
+2026-08-15 12:37:23,821  INFO  [OK] sd15 | de | MB128 | seed=42 -> saved in 2.6s
+2026-08-15 12:37:26,433  INFO  [OK] sd15 | fr | MB004 | seed=42 -> saved in 2.6s
+2026-08-15 12:37:28,739  INFO  [OK] sd15 | fr | MB024 | seed=42 -> saved in 2.3s
+2026-08-15 12:37:31,090  INFO  [OK] sd15 | fr | MB038 | seed=42 -> saved in 2.3s
+2026-08-15 12:37:33,943  INFO  [OK] sd15 | fr | MB039 | seed=42 -> saved in 2.9s
+2026-08-15 12:37:36,385  INFO  [OK] sd15 | fr | MB061 | seed=42 -> saved in 2.4s
+2026-08-15 12:37:39,095  INFO  [OK] sd15 | fr | MB084 | seed=42 -> saved in 2.7s
+2026-08-15 12:37:41,479  INFO  [OK] sd15 | fr | MB094 | seed=42 -> saved in 2.4s
+2026-08-15 12:37:44,586  INFO  [OK] sd15 | fr | MB111 | seed=42 -> saved in 3.1s
+2026-08-15 12:37:47,005  INFO  [OK] sd15 | fr | MB125 | seed=42 -> saved in 2.4s
+2026-08-15 12:37:49,665  INFO  [OK] sd15 | fr | MB128 | seed=42 -> saved in 2.7s
+2026-08-15 12:37:51,999  INFO  [OK] sd15 | es | MB004 | seed=42 -> saved in 2.3s
+2026-08-15 12:37:54,434  INFO  [OK] sd15 | es | MB024 | seed=42 -> saved in 2.4s
+2026-08-15 12:37:56,823  INFO  [OK] sd15 | es | MB038 | seed=42 -> saved in 2.4s
+2026-08-15 12:37:59,286  INFO  [OK] sd15 | es | MB039 | seed=42 -> saved in 2.5s
+2026-08-15 12:38:01,663  INFO  [OK] sd15 | es | MB061 | seed=42 -> saved in 2.4s
+2026-08-15 12:38:04,106  INFO  [OK] sd15 | es | MB084 | seed=42 -> saved in 2.4s
+2026-08-15 12:38:06,920  INFO  [OK] sd15 | es | MB094 | seed=42 -> saved in 2.8s
+2026-08-15 12:38:09,375  INFO  [OK] sd15 | es | MB111 | seed=42 -> saved in 2.5s
+2026-08-15 12:38:12,129  INFO  [OK] sd15 | es | MB125 | seed=42 -> saved in 2.8s
+2026-08-15 12:38:14,526  INFO  [OK] sd15 | es | MB128 | seed=42 -> saved in 2.4s
+2026-08-15 12:38:16,945  INFO  [OK] sd15 | ar | MB004 | seed=42 -> saved in 2.4s
+2026-08-15 12:38:19,532  INFO  [OK] sd15 | ar | MB024 | seed=42 -> saved in 2.6s
+2026-08-15 12:38:21,866  INFO  [OK] sd15 | ar | MB038 | seed=42 -> saved in 2.3s
+2026-08-15 12:38:24,263  INFO  [OK] sd15 | ar | MB039 | seed=42 -> saved in 2.4s
+2026-08-15 12:38:26,904  INFO  [OK] sd15 | ar | MB061 | seed=42 -> saved in 2.6s
+2026-08-15 12:38:29,336  INFO  [OK] sd15 | ar | MB084 | seed=42 -> saved in 2.4s
+2026-08-15 12:38:31,754  INFO  [OK] sd15 | ar | MB094 | seed=42 -> saved in 2.4s
+2026-08-15 12:38:34,157  INFO  [OK] sd15 | ar | MB111 | seed=42 -> saved in 2.4s
+2026-08-15 12:38:36,588  INFO  [OK] sd15 | ar | MB125 | seed=42 -> saved in 2.4s
+2026-08-15 12:38:39,214  INFO  [OK] sd15 | ar | MB128 | seed=42 -> saved in 2.6s
+2026-08-15 12:38:44,261  INFO  [OK] flux | de | MB004 | seed=42 -> saved in 5.0s
+2026-08-15 12:38:48,554  INFO  [OK] flux | de | MB024 | seed=42 -> saved in 4.3s
+2026-08-15 12:38:53,669  INFO  [OK] flux | de | MB038 | seed=42 -> saved in 5.1s
+2026-08-15 12:38:58,037  INFO  [OK] flux | de | MB039 | seed=42 -> saved in 4.4s
+2026-08-15 12:39:02,373  INFO  [OK] flux | de | MB061 | seed=42 -> saved in 4.3s
+2026-08-15 12:39:07,015  INFO  [OK] flux | de | MB084 | seed=42 -> saved in 4.6s
+2026-08-15 12:39:11,530  INFO  [OK] flux | de | MB094 | seed=42 -> saved in 4.5s
+2026-08-15 12:39:16,211  INFO  [OK] flux | de | MB111 | seed=42 -> saved in 4.7s
+2026-08-15 12:39:22,641  INFO  [OK] flux | de | MB125 | seed=42 -> saved in 6.4s
+2026-08-15 12:39:28,341  INFO  [OK] flux | de | MB128 | seed=42 -> saved in 5.7s
+2026-08-15 12:39:33,834  INFO  [OK] flux | fr | MB004 | seed=42 -> saved in 5.5s
+2026-08-15 12:39:40,276  INFO  [OK] flux | fr | MB024 | seed=42 -> saved in 6.4s
+2026-08-15 12:39:46,467  INFO  [OK] flux | fr | MB038 | seed=42 -> saved in 6.2s
+2026-08-15 12:39:51,214  INFO  [OK] flux | fr | MB039 | seed=42 -> saved in 4.7s
+2026-08-15 12:39:55,411  INFO  [OK] flux | fr | MB061 | seed=42 -> saved in 4.2s
+2026-08-15 12:40:00,328  INFO  [OK] flux | fr | MB084 | seed=42 -> saved in 4.9s
+2026-08-15 12:40:04,444  INFO  [OK] flux | fr | MB094 | seed=42 -> saved in 4.1s
+2026-08-15 12:40:08,783  INFO  [OK] flux | fr | MB111 | seed=42 -> saved in 4.3s
+2026-08-15 12:40:13,224  INFO  [OK] flux | fr | MB125 | seed=42 -> saved in 4.4s
+2026-08-15 12:40:17,521  INFO  [OK] flux | fr | MB128 | seed=42 -> saved in 4.3s
+2026-08-15 12:40:21,643  INFO  [OK] flux | es | MB004 | seed=42 -> saved in 4.1s
+2026-08-15 12:40:25,961  INFO  [OK] flux | es | MB024 | seed=42 -> saved in 4.3s
+2026-08-15 12:40:30,192  INFO  [OK] flux | es | MB038 | seed=42 -> saved in 4.2s
+2026-08-15 12:40:34,406  INFO  [OK] flux | es | MB039 | seed=42 -> saved in 4.2s
+2026-08-15 12:40:38,661  INFO  [OK] flux | es | MB061 | seed=42 -> saved in 4.3s
+2026-08-15 12:40:43,387  INFO  [OK] flux | es | MB084 | seed=42 -> saved in 4.7s
+2026-08-15 12:40:47,808  INFO  [OK] flux | es | MB094 | seed=42 -> saved in 4.4s
+2026-08-15 12:40:53,177  INFO  [OK] flux | es | MB111 | seed=42 -> saved in 5.4s
+2026-08-15 12:40:58,063  INFO  [OK] flux | es | MB125 | seed=42 -> saved in 4.9s
+2026-08-15 12:41:03,410  INFO  [OK] flux | es | MB128 | seed=42 -> saved in 5.3s
+2026-08-15 12:41:09,487  INFO  [OK] flux | ar | MB004 | seed=42 -> saved in 6.1s
+2026-08-15 12:41:14,658  INFO  [OK] flux | ar | MB024 | seed=42 -> saved in 5.2s
+2026-08-15 12:41:19,433  INFO  [OK] flux | ar | MB038 | seed=42 -> saved in 4.8s
+2026-08-15 12:41:23,948  INFO  [OK] flux | ar | MB039 | seed=42 -> saved in 4.5s
+2026-08-15 12:41:28,596  INFO  [OK] flux | ar | MB061 | seed=42 -> saved in 4.6s
+2026-08-15 12:41:32,879  INFO  [OK] flux | ar | MB084 | seed=42 -> saved in 4.3s
+2026-08-15 12:41:37,741  INFO  [OK] flux | ar | MB094 | seed=42 -> saved in 4.9s
+2026-08-15 12:41:42,325  INFO  [OK] flux | ar | MB111 | seed=42 -> saved in 4.6s
+2026-08-15 12:41:46,820  INFO  [OK] flux | ar | MB125 | seed=42 -> saved in 4.5s
+2026-08-15 12:41:51,663  INFO  [OK] flux | ar | MB128 | seed=42 -> saved in 4.8s
+2026-08-15 12:41:51,685  INFO  ============================================================
+2026-08-15 12:41:51,686  INFO  Phase 2B [PILOT] complete -- [OK] 80 generated  [FAIL] 0 failed (log totals across all runs so far)
+2026-08-15 12:41:51,686  INFO  ============================================================
+2026-08-15 12:41:51,686  INFO  Images saved to : data\generated_images\phase2b/
+2026-08-15 12:41:51,687  INFO  Log saved to    : results\phase2b\generation_log.csv
+2026-08-15 12:41:51,687  INFO  Pilot complete. Inspect the images, then run with --mode full to generate the remaining briefs (pilot images will be skipped, not regenerated).
+2026-08-18 10:38:43,501  INFO  Phase 2B [FULL] — languages: DE/FR/ES — 900 total images | 60 already done | 840 to generate
+2026-08-18 10:38:48,000  INFO  [OK] sd15 | de | MB001 | seed=42 -> saved in 4.3s
+2026-08-18 10:38:50,759  INFO  [OK] sd15 | de | MB002 | seed=42 -> saved in 2.8s
+2026-08-18 10:38:53,358  INFO  [OK] sd15 | de | MB003 | seed=42 -> saved in 2.6s
+2026-08-18 10:38:55,618  INFO  [OK] sd15 | de | MB005 | seed=42 -> saved in 2.3s
+2026-08-18 10:38:57,287  ERROR  [FAIL] Unexpected error | sd15 | de | MB006 | seed=42 -> NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 10:39:05,556  INFO  [OK] sd15 | de | MB007 | seed=42 -> saved in 3.3s
+2026-08-18 10:39:07,964  INFO  [OK] sd15 | de | MB008 | seed=42 -> saved in 2.4s
+2026-08-18 10:39:10,569  INFO  [OK] sd15 | de | MB009 | seed=42 -> saved in 2.6s
+2026-08-18 10:39:12,890  INFO  [OK] sd15 | de | MB010 | seed=42 -> saved in 2.3s
+2026-08-18 10:39:15,132  INFO  [OK] sd15 | de | MB011 | seed=42 -> saved in 2.2s
+2026-08-18 10:39:17,380  INFO  [OK] sd15 | de | MB012 | seed=42 -> saved in 2.2s
+2026-08-18 10:39:19,910  INFO  [OK] sd15 | de | MB013 | seed=42 -> saved in 2.5s
+2026-08-18 10:39:22,164  INFO  [OK] sd15 | de | MB014 | seed=42 -> saved in 2.3s
+2026-08-18 10:39:24,437  INFO  [OK] sd15 | de | MB015 | seed=42 -> saved in 2.3s
+2026-08-18 10:39:27,292  INFO  [OK] sd15 | de | MB016 | seed=42 -> saved in 2.9s
+2026-08-18 10:39:29,881  INFO  [OK] sd15 | de | MB017 | seed=42 -> saved in 2.6s
+2026-08-18 10:39:32,126  INFO  [OK] sd15 | de | MB018 | seed=42 -> saved in 2.2s
+2026-08-18 10:39:34,740  INFO  [OK] sd15 | de | MB019 | seed=42 -> saved in 2.6s
+2026-08-18 10:39:37,369  INFO  [OK] sd15 | de | MB020 | seed=42 -> saved in 2.6s
+2026-08-18 10:39:39,595  INFO  [OK] sd15 | de | MB021 | seed=42 -> saved in 2.2s
+2026-08-18 10:39:42,162  INFO  [OK] sd15 | de | MB022 | seed=42 -> saved in 2.6s
+2026-08-18 10:39:44,526  INFO  [OK] sd15 | de | MB023 | seed=42 -> saved in 2.4s
+2026-08-18 10:39:46,847  INFO  [OK] sd15 | de | MB025 | seed=42 -> saved in 2.3s
+2026-08-18 10:39:49,439  INFO  [OK] sd15 | de | MB026 | seed=42 -> saved in 2.6s
+2026-08-18 10:39:51,745  INFO  [OK] sd15 | de | MB027 | seed=42 -> saved in 2.3s
+2026-08-18 10:39:53,984  INFO  [OK] sd15 | de | MB028 | seed=42 -> saved in 2.2s
+2026-08-18 10:39:56,257  INFO  [OK] sd15 | de | MB029 | seed=42 -> saved in 2.3s
+2026-08-18 10:39:58,524  INFO  [OK] sd15 | de | MB030 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:00,825  INFO  [OK] sd15 | de | MB031 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:03,093  INFO  [OK] sd15 | de | MB032 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:05,334  INFO  [OK] sd15 | de | MB033 | seed=42 -> saved in 2.2s
+2026-08-18 10:40:07,609  INFO  [OK] sd15 | de | MB034 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:10,042  INFO  [OK] sd15 | de | MB035 | seed=42 -> saved in 2.4s
+2026-08-18 10:40:12,591  INFO  [OK] sd15 | de | MB036 | seed=42 -> saved in 2.5s
+2026-08-18 10:40:14,911  INFO  [OK] sd15 | de | MB037 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:17,169  INFO  [OK] sd15 | de | MB040 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:19,411  INFO  [OK] sd15 | de | MB041 | seed=42 -> saved in 2.2s
+2026-08-18 10:40:21,626  INFO  [OK] sd15 | de | MB042 | seed=42 -> saved in 2.2s
+2026-08-18 10:40:23,944  INFO  [OK] sd15 | de | MB043 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:26,226  INFO  [OK] sd15 | de | MB044 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:28,458  INFO  [OK] sd15 | de | MB045 | seed=42 -> saved in 2.2s
+2026-08-18 10:40:30,708  INFO  [OK] sd15 | de | MB046 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:33,097  INFO  [OK] sd15 | de | MB047 | seed=42 -> saved in 2.4s
+2026-08-18 10:40:35,357  INFO  [OK] sd15 | de | MB048 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:37,653  INFO  [OK] sd15 | de | MB049 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:39,940  INFO  [OK] sd15 | de | MB050 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:42,215  INFO  [OK] sd15 | de | MB051 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:44,467  INFO  [OK] sd15 | de | MB052 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:46,740  INFO  [OK] sd15 | de | MB053 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:49,061  INFO  [OK] sd15 | de | MB054 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:51,391  INFO  [OK] sd15 | de | MB055 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:53,645  INFO  [OK] sd15 | de | MB056 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:55,897  INFO  [OK] sd15 | de | MB057 | seed=42 -> saved in 2.3s
+2026-08-18 10:40:58,454  INFO  [OK] sd15 | de | MB058 | seed=42 -> saved in 2.6s
+2026-08-18 10:41:00,706  INFO  [OK] sd15 | de | MB059 | seed=42 -> saved in 2.3s
+2026-08-18 10:41:02,995  INFO  [OK] sd15 | de | MB060 | seed=42 -> saved in 2.3s
+2026-08-18 10:41:05,330  INFO  [OK] sd15 | de | MB062 | seed=42 -> saved in 2.3s
+2026-08-18 10:41:07,571  INFO  [OK] sd15 | de | MB063 | seed=42 -> saved in 2.2s
+2026-08-18 10:41:10,342  INFO  [OK] sd15 | de | MB064 | seed=42 -> saved in 2.8s
+2026-08-18 10:41:12,653  INFO  [OK] sd15 | de | MB065 | seed=42 -> saved in 2.3s
+2026-08-18 10:41:14,925  INFO  [OK] sd15 | de | MB066 | seed=42 -> saved in 2.3s
+2026-08-18 10:41:17,190  INFO  [OK] sd15 | de | MB067 | seed=42 -> saved in 2.3s
+2026-08-18 10:41:19,437  INFO  [OK] sd15 | de | MB068 | seed=42 -> saved in 2.2s
+2026-08-18 10:41:22,049  INFO  [OK] sd15 | de | MB069 | seed=42 -> saved in 2.6s
+2026-08-18 10:41:24,512  INFO  [OK] sd15 | de | MB070 | seed=42 -> saved in 2.4s
+2026-08-18 10:41:27,301  INFO  [OK] sd15 | de | MB071 | seed=42 -> saved in 2.8s
+2026-08-18 10:41:30,740  INFO  [OK] sd15 | de | MB072 | seed=42 -> saved in 2.8s
+2026-08-18 10:41:34,252  INFO  [OK] sd15 | de | MB073 | seed=42 -> saved in 3.5s
+2026-08-18 10:41:37,077  INFO  [OK] sd15 | de | MB074 | seed=42 -> saved in 2.8s
+2026-08-18 10:41:39,503  INFO  [OK] sd15 | de | MB075 | seed=42 -> saved in 2.4s
+2026-08-18 10:41:41,963  INFO  [OK] sd15 | de | MB076 | seed=42 -> saved in 2.5s
+2026-08-18 10:41:44,671  INFO  [OK] sd15 | de | MB077 | seed=42 -> saved in 2.3s
+2026-08-18 10:41:46,960  INFO  [OK] sd15 | de | MB078 | seed=42 -> saved in 2.3s
+2026-08-18 10:41:49,282  INFO  [OK] sd15 | de | MB079 | seed=42 -> saved in 2.3s
+2026-08-18 10:41:51,917  INFO  [OK] sd15 | de | MB080 | seed=42 -> saved in 2.6s
+2026-08-18 10:41:54,596  INFO  [OK] sd15 | de | MB081 | seed=42 -> saved in 2.6s
+2026-08-18 10:41:57,216  INFO  [OK] sd15 | de | MB082 | seed=42 -> saved in 2.6s
+2026-08-18 10:41:59,606  INFO  [OK] sd15 | de | MB083 | seed=42 -> saved in 2.4s
+2026-08-18 10:42:01,982  INFO  [OK] sd15 | de | MB085 | seed=42 -> saved in 2.4s
+2026-08-18 10:42:04,316  INFO  [OK] sd15 | de | MB086 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:06,576  INFO  [OK] sd15 | de | MB087 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:08,901  INFO  [OK] sd15 | de | MB088 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:11,822  INFO  [OK] sd15 | de | MB089 | seed=42 -> saved in 2.9s
+2026-08-18 10:42:14,940  INFO  [OK] sd15 | de | MB090 | seed=42 -> saved in 2.9s
+2026-08-18 10:42:17,671  INFO  [OK] sd15 | de | MB091 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:19,991  INFO  [OK] sd15 | de | MB092 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:22,236  INFO  [OK] sd15 | de | MB093 | seed=42 -> saved in 2.2s
+2026-08-18 10:42:24,524  INFO  [OK] sd15 | de | MB095 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:26,782  INFO  [OK] sd15 | de | MB096 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:29,047  INFO  [OK] sd15 | de | MB097 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:31,312  INFO  [OK] sd15 | de | MB098 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:33,551  INFO  [OK] sd15 | de | MB099 | seed=42 -> saved in 2.2s
+2026-08-18 10:42:35,941  INFO  [OK] sd15 | de | MB100 | seed=42 -> saved in 2.4s
+2026-08-18 10:42:38,248  INFO  [OK] sd15 | de | MB101 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:40,690  INFO  [OK] sd15 | de | MB102 | seed=42 -> saved in 2.4s
+2026-08-18 10:42:43,014  INFO  [OK] sd15 | de | MB103 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:45,265  INFO  [OK] sd15 | de | MB104 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:47,501  INFO  [OK] sd15 | de | MB105 | seed=42 -> saved in 2.2s
+2026-08-18 10:42:49,811  INFO  [OK] sd15 | de | MB106 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:52,111  INFO  [OK] sd15 | de | MB107 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:54,466  INFO  [OK] sd15 | de | MB108 | seed=42 -> saved in 2.4s
+2026-08-18 10:42:56,782  INFO  [OK] sd15 | de | MB109 | seed=42 -> saved in 2.3s
+2026-08-18 10:42:59,216  INFO  [OK] sd15 | de | MB110 | seed=42 -> saved in 2.4s
+2026-08-18 10:43:02,106  INFO  [OK] sd15 | de | MB112 | seed=42 -> saved in 2.9s
+2026-08-18 10:43:04,431  INFO  [OK] sd15 | de | MB113 | seed=42 -> saved in 2.3s
+2026-08-18 10:43:07,011  INFO  [OK] sd15 | de | MB114 | seed=42 -> saved in 2.6s
+2026-08-18 10:43:09,286  INFO  [OK] sd15 | de | MB115 | seed=42 -> saved in 2.3s
+2026-08-18 10:43:11,681  INFO  [OK] sd15 | de | MB116 | seed=42 -> saved in 2.4s
+2026-08-18 10:43:13,936  INFO  [OK] sd15 | de | MB117 | seed=42 -> saved in 2.2s
+2026-08-18 10:43:16,232  INFO  [OK] sd15 | de | MB118 | seed=42 -> saved in 2.3s
+2026-08-18 10:43:18,806  INFO  [OK] sd15 | de | MB119 | seed=42 -> saved in 2.6s
+2026-08-18 10:43:21,086  INFO  [OK] sd15 | de | MB120 | seed=42 -> saved in 2.3s
+2026-08-18 10:43:23,276  INFO  [OK] sd15 | de | MB121 | seed=42 -> saved in 2.2s
+2026-08-18 10:43:25,596  INFO  [OK] sd15 | de | MB122 | seed=42 -> saved in 2.3s
+2026-08-18 10:43:28,186  INFO  [OK] sd15 | de | MB123 | seed=42 -> saved in 2.6s
+2026-08-18 10:43:30,447  INFO  [OK] sd15 | de | MB124 | seed=42 -> saved in 2.3s
+2026-08-18 10:43:32,736  INFO  [OK] sd15 | de | MB126 | seed=42 -> saved in 2.3s
+2026-08-18 10:43:34,966  INFO  [OK] sd15 | de | MB127 | seed=42 -> saved in 2.2s
+2026-08-18 10:43:37,541  INFO  [OK] sd15 | de | MB129 | seed=42 -> saved in 2.6s
+2026-08-18 10:43:39,776  INFO  [OK] sd15 | de | MB130 | seed=42 -> saved in 2.2s
+2026-08-18 10:43:42,076  INFO  [OK] sd15 | de | MB131 | seed=42 -> saved in 2.3s
+2026-08-18 10:43:44,292  INFO  [OK] sd15 | de | MB132 | seed=42 -> saved in 2.2s
+2026-08-18 10:43:47,136  INFO  [OK] sd15 | de | MB133 | seed=42 -> saved in 2.8s
+2026-08-18 10:43:49,436  INFO  [OK] sd15 | de | MB134 | seed=42 -> saved in 2.3s
+2026-08-18 10:43:52,026  INFO  [OK] sd15 | de | MB135 | seed=42 -> saved in 2.6s
+2026-08-18 10:43:54,316  INFO  [OK] sd15 | de | MB136 | seed=42 -> saved in 2.3s
+2026-08-18 10:43:56,966  INFO  [OK] sd15 | de | MB137 | seed=42 -> saved in 2.6s
+2026-08-18 10:43:59,221  INFO  [OK] sd15 | de | MB138 | seed=42 -> saved in 2.3s
+2026-08-18 10:44:01,456  INFO  [OK] sd15 | de | MB139 | seed=42 -> saved in 2.2s
+2026-08-18 10:44:03,707  INFO  [OK] sd15 | de | MB140 | seed=42 -> saved in 2.3s
+2026-08-18 10:44:05,966  INFO  [OK] sd15 | de | MB141 | seed=42 -> saved in 2.3s
+2026-08-18 10:44:08,506  INFO  [OK] sd15 | de | MB142 | seed=42 -> saved in 2.5s
+2026-08-18 10:44:10,776  INFO  [OK] sd15 | de | MB143 | seed=42 -> saved in 2.3s
+2026-08-18 10:44:13,016  INFO  [OK] sd15 | de | MB144 | seed=42 -> saved in 2.2s
+2026-08-18 10:44:16,046  INFO  [OK] sd15 | de | MB145 | seed=42 -> saved in 3.0s
+2026-08-18 10:44:18,276  INFO  [OK] sd15 | de | MB146 | seed=42 -> saved in 2.2s
+2026-08-18 10:44:20,836  INFO  [OK] sd15 | de | MB147 | seed=42 -> saved in 2.6s
+2026-08-18 10:44:23,091  INFO  [OK] sd15 | de | MB148 | seed=42 -> saved in 2.3s
+2026-08-18 10:44:25,506  INFO  [OK] sd15 | de | MB149 | seed=42 -> saved in 2.4s
+2026-08-18 10:44:27,781  INFO  [OK] sd15 | de | MB150 | seed=42 -> saved in 2.3s
+2026-08-18 10:44:30,391  INFO  [OK] sd15 | fr | MB001 | seed=42 -> saved in 2.6s
+2026-08-18 10:44:32,870  INFO  [OK] sd15 | fr | MB002 | seed=42 -> saved in 2.5s
+2026-08-18 10:44:35,446  INFO  [OK] sd15 | fr | MB003 | seed=42 -> saved in 2.6s
+2026-08-18 10:44:38,643  INFO  [OK] sd15 | fr | MB005 | seed=42 -> saved in 2.5s
+2026-08-18 10:44:40,867  INFO  [OK] sd15 | fr | MB006 | seed=42 -> saved in 2.2s
+2026-08-18 10:44:43,157  INFO  [OK] sd15 | fr | MB007 | seed=42 -> saved in 2.3s
+2026-08-18 10:44:45,403  INFO  [OK] sd15 | fr | MB008 | seed=42 -> saved in 2.2s
+2026-08-18 10:44:47,662  INFO  [OK] sd15 | fr | MB009 | seed=42 -> saved in 2.3s
+2026-08-18 10:44:50,244  INFO  [OK] sd15 | fr | MB010 | seed=42 -> saved in 2.6s
+2026-08-18 10:44:52,461  INFO  [OK] sd15 | fr | MB011 | seed=42 -> saved in 2.2s
+2026-08-18 10:44:54,796  INFO  [OK] sd15 | fr | MB012 | seed=42 -> saved in 2.3s
+2026-08-18 10:44:57,040  INFO  [OK] sd15 | fr | MB013 | seed=42 -> saved in 2.2s
+2026-08-18 10:44:59,276  INFO  [OK] sd15 | fr | MB014 | seed=42 -> saved in 2.2s
+2026-08-18 10:45:01,601  INFO  [OK] sd15 | fr | MB015 | seed=42 -> saved in 2.3s
+2026-08-18 10:45:03,867  INFO  [OK] sd15 | fr | MB016 | seed=42 -> saved in 2.3s
+2026-08-18 10:45:11,411  INFO  [OK] sd15 | fr | MB017 | seed=42 -> saved in 7.5s
+2026-08-18 10:45:13,721  INFO  [OK] sd15 | fr | MB018 | seed=42 -> saved in 2.3s
+2026-08-18 10:45:16,022  INFO  [OK] sd15 | fr | MB019 | seed=42 -> saved in 2.3s
+2026-08-18 10:45:18,641  INFO  [OK] sd15 | fr | MB020 | seed=42 -> saved in 2.6s
+2026-08-18 10:45:20,897  INFO  [OK] sd15 | fr | MB021 | seed=42 -> saved in 2.3s
+2026-08-18 10:45:23,526  INFO  [OK] sd15 | fr | MB022 | seed=42 -> saved in 2.6s
+2026-08-18 10:45:25,846  INFO  [OK] sd15 | fr | MB023 | seed=42 -> saved in 2.3s
+2026-08-18 10:45:28,136  INFO  [OK] sd15 | fr | MB025 | seed=42 -> saved in 2.3s
+2026-08-18 10:45:30,453  INFO  [OK] sd15 | fr | MB026 | seed=42 -> saved in 2.3s
+2026-08-18 10:45:32,766  INFO  [OK] sd15 | fr | MB027 | seed=42 -> saved in 2.3s
+2026-08-18 10:45:35,082  INFO  [OK] sd15 | fr | MB028 | seed=42 -> saved in 2.3s
+2026-08-18 10:45:37,355  INFO  [OK] sd15 | fr | MB029 | seed=42 -> saved in 2.3s
+2026-08-18 10:45:39,891  INFO  [OK] sd15 | fr | MB030 | seed=42 -> saved in 2.5s
+2026-08-18 10:45:42,158  INFO  [OK] sd15 | fr | MB031 | seed=42 -> saved in 2.3s
+2026-08-18 10:45:44,626  INFO  [OK] sd15 | fr | MB032 | seed=42 -> saved in 2.5s
+2026-08-18 10:45:47,013  INFO  [OK] sd15 | fr | MB033 | seed=42 -> saved in 2.4s
+2026-08-18 10:45:49,397  INFO  [OK] sd15 | fr | MB034 | seed=42 -> saved in 2.4s
+2026-08-18 10:45:52,205  INFO  [OK] sd15 | fr | MB035 | seed=42 -> saved in 2.8s
+2026-08-18 10:45:54,597  INFO  [OK] sd15 | fr | MB036 | seed=42 -> saved in 2.4s
+2026-08-18 10:45:56,926  INFO  [OK] sd15 | fr | MB037 | seed=42 -> saved in 2.3s
+2026-08-18 10:45:59,296  INFO  [OK] sd15 | fr | MB040 | seed=42 -> saved in 2.4s
+2026-08-18 10:46:01,606  INFO  [OK] sd15 | fr | MB041 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:03,846  INFO  [OK] sd15 | fr | MB042 | seed=42 -> saved in 2.2s
+2026-08-18 10:46:06,091  INFO  [OK] sd15 | fr | MB043 | seed=42 -> saved in 2.2s
+2026-08-18 10:46:08,617  INFO  [OK] sd15 | fr | MB044 | seed=42 -> saved in 2.5s
+2026-08-18 10:46:10,946  INFO  [OK] sd15 | fr | MB045 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:13,216  INFO  [OK] sd15 | fr | MB046 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:15,416  INFO  [OK] sd15 | fr | MB047 | seed=42 -> saved in 2.2s
+2026-08-18 10:46:17,666  INFO  [OK] sd15 | fr | MB048 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:20,221  INFO  [OK] sd15 | fr | MB049 | seed=42 -> saved in 2.6s
+2026-08-18 10:46:22,556  INFO  [OK] sd15 | fr | MB050 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:24,806  INFO  [OK] sd15 | fr | MB051 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:27,066  INFO  [OK] sd15 | fr | MB052 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:29,331  INFO  [OK] sd15 | fr | MB053 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:31,841  INFO  [OK] sd15 | fr | MB054 | seed=42 -> saved in 2.5s
+2026-08-18 10:46:34,121  INFO  [OK] sd15 | fr | MB055 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:36,446  INFO  [OK] sd15 | fr | MB056 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:38,716  INFO  [OK] sd15 | fr | MB057 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:40,991  INFO  [OK] sd15 | fr | MB058 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:43,556  INFO  [OK] sd15 | fr | MB059 | seed=42 -> saved in 2.6s
+2026-08-18 10:46:45,826  INFO  [OK] sd15 | fr | MB060 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:48,346  INFO  [OK] sd15 | fr | MB062 | seed=42 -> saved in 2.5s
+2026-08-18 10:46:50,571  INFO  [OK] sd15 | fr | MB063 | seed=42 -> saved in 2.2s
+2026-08-18 10:46:52,851  INFO  [OK] sd15 | fr | MB064 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:55,126  INFO  [OK] sd15 | fr | MB065 | seed=42 -> saved in 2.3s
+2026-08-18 10:46:57,816  INFO  [OK] sd15 | fr | MB066 | seed=42 -> saved in 2.7s
+2026-08-18 10:47:00,086  INFO  [OK] sd15 | fr | MB067 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:02,331  INFO  [OK] sd15 | fr | MB068 | seed=42 -> saved in 2.2s
+2026-08-18 10:47:04,581  INFO  [OK] sd15 | fr | MB069 | seed=42 -> saved in 2.2s
+2026-08-18 10:47:07,186  INFO  [OK] sd15 | fr | MB070 | seed=42 -> saved in 2.6s
+2026-08-18 10:47:09,436  INFO  [OK] sd15 | fr | MB071 | seed=42 -> saved in 2.2s
+2026-08-18 10:47:11,686  INFO  [OK] sd15 | fr | MB072 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:13,916  INFO  [OK] sd15 | fr | MB073 | seed=42 -> saved in 2.2s
+2026-08-18 10:47:16,261  INFO  [OK] sd15 | fr | MB074 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:18,546  INFO  [OK] sd15 | fr | MB075 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:20,806  INFO  [OK] sd15 | fr | MB076 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:23,339  INFO  [OK] sd15 | fr | MB077 | seed=42 -> saved in 2.5s
+2026-08-18 10:47:25,642  INFO  [OK] sd15 | fr | MB078 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:27,896  INFO  [OK] sd15 | fr | MB079 | seed=42 -> saved in 2.2s
+2026-08-18 10:47:30,141  INFO  [OK] sd15 | fr | MB080 | seed=42 -> saved in 2.2s
+2026-08-18 10:47:32,396  INFO  [OK] sd15 | fr | MB081 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:34,746  INFO  [OK] sd15 | fr | MB082 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:37,006  INFO  [OK] sd15 | fr | MB083 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:39,285  INFO  [OK] sd15 | fr | MB085 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:41,596  INFO  [OK] sd15 | fr | MB086 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:43,936  INFO  [OK] sd15 | fr | MB087 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:46,246  INFO  [OK] sd15 | fr | MB088 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:48,501  INFO  [OK] sd15 | fr | MB089 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:50,800  INFO  [OK] sd15 | fr | MB090 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:53,386  INFO  [OK] sd15 | fr | MB091 | seed=42 -> saved in 2.6s
+2026-08-18 10:47:55,646  INFO  [OK] sd15 | fr | MB092 | seed=42 -> saved in 2.3s
+2026-08-18 10:47:58,066  INFO  [OK] sd15 | fr | MB093 | seed=42 -> saved in 2.4s
+2026-08-18 10:48:00,356  INFO  [OK] sd15 | fr | MB095 | seed=42 -> saved in 2.3s
+2026-08-18 10:48:02,856  INFO  [OK] sd15 | fr | MB096 | seed=42 -> saved in 2.5s
+2026-08-18 10:48:05,121  INFO  [OK] sd15 | fr | MB097 | seed=42 -> saved in 2.3s
+2026-08-18 10:48:07,356  INFO  [OK] sd15 | fr | MB098 | seed=42 -> saved in 2.2s
+2026-08-18 10:48:09,651  INFO  [OK] sd15 | fr | MB099 | seed=42 -> saved in 2.3s
+2026-08-18 10:48:11,906  INFO  [OK] sd15 | fr | MB100 | seed=42 -> saved in 2.3s
+2026-08-18 10:48:14,126  INFO  [OK] sd15 | fr | MB101 | seed=42 -> saved in 2.2s
+2026-08-18 10:48:16,350  INFO  [OK] sd15 | fr | MB102 | seed=42 -> saved in 2.2s
+2026-08-18 10:48:18,576  INFO  [OK] sd15 | fr | MB103 | seed=42 -> saved in 2.2s
+2026-08-18 10:48:20,791  INFO  [OK] sd15 | fr | MB104 | seed=42 -> saved in 2.2s
+2026-08-18 10:48:23,001  INFO  [OK] sd15 | fr | MB105 | seed=42 -> saved in 2.2s
+2026-08-18 10:48:25,230  INFO  [OK] sd15 | fr | MB106 | seed=42 -> saved in 2.2s
+2026-08-18 10:48:27,496  INFO  [OK] sd15 | fr | MB107 | seed=42 -> saved in 2.3s
+2026-08-18 10:48:29,806  INFO  [OK] sd15 | fr | MB108 | seed=42 -> saved in 2.3s
+2026-08-18 10:48:32,055  INFO  [OK] sd15 | fr | MB109 | seed=42 -> saved in 2.2s
+2026-08-18 10:48:34,310  INFO  [OK] sd15 | fr | MB110 | seed=42 -> saved in 2.3s
+2026-08-18 10:48:36,836  INFO  [OK] sd15 | fr | MB112 | seed=42 -> saved in 2.5s
+2026-08-18 10:48:39,056  INFO  [OK] sd15 | fr | MB113 | seed=42 -> saved in 2.2s
+2026-08-18 10:48:41,306  INFO  [OK] sd15 | fr | MB114 | seed=42 -> saved in 2.3s
+2026-08-18 10:48:44,360  INFO  [OK] sd15 | fr | MB115 | seed=42 -> saved in 3.1s
+2026-08-18 10:48:46,620  INFO  [OK] sd15 | fr | MB116 | seed=42 -> saved in 2.3s
+2026-08-18 10:48:49,165  INFO  [OK] sd15 | fr | MB117 | seed=42 -> saved in 2.5s
+2026-08-18 10:48:51,416  INFO  [OK] sd15 | fr | MB118 | seed=42 -> saved in 2.3s
+2026-08-18 10:48:53,651  INFO  [OK] sd15 | fr | MB119 | seed=42 -> saved in 2.2s
+2026-08-18 10:48:55,905  INFO  [OK] sd15 | fr | MB120 | seed=42 -> saved in 2.3s
+2026-08-18 10:48:58,131  INFO  [OK] sd15 | fr | MB121 | seed=42 -> saved in 2.2s
+2026-08-18 10:49:00,381  INFO  [OK] sd15 | fr | MB122 | seed=42 -> saved in 2.2s
+2026-08-18 10:49:02,616  INFO  [OK] sd15 | fr | MB123 | seed=42 -> saved in 2.2s
+2026-08-18 10:49:04,865  INFO  [OK] sd15 | fr | MB124 | seed=42 -> saved in 2.2s
+2026-08-18 10:49:07,126  INFO  [OK] sd15 | fr | MB126 | seed=42 -> saved in 2.3s
+2026-08-18 10:49:09,376  INFO  [OK] sd15 | fr | MB127 | seed=42 -> saved in 2.2s
+2026-08-18 10:49:12,065  INFO  [OK] sd15 | fr | MB129 | seed=42 -> saved in 2.7s
+2026-08-18 10:49:14,316  INFO  [OK] sd15 | fr | MB130 | seed=42 -> saved in 2.3s
+2026-08-18 10:49:16,586  INFO  [OK] sd15 | fr | MB131 | seed=42 -> saved in 2.3s
+2026-08-18 10:49:18,860  INFO  [OK] sd15 | fr | MB132 | seed=42 -> saved in 2.3s
+2026-08-18 10:49:21,120  INFO  [OK] sd15 | fr | MB133 | seed=42 -> saved in 2.3s
+2026-08-18 10:49:23,390  INFO  [OK] sd15 | fr | MB134 | seed=42 -> saved in 2.3s
+2026-08-18 10:49:25,706  INFO  [OK] sd15 | fr | MB135 | seed=42 -> saved in 2.3s
+2026-08-18 10:49:28,246  INFO  [OK] sd15 | fr | MB136 | seed=42 -> saved in 2.5s
+2026-08-18 10:49:30,510  INFO  [OK] sd15 | fr | MB137 | seed=42 -> saved in 2.3s
+2026-08-18 10:49:33,056  INFO  [OK] sd15 | fr | MB138 | seed=42 -> saved in 2.5s
+2026-08-18 10:49:35,916  INFO  [OK] sd15 | fr | MB139 | seed=42 -> saved in 2.9s
+2026-08-18 10:49:38,166  INFO  [OK] sd15 | fr | MB140 | seed=42 -> saved in 2.3s
+2026-08-18 10:49:40,566  INFO  [OK] sd15 | fr | MB141 | seed=42 -> saved in 2.4s
+2026-08-18 10:49:42,926  INFO  [OK] sd15 | fr | MB142 | seed=42 -> saved in 2.4s
+2026-08-18 10:49:45,195  INFO  [OK] sd15 | fr | MB143 | seed=42 -> saved in 2.3s
+2026-08-18 10:49:47,466  INFO  [OK] sd15 | fr | MB144 | seed=42 -> saved in 2.3s
+2026-08-18 10:49:50,000  INFO  [OK] sd15 | fr | MB145 | seed=42 -> saved in 2.5s
+2026-08-18 10:49:52,286  INFO  [OK] sd15 | fr | MB146 | seed=42 -> saved in 2.3s
+2026-08-18 10:49:54,595  INFO  [OK] sd15 | fr | MB147 | seed=42 -> saved in 2.3s
+2026-08-18 10:49:56,985  INFO  [OK] sd15 | fr | MB148 | seed=42 -> saved in 2.4s
+2026-08-18 10:49:59,366  INFO  [OK] sd15 | fr | MB149 | seed=42 -> saved in 2.4s
+2026-08-18 10:50:01,885  INFO  [OK] sd15 | fr | MB150 | seed=42 -> saved in 2.5s
+2026-08-18 10:50:04,122  INFO  [OK] sd15 | es | MB001 | seed=42 -> saved in 2.2s
+2026-08-18 10:50:06,626  INFO  [OK] sd15 | es | MB002 | seed=42 -> saved in 2.5s
+2026-08-18 10:50:08,835  INFO  [OK] sd15 | es | MB003 | seed=42 -> saved in 2.2s
+2026-08-18 10:50:11,030  INFO  [OK] sd15 | es | MB005 | seed=42 -> saved in 2.2s
+2026-08-18 10:50:13,674  INFO  [OK] sd15 | es | MB006 | seed=42 -> saved in 2.6s
+2026-08-18 10:50:16,165  INFO  [OK] sd15 | es | MB007 | seed=42 -> saved in 2.5s
+2026-08-18 10:50:18,480  INFO  [OK] sd15 | es | MB008 | seed=42 -> saved in 2.3s
+2026-08-18 10:50:20,797  INFO  [OK] sd15 | es | MB009 | seed=42 -> saved in 2.3s
+2026-08-18 10:50:23,035  INFO  [OK] sd15 | es | MB010 | seed=42 -> saved in 2.2s
+2026-08-18 10:50:25,310  INFO  [OK] sd15 | es | MB011 | seed=42 -> saved in 2.3s
+2026-08-18 10:50:27,585  INFO  [OK] sd15 | es | MB012 | seed=42 -> saved in 2.3s
+2026-08-18 10:50:30,135  INFO  [OK] sd15 | es | MB013 | seed=42 -> saved in 2.6s
+2026-08-18 10:50:32,381  INFO  [OK] sd15 | es | MB014 | seed=42 -> saved in 2.2s
+2026-08-18 10:50:34,685  INFO  [OK] sd15 | es | MB015 | seed=42 -> saved in 2.3s
+2026-08-18 10:50:40,416  INFO  [OK] sd15 | es | MB016 | seed=42 -> saved in 5.7s
+2026-08-18 10:50:42,744  INFO  [OK] sd15 | es | MB017 | seed=42 -> saved in 2.3s
+2026-08-18 10:50:45,065  INFO  [OK] sd15 | es | MB018 | seed=42 -> saved in 2.3s
+2026-08-18 10:50:47,395  INFO  [OK] sd15 | es | MB019 | seed=42 -> saved in 2.3s
+2026-08-18 10:50:49,745  INFO  [OK] sd15 | es | MB020 | seed=42 -> saved in 2.3s
+2026-08-18 10:50:53,515  INFO  [OK] sd15 | es | MB021 | seed=42 -> saved in 3.8s
+2026-08-18 10:50:56,361  INFO  [OK] sd15 | es | MB022 | seed=42 -> saved in 2.8s
+2026-08-18 10:50:58,795  INFO  [OK] sd15 | es | MB023 | seed=42 -> saved in 2.4s
+2026-08-18 10:51:01,710  INFO  [OK] sd15 | es | MB025 | seed=42 -> saved in 2.9s
+2026-08-18 10:51:04,140  INFO  [OK] sd15 | es | MB026 | seed=42 -> saved in 2.4s
+2026-08-18 10:51:06,945  INFO  [OK] sd15 | es | MB027 | seed=42 -> saved in 2.8s
+2026-08-18 10:51:10,683  INFO  [OK] sd15 | es | MB028 | seed=42 -> saved in 3.7s
+2026-08-18 10:51:13,722  INFO  [OK] sd15 | es | MB029 | seed=42 -> saved in 3.0s
+2026-08-18 10:51:16,059  INFO  [OK] sd15 | es | MB030 | seed=42 -> saved in 2.3s
+2026-08-18 10:51:18,380  INFO  [OK] sd15 | es | MB031 | seed=42 -> saved in 2.3s
+2026-08-18 10:51:20,754  INFO  [OK] sd15 | es | MB032 | seed=42 -> saved in 2.4s
+2026-08-18 10:51:23,291  INFO  [OK] sd15 | es | MB033 | seed=42 -> saved in 2.5s
+2026-08-18 10:51:26,299  INFO  [OK] sd15 | es | MB034 | seed=42 -> saved in 3.0s
+2026-08-18 10:51:28,775  INFO  [OK] sd15 | es | MB035 | seed=42 -> saved in 2.5s
+2026-08-18 10:51:31,383  INFO  [OK] sd15 | es | MB036 | seed=42 -> saved in 2.6s
+2026-08-18 10:51:33,759  INFO  [OK] sd15 | es | MB037 | seed=42 -> saved in 2.4s
+2026-08-18 10:51:36,349  INFO  [OK] sd15 | es | MB040 | seed=42 -> saved in 2.6s
+2026-08-18 10:51:38,686  INFO  [OK] sd15 | es | MB041 | seed=42 -> saved in 2.3s
+2026-08-18 10:51:41,323  INFO  [OK] sd15 | es | MB042 | seed=42 -> saved in 2.6s
+2026-08-18 10:51:43,667  INFO  [OK] sd15 | es | MB043 | seed=42 -> saved in 2.3s
+2026-08-18 10:51:45,989  INFO  [OK] sd15 | es | MB044 | seed=42 -> saved in 2.3s
+2026-08-18 10:51:48,293  INFO  [OK] sd15 | es | MB045 | seed=42 -> saved in 2.3s
+2026-08-18 10:51:50,604  INFO  [OK] sd15 | es | MB046 | seed=42 -> saved in 2.3s
+2026-08-18 10:51:53,236  INFO  [OK] sd15 | es | MB047 | seed=42 -> saved in 2.6s
+2026-08-18 10:51:55,488  INFO  [OK] sd15 | es | MB048 | seed=42 -> saved in 2.3s
+2026-08-18 10:51:57,737  INFO  [OK] sd15 | es | MB049 | seed=42 -> saved in 2.2s
+2026-08-18 10:52:00,042  INFO  [OK] sd15 | es | MB050 | seed=42 -> saved in 2.3s
+2026-08-18 10:52:02,412  INFO  [OK] sd15 | es | MB051 | seed=42 -> saved in 2.4s
+2026-08-18 10:52:05,140  INFO  [OK] sd15 | es | MB052 | seed=42 -> saved in 2.7s
+2026-08-18 10:52:07,461  INFO  [OK] sd15 | es | MB053 | seed=42 -> saved in 2.3s
+2026-08-18 10:52:09,783  INFO  [OK] sd15 | es | MB054 | seed=42 -> saved in 2.3s
+2026-08-18 10:52:12,983  INFO  [OK] sd15 | es | MB055 | seed=42 -> saved in 3.2s
+2026-08-18 10:52:16,066  INFO  [OK] sd15 | es | MB056 | seed=42 -> saved in 2.8s
+2026-08-18 10:52:18,873  INFO  [OK] sd15 | es | MB057 | seed=42 -> saved in 2.8s
+2026-08-18 10:52:21,187  INFO  [OK] sd15 | es | MB058 | seed=42 -> saved in 2.3s
+2026-08-18 10:52:23,540  INFO  [OK] sd15 | es | MB059 | seed=42 -> saved in 2.4s
+2026-08-18 10:52:26,587  INFO  [OK] sd15 | es | MB060 | seed=42 -> saved in 3.0s
+2026-08-18 10:52:28,931  INFO  [OK] sd15 | es | MB062 | seed=42 -> saved in 2.3s
+2026-08-18 10:52:31,424  INFO  [OK] sd15 | es | MB063 | seed=42 -> saved in 2.5s
+2026-08-18 10:52:33,688  INFO  [OK] sd15 | es | MB064 | seed=42 -> saved in 2.3s
+2026-08-18 10:52:35,931  INFO  [OK] sd15 | es | MB065 | seed=42 -> saved in 2.2s
+2026-08-18 10:52:38,184  INFO  [OK] sd15 | es | MB066 | seed=42 -> saved in 2.3s
+2026-08-18 10:52:40,443  INFO  [OK] sd15 | es | MB067 | seed=42 -> saved in 2.3s
+2026-08-18 10:52:42,812  INFO  [OK] sd15 | es | MB068 | seed=42 -> saved in 2.4s
+2026-08-18 10:52:45,857  INFO  [OK] sd15 | es | MB069 | seed=42 -> saved in 3.0s
+2026-08-18 10:52:48,409  INFO  [OK] sd15 | es | MB070 | seed=42 -> saved in 2.6s
+2026-08-18 10:52:51,977  INFO  [OK] sd15 | es | MB071 | seed=42 -> saved in 3.6s
+2026-08-18 10:52:57,453  INFO  [OK] sd15 | es | MB072 | seed=42 -> saved in 5.5s
+2026-08-18 10:53:00,514  INFO  [OK] sd15 | es | MB073 | seed=42 -> saved in 3.1s
+2026-08-18 10:53:03,274  INFO  [OK] sd15 | es | MB074 | seed=42 -> saved in 2.8s
+2026-08-18 10:53:05,827  INFO  [OK] sd15 | es | MB075 | seed=42 -> saved in 2.5s
+2026-08-18 10:53:08,202  INFO  [OK] sd15 | es | MB076 | seed=42 -> saved in 2.4s
+2026-08-18 10:53:09,838  ERROR  [FAIL] Unexpected error | sd15 | es | MB077 | seed=42 -> NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 10:53:17,413  INFO  [OK] sd15 | es | MB078 | seed=42 -> saved in 2.6s
+2026-08-18 10:53:19,733  INFO  [OK] sd15 | es | MB079 | seed=42 -> saved in 2.3s
+2026-08-18 10:53:22,054  INFO  [OK] sd15 | es | MB080 | seed=42 -> saved in 2.3s
+2026-08-18 10:53:24,282  INFO  [OK] sd15 | es | MB081 | seed=42 -> saved in 2.2s
+2026-08-18 10:53:26,588  INFO  [OK] sd15 | es | MB082 | seed=42 -> saved in 2.3s
+2026-08-18 10:53:29,152  INFO  [OK] sd15 | es | MB083 | seed=42 -> saved in 2.6s
+2026-08-18 10:53:31,497  INFO  [OK] sd15 | es | MB085 | seed=42 -> saved in 2.3s
+2026-08-18 10:53:33,788  INFO  [OK] sd15 | es | MB086 | seed=42 -> saved in 2.3s
+2026-08-18 10:53:36,192  INFO  [OK] sd15 | es | MB087 | seed=42 -> saved in 2.4s
+2026-08-18 10:53:38,490  INFO  [OK] sd15 | es | MB088 | seed=42 -> saved in 2.3s
+2026-08-18 10:53:40,786  INFO  [OK] sd15 | es | MB089 | seed=42 -> saved in 2.3s
+2026-08-18 10:53:43,018  INFO  [OK] sd15 | es | MB090 | seed=42 -> saved in 2.2s
+2026-08-18 10:53:45,557  INFO  [OK] sd15 | es | MB091 | seed=42 -> saved in 2.5s
+2026-08-18 10:53:47,851  INFO  [OK] sd15 | es | MB092 | seed=42 -> saved in 2.3s
+2026-08-18 10:53:50,133  INFO  [OK] sd15 | es | MB093 | seed=42 -> saved in 2.3s
+2026-08-18 10:53:52,403  INFO  [OK] sd15 | es | MB095 | seed=42 -> saved in 2.3s
+2026-08-18 10:53:54,676  INFO  [OK] sd15 | es | MB096 | seed=42 -> saved in 2.3s
+2026-08-18 10:53:57,028  INFO  [OK] sd15 | es | MB097 | seed=42 -> saved in 2.4s
+2026-08-18 10:53:59,349  INFO  [OK] sd15 | es | MB098 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:01,637  INFO  [OK] sd15 | es | MB099 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:03,958  INFO  [OK] sd15 | es | MB100 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:06,231  INFO  [OK] sd15 | es | MB101 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:08,790  INFO  [OK] sd15 | es | MB102 | seed=42 -> saved in 2.6s
+2026-08-18 10:54:11,873  INFO  [OK] sd15 | es | MB103 | seed=42 -> saved in 3.1s
+2026-08-18 10:54:14,626  INFO  [OK] sd15 | es | MB104 | seed=42 -> saved in 2.8s
+2026-08-18 10:54:17,019  INFO  [OK] sd15 | es | MB105 | seed=42 -> saved in 2.4s
+2026-08-18 10:54:19,483  INFO  [OK] sd15 | es | MB106 | seed=42 -> saved in 2.5s
+2026-08-18 10:54:21,834  INFO  [OK] sd15 | es | MB107 | seed=42 -> saved in 2.4s
+2026-08-18 10:54:24,155  INFO  [OK] sd15 | es | MB108 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:26,444  INFO  [OK] sd15 | es | MB109 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:28,771  INFO  [OK] sd15 | es | MB110 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:31,028  INFO  [OK] sd15 | es | MB112 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:33,302  INFO  [OK] sd15 | es | MB113 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:35,876  INFO  [OK] sd15 | es | MB114 | seed=42 -> saved in 2.6s
+2026-08-18 10:54:38,181  INFO  [OK] sd15 | es | MB115 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:40,464  INFO  [OK] sd15 | es | MB116 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:42,791  INFO  [OK] sd15 | es | MB117 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:45,181  INFO  [OK] sd15 | es | MB118 | seed=42 -> saved in 2.4s
+2026-08-18 10:54:47,800  INFO  [OK] sd15 | es | MB119 | seed=42 -> saved in 2.6s
+2026-08-18 10:54:50,150  INFO  [OK] sd15 | es | MB120 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:52,439  INFO  [OK] sd15 | es | MB121 | seed=42 -> saved in 2.3s
+2026-08-18 10:54:54,684  INFO  [OK] sd15 | es | MB122 | seed=42 -> saved in 2.2s
+2026-08-18 10:54:56,932  INFO  [OK] sd15 | es | MB123 | seed=42 -> saved in 2.2s
+2026-08-18 10:54:59,497  INFO  [OK] sd15 | es | MB124 | seed=42 -> saved in 2.6s
+2026-08-18 10:55:01,742  INFO  [OK] sd15 | es | MB126 | seed=42 -> saved in 2.2s
+2026-08-18 10:55:03,997  INFO  [OK] sd15 | es | MB127 | seed=42 -> saved in 2.3s
+2026-08-18 10:55:06,266  INFO  [OK] sd15 | es | MB129 | seed=42 -> saved in 2.3s
+2026-08-18 10:55:08,624  INFO  [OK] sd15 | es | MB130 | seed=42 -> saved in 2.4s
+2026-08-18 10:55:11,195  INFO  [OK] sd15 | es | MB131 | seed=42 -> saved in 2.6s
+2026-08-18 10:55:14,314  INFO  [OK] sd15 | es | MB132 | seed=42 -> saved in 3.1s
+2026-08-18 10:55:16,705  INFO  [OK] sd15 | es | MB133 | seed=42 -> saved in 2.4s
+2026-08-18 10:55:19,568  INFO  [OK] sd15 | es | MB134 | seed=42 -> saved in 2.9s
+2026-08-18 10:55:21,992  INFO  [OK] sd15 | es | MB135 | seed=42 -> saved in 2.4s
+2026-08-18 10:55:25,949  INFO  [OK] sd15 | es | MB136 | seed=42 -> saved in 4.0s
+2026-08-18 10:55:29,494  INFO  [OK] sd15 | es | MB137 | seed=42 -> saved in 3.5s
+2026-08-18 10:55:33,149  INFO  [OK] sd15 | es | MB138 | seed=42 -> saved in 3.7s
+2026-08-18 10:55:36,973  INFO  [OK] sd15 | es | MB139 | seed=42 -> saved in 3.8s
+2026-08-18 10:55:40,371  INFO  [OK] sd15 | es | MB140 | seed=42 -> saved in 3.4s
+2026-08-18 10:55:43,980  INFO  [OK] sd15 | es | MB141 | seed=42 -> saved in 3.6s
+2026-08-18 10:55:46,569  INFO  [OK] sd15 | es | MB142 | seed=42 -> saved in 2.6s
+2026-08-18 10:55:49,729  INFO  [OK] sd15 | es | MB143 | seed=42 -> saved in 3.2s
+2026-08-18 10:55:52,512  INFO  [OK] sd15 | es | MB144 | seed=42 -> saved in 2.8s
+2026-08-18 10:55:57,923  INFO  [OK] sd15 | es | MB145 | seed=42 -> saved in 5.4s
+2026-08-18 10:56:01,866  INFO  [OK] sd15 | es | MB146 | seed=42 -> saved in 3.9s
+2026-08-18 10:56:04,788  INFO  [OK] sd15 | es | MB147 | seed=42 -> saved in 2.9s
+2026-08-18 10:56:07,531  INFO  [OK] sd15 | es | MB148 | seed=42 -> saved in 2.7s
+2026-08-18 10:56:10,108  INFO  [OK] sd15 | es | MB149 | seed=42 -> saved in 2.6s
+2026-08-18 10:56:12,839  INFO  [OK] sd15 | es | MB150 | seed=42 -> saved in 2.7s
+2026-08-18 10:56:18,234  INFO  [OK] flux | de | MB001 | seed=42 -> saved in 5.4s
+2026-08-18 10:56:22,542  INFO  [OK] flux | de | MB002 | seed=42 -> saved in 4.3s
+2026-08-18 10:56:26,599  INFO  [OK] flux | de | MB003 | seed=42 -> saved in 4.1s
+2026-08-18 10:56:31,047  INFO  [OK] flux | de | MB005 | seed=42 -> saved in 4.4s
+2026-08-18 10:56:36,521  INFO  [OK] flux | de | MB006 | seed=42 -> saved in 5.5s
+2026-08-18 10:56:40,780  INFO  [OK] flux | de | MB007 | seed=42 -> saved in 4.2s
+2026-08-18 10:56:45,048  INFO  [OK] flux | de | MB008 | seed=42 -> saved in 4.3s
+2026-08-18 10:56:49,133  INFO  [OK] flux | de | MB009 | seed=42 -> saved in 4.1s
+2026-08-18 10:56:53,034  INFO  [OK] flux | de | MB010 | seed=42 -> saved in 3.9s
+2026-08-18 10:56:57,258  INFO  [OK] flux | de | MB011 | seed=42 -> saved in 4.2s
+2026-08-18 10:57:01,459  INFO  [OK] flux | de | MB012 | seed=42 -> saved in 4.2s
+2026-08-18 10:57:05,676  INFO  [OK] flux | de | MB013 | seed=42 -> saved in 4.2s
+2026-08-18 10:57:09,738  INFO  [OK] flux | de | MB014 | seed=42 -> saved in 4.1s
+2026-08-18 10:57:14,609  INFO  [OK] flux | de | MB015 | seed=42 -> saved in 4.9s
+2026-08-18 10:57:18,859  INFO  [OK] flux | de | MB016 | seed=42 -> saved in 4.2s
+2026-08-18 10:57:22,968  INFO  [OK] flux | de | MB017 | seed=42 -> saved in 4.1s
+2026-08-18 10:57:27,110  INFO  [OK] flux | de | MB018 | seed=42 -> saved in 4.1s
+2026-08-18 10:57:31,451  INFO  [OK] flux | de | MB019 | seed=42 -> saved in 4.3s
+2026-08-18 10:57:35,664  INFO  [OK] flux | de | MB020 | seed=42 -> saved in 4.2s
+2026-08-18 10:57:39,439  INFO  [OK] flux | de | MB021 | seed=42 -> saved in 3.8s
+2026-08-18 10:57:43,534  INFO  [OK] flux | de | MB022 | seed=42 -> saved in 4.1s
+2026-08-18 10:57:47,714  INFO  [OK] flux | de | MB023 | seed=42 -> saved in 4.2s
+2026-08-18 10:57:51,786  INFO  [OK] flux | de | MB025 | seed=42 -> saved in 4.1s
+2026-08-18 10:57:57,599  INFO  [OK] flux | de | MB026 | seed=42 -> saved in 5.8s
+2026-08-18 10:58:04,915  INFO  [OK] flux | de | MB027 | seed=42 -> saved in 7.3s
+2026-08-18 10:58:11,643  INFO  [OK] flux | de | MB028 | seed=42 -> saved in 6.7s
+2026-08-18 10:58:18,745  INFO  [OK] flux | de | MB029 | seed=42 -> saved in 7.1s
+2026-08-18 10:58:23,689  INFO  [OK] flux | de | MB030 | seed=42 -> saved in 4.9s
+2026-08-18 10:58:27,799  INFO  [OK] flux | de | MB031 | seed=42 -> saved in 4.1s
+2026-08-18 10:58:32,044  INFO  [OK] flux | de | MB032 | seed=42 -> saved in 4.2s
+2026-08-18 10:58:36,320  INFO  [OK] flux | de | MB033 | seed=42 -> saved in 4.3s
+2026-08-18 10:58:40,547  INFO  [OK] flux | de | MB034 | seed=42 -> saved in 4.2s
+2026-08-18 10:58:44,626  INFO  [OK] flux | de | MB035 | seed=42 -> saved in 4.1s
+2026-08-18 10:58:49,007  INFO  [OK] flux | de | MB036 | seed=42 -> saved in 4.4s
+2026-08-18 10:58:52,879  INFO  [OK] flux | de | MB037 | seed=42 -> saved in 3.9s
+2026-08-18 10:58:57,006  INFO  [OK] flux | de | MB040 | seed=42 -> saved in 4.1s
+2026-08-18 10:59:01,255  INFO  [OK] flux | de | MB041 | seed=42 -> saved in 4.2s
+2026-08-18 10:59:05,481  INFO  [OK] flux | de | MB042 | seed=42 -> saved in 4.2s
+2026-08-18 10:59:09,575  INFO  [OK] flux | de | MB043 | seed=42 -> saved in 4.1s
+2026-08-18 10:59:14,088  INFO  [OK] flux | de | MB044 | seed=42 -> saved in 4.5s
+2026-08-18 10:59:18,199  INFO  [OK] flux | de | MB045 | seed=42 -> saved in 4.1s
+2026-08-18 10:59:22,574  INFO  [OK] flux | de | MB046 | seed=42 -> saved in 4.4s
+2026-08-18 10:59:26,688  INFO  [OK] flux | de | MB047 | seed=42 -> saved in 4.1s
+2026-08-18 10:59:30,915  INFO  [OK] flux | de | MB048 | seed=42 -> saved in 4.2s
+2026-08-18 10:59:35,854  INFO  [OK] flux | de | MB049 | seed=42 -> saved in 4.9s
+2026-08-18 10:59:40,189  INFO  [OK] flux | de | MB050 | seed=42 -> saved in 4.3s
+2026-08-18 10:59:44,298  INFO  [OK] flux | de | MB051 | seed=42 -> saved in 4.1s
+2026-08-18 10:59:49,448  INFO  [OK] flux | de | MB052 | seed=42 -> saved in 5.2s
+2026-08-18 10:59:53,804  INFO  [OK] flux | de | MB053 | seed=42 -> saved in 4.4s
+2026-08-18 10:59:57,932  INFO  [OK] flux | de | MB054 | seed=42 -> saved in 4.1s
+2026-08-18 11:00:01,895  INFO  [OK] flux | de | MB055 | seed=42 -> saved in 4.0s
+2026-08-18 11:00:06,126  INFO  [OK] flux | de | MB056 | seed=42 -> saved in 4.2s
+2026-08-18 11:00:10,952  INFO  [OK] flux | de | MB057 | seed=42 -> saved in 4.8s
+2026-08-18 11:00:14,955  INFO  [OK] flux | de | MB058 | seed=42 -> saved in 4.0s
+2026-08-18 11:00:19,666  INFO  [OK] flux | de | MB059 | seed=42 -> saved in 4.7s
+2026-08-18 11:00:23,868  INFO  [OK] flux | de | MB060 | seed=42 -> saved in 4.2s
+2026-08-18 11:00:28,545  INFO  [OK] flux | de | MB062 | seed=42 -> saved in 4.7s
+2026-08-18 11:00:32,568  INFO  [OK] flux | de | MB063 | seed=42 -> saved in 4.0s
+2026-08-18 11:00:37,080  INFO  [OK] flux | de | MB064 | seed=42 -> saved in 4.5s
+2026-08-18 11:00:41,010  INFO  [OK] flux | de | MB065 | seed=42 -> saved in 3.9s
+2026-08-18 11:00:45,466  INFO  [OK] flux | de | MB066 | seed=42 -> saved in 4.5s
+2026-08-18 11:00:49,729  INFO  [OK] flux | de | MB067 | seed=42 -> saved in 4.3s
+2026-08-18 11:00:53,833  INFO  [OK] flux | de | MB068 | seed=42 -> saved in 4.1s
+2026-08-18 11:00:57,977  INFO  [OK] flux | de | MB069 | seed=42 -> saved in 4.1s
+2026-08-18 11:01:02,027  INFO  [OK] flux | de | MB070 | seed=42 -> saved in 4.0s
+2026-08-18 11:01:06,045  INFO  [OK] flux | de | MB071 | seed=42 -> saved in 4.0s
+2026-08-18 11:01:10,521  INFO  [OK] flux | de | MB072 | seed=42 -> saved in 4.5s
+2026-08-18 11:01:14,593  INFO  [OK] flux | de | MB073 | seed=42 -> saved in 4.1s
+2026-08-18 11:01:18,730  INFO  [OK] flux | de | MB074 | seed=42 -> saved in 4.1s
+2026-08-18 11:01:23,879  INFO  [OK] flux | de | MB075 | seed=42 -> saved in 5.1s
+2026-08-18 11:01:27,888  INFO  [OK] flux | de | MB076 | seed=42 -> saved in 4.0s
+2026-08-18 11:01:31,812  INFO  [OK] flux | de | MB077 | seed=42 -> saved in 3.9s
+2026-08-18 11:01:36,224  INFO  [OK] flux | de | MB078 | seed=42 -> saved in 4.4s
+2026-08-18 11:01:40,654  INFO  [OK] flux | de | MB079 | seed=42 -> saved in 4.4s
+2026-08-18 11:01:45,194  INFO  [OK] flux | de | MB080 | seed=42 -> saved in 4.5s
+2026-08-18 11:01:49,739  INFO  [OK] flux | de | MB081 | seed=42 -> saved in 4.5s
+2026-08-18 11:01:54,579  INFO  [OK] flux | de | MB082 | seed=42 -> saved in 4.8s
+2026-08-18 11:01:59,459  INFO  [OK] flux | de | MB083 | seed=42 -> saved in 4.9s
+2026-08-18 11:02:04,549  INFO  [OK] flux | de | MB085 | seed=42 -> saved in 5.1s
+2026-08-18 11:02:09,068  INFO  [OK] flux | de | MB086 | seed=42 -> saved in 4.5s
+2026-08-18 11:02:13,903  INFO  [OK] flux | de | MB087 | seed=42 -> saved in 4.8s
+2026-08-18 11:02:18,909  INFO  [OK] flux | de | MB088 | seed=42 -> saved in 4.5s
+2026-08-18 11:02:23,654  INFO  [OK] flux | de | MB089 | seed=42 -> saved in 4.7s
+2026-08-18 11:02:28,517  INFO  [OK] flux | de | MB090 | seed=42 -> saved in 4.9s
+2026-08-18 11:02:32,546  INFO  [OK] flux | de | MB091 | seed=42 -> saved in 4.0s
+2026-08-18 11:02:36,769  INFO  [OK] flux | de | MB092 | seed=42 -> saved in 4.2s
+2026-08-18 11:02:41,369  INFO  [OK] flux | de | MB093 | seed=42 -> saved in 4.6s
+2026-08-18 11:02:45,619  INFO  [OK] flux | de | MB095 | seed=42 -> saved in 4.2s
+2026-08-18 11:02:50,735  INFO  [OK] flux | de | MB096 | seed=42 -> saved in 5.1s
+2026-08-18 11:02:55,134  INFO  [OK] flux | de | MB097 | seed=42 -> saved in 4.3s
+2026-08-18 11:02:59,529  INFO  [OK] flux | de | MB098 | seed=42 -> saved in 4.4s
+2026-08-18 11:03:04,249  INFO  [OK] flux | de | MB099 | seed=42 -> saved in 4.7s
+2026-08-18 11:03:08,698  INFO  [OK] flux | de | MB100 | seed=42 -> saved in 4.4s
+2026-08-18 11:03:13,147  INFO  [OK] flux | de | MB101 | seed=42 -> saved in 4.4s
+2026-08-18 11:03:17,664  INFO  [OK] flux | de | MB102 | seed=42 -> saved in 4.5s
+2026-08-18 11:03:21,789  INFO  [OK] flux | de | MB103 | seed=42 -> saved in 4.1s
+2026-08-18 11:03:26,229  INFO  [OK] flux | de | MB104 | seed=42 -> saved in 4.4s
+2026-08-18 11:03:30,529  INFO  [OK] flux | de | MB105 | seed=42 -> saved in 4.3s
+2026-08-18 11:03:34,584  INFO  [OK] flux | de | MB106 | seed=42 -> saved in 4.1s
+2026-08-18 11:03:38,654  INFO  [OK] flux | de | MB107 | seed=42 -> saved in 4.1s
+2026-08-18 11:03:42,884  INFO  [OK] flux | de | MB108 | seed=42 -> saved in 4.2s
+2026-08-18 11:03:47,468  INFO  [OK] flux | de | MB109 | seed=42 -> saved in 4.6s
+2026-08-18 11:03:51,998  INFO  [OK] flux | de | MB110 | seed=42 -> saved in 4.5s
+2026-08-18 11:03:56,329  INFO  [OK] flux | de | MB112 | seed=42 -> saved in 4.3s
+2026-08-18 11:04:01,358  INFO  [OK] flux | de | MB113 | seed=42 -> saved in 5.0s
+2026-08-18 11:04:05,579  INFO  [OK] flux | de | MB114 | seed=42 -> saved in 4.2s
+2026-08-18 11:04:10,510  INFO  [OK] flux | de | MB115 | seed=42 -> saved in 4.9s
+2026-08-18 11:04:15,107  INFO  [OK] flux | de | MB116 | seed=42 -> saved in 4.6s
+2026-08-18 11:04:19,443  INFO  [OK] flux | de | MB117 | seed=42 -> saved in 4.3s
+2026-08-18 11:04:23,641  INFO  [OK] flux | de | MB118 | seed=42 -> saved in 4.2s
+2026-08-18 11:04:28,003  INFO  [OK] flux | de | MB119 | seed=42 -> saved in 4.4s
+2026-08-18 11:04:35,278  INFO  [OK] flux | de | MB120 | seed=42 -> saved in 7.3s
+2026-08-18 11:04:40,308  INFO  [OK] flux | de | MB121 | seed=42 -> saved in 5.0s
+2026-08-18 11:04:44,502  INFO  [OK] flux | de | MB122 | seed=42 -> saved in 4.2s
+2026-08-18 11:04:48,878  INFO  [OK] flux | de | MB123 | seed=42 -> saved in 4.4s
+2026-08-18 11:04:53,219  INFO  [OK] flux | de | MB124 | seed=42 -> saved in 4.3s
+2026-08-18 11:04:57,705  INFO  [OK] flux | de | MB126 | seed=42 -> saved in 4.5s
+2026-08-18 11:05:02,029  INFO  [OK] flux | de | MB127 | seed=42 -> saved in 4.3s
+2026-08-18 11:05:06,429  INFO  [OK] flux | de | MB129 | seed=42 -> saved in 4.4s
+2026-08-18 11:05:11,323  INFO  [OK] flux | de | MB130 | seed=42 -> saved in 4.9s
+2026-08-18 11:05:15,659  INFO  [OK] flux | de | MB131 | seed=42 -> saved in 4.3s
+2026-08-18 11:05:20,063  INFO  [OK] flux | de | MB132 | seed=42 -> saved in 4.4s
+2026-08-18 11:05:25,288  INFO  [OK] flux | de | MB133 | seed=42 -> saved in 5.2s
+2026-08-18 11:05:29,873  INFO  [OK] flux | de | MB134 | seed=42 -> saved in 4.6s
+2026-08-18 11:05:36,036  INFO  [OK] flux | de | MB135 | seed=42 -> saved in 6.2s
+2026-08-18 11:05:40,733  INFO  [OK] flux | de | MB136 | seed=42 -> saved in 4.7s
+2026-08-18 11:05:45,097  INFO  [OK] flux | de | MB137 | seed=42 -> saved in 4.4s
+2026-08-18 11:05:49,298  INFO  [OK] flux | de | MB138 | seed=42 -> saved in 4.2s
+2026-08-18 11:05:53,478  INFO  [OK] flux | de | MB139 | seed=42 -> saved in 4.2s
+2026-08-18 11:05:58,978  INFO  [OK] flux | de | MB140 | seed=42 -> saved in 5.5s
+2026-08-18 11:06:03,658  INFO  [OK] flux | de | MB141 | seed=42 -> saved in 4.7s
+2026-08-18 11:06:07,458  INFO  [OK] flux | de | MB142 | seed=42 -> saved in 3.8s
+2026-08-18 11:06:11,968  INFO  [OK] flux | de | MB143 | seed=42 -> saved in 4.5s
+2026-08-18 11:06:16,053  INFO  [OK] flux | de | MB144 | seed=42 -> saved in 4.1s
+2026-08-18 11:06:20,544  INFO  [OK] flux | de | MB145 | seed=42 -> saved in 4.5s
+2026-08-18 11:06:24,773  INFO  [OK] flux | de | MB146 | seed=42 -> saved in 4.2s
+2026-08-18 11:06:29,258  INFO  [OK] flux | de | MB147 | seed=42 -> saved in 4.5s
+2026-08-18 11:06:33,388  INFO  [OK] flux | de | MB148 | seed=42 -> saved in 4.1s
+2026-08-18 11:06:37,468  INFO  [OK] flux | de | MB149 | seed=42 -> saved in 4.1s
+2026-08-18 11:06:41,428  INFO  [OK] flux | de | MB150 | seed=42 -> saved in 3.9s
+2026-08-18 11:06:45,598  INFO  [OK] flux | fr | MB001 | seed=42 -> saved in 4.2s
+2026-08-18 11:06:50,428  INFO  [OK] flux | fr | MB002 | seed=42 -> saved in 4.8s
+2026-08-18 11:06:54,798  INFO  [OK] flux | fr | MB003 | seed=42 -> saved in 4.4s
+2026-08-18 11:06:58,948  INFO  [OK] flux | fr | MB005 | seed=42 -> saved in 4.1s
+2026-08-18 11:07:03,148  INFO  [OK] flux | fr | MB006 | seed=42 -> saved in 4.2s
+2026-08-18 11:07:07,588  INFO  [OK] flux | fr | MB007 | seed=42 -> saved in 4.4s
+2026-08-18 11:07:11,518  INFO  [OK] flux | fr | MB008 | seed=42 -> saved in 3.9s
+2026-08-18 11:07:15,398  INFO  [OK] flux | fr | MB009 | seed=42 -> saved in 3.9s
+2026-08-18 11:07:20,388  INFO  [OK] flux | fr | MB010 | seed=42 -> saved in 5.0s
+2026-08-18 11:07:24,228  INFO  [OK] flux | fr | MB011 | seed=42 -> saved in 3.8s
+2026-08-18 11:07:29,588  INFO  [OK] flux | fr | MB012 | seed=42 -> saved in 5.4s
+2026-08-18 11:07:34,184  INFO  [OK] flux | fr | MB013 | seed=42 -> saved in 4.6s
+2026-08-18 11:07:38,438  INFO  [OK] flux | fr | MB014 | seed=42 -> saved in 4.3s
+2026-08-18 11:07:42,656  INFO  [OK] flux | fr | MB015 | seed=42 -> saved in 4.2s
+2026-08-18 11:07:46,918  INFO  [OK] flux | fr | MB016 | seed=42 -> saved in 4.3s
+2026-08-18 11:07:50,770  INFO  [OK] flux | fr | MB017 | seed=42 -> saved in 3.9s
+2026-08-18 11:07:55,298  INFO  [OK] flux | fr | MB018 | seed=42 -> saved in 4.5s
+2026-08-18 11:08:00,058  INFO  [OK] flux | fr | MB019 | seed=42 -> saved in 4.8s
+2026-08-18 11:08:05,248  INFO  [OK] flux | fr | MB020 | seed=42 -> saved in 5.2s
+2026-08-18 11:08:09,458  INFO  [OK] flux | fr | MB021 | seed=42 -> saved in 4.2s
+2026-08-18 11:08:13,798  INFO  [OK] flux | fr | MB022 | seed=42 -> saved in 4.3s
+2026-08-18 11:08:18,058  INFO  [OK] flux | fr | MB023 | seed=42 -> saved in 4.3s
+2026-08-18 11:08:22,193  INFO  [OK] flux | fr | MB025 | seed=42 -> saved in 4.1s
+2026-08-18 11:08:27,440  INFO  [OK] flux | fr | MB026 | seed=42 -> saved in 5.2s
+2026-08-18 11:08:31,738  INFO  [OK] flux | fr | MB027 | seed=42 -> saved in 4.3s
+2026-08-18 11:08:35,858  INFO  [OK] flux | fr | MB028 | seed=42 -> saved in 4.1s
+2026-08-18 11:08:39,888  INFO  [OK] flux | fr | MB029 | seed=42 -> saved in 4.0s
+2026-08-18 11:08:44,168  INFO  [OK] flux | fr | MB030 | seed=42 -> saved in 4.3s
+2026-08-18 11:08:48,453  INFO  [OK] flux | fr | MB031 | seed=42 -> saved in 4.3s
+2026-08-18 11:08:52,738  INFO  [OK] flux | fr | MB032 | seed=42 -> saved in 4.3s
+2026-08-18 11:08:57,414  INFO  [OK] flux | fr | MB033 | seed=42 -> saved in 4.7s
+2026-08-18 11:09:02,101  INFO  [OK] flux | fr | MB034 | seed=42 -> saved in 4.6s
+2026-08-18 11:09:06,549  INFO  [OK] flux | fr | MB035 | seed=42 -> saved in 4.4s
+2026-08-18 11:09:11,203  INFO  [OK] flux | fr | MB036 | seed=42 -> saved in 4.7s
+2026-08-18 11:09:15,528  INFO  [OK] flux | fr | MB037 | seed=42 -> saved in 4.3s
+2026-08-18 11:09:20,027  INFO  [OK] flux | fr | MB040 | seed=42 -> saved in 4.5s
+2026-08-18 11:09:26,074  INFO  [OK] flux | fr | MB041 | seed=42 -> saved in 6.0s
+2026-08-18 11:09:30,436  INFO  [OK] flux | fr | MB042 | seed=42 -> saved in 4.4s
+2026-08-18 11:09:35,117  INFO  [OK] flux | fr | MB043 | seed=42 -> saved in 4.7s
+2026-08-18 11:09:39,298  INFO  [OK] flux | fr | MB044 | seed=42 -> saved in 4.2s
+2026-08-18 11:09:44,188  INFO  [OK] flux | fr | MB045 | seed=42 -> saved in 4.9s
+2026-08-18 11:09:48,498  INFO  [OK] flux | fr | MB046 | seed=42 -> saved in 4.3s
+2026-08-18 11:09:53,058  INFO  [OK] flux | fr | MB047 | seed=42 -> saved in 4.6s
+2026-08-18 11:09:57,133  INFO  [OK] flux | fr | MB048 | seed=42 -> saved in 4.1s
+2026-08-18 11:10:01,968  INFO  [OK] flux | fr | MB049 | seed=42 -> saved in 4.8s
+2026-08-18 11:10:06,148  INFO  [OK] flux | fr | MB050 | seed=42 -> saved in 4.2s
+2026-08-18 11:10:10,108  INFO  [OK] flux | fr | MB051 | seed=42 -> saved in 4.0s
+2026-08-18 11:10:14,698  INFO  [OK] flux | fr | MB052 | seed=42 -> saved in 4.6s
+2026-08-18 11:10:18,783  INFO  [OK] flux | fr | MB053 | seed=42 -> saved in 4.1s
+2026-08-18 11:10:23,039  INFO  [OK] flux | fr | MB054 | seed=42 -> saved in 4.3s
+2026-08-18 11:10:27,048  INFO  [OK] flux | fr | MB055 | seed=42 -> saved in 4.0s
+2026-08-18 11:10:31,317  INFO  [OK] flux | fr | MB056 | seed=42 -> saved in 4.3s
+2026-08-18 11:10:35,427  INFO  [OK] flux | fr | MB057 | seed=42 -> saved in 4.1s
+2026-08-18 11:10:39,598  INFO  [OK] flux | fr | MB058 | seed=42 -> saved in 4.2s
+2026-08-18 11:10:43,927  INFO  [OK] flux | fr | MB059 | seed=42 -> saved in 4.3s
+2026-08-18 11:10:48,133  INFO  [OK] flux | fr | MB060 | seed=42 -> saved in 4.2s
+2026-08-18 11:10:53,217  INFO  [OK] flux | fr | MB062 | seed=42 -> saved in 5.1s
+2026-08-18 11:10:57,328  INFO  [OK] flux | fr | MB063 | seed=42 -> saved in 4.1s
+2026-08-18 11:11:01,297  INFO  [OK] flux | fr | MB064 | seed=42 -> saved in 4.0s
+2026-08-18 11:11:05,118  INFO  [OK] flux | fr | MB065 | seed=42 -> saved in 3.8s
+2026-08-18 11:11:09,218  INFO  [OK] flux | fr | MB066 | seed=42 -> saved in 4.1s
+2026-08-18 11:11:13,957  INFO  [OK] flux | fr | MB067 | seed=42 -> saved in 4.7s
+2026-08-18 11:11:19,737  INFO  [OK] flux | fr | MB068 | seed=42 -> saved in 5.8s
+2026-08-18 11:11:24,887  INFO  [OK] flux | fr | MB069 | seed=42 -> saved in 5.1s
+2026-08-18 11:11:30,398  INFO  [OK] flux | fr | MB070 | seed=42 -> saved in 5.5s
+2026-08-18 11:11:35,308  INFO  [OK] flux | fr | MB071 | seed=42 -> saved in 4.9s
+2026-08-18 11:11:39,347  INFO  [OK] flux | fr | MB072 | seed=42 -> saved in 4.0s
+2026-08-18 11:11:43,487  INFO  [OK] flux | fr | MB073 | seed=42 -> saved in 4.1s
+2026-08-18 11:11:47,902  INFO  [OK] flux | fr | MB074 | seed=42 -> saved in 4.4s
+2026-08-18 11:11:52,127  INFO  [OK] flux | fr | MB075 | seed=42 -> saved in 4.2s
+2026-08-18 11:11:55,942  INFO  [OK] flux | fr | MB076 | seed=42 -> saved in 3.8s
+2026-08-18 11:12:00,033  INFO  [OK] flux | fr | MB077 | seed=42 -> saved in 4.1s
+2026-08-18 11:12:04,227  INFO  [OK] flux | fr | MB078 | seed=42 -> saved in 4.2s
+2026-08-18 11:12:08,838  INFO  [OK] flux | fr | MB079 | seed=42 -> saved in 4.6s
+2026-08-18 11:12:14,261  INFO  [OK] flux | fr | MB080 | seed=42 -> saved in 5.4s
+2026-08-18 11:12:18,907  INFO  [OK] flux | fr | MB081 | seed=42 -> saved in 4.4s
+2026-08-18 11:12:23,077  INFO  [OK] flux | fr | MB082 | seed=42 -> saved in 4.2s
+2026-08-18 11:12:27,207  INFO  [OK] flux | fr | MB083 | seed=42 -> saved in 4.1s
+2026-08-18 11:12:31,332  INFO  [OK] flux | fr | MB085 | seed=42 -> saved in 4.1s
+2026-08-18 11:12:35,388  INFO  [OK] flux | fr | MB086 | seed=42 -> saved in 4.1s
+2026-08-18 11:12:39,367  INFO  [OK] flux | fr | MB087 | seed=42 -> saved in 4.0s
+2026-08-18 11:12:44,383  INFO  [OK] flux | fr | MB088 | seed=42 -> saved in 5.0s
+2026-08-18 11:12:48,992  INFO  [OK] flux | fr | MB089 | seed=42 -> saved in 4.6s
+2026-08-18 11:12:53,237  INFO  [OK] flux | fr | MB090 | seed=42 -> saved in 4.2s
+2026-08-18 11:12:57,187  INFO  [OK] flux | fr | MB091 | seed=42 -> saved in 4.0s
+2026-08-18 11:13:01,037  INFO  [OK] flux | fr | MB092 | seed=42 -> saved in 3.8s
+2026-08-18 11:13:06,522  INFO  [OK] flux | fr | MB093 | seed=42 -> saved in 5.5s
+2026-08-18 11:13:11,652  INFO  [OK] flux | fr | MB095 | seed=42 -> saved in 5.1s
+2026-08-18 11:13:16,587  INFO  [OK] flux | fr | MB096 | seed=42 -> saved in 4.9s
+2026-08-18 11:13:21,349  INFO  [OK] flux | fr | MB097 | seed=42 -> saved in 4.8s
+2026-08-18 11:13:25,627  INFO  [OK] flux | fr | MB098 | seed=42 -> saved in 4.3s
+2026-08-18 11:13:30,397  INFO  [OK] flux | fr | MB099 | seed=42 -> saved in 4.8s
+2026-08-18 11:13:34,357  INFO  [OK] flux | fr | MB100 | seed=42 -> saved in 4.0s
+2026-08-18 11:13:38,857  INFO  [OK] flux | fr | MB101 | seed=42 -> saved in 4.5s
+2026-08-18 11:13:42,840  INFO  [OK] flux | fr | MB102 | seed=42 -> saved in 4.0s
+2026-08-18 11:13:47,378  INFO  [OK] flux | fr | MB103 | seed=42 -> saved in 4.5s
+2026-08-18 11:13:51,859  INFO  [OK] flux | fr | MB104 | seed=42 -> saved in 4.5s
+2026-08-18 11:13:56,092  INFO  [OK] flux | fr | MB105 | seed=42 -> saved in 4.2s
+2026-08-18 11:14:00,180  INFO  [OK] flux | fr | MB106 | seed=42 -> saved in 4.1s
+2026-08-18 11:14:04,524  INFO  [OK] flux | fr | MB107 | seed=42 -> saved in 4.3s
+2026-08-18 11:14:08,427  INFO  [OK] flux | fr | MB108 | seed=42 -> saved in 3.9s
+2026-08-18 11:14:12,857  INFO  [OK] flux | fr | MB109 | seed=42 -> saved in 4.4s
+2026-08-18 11:14:17,007  INFO  [OK] flux | fr | MB110 | seed=42 -> saved in 4.1s
+2026-08-18 11:14:21,547  INFO  [OK] flux | fr | MB112 | seed=42 -> saved in 4.5s
+2026-08-18 11:14:26,073  INFO  [OK] flux | fr | MB113 | seed=42 -> saved in 4.5s
+2026-08-18 11:14:30,607  INFO  [OK] flux | fr | MB114 | seed=42 -> saved in 4.5s
+2026-08-18 11:14:35,187  INFO  [OK] flux | fr | MB115 | seed=42 -> saved in 4.6s
+2026-08-18 11:14:39,742  INFO  [OK] flux | fr | MB116 | seed=42 -> saved in 4.6s
+2026-08-18 11:14:44,405  INFO  [OK] flux | fr | MB117 | seed=42 -> saved in 4.7s
+2026-08-18 11:14:48,832  INFO  [OK] flux | fr | MB118 | seed=42 -> saved in 4.4s
+2026-08-18 11:14:53,396  INFO  [OK] flux | fr | MB119 | seed=42 -> saved in 4.6s
+2026-08-18 11:14:57,870  INFO  [OK] flux | fr | MB120 | seed=42 -> saved in 4.5s
+2026-08-18 11:15:02,147  INFO  [OK] flux | fr | MB121 | seed=42 -> saved in 4.3s
+2026-08-18 11:15:06,777  INFO  [OK] flux | fr | MB122 | seed=42 -> saved in 4.6s
+2026-08-18 11:15:11,087  INFO  [OK] flux | fr | MB123 | seed=42 -> saved in 4.3s
+2026-08-18 11:15:17,527  INFO  [OK] flux | fr | MB124 | seed=42 -> saved in 6.4s
+2026-08-18 11:15:22,892  INFO  [OK] flux | fr | MB126 | seed=42 -> saved in 5.4s
+2026-08-18 11:15:28,937  INFO  [OK] flux | fr | MB127 | seed=42 -> saved in 6.0s
+2026-08-18 11:15:33,612  INFO  [OK] flux | fr | MB129 | seed=42 -> saved in 4.7s
+2026-08-18 11:15:38,097  INFO  [OK] flux | fr | MB130 | seed=42 -> saved in 4.5s
+2026-08-18 11:15:43,531  INFO  [OK] flux | fr | MB131 | seed=42 -> saved in 5.4s
+2026-08-18 11:15:47,867  INFO  [OK] flux | fr | MB132 | seed=42 -> saved in 4.3s
+2026-08-18 11:15:51,777  INFO  [OK] flux | fr | MB133 | seed=42 -> saved in 3.9s
+2026-08-18 11:15:55,977  INFO  [OK] flux | fr | MB134 | seed=42 -> saved in 4.2s
+2026-08-18 11:16:00,332  INFO  [OK] flux | fr | MB135 | seed=42 -> saved in 4.4s
+2026-08-18 11:16:04,772  INFO  [OK] flux | fr | MB136 | seed=42 -> saved in 4.4s
+2026-08-18 11:16:10,047  INFO  [OK] flux | fr | MB137 | seed=42 -> saved in 5.3s
+2026-08-18 11:16:14,147  INFO  [OK] flux | fr | MB138 | seed=42 -> saved in 4.1s
+2026-08-18 11:16:18,282  INFO  [OK] flux | fr | MB139 | seed=42 -> saved in 4.1s
+2026-08-18 11:16:22,887  INFO  [OK] flux | fr | MB140 | seed=42 -> saved in 4.6s
+2026-08-18 11:16:27,632  INFO  [OK] flux | fr | MB141 | seed=42 -> saved in 4.7s
+2026-08-18 11:16:31,747  INFO  [OK] flux | fr | MB142 | seed=42 -> saved in 4.1s
+2026-08-18 11:16:36,052  INFO  [OK] flux | fr | MB143 | seed=42 -> saved in 4.3s
+2026-08-18 11:16:40,277  INFO  [OK] flux | fr | MB144 | seed=42 -> saved in 4.2s
+2026-08-18 11:16:44,567  INFO  [OK] flux | fr | MB145 | seed=42 -> saved in 4.3s
+2026-08-18 11:16:48,877  INFO  [OK] flux | fr | MB146 | seed=42 -> saved in 4.3s
+2026-08-18 11:16:52,832  INFO  [OK] flux | fr | MB147 | seed=42 -> saved in 3.9s
+2026-08-18 11:16:56,982  INFO  [OK] flux | fr | MB148 | seed=42 -> saved in 4.2s
+2026-08-18 11:17:01,187  INFO  [OK] flux | fr | MB149 | seed=42 -> saved in 4.2s
+2026-08-18 11:17:05,412  INFO  [OK] flux | fr | MB150 | seed=42 -> saved in 4.2s
+2026-08-18 11:17:09,807  INFO  [OK] flux | es | MB001 | seed=42 -> saved in 4.4s
+2026-08-18 11:17:14,087  INFO  [OK] flux | es | MB002 | seed=42 -> saved in 4.3s
+2026-08-18 11:17:17,957  INFO  [OK] flux | es | MB003 | seed=42 -> saved in 3.9s
+2026-08-18 11:17:22,537  INFO  [OK] flux | es | MB005 | seed=42 -> saved in 4.6s
+2026-08-18 11:17:27,017  INFO  [OK] flux | es | MB006 | seed=42 -> saved in 4.5s
+2026-08-18 11:17:31,167  INFO  [OK] flux | es | MB007 | seed=42 -> saved in 4.1s
+2026-08-18 11:17:35,277  INFO  [OK] flux | es | MB008 | seed=42 -> saved in 4.1s
+2026-08-18 11:17:39,197  INFO  [OK] flux | es | MB009 | seed=42 -> saved in 3.9s
+2026-08-18 11:17:43,216  INFO  [OK] flux | es | MB010 | seed=42 -> saved in 4.0s
+2026-08-18 11:17:47,136  INFO  [OK] flux | es | MB011 | seed=42 -> saved in 3.9s
+2026-08-18 11:17:51,467  INFO  [OK] flux | es | MB012 | seed=42 -> saved in 4.3s
+2026-08-18 11:17:55,597  INFO  [OK] flux | es | MB013 | seed=42 -> saved in 4.1s
+2026-08-18 11:17:59,711  INFO  [OK] flux | es | MB014 | seed=42 -> saved in 4.1s
+2026-08-18 11:18:03,752  INFO  [OK] flux | es | MB015 | seed=42 -> saved in 4.0s
+2026-08-18 11:18:07,971  INFO  [OK] flux | es | MB016 | seed=42 -> saved in 4.2s
+2026-08-18 11:18:12,017  INFO  [OK] flux | es | MB017 | seed=42 -> saved in 4.0s
+2026-08-18 11:18:16,147  INFO  [OK] flux | es | MB018 | seed=42 -> saved in 4.1s
+2026-08-18 11:18:20,407  INFO  [OK] flux | es | MB019 | seed=42 -> saved in 4.3s
+2026-08-18 11:18:24,387  INFO  [OK] flux | es | MB020 | seed=42 -> saved in 4.0s
+2026-08-18 11:18:29,107  INFO  [OK] flux | es | MB021 | seed=42 -> saved in 4.7s
+2026-08-18 11:18:33,041  INFO  [OK] flux | es | MB022 | seed=42 -> saved in 3.9s
+2026-08-18 11:18:37,466  INFO  [OK] flux | es | MB023 | seed=42 -> saved in 4.4s
+2026-08-18 11:18:41,967  INFO  [OK] flux | es | MB025 | seed=42 -> saved in 4.5s
+2026-08-18 11:18:46,736  INFO  [OK] flux | es | MB026 | seed=42 -> saved in 4.8s
+2026-08-18 11:18:51,962  INFO  [OK] flux | es | MB027 | seed=42 -> saved in 5.2s
+2026-08-18 11:18:56,511  INFO  [OK] flux | es | MB028 | seed=42 -> saved in 4.5s
+2026-08-18 11:19:00,667  INFO  [OK] flux | es | MB029 | seed=42 -> saved in 4.1s
+2026-08-18 11:19:05,022  INFO  [OK] flux | es | MB030 | seed=42 -> saved in 4.4s
+2026-08-18 11:19:09,336  INFO  [OK] flux | es | MB031 | seed=42 -> saved in 4.3s
+2026-08-18 11:19:13,941  INFO  [OK] flux | es | MB032 | seed=42 -> saved in 4.6s
+2026-08-18 11:19:18,296  INFO  [OK] flux | es | MB033 | seed=42 -> saved in 4.4s
+2026-08-18 11:19:22,746  INFO  [OK] flux | es | MB034 | seed=42 -> saved in 4.4s
+2026-08-18 11:19:26,896  INFO  [OK] flux | es | MB035 | seed=42 -> saved in 4.1s
+2026-08-18 11:19:31,126  INFO  [OK] flux | es | MB036 | seed=42 -> saved in 4.2s
+2026-08-18 11:19:35,291  INFO  [OK] flux | es | MB037 | seed=42 -> saved in 4.2s
+2026-08-18 11:19:39,501  INFO  [OK] flux | es | MB040 | seed=42 -> saved in 4.2s
+2026-08-18 11:19:43,576  INFO  [OK] flux | es | MB041 | seed=42 -> saved in 4.1s
+2026-08-18 11:19:47,956  INFO  [OK] flux | es | MB042 | seed=42 -> saved in 4.4s
+2026-08-18 11:19:52,316  INFO  [OK] flux | es | MB043 | seed=42 -> saved in 4.4s
+2026-08-18 11:19:56,286  INFO  [OK] flux | es | MB044 | seed=42 -> saved in 4.0s
+2026-08-18 11:20:00,576  INFO  [OK] flux | es | MB045 | seed=42 -> saved in 4.3s
+2026-08-18 11:20:04,736  INFO  [OK] flux | es | MB046 | seed=42 -> saved in 4.2s
+2026-08-18 11:20:09,386  INFO  [OK] flux | es | MB047 | seed=42 -> saved in 4.6s
+2026-08-18 11:20:13,626  INFO  [OK] flux | es | MB048 | seed=42 -> saved in 4.2s
+2026-08-18 11:20:18,371  INFO  [OK] flux | es | MB049 | seed=42 -> saved in 4.7s
+2026-08-18 11:20:22,551  INFO  [OK] flux | es | MB050 | seed=42 -> saved in 4.2s
+2026-08-18 11:20:26,501  INFO  [OK] flux | es | MB051 | seed=42 -> saved in 3.9s
+2026-08-18 11:20:30,657  INFO  [OK] flux | es | MB052 | seed=42 -> saved in 4.2s
+2026-08-18 11:20:34,636  INFO  [OK] flux | es | MB053 | seed=42 -> saved in 4.0s
+2026-08-18 11:20:38,841  INFO  [OK] flux | es | MB054 | seed=42 -> saved in 4.2s
+2026-08-18 11:20:42,986  INFO  [OK] flux | es | MB055 | seed=42 -> saved in 4.1s
+2026-08-18 11:20:47,426  INFO  [OK] flux | es | MB056 | seed=42 -> saved in 4.4s
+2026-08-18 11:20:53,356  INFO  [OK] flux | es | MB057 | seed=42 -> saved in 5.9s
+2026-08-18 11:20:57,836  INFO  [OK] flux | es | MB058 | seed=42 -> saved in 4.5s
+2026-08-18 11:21:02,056  INFO  [OK] flux | es | MB059 | seed=42 -> saved in 4.2s
+2026-08-18 11:21:06,731  INFO  [OK] flux | es | MB060 | seed=42 -> saved in 4.7s
+2026-08-18 11:21:10,806  INFO  [OK] flux | es | MB062 | seed=42 -> saved in 4.1s
+2026-08-18 11:21:14,986  INFO  [OK] flux | es | MB063 | seed=42 -> saved in 4.2s
+2026-08-18 11:21:18,956  INFO  [OK] flux | es | MB064 | seed=42 -> saved in 4.0s
+2026-08-18 11:21:23,646  INFO  [OK] flux | es | MB065 | seed=42 -> saved in 4.7s
+2026-08-18 11:21:28,151  INFO  [OK] flux | es | MB066 | seed=42 -> saved in 4.5s
+2026-08-18 11:21:32,796  INFO  [OK] flux | es | MB067 | seed=42 -> saved in 4.6s
+2026-08-18 11:21:36,971  INFO  [OK] flux | es | MB068 | seed=42 -> saved in 4.2s
+2026-08-18 11:21:42,046  INFO  [OK] flux | es | MB069 | seed=42 -> saved in 5.1s
+2026-08-18 11:21:46,402  INFO  [OK] flux | es | MB070 | seed=42 -> saved in 4.4s
+2026-08-18 11:21:50,656  INFO  [OK] flux | es | MB071 | seed=42 -> saved in 4.2s
+2026-08-18 11:21:54,771  INFO  [OK] flux | es | MB072 | seed=42 -> saved in 4.1s
+2026-08-18 11:21:59,356  INFO  [OK] flux | es | MB073 | seed=42 -> saved in 4.6s
+2026-08-18 11:22:04,071  INFO  [OK] flux | es | MB074 | seed=42 -> saved in 4.7s
+2026-08-18 11:22:08,536  INFO  [OK] flux | es | MB075 | seed=42 -> saved in 4.5s
+2026-08-18 11:22:13,251  INFO  [OK] flux | es | MB076 | seed=42 -> saved in 4.7s
+2026-08-18 11:22:17,281  INFO  [OK] flux | es | MB077 | seed=42 -> saved in 4.0s
+2026-08-18 11:22:22,416  INFO  [OK] flux | es | MB078 | seed=42 -> saved in 5.1s
+2026-08-18 11:22:27,566  INFO  [OK] flux | es | MB079 | seed=42 -> saved in 5.1s
+2026-08-18 11:22:32,036  INFO  [OK] flux | es | MB080 | seed=42 -> saved in 4.5s
+2026-08-18 11:22:36,446  INFO  [OK] flux | es | MB081 | seed=42 -> saved in 4.4s
+2026-08-18 11:22:41,561  INFO  [OK] flux | es | MB082 | seed=42 -> saved in 5.1s
+2026-08-18 11:22:45,696  INFO  [OK] flux | es | MB083 | seed=42 -> saved in 4.1s
+2026-08-18 11:22:50,631  INFO  [OK] flux | es | MB085 | seed=42 -> saved in 4.9s
+2026-08-18 11:22:55,239  INFO  [OK] flux | es | MB086 | seed=42 -> saved in 4.6s
+2026-08-18 11:23:00,143  INFO  [OK] flux | es | MB087 | seed=42 -> saved in 4.9s
+2026-08-18 11:23:04,846  INFO  [OK] flux | es | MB088 | seed=42 -> saved in 4.7s
+2026-08-18 11:23:09,396  INFO  [OK] flux | es | MB089 | seed=42 -> saved in 4.6s
+2026-08-18 11:23:13,941  INFO  [OK] flux | es | MB090 | seed=42 -> saved in 4.5s
+2026-08-18 11:23:19,006  INFO  [OK] flux | es | MB091 | seed=42 -> saved in 5.1s
+2026-08-18 11:23:23,336  INFO  [OK] flux | es | MB092 | seed=42 -> saved in 4.3s
+2026-08-18 11:23:28,276  INFO  [OK] flux | es | MB093 | seed=42 -> saved in 4.9s
+2026-08-18 11:23:33,186  INFO  [OK] flux | es | MB095 | seed=42 -> saved in 4.9s
+2026-08-18 11:23:38,046  INFO  [OK] flux | es | MB096 | seed=42 -> saved in 4.9s
+2026-08-18 11:23:43,726  INFO  [OK] flux | es | MB097 | seed=42 -> saved in 5.7s
+2026-08-18 11:23:48,291  INFO  [OK] flux | es | MB098 | seed=42 -> saved in 4.6s
+2026-08-18 11:23:53,806  INFO  [OK] flux | es | MB099 | seed=42 -> saved in 5.5s
+2026-08-18 11:23:58,081  INFO  [OK] flux | es | MB100 | seed=42 -> saved in 4.3s
+2026-08-18 11:24:02,426  INFO  [OK] flux | es | MB101 | seed=42 -> saved in 4.3s
+2026-08-18 11:24:07,016  INFO  [OK] flux | es | MB102 | seed=42 -> saved in 4.6s
+2026-08-18 11:24:11,351  INFO  [OK] flux | es | MB103 | seed=42 -> saved in 4.3s
+2026-08-18 11:24:16,451  INFO  [OK] flux | es | MB104 | seed=42 -> saved in 5.1s
+2026-08-18 11:24:21,006  INFO  [OK] flux | es | MB105 | seed=42 -> saved in 4.6s
+2026-08-18 11:24:25,941  INFO  [OK] flux | es | MB106 | seed=42 -> saved in 4.9s
+2026-08-18 11:24:30,306  INFO  [OK] flux | es | MB107 | seed=42 -> saved in 4.4s
+2026-08-18 11:24:34,845  INFO  [OK] flux | es | MB108 | seed=42 -> saved in 4.5s
+2026-08-18 11:24:39,886  INFO  [OK] flux | es | MB109 | seed=42 -> saved in 5.0s
+2026-08-18 11:24:44,411  INFO  [OK] flux | es | MB110 | seed=42 -> saved in 4.5s
+2026-08-18 11:24:48,996  INFO  [OK] flux | es | MB112 | seed=42 -> saved in 4.6s
+2026-08-18 11:24:53,716  INFO  [OK] flux | es | MB113 | seed=42 -> saved in 4.7s
+2026-08-18 11:24:59,346  INFO  [OK] flux | es | MB114 | seed=42 -> saved in 5.6s
+2026-08-18 11:25:04,466  INFO  [OK] flux | es | MB115 | seed=42 -> saved in 5.1s
+2026-08-18 11:25:09,445  INFO  [OK] flux | es | MB116 | seed=42 -> saved in 5.0s
+2026-08-18 11:25:15,120  INFO  [OK] flux | es | MB117 | seed=42 -> saved in 5.7s
+2026-08-18 11:25:20,375  INFO  [OK] flux | es | MB118 | seed=42 -> saved in 5.3s
+2026-08-18 11:25:26,237  INFO  [OK] flux | es | MB119 | seed=42 -> saved in 5.9s
+2026-08-18 11:25:31,270  INFO  [OK] flux | es | MB120 | seed=42 -> saved in 5.0s
+2026-08-18 11:25:36,520  INFO  [OK] flux | es | MB121 | seed=42 -> saved in 5.2s
+2026-08-18 11:25:42,695  INFO  [OK] flux | es | MB122 | seed=42 -> saved in 6.2s
+2026-08-18 11:25:53,690  INFO  [OK] flux | es | MB123 | seed=42 -> saved in 11.0s
+2026-08-18 11:26:01,516  INFO  [OK] flux | es | MB124 | seed=42 -> saved in 7.8s
+2026-08-18 11:26:07,525  INFO  [OK] flux | es | MB126 | seed=42 -> saved in 6.0s
+2026-08-18 11:26:12,690  INFO  [OK] flux | es | MB127 | seed=42 -> saved in 5.2s
+2026-08-18 11:26:17,865  INFO  [OK] flux | es | MB129 | seed=42 -> saved in 5.2s
+2026-08-18 11:26:23,507  INFO  [OK] flux | es | MB130 | seed=42 -> saved in 5.6s
+2026-08-18 11:26:30,880  INFO  [OK] flux | es | MB131 | seed=42 -> saved in 7.4s
+2026-08-18 11:26:37,725  INFO  [OK] flux | es | MB132 | seed=42 -> saved in 6.8s
+2026-08-18 11:26:42,060  INFO  [OK] flux | es | MB133 | seed=42 -> saved in 4.3s
+2026-08-18 11:26:46,382  INFO  [OK] flux | es | MB134 | seed=42 -> saved in 4.3s
+2026-08-18 11:26:53,775  INFO  [OK] flux | es | MB135 | seed=42 -> saved in 7.4s
+2026-08-18 11:26:59,095  INFO  [OK] flux | es | MB136 | seed=42 -> saved in 5.3s
+2026-08-18 11:27:05,150  INFO  [OK] flux | es | MB137 | seed=42 -> saved in 6.1s
+2026-08-18 11:27:10,120  INFO  [OK] flux | es | MB138 | seed=42 -> saved in 5.0s
+2026-08-18 11:27:19,324  INFO  [OK] flux | es | MB139 | seed=42 -> saved in 9.2s
+2026-08-18 11:27:24,121  INFO  [OK] flux | es | MB140 | seed=42 -> saved in 4.8s
+2026-08-18 11:27:28,975  INFO  [OK] flux | es | MB141 | seed=42 -> saved in 4.9s
+2026-08-18 11:27:33,880  INFO  [OK] flux | es | MB142 | seed=42 -> saved in 4.9s
+2026-08-18 11:27:39,185  INFO  [OK] flux | es | MB143 | seed=42 -> saved in 5.3s
+2026-08-18 11:27:44,326  INFO  [OK] flux | es | MB144 | seed=42 -> saved in 5.1s
+2026-08-18 11:27:50,860  INFO  [OK] flux | es | MB145 | seed=42 -> saved in 6.5s
+2026-08-18 11:27:55,805  INFO  [OK] flux | es | MB146 | seed=42 -> saved in 4.9s
+2026-08-18 11:28:02,350  INFO  [OK] flux | es | MB147 | seed=42 -> saved in 6.5s
+2026-08-18 11:28:07,305  INFO  [OK] flux | es | MB148 | seed=42 -> saved in 5.0s
+2026-08-18 11:28:12,140  INFO  [OK] flux | es | MB149 | seed=42 -> saved in 4.8s
+2026-08-18 11:28:18,592  INFO  [OK] flux | es | MB150 | seed=42 -> saved in 6.5s
+2026-08-18 11:28:18,805  INFO  ============================================================
+2026-08-18 11:28:18,805  INFO  Phase 2B [FULL] languages=DE/FR/ES complete -- [OK] 918 generated  [FAIL] 2 failed (log totals across all runs so far)
+2026-08-18 11:28:18,805  INFO  Failed images (re-run this script with the same --mode/--languages to retry them automatically):
+2026-08-18 11:28:18,845  INFO  
+model language prompt_id  seed                                                                   error
+ sd15       de     MB006    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 11:28:18,845  INFO  ============================================================
+2026-08-18 11:28:18,845  INFO  Images saved to : data\generated_images\phase2b/
+2026-08-18 11:28:18,845  INFO  Log saved to    : results\phase2b\generation_log.csv
+2026-08-18 11:28:59,225  INFO  Phase 2B [FULL] — languages: DE/FR/ES — 900 total images | 898 already done | 2 to generate
+2026-08-18 11:29:20,256  ERROR  [FAIL] Unexpected error | sd15 | de | MB006 | seed=42 -> NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 11:29:27,505  ERROR  [FAIL] Unexpected error | sd15 | es | MB077 | seed=42 -> NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 11:29:32,625  INFO  ============================================================
+2026-08-18 11:29:32,627  INFO  Phase 2B [FULL] languages=DE/FR/ES complete -- [OK] 918 generated  [FAIL] 4 failed (log totals across all runs so far)
+2026-08-18 11:29:32,627  INFO  Failed images (re-run this script with the same --mode/--languages to retry them automatically):
+2026-08-18 11:29:32,635  INFO  
+model language prompt_id  seed                                                                   error
+ sd15       de     MB006    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       de     MB006    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 11:29:32,635  INFO  ============================================================
+2026-08-18 11:29:32,635  INFO  Images saved to : data\generated_images\phase2b/
+2026-08-18 11:29:32,635  INFO  Log saved to    : results\phase2b\generation_log.csv
+2026-08-18 11:47:20,702  INFO  Phase 2B [FULL] — languages: DE/FR/ES — 900 total images | 898 already done | 2 to generate
+2026-08-18 11:47:24,533  INFO  [OK] sd15 | de | MB006 | seed=42 -> saved in 3.7s
+2026-08-18 11:47:26,248  ERROR  [FAIL] Unexpected error | sd15 | es | MB077 | seed=42 -> NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 11:47:31,392  INFO  ============================================================
+2026-08-18 11:47:31,392  INFO  Phase 2B [FULL] languages=DE/FR/ES complete -- [OK] 919 generated  [FAIL] 5 failed (log totals across all runs so far)
+2026-08-18 11:47:31,393  INFO  Failed images (re-run this script with the same --mode/--languages to retry them automatically):
+2026-08-18 11:47:31,412  INFO  
+model language prompt_id  seed                                                                   error
+ sd15       de     MB006    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       de     MB006    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 11:47:31,413  INFO  ============================================================
+2026-08-18 11:47:31,417  INFO  Images saved to : data\generated_images\phase2b/
+2026-08-18 11:47:31,417  INFO  Log saved to    : results\phase2b\generation_log.csv
+2026-08-18 11:47:40,664  INFO  Phase 2B [FULL] — languages: DE/FR/ES — 900 total images | 899 already done | 1 to generate
+2026-08-18 11:47:43,386  ERROR  [FAIL] Unexpected error | sd15 | es | MB077 | seed=42 -> NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 11:47:48,543  INFO  ============================================================
+2026-08-18 11:47:48,543  INFO  Phase 2B [FULL] languages=DE/FR/ES complete -- [OK] 919 generated  [FAIL] 6 failed (log totals across all runs so far)
+2026-08-18 11:47:48,543  INFO  Failed images (re-run this script with the same --mode/--languages to retry them automatically):
+2026-08-18 11:47:48,554  INFO  
+model language prompt_id  seed                                                                   error
+ sd15       de     MB006    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       de     MB006    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 11:47:48,555  INFO  ============================================================
+2026-08-18 11:47:48,557  INFO  Images saved to : data\generated_images\phase2b/
+2026-08-18 11:47:48,557  INFO  Log saved to    : results\phase2b\generation_log.csv
+2026-08-18 11:48:23,372  INFO  Phase 2B [FULL] — languages: DE/FR/ES — 900 total images | 899 already done | 1 to generate
+2026-08-18 11:48:25,820  ERROR  [FAIL] Unexpected error | sd15 | es | MB077 | seed=42 -> NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 11:48:31,056  INFO  ============================================================
+2026-08-18 11:48:31,063  INFO  Phase 2B [FULL] languages=DE/FR/ES complete -- [OK] 919 generated  [FAIL] 7 failed (log totals across all runs so far)
+2026-08-18 11:48:31,064  INFO  Failed images (re-run this script with the same --mode/--languages to retry them automatically):
+2026-08-18 11:48:31,076  INFO  
+model language prompt_id  seed                                                                   error
+ sd15       de     MB006    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       de     MB006    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 11:48:31,076  INFO  ============================================================
+2026-08-18 11:48:31,078  INFO  Images saved to : data\generated_images\phase2b/
+2026-08-18 11:48:31,079  INFO  Log saved to    : results\phase2b\generation_log.csv
+2026-08-18 11:58:06,919  INFO  Phase 2B [FULL] — languages: DE/FR/ES — 900 total images | 899 already done | 1 to generate
+2026-08-18 11:58:09,718  ERROR  [FAIL] Unexpected error | sd15 | es | MB077 | seed=42 -> NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 11:58:14,897  INFO  ============================================================
+2026-08-18 11:58:14,897  INFO  Phase 2B [FULL] languages=DE/FR/ES complete -- [OK] 919 generated  [FAIL] 8 failed (log totals across all runs so far)
+2026-08-18 11:58:14,898  INFO  Failed images (re-run this script with the same --mode/--languages to retry them automatically):
+2026-08-18 11:58:14,911  INFO  
+model language prompt_id  seed                                                                   error
+ sd15       de     MB006    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       de     MB006    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 11:58:14,911  INFO  ============================================================
+2026-08-18 11:58:14,912  INFO  Images saved to : data\generated_images\phase2b/
+2026-08-18 11:58:14,912  INFO  Log saved to    : results\phase2b\generation_log.csv
+2026-08-18 11:59:30,967  INFO  Phase 2B [FULL] — languages: DE/FR/ES — 900 total images | 899 already done | 1 to generate
+2026-08-18 11:59:35,588  INFO  [OK] sd15 | es | MB077 | seed=42 -> saved in 4.4s
+2026-08-18 11:59:35,706  INFO  ============================================================
+2026-08-18 11:59:35,706  INFO  Phase 2B [FULL] languages=DE/FR/ES complete -- [OK] 920 generated  [FAIL] 8 failed (log totals across all runs so far)
+2026-08-18 11:59:35,706  INFO  Failed images (re-run this script with the same --mode/--languages to retry them automatically):
+2026-08-18 11:59:35,719  INFO  
+model language prompt_id  seed                                                                   error
+ sd15       de     MB006    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       de     MB006    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+ sd15       es     MB077    42 NSFW content detected. Try running it again, or try a different prompt.
+2026-08-18 11:59:35,720  INFO  ============================================================
+2026-08-18 11:59:35,720  INFO  Images saved to : data\generated_images\phase2b/
+2026-08-18 11:59:35,720  INFO  Log saved to    : results\phase2b\generation_log.csv
