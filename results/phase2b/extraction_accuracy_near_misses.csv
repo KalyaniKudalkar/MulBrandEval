@@ -1,0 +1,923 @@
+brief_id,language,category,extracted_value,ground_truth_value
+MB022,en,spatial_constraints,[],"('gaming headset', 'above', 'headphone stand')"
+MB027,en,spatial_constraints,[],"('smartphone', 'above', 'wireless charging pad')"
+MB030,en,spatial_constraints,[],"('gaming mouse', 'above', 'mousepad')"
+MB050,en,spatial_constraints,[],"('chocolate bar', 'above', 'wrapper')"
+MB062,en,spatial_constraints,[],"('leather jacket', 'above', 'wooden hanger')"
+MB108,en,required_text,[],ZOOM
+MB003,de,objects,"['charging case', 'wireless earphone']",wireless earbud
+MB003,de,colours,<missing>,white
+MB003,de,spatial_constraints,"[('wireless earphone', 'above', 'charging case')]","('wireless earbud', 'above', 'charging case')"
+MB005,de,objects,"['stylu', 'tablet']",stylus pen
+MB005,de,colours,<missing>,gold
+MB005,de,spatial_constraints,"[('stylu', 'right', 'tablet')]","('stylus pen', 'right', 'tablet')"
+MB008,de,spatial_constraints,"[('camera len', 'right', 'pedestal')]","('camera len', 'right', 'camera')"
+MB011,de,objects,"['powerbank', 'usb cable']",power bank
+MB011,de,colours,<missing>,white
+MB011,de,spatial_constraints,"[('usb cable', 'below', 'powerbank')]","('usb cable', 'below', 'power bank')"
+MB012,de,objects,"['coffee cup', 'laptop']",coffee mug
+MB012,de,colours,<missing>,white
+MB012,de,spatial_constraints,"[('coffee cup', 'right', 'laptop')]","('coffee mug', 'right', 'laptop')"
+MB013,de,objects,"['earphone', 'smartphone']",wireless earbud
+MB013,de,colours,<missing>,white
+MB013,de,spatial_constraints,"[('earphone', 'above', 'smartphone')]","('wireless earbud', 'above', 'smartphone')"
+MB015,de,objects,"['action camera', 'bicycle helmet']",cycling helmet
+MB015,de,colours,<missing>,white
+MB015,de,spatial_constraints,"[('action camera', 'left', 'bicycle helmet')]","('action camera', 'left', 'cycling helmet')"
+MB019,de,objects,"['quadcopter', 'remote control']",drone
+MB019,de,colours,<missing>,black
+MB019,de,colours,grey,gray
+MB019,de,spatial_constraints,"[('quadcopter', 'left', 'remote control')]","('drone', 'left', 'remote control')"
+MB021,de,colours,grey,gray
+MB022,de,spatial_constraints,[],"('gaming headset', 'above', 'headphone stand')"
+MB027,de,objects,"['nightstand', 'smartphone', 'wireless charger']",wireless charging pad
+MB027,de,colours,<missing>,white
+MB027,de,spatial_constraints,[],"('smartphone', 'above', 'wireless charging pad')"
+MB030,de,objects,"['desk', 'gaming mouse', 'mouse pad']",mousepad
+MB030,de,colours,<missing>,red
+MB030,de,spatial_constraints,[],"('gaming mouse', 'above', 'mousepad')"
+MB033,de,objects,"['milchkarton', 'müslipackung']",cereal box
+MB033,de,objects,"['milchkarton', 'müslipackung']",milk carton
+MB033,de,colours,<missing>,yellow
+MB033,de,colours,<missing>,white
+MB033,de,spatial_constraints,"[('müslipackung', 'left', 'milchkarton')]","('cereal box', 'left', 'milk carton')"
+MB036,de,objects,"['keramik teetasse', 'teedose', 'untertasse']",tea box
+MB036,de,objects,"['keramik teetasse', 'teedose', 'untertasse']",teacup
+MB036,de,colours,<missing>,teal
+MB036,de,colours,<missing>,white
+MB036,de,spatial_constraints,"[('keramik teetasse', 'below', 'teedose'), ('teedose', 'above', 'keramik teetasse')]","('tea box', 'above', 'teacup')"
+MB037,de,objects,"['aluminium can', 'dumbbell']",energy drink can
+MB037,de,colours,<missing>,black
+MB037,de,spatial_constraints,"[('aluminium can', 'left', 'dumbbell')]","('energy drink can', 'left', 'dumbbell')"
+MB038,de,objects,"['drinking bottle', 'lemon slice']",water bottle
+MB038,de,colours,<missing>,blue
+MB038,de,spatial_constraints,"[('drinking bottle', 'above', 'lemon slice')]","('water bottle', 'above', 'lemon')"
+MB039,de,objects,"['strawberry', 'yogurt cup']",yogurt container
+MB039,de,colours,<missing>,white
+MB039,de,spatial_constraints,"[('yogurt cup', 'left', 'strawberry')]","('yogurt container', 'left', 'strawberry')"
+MB040,de,objects,"['cookie jar', 'glass of milk']",cookie tin
+MB040,de,colours,<missing>,red
+MB040,de,spatial_constraints,"[('cookie jar', 'right', 'glass of milk')]","('glass of milk', 'left', 'cookie tin')"
+MB041,de,objects,"['drink can', 'ice bucket']",soda can
+MB041,de,colours,<missing>,blue
+MB041,de,spatial_constraints,"[('drink can', 'left', 'ice bucket')]","('soda can', 'left', 'ice bucket')"
+MB042,de,objects,"['protein powder container', 'shaker bottle']",protein powder jar
+MB042,de,colours,<missing>,black
+MB042,de,spatial_constraints,"[('protein powder container', 'left', 'shaker bottle')]","('protein powder jar', 'left', 'shaker bottle')"
+MB044,de,objects,"['banane', 'müsliriegel']",banana
+MB044,de,objects,"['banane', 'müsliriegel']",granola bar
+MB044,de,colours,<missing>,brown
+MB044,de,colours,<missing>,yellow
+MB044,de,spatial_constraints,"[('müsliriegel', 'left', 'banane')]","('granola bar', 'left', 'banana')"
+MB047,de,objects,"['bread', 'glass', 'honey']",toast
+MB047,de,colours,<missing>,brown
+MB047,de,spatial_constraints,"[('glass', 'above', 'bread')]","('honey jar', 'above', 'toast')"
+MB049,de,objects,"['bamboo', 'teaflask']",tea bottle
+MB049,de,colours,<missing>,white
+MB049,de,spatial_constraints,"[('teaflask', 'right', 'bamboo')]","('tea bottle', 'right', 'bamboo stalk')"
+MB050,de,objects,"['black marble surface', 'chocolate bar', 'gold foil']",wrapper
+MB050,de,colours,<missing>,gold
+MB050,de,spatial_constraints,[],"('chocolate bar', 'above', 'wrapper')"
+MB051,de,objects,"['orange juice bag', 'wood straw']",wooden straw
+MB051,de,objects,"['orange juice bag', 'wood straw']",juice pouch
+MB051,de,colours,<missing>,orange
+MB051,de,colours,<missing>,brown
+MB051,de,spatial_constraints,"[('orange juice bag', 'right', 'wood straw')]","('juice pouch', 'right', 'wooden straw')"
+MB055,de,objects,"['bamboo tea whisk', 'ceramic surface', 'matcha can']",matcha tin
+MB055,de,colours,<missing>,green
+MB055,de,spatial_constraints,"[('matcha can', 'right', 'bamboo tea whisk')]","('matcha tin', 'right', 'bamboo whisk')"
+MB057,de,colours,brown,white
+MB057,de,spatial_constraints,"[('aluminium can', 'right', 'coconut')]","('coconut water can', 'right', 'coconut')"
+MB058,de,objects,"['kurkumawurzel', 'schnapsflasche']",shot bottle
+MB058,de,objects,"['kurkumawurzel', 'schnapsflasche']",turmeric root
+MB058,de,colours,<missing>,yellow
+MB058,de,colours,<missing>,orange
+MB058,de,spatial_constraints,"[('schnapsflasche', 'above', 'kurkumawurzel')]","('shot bottle', 'above', 'turmeric root')"
+MB059,de,objects,"['glass bottle', 'grape']",sparkling juice bottle
+MB059,de,colours,<missing>,purple
+MB059,de,colours,none,green
+MB059,de,spatial_constraints,"[('glass bottle', 'right', 'grape')]","('sparkling juice bottle', 'right', 'grape')"
+MB061,de,objects,"['shoe box', 'sneaker']",shoebox
+MB061,de,colours,<missing>,red
+MB061,de,spatial_constraints,"[('sneaker', 'above', 'shoe box')]","('sneaker', 'above', 'shoebox')"
+MB063,de,colours,light brown,tan
+MB066,de,objects,"['running shoe', 'sports sock']",athletic sock
+MB066,de,colours,<missing>,white
+MB066,de,spatial_constraints,"[('running shoe', 'left', 'sports sock')]","('running shoe', 'left', 'athletic sock')"
+MB067,de,objects,"['canvas bag', 'jeans jacket']",denim jacket
+MB067,de,objects,"['canvas bag', 'jeans jacket']",tote bag
+MB067,de,colours,<missing>,blue
+MB067,de,colours,<missing>,white
+MB067,de,spatial_constraints,"[('jeans jacket', 'above', 'canvas bag')]","('denim jacket', 'above', 'tote bag')"
+MB070,de,objects,"['sport bh', 'yogamatte']",yoga mat
+MB070,de,objects,"['sport bh', 'yogamatte']",sports bra
+MB070,de,colours,<missing>,pink
+MB070,de,colours,<missing>,purple
+MB070,de,spatial_constraints,"[('sport bh', 'above', 'yogamatte')]","('sports bra', 'above', 'yoga mat')"
+MB074,de,objects,"['knitted scarf', 'wood surface', 'wool pullover']",knit scarf
+MB074,de,objects,"['knitted scarf', 'wood surface', 'wool pullover']",wool sweater
+MB074,de,colours,<missing>,gray
+MB074,de,colours,<missing>,white
+MB074,de,spatial_constraints,"[('wool pullover', 'above', 'knitted scarf')]","('wool sweater', 'above', 'knit scarf')"
+MB075,de,objects,"['badeanzug', 'sonnencremeflasche']",sunscreen bottle
+MB075,de,objects,"['badeanzug', 'sonnencremeflasche']",swimsuit
+MB075,de,colours,<missing>,orange
+MB075,de,colours,<missing>,white
+MB075,de,spatial_constraints,"[('badeanzug', 'left', 'sonnencremeflasche')]","('swimsuit', 'left', 'sunscreen bottle')"
+MB076,de,objects,"['rucksack', 'wasserflasche']",backpack
+MB076,de,objects,"['rucksack', 'wasserflasche']",water bottle
+MB076,de,colours,<missing>,navy
+MB076,de,colours,<missing>,silver
+MB076,de,spatial_constraints,"[('rucksack', 'left', 'wasserflasche')]","('backpack', 'left', 'water bottle')"
+MB077,de,objects,"['hoodie', 'jogging pant']",jogger pant
+MB077,de,colours,grey,gray
+MB077,de,colours,<missing>,black
+MB077,de,spatial_constraints,"[('hoodie', 'above', 'jogging pant')]","('hoodie', 'above', 'jogger pant')"
+MB078,de,colours,light brown,tan
+MB080,de,objects,"['running shoe', 'sport short']",sneaker
+MB080,de,objects,"['running shoe', 'sport short']",athletic short
+MB080,de,colours,<missing>,black
+MB080,de,colours,<missing>,white
+MB080,de,spatial_constraints,"[('sport short', 'below', 'running shoe')]","('athletic short', 'below', 'sneaker')"
+MB082,de,objects,"['trenchcoat', 'umbrella']",trench coat
+MB082,de,colours,<missing>,beige
+MB082,de,spatial_constraints,"[('trenchcoat', 'below', 'umbrella')]","('trench coat', 'below', 'umbrella')"
+MB083,de,objects,"['bicycle helmet', 'cycling short']",cycling helmet
+MB083,de,colours,<missing>,white
+MB083,de,spatial_constraints,"[('cycling short', 'right', 'bicycle helmet')]","('cycling short', 'right', 'cycling helmet')"
+MB085,de,objects,"['jacket', 'knit cap']",beanie hat
+MB085,de,colours,<missing>,gray
+MB085,de,spatial_constraints,"[('knit cap', 'below', 'jacket')]","('beanie hat', 'below', 'jacket')"
+MB086,de,objects,"['leather clutch', 'plateau pump', 'underlay']",clutch bag
+MB086,de,objects,"['leather clutch', 'plateau pump', 'underlay']",platform heel
+MB086,de,colours,<missing>,black
+MB086,de,colours,<missing>,red
+MB086,de,spatial_constraints,"[('plateau pump', 'right', 'leather clutch')]","('platform heel', 'right', 'clutch bag')"
+MB087,de,objects,"['cargopant', 'leather boot']",cargo pant
+MB087,de,colours,<missing>,green
+MB087,de,spatial_constraints,"[('cargopant', 'below', 'leather boot')]","('cargo pant', 'below', 'leather boot')"
+MB089,de,objects,"['fitness legging', 'sports shoe']",gym legging
+MB089,de,colours,<missing>,purple
+MB089,de,spatial_constraints,"[('fitness legging', 'right', 'sports shoe')]","('gym legging', 'right', 'sports shoe')"
+MB090,de,colours,light brown,tan
+MB093,de,spatial_constraints,[],"('roof rack', 'above', 'suv')"
+MB098,de,objects,"['compact car', 'parking sign']",city car
+MB098,de,colours,<missing>,silver
+MB098,de,spatial_constraints,"[('compact car', 'left', 'parking sign')]","('city car', 'left', 'parking sign')"
+MB099,de,objects,"['cabriolet', 'car key']",convertible car
+MB099,de,colours,<missing>,yellow
+MB099,de,spatial_constraints,"[('cabriolet', 'above', 'car key')]","('convertible car', 'above', 'car key')"
+MB100,de,colours,marine blue,navy
+MB101,de,objects,"['checkered flag', 'race car']",racing car
+MB101,de,colours,<missing>,red
+MB101,de,spatial_constraints,"[('race car', 'left', 'checkered flag')]","('racing car', 'left', 'checkered flag')"
+MB102,de,objects,"['leather racing glove', 'sport motorcycle']",sports motorcycle
+MB102,de,colours,<missing>,silver
+MB102,de,spatial_constraints,"[('sport motorcycle', 'above', 'leather racing glove')]","('sports motorcycle', 'above', 'racing glove')"
+MB103,de,objects,"['kindersitz', 'limousine']",family sedan
+MB103,de,objects,"['kindersitz', 'limousine']",child seat
+MB103,de,colours,<missing>,white
+MB103,de,colours,<missing>,black
+MB103,de,spatial_constraints,"[('kindersitz', 'right', 'limousine')]","('child seat', 'right', 'family sedan')"
+MB105,de,objects,"['keychain', 'limousine']",sedan
+MB105,de,objects,"['keychain', 'limousine']",key fob
+MB105,de,colours,<missing>,black
+MB105,de,colours,<missing>,gold
+MB105,de,spatial_constraints,"[('limousine', 'above', 'keychain')]","('sedan', 'above', 'key fob')"
+MB106,de,objects,"['charging cable', 'e bike']",electric bicycle
+MB106,de,colours,<missing>,white
+MB106,de,spatial_constraints,"[('e bike', 'left', 'charging cable')]","('electric bicycle', 'left', 'charging cable')"
+MB107,de,objects,"['race car', 'trophy']",racing car
+MB107,de,colours,<missing>,red
+MB107,de,spatial_constraints,"[('race car', 'left', 'trophy')]","('racing car', 'left', 'trophy')"
+MB108,de,required_text,[],ZOOM
+MB109,de,objects,"['camping tent', 'motorhome']",campervan
+MB109,de,colours,<missing>,beige
+MB109,de,spatial_constraints,"[('motorhome', 'left', 'camping tent')]","('campervan', 'left', 'camping tent')"
+MB110,de,objects,"['oldtimer', 'zapfsäule']",fuel pump
+MB110,de,objects,"['oldtimer', 'zapfsäule']",vintage car
+MB110,de,colours,<missing>,blue
+MB110,de,colours,<missing>,silver
+MB110,de,spatial_constraints,"[('oldtimer', 'left', 'zapfsäule')]","('vintage car', 'left', 'fuel pump')"
+MB111,de,objects,"['roof rack', 'sport hatchback']",sports hatchback
+MB111,de,colours,<missing>,black
+MB111,de,spatial_constraints,[],"('roof rack', 'above', 'sports hatchback')"
+MB115,de,objects,['limousine'],red carpet
+MB115,de,colours,<missing>,red
+MB115,de,spatial_constraints,[],"('limousine', 'above', 'red carpet')"
+MB116,de,objects,"['off road vehicle', 'snow chain']",all terrain vehicle
+MB116,de,colours,<missing>,gray
+MB116,de,spatial_constraints,"[('off road vehicle', 'right', 'snow chain')]","('all terrain vehicle', 'right', 'snow chain')"
+MB119,de,objects,"['city map', 'small car']",micro car
+MB119,de,colours,<missing>,red
+MB119,de,spatial_constraints,"[('small car', 'right', 'city map')]","('micro car', 'right', 'city map')"
+MB120,de,objects,"['rennstrecken kegel', 'superbike']",track cone
+MB120,de,colours,<missing>,black
+MB120,de,spatial_constraints,"[('superbike', 'right', 'rennstrecken kegel')]","('superbike', 'right', 'track cone')"
+MB121,de,objects,"['water bottle', 'yogamat']",yoga mat
+MB121,de,colours,<missing>,purple
+MB121,de,spatial_constraints,"[('yogamat', 'left', 'water bottle')]","('yoga mat', 'left', 'water bottle')"
+MB123,de,objects,"['sports bag', 'towel']",gym bag
+MB123,de,colours,<missing>,black
+MB123,de,spatial_constraints,"[('sports bag', 'left', 'towel')]","('gym bag', 'left', 'towel')"
+MB127,de,spatial_constraints,[],"('foam roller', 'above', 'yoga mat')"
+MB129,de,objects,"['ceramic diffuser', 'glass bottle']",essential oil bottle
+MB129,de,colours,<missing>,brown
+MB129,de,spatial_constraints,"[('glass bottle', 'left', 'ceramic diffuser')]","('essential oil bottle', 'left', 'ceramic diffuser')"
+MB130,de,spatial_constraints,[],"('sleep mask', 'above', 'pillow')"
+MB131,de,objects,"['diary', 'pen']",journal
+MB131,de,colours,<missing>,white
+MB131,de,spatial_constraints,"[('diary', 'left', 'pen')]","('journal', 'left', 'pen')"
+MB133,de,objects,"['charging station', 'massage gun']",charging base
+MB133,de,colours,<missing>,white
+MB133,de,spatial_constraints,"[('massage gun', 'above', 'charging station')]","('massage gun', 'above', 'charging base')"
+MB134,de,objects,"['gla', 'tiegel']",glass
+MB134,de,objects,"['gla', 'tiegel']",collagen powder jar
+MB134,de,colours,<missing>,white
+MB134,de,colours,<missing>,pink
+MB134,de,spatial_constraints,"[('tiegel', 'left', 'gla')]","('collagen powder jar', 'left', 'glass')"
+MB135,de,objects,"['bag', 'thermos flask']",thermo
+MB135,de,colours,<missing>,green
+MB135,de,spatial_constraints,"[('thermos flask', 'left', 'bag')]","('thermo', 'left', 'trail mix bag')"
+MB139,de,objects,"['balance board', 'sports shoe']",sneaker
+MB139,de,colours,blue green,teal
+MB139,de,colours,<missing>,white
+MB139,de,spatial_constraints,"[('balance board', 'above', 'sports shoe')]","('balance board', 'above', 'sneaker')"
+MB143,de,objects,"['energy bar', 'packaging', 'water bottle']",nutrition bar
+MB143,de,colours,<missing>,green
+MB143,de,spatial_constraints,"[('packaging', 'above', 'water bottle')]","('nutrition bar', 'above', 'water bottle')"
+MB145,de,objects,"['eye cream tube', 'hand mirror']",handheld mirror
+MB145,de,colours,<missing>,gold
+MB145,de,spatial_constraints,"[('eye cream tube', 'right', 'hand mirror')]","('eye cream tube', 'right', 'handheld mirror')"
+MB146,de,objects,"['stretch band', 'yoga mat']",stretching strap
+MB146,de,colours,<missing>,blue
+MB146,de,spatial_constraints,"[('stretch band', 'below', 'yoga mat')]","('stretching strap', 'below', 'yoga mat')"
+MB148,de,objects,"['drinking vest', 'trail running shoe']",hydration vest
+MB148,de,colours,<missing>,blue
+MB148,de,spatial_constraints,"[('drinking vest', 'below', 'trail running shoe')]","('hydration vest', 'below', 'trail running shoe')"
+MB150,de,objects,"['cold water tub', 'towel']",cold plunge tub
+MB150,de,colours,<missing>,white
+MB150,de,spatial_constraints,"[('cold water tub', 'right', 'towel')]","('cold plunge tub', 'right', 'towel')"
+MB002,fr,objects,"['bureau', 'ordinateur portable', 'souris sans fil']",wireless mouse
+MB002,fr,objects,"['bureau', 'ordinateur portable', 'souris sans fil']",laptop
+MB002,fr,colours,<missing>,black
+MB002,fr,colours,<missing>,white
+MB002,fr,spatial_constraints,"[('souris sans fil', 'right', 'ordinateur portable')]","('wireless mouse', 'right', 'laptop')"
+MB003,fr,objects,"['charging case', 'earphone']",wireless earbud
+MB003,fr,colours,<missing>,white
+MB003,fr,spatial_constraints,"[('earphone', 'above', 'charging case')]","('wireless earbud', 'above', 'charging case')"
+MB004,fr,objects,"['smartphone', 'socle']",metal stand
+MB004,fr,colours,<missing>,silver
+MB004,fr,spatial_constraints,[],"('smartphone', 'above', 'metal stand')"
+MB005,fr,objects,"['stylu', 'tablet']",stylus pen
+MB005,fr,colours,<missing>,gold
+MB005,fr,spatial_constraints,"[('stylu', 'right', 'tablet')]","('stylus pen', 'right', 'tablet')"
+MB008,fr,objects,"['appareil photo reflex numérique', 'objectif', 'socle']",camera len
+MB008,fr,objects,"['appareil photo reflex numérique', 'objectif', 'socle']",camera
+MB008,fr,colours,<missing>,black
+MB008,fr,colours,<missing>,silver
+MB008,fr,spatial_constraints,"[('objectif', 'right', 'appareil photo reflex numérique')]","('camera len', 'right', 'camera')"
+MB009,fr,objects,"['game controller', 'gaming headset']",gaming controller
+MB009,fr,colours,<missing>,white
+MB009,fr,spatial_constraints,"[('game controller', 'left', 'gaming headset')]","('gaming controller', 'left', 'gaming headset')"
+MB010,fr,objects,"['télécommande', 'écran connecté']",remote control
+MB010,fr,objects,"['télécommande', 'écran connecté']",smart display
+MB010,fr,colours,<missing>,black
+MB010,fr,colours,<missing>,silver
+MB010,fr,spatial_constraints,"[('télécommande', 'below', 'écran connecté')]","('remote control', 'below', 'smart display')"
+MB011,fr,objects,"['battery', 'usb cable']",power bank
+MB011,fr,colours,<missing>,white
+MB011,fr,spatial_constraints,"[('usb cable', 'below', 'battery')]","('usb cable', 'below', 'power bank')"
+MB012,fr,objects,"['ordinateur portable', 'tasse à café']",coffee mug
+MB012,fr,objects,"['ordinateur portable', 'tasse à café']",laptop
+MB012,fr,colours,<missing>,silver
+MB012,fr,colours,<missing>,white
+MB012,fr,spatial_constraints,"[('tasse à café', 'right', 'ordinateur portable')]","('coffee mug', 'right', 'laptop')"
+MB013,fr,objects,"['earphone', 'smartphone']",wireless earbud
+MB013,fr,colours,<missing>,white
+MB013,fr,spatial_constraints,"[('earphone', 'above', 'smartphone')]","('wireless earbud', 'above', 'smartphone')"
+MB014,fr,objects,"['desk', 'screen', 'webcam']",monitor
+MB014,fr,colours,<missing>,white
+MB014,fr,spatial_constraints,"[('webcam', 'above', 'screen')]","('webcam', 'above', 'monitor')"
+MB015,fr,objects,"['action camera', 'bike helmet']",cycling helmet
+MB015,fr,colours,<missing>,white
+MB015,fr,spatial_constraints,"[('action camera', 'left', 'bike helmet')]","('action camera', 'left', 'cycling helmet')"
+MB016,fr,objects,"['connected speaker', 'digital alarm clock', 'nightstand']",smart speaker
+MB016,fr,colours,<missing>,white
+MB016,fr,spatial_constraints,"[('connected speaker', 'left', 'digital alarm clock')]","('smart speaker', 'left', 'digital clock')"
+MB017,fr,objects,"['casque de réalité virtuelle', 'manette de mouvement']",motion controller
+MB017,fr,objects,"['casque de réalité virtuelle', 'manette de mouvement']",vr headset
+MB017,fr,colours,<missing>,white
+MB017,fr,colours,<missing>,black
+MB017,fr,spatial_constraints,"[('casque de réalité virtuelle', 'above', 'manette de mouvement')]","('vr headset', 'above', 'motion controller')"
+MB018,fr,objects,"['desk', 'keyboard', 'screen']",curved monitor
+MB018,fr,colours,<missing>,black
+MB018,fr,spatial_constraints,"[('keyboard', 'below', 'screen')]","('keyboard', 'below', 'curved monitor')"
+MB019,fr,objects,"['drone quadricoptère', 'télécommande']",remote control
+MB019,fr,colours,noir,black
+MB019,fr,colours,<missing>,gray
+MB019,fr,spatial_constraints,"[('drone quadricoptère', 'left', 'télécommande')]","('drone', 'left', 'remote control')"
+MB021,fr,objects,"['bureau', 'hub usb', 'ordinateur portable']",laptop
+MB021,fr,colours,gri,gray
+MB021,fr,colours,<missing>,silver
+MB021,fr,spatial_constraints,"[('hub usb', 'left', 'ordinateur portable')]","('usb hub', 'left', 'laptop')"
+MB022,fr,spatial_constraints,[],"('gaming headset', 'above', 'headphone stand')"
+MB023,fr,objects,"['bracelet connecté', 'smartphone']",fitness tracker
+MB023,fr,colours,<missing>,black
+MB023,fr,colours,blanc,white
+MB023,fr,spatial_constraints,"[('bracelet connecté', 'left', 'smartphone')]","('fitness tracker', 'left', 'smartphone')"
+MB027,fr,objects,"['nightstand', 'smartphone', 'wireless charger']",wireless charging pad
+MB027,fr,colours,<missing>,white
+MB027,fr,spatial_constraints,[],"('smartphone', 'above', 'wireless charging pad')"
+MB030,fr,objects,"['gaming mouse', 'mouse pad']",mousepad
+MB030,fr,colours,<missing>,red
+MB030,fr,spatial_constraints,[],"('gaming mouse', 'above', 'mousepad')"
+MB032,fr,objects,"['sachet de café', 'table', 'tasse à expresso']",coffee bag
+MB032,fr,objects,"['sachet de café', 'table', 'tasse à expresso']",espresso cup
+MB032,fr,colours,<missing>,brown
+MB032,fr,colours,<missing>,black
+MB032,fr,spatial_constraints,"[('sachet de café', 'above', 'tasse à expresso')]","('coffee bag', 'above', 'espresso cup')"
+MB036,fr,objects,"['saucer', 'tea box', 'tea cup']",teacup
+MB036,fr,colours,<missing>,white
+MB036,fr,spatial_constraints,"[('tea box', 'above', 'tea cup'), ('tea cup', 'above', 'saucer')]","('tea box', 'above', 'teacup')"
+MB037,fr,objects,"['canette', 'haltère']",dumbbell
+MB037,fr,objects,"['canette', 'haltère']",energy drink can
+MB037,fr,colours,<missing>,black
+MB037,fr,colours,<missing>,silver
+MB037,fr,spatial_constraints,"[('canette', 'left', 'haltère')]","('energy drink can', 'left', 'dumbbell')"
+MB039,fr,objects,"['strawberry', 'yogurt pot']",yogurt container
+MB039,fr,colours,<missing>,white
+MB039,fr,spatial_constraints,"[('yogurt pot', 'left', 'strawberry')]","('yogurt container', 'left', 'strawberry')"
+MB040,fr,objects,"['cookie box', 'glass of milk']",cookie tin
+MB040,fr,colours,<missing>,red
+MB040,fr,spatial_constraints,"[('cookie box', 'right', 'glass of milk')]","('glass of milk', 'left', 'cookie tin')"
+MB041,fr,objects,"['canette de soda', 'seau à glace']",soda can
+MB041,fr,objects,"['canette de soda', 'seau à glace']",ice bucket
+MB041,fr,colours,<missing>,blue
+MB041,fr,colours,<missing>,silver
+MB041,fr,spatial_constraints,"[('canette de soda', 'left', 'seau à glace')]","('soda can', 'left', 'ice bucket')"
+MB042,fr,objects,"['pot de poudre protéinée', 'shaker']",protein powder jar
+MB042,fr,colours,<missing>,black
+MB042,fr,spatial_constraints,"[('pot de poudre protéinée', 'left', 'shaker')]","('protein powder jar', 'left', 'shaker bottle')"
+MB044,fr,colours,kraft,brown
+MB046,fr,objects,"['canette', 'citron vert']",sparkling water can
+MB046,fr,objects,"['canette', 'citron vert']",lime
+MB046,fr,colours,<missing>,blue
+MB046,fr,colours,<missing>,green
+MB046,fr,spatial_constraints,"[('canette', 'left', 'citron vert')]","('sparkling water can', 'left', 'lime')"
+MB047,fr,objects,"['planche', 'pot', 'tranche']",honey jar
+MB047,fr,objects,"['planche', 'pot', 'tranche']",toast
+MB047,fr,colours,<missing>,amber
+MB047,fr,colours,<missing>,brown
+MB047,fr,spatial_constraints,"[('pot', 'above', 'tranche')]","('honey jar', 'above', 'toast')"
+MB049,fr,objects,"['bamboo stick', 'bottle']",bamboo stalk
+MB049,fr,colours,<missing>,green
+MB049,fr,spatial_constraints,"[('bottle', 'right', 'bamboo stick')]","('tea bottle', 'right', 'bamboo stalk')"
+MB050,fr,objects,['tablet'],chocolate bar
+MB050,fr,objects,['tablet'],wrapper
+MB050,fr,colours,<missing>,brown
+MB050,fr,colours,<missing>,gold
+MB050,fr,spatial_constraints,[],"('chocolate bar', 'above', 'wrapper')"
+MB054,fr,objects,"['bottle', 'bunch of mint']",mint sprig
+MB054,fr,colours,<missing>,green
+MB054,fr,spatial_constraints,"[('bottle', 'above', 'bunch of mint')]","('water bottle', 'above', 'mint sprig')"
+MB055,fr,objects,"['box', 'whisk']",matcha tin
+MB055,fr,colours,<missing>,green
+MB055,fr,spatial_constraints,"[('box', 'right', 'whisk')]","('matcha tin', 'right', 'bamboo whisk')"
+MB056,fr,objects,"['bol', 'carton']",ceramic bowl
+MB056,fr,colours,<missing>,brown
+MB056,fr,spatial_constraints,"[('carton', 'right', 'bol')]","('oat milk carton', 'right', 'ceramic bowl')"
+MB057,fr,objects,"[""canette d'eau de coco"", 'noix de coco']",coconut water can
+MB057,fr,objects,"[""canette d'eau de coco"", 'noix de coco']",coconut
+MB057,fr,colours,<missing>,white
+MB057,fr,colours,<missing>,brown
+MB057,fr,spatial_constraints,"[(""canette d'eau de coco"", 'right', 'noix de coco')]","('coconut water can', 'right', 'coconut')"
+MB061,fr,objects,"['basket', 'boîte à chaussure']",sneaker
+MB061,fr,objects,"['basket', 'boîte à chaussure']",shoebox
+MB061,fr,colours,<missing>,white
+MB061,fr,colours,<missing>,red
+MB061,fr,spatial_constraints,"[('basket', 'above', 'boîte à chaussure')]","('sneaker', 'above', 'shoebox')"
+MB063,fr,colours,beige,tan
+MB064,fr,objects,"['box', 'watch']",wristwatch
+MB064,fr,colours,<missing>,gold
+MB064,fr,colours,gold,black
+MB064,fr,spatial_constraints,[],"('wristwatch', 'above', 'watch box')"
+MB066,fr,objects,"['running shoe', 'sports sock']",athletic sock
+MB066,fr,colours,<missing>,white
+MB066,fr,spatial_constraints,"[('running shoe', 'left', 'sports sock')]","('running shoe', 'left', 'athletic sock')"
+MB070,fr,spatial_constraints,[],"('sports bra', 'above', 'yoga mat')"
+MB074,fr,colours,grey,gray
+MB077,fr,objects,"['hoodie', 'jogging pant']",jogger pant
+MB077,fr,colours,grey,gray
+MB077,fr,colours,<missing>,black
+MB077,fr,spatial_constraints,"[('hoodie', 'above', 'jogging pant')]","('hoodie', 'above', 'jogger pant')"
+MB078,fr,colours,beige,tan
+MB082,fr,objects,"['parapluie', 'trench coat']",umbrella
+MB082,fr,colours,<missing>,black
+MB082,fr,spatial_constraints,"[('trench coat', 'below', 'parapluie')]","('trench coat', 'below', 'umbrella')"
+MB083,fr,objects,"['casque', 'cuissard']",cycling helmet
+MB083,fr,objects,"['casque', 'cuissard']",cycling short
+MB083,fr,colours,<missing>,black
+MB083,fr,colours,<missing>,white
+MB083,fr,spatial_constraints,"[('cuissard', 'right', 'casque')]","('cycling short', 'right', 'cycling helmet')"
+MB085,fr,colours,grey,gray
+MB089,fr,objects,"['basket', 'legging']",sports shoe
+MB089,fr,colours,violet,purple
+MB089,fr,colours,<missing>,white
+MB089,fr,spatial_constraints,"[('legging', 'right', 'basket')]","('gym legging', 'right', 'sports shoe')"
+MB090,fr,colours,beige,tan
+MB093,fr,spatial_constraints,[],"('roof rack', 'above', 'suv')"
+MB096,fr,objects,"['boîte à outil', 'camionnette']",pickup truck
+MB096,fr,objects,"['boîte à outil', 'camionnette']",toolbox
+MB096,fr,colours,<missing>,orange
+MB096,fr,colours,<missing>,black
+MB096,fr,spatial_constraints,"[('camionnette', 'left', 'boîte à outil')]","('pickup truck', 'left', 'toolbox')"
+MB098,fr,objects,"['compact car', 'parking sign']",city car
+MB098,fr,colours,<missing>,silver
+MB098,fr,spatial_constraints,"[('compact car', 'left', 'parking sign')]","('city car', 'left', 'parking sign')"
+MB103,fr,objects,"['berline', 'siège enfant']",family sedan
+MB103,fr,objects,"['berline', 'siège enfant']",child seat
+MB103,fr,colours,<missing>,white
+MB103,fr,colours,<missing>,black
+MB103,fr,spatial_constraints,"[('siège enfant', 'right', 'berline')]","('child seat', 'right', 'family sedan')"
+MB104,fr,objects,"['spare wheel', 'vehicle']",spare tire
+MB104,fr,colours,<missing>,black
+MB104,fr,spatial_constraints,"[('vehicle', 'left', 'spare wheel')]","('off road vehicle', 'left', 'spare tire')"
+MB105,fr,objects,"['berline', 'porte clé']",sedan
+MB105,fr,objects,"['berline', 'porte clé']",key fob
+MB105,fr,colours,<missing>,black
+MB105,fr,colours,<missing>,gold
+MB105,fr,spatial_constraints,"[('berline', 'above', 'porte clé')]","('sedan', 'above', 'key fob')"
+MB108,fr,objects,"['camionnette', 'carton']",delivery van
+MB108,fr,objects,"['camionnette', 'carton']",cardboard box
+MB108,fr,colours,<missing>,white
+MB108,fr,colours,<missing>,brown
+MB108,fr,spatial_constraints,"[('camionnette', 'left', 'carton')]","('delivery van', 'left', 'cardboard box')"
+MB108,fr,required_text,[],ZOOM
+MB109,fr,objects,"['camping car', 'tente']",camping tent
+MB109,fr,objects,"['camping car', 'tente']",campervan
+MB109,fr,colours,<missing>,beige
+MB109,fr,colours,<missing>,green
+MB109,fr,spatial_constraints,"[('camping car', 'left', 'tente')]","('campervan', 'left', 'camping tent')"
+MB110,fr,objects,"['car', 'gas pump']",fuel pump
+MB110,fr,colours,<missing>,silver
+MB110,fr,spatial_constraints,"[('car', 'left', 'gas pump')]","('vintage car', 'left', 'fuel pump')"
+MB111,fr,objects,['car'],roof rack
+MB111,fr,objects,['car'],sports hatchback
+MB111,fr,colours,<missing>,black
+MB111,fr,colours,<missing>,silver
+MB111,fr,spatial_constraints,[],"('roof rack', 'above', 'sports hatchback')"
+MB112,fr,objects,['car'],siren light
+MB112,fr,colours,<missing>,red
+MB115,fr,objects,"['limousine', 'tapi']",red carpet
+MB115,fr,colours,<missing>,red
+MB115,fr,spatial_constraints,[],"('limousine', 'above', 'red carpet')"
+MB120,fr,objects,"['cône de piste', 'superbike']",track cone
+MB120,fr,colours,<missing>,black
+MB120,fr,spatial_constraints,"[('superbike', 'right', 'cône de piste')]","('superbike', 'right', 'track cone')"
+MB123,fr,objects,"['sport bag', 'towel']",gym bag
+MB123,fr,colours,<missing>,black
+MB123,fr,spatial_constraints,"[('sport bag', 'left', 'towel')]","('gym bag', 'left', 'towel')"
+MB124,fr,objects,['pot de crème'],flower
+MB124,fr,objects,['pot de crème'],face cream jar
+MB124,fr,colours,<missing>,white
+MB124,fr,colours,<missing>,pink
+MB124,fr,spatial_constraints,"[('pot de crème', 'above', 'flower')]","('face cream jar', 'above', 'flower')"
+MB125,fr,objects,"['haltère', 'shaker', 'tapis de gym']",dumbbell
+MB125,fr,colours,noir,black
+MB125,fr,colours,<missing>,silver
+MB125,fr,spatial_constraints,"[('shaker', 'left', 'haltère')]","('protein shaker', 'left', 'dumbbell')"
+MB126,fr,objects,"['bougie', 'coussin de méditation']",meditation cushion
+MB126,fr,objects,"['bougie', 'coussin de méditation']",candle
+MB126,fr,colours,<missing>,purple
+MB126,fr,colours,<missing>,white
+MB126,fr,spatial_constraints,"[('coussin de méditation', 'left', 'bougie')]","('meditation cushion', 'left', 'candle')"
+MB130,fr,spatial_constraints,[],"('sleep mask', 'above', 'pillow')"
+MB131,fr,objects,"['notebook', 'pen']",journal
+MB131,fr,colours,<missing>,white
+MB131,fr,spatial_constraints,"[('notebook', 'left', 'pen')]","('journal', 'left', 'pen')"
+MB132,fr,objects,"['smartphone', 'sport watch']",fitness watch
+MB132,fr,colours,<missing>,black
+MB132,fr,spatial_constraints,"[('sport watch', 'left', 'smartphone')]","('fitness watch', 'left', 'smartphone')"
+MB134,fr,objects,"['pot de poudre de collagène', 'verre']",glass
+MB134,fr,objects,"['pot de poudre de collagène', 'verre']",collagen powder jar
+MB134,fr,colours,<missing>,white
+MB134,fr,colours,<missing>,pink
+MB134,fr,spatial_constraints,"[('pot de poudre de collagène', 'left', 'verre')]","('collagen powder jar', 'left', 'glass')"
+MB135,fr,objects,"['sachet', 'thermo']",trail mix bag
+MB135,fr,colours,<missing>,brown
+MB135,fr,spatial_constraints,"[('thermo', 'left', 'sachet')]","('thermo', 'left', 'trail mix bag')"
+MB138,fr,objects,"['emballage blister', 'flacon de vitamine']",vitamin bottle
+MB138,fr,objects,"['emballage blister', 'flacon de vitamine']",blister pack
+MB138,fr,colours,<missing>,orange
+MB138,fr,colours,<missing>,silver
+MB138,fr,spatial_constraints,"[('flacon de vitamine', 'right', 'emballage blister')]","('blister pack', 'left', 'vitamin bottle')"
+MB141,fr,spatial_constraints,[],"('towel', 'above', 'water bottle')"
+MB142,fr,objects,"['oreiller', ""tapis d'acupression""]",pillow
+MB142,fr,objects,"['oreiller', ""tapis d'acupression""]",acupressure mat
+MB142,fr,colours,<missing>,purple
+MB142,fr,colours,<missing>,white
+MB142,fr,spatial_constraints,"[(""tapis d'acupression"", 'right', 'oreiller')]","('acupressure mat', 'right', 'pillow')"
+MB144,fr,objects,"['sac', 'shaker']",protein powder bag
+MB144,fr,colours,<missing>,black
+MB144,fr,colours,rouge,red
+MB144,fr,spatial_constraints,"[('sac', 'right', 'shaker')]","('protein powder bag', 'right', 'shaker bottle')"
+MB146,fr,objects,"['stretch strap', 'yoga mat']",stretching strap
+MB146,fr,colours,<missing>,blue
+MB146,fr,spatial_constraints,"[('stretch strap', 'below', 'yoga mat')]","('stretching strap', 'below', 'yoga mat')"
+MB149,fr,objects,"['chapelet de méditation', 'porte encen', 'support']",incense holder
+MB149,fr,objects,"['chapelet de méditation', 'porte encen', 'support']",meditation bead
+MB149,fr,colours,<missing>,black
+MB149,fr,colours,<missing>,brown
+MB149,fr,spatial_constraints,"[('porte encen', 'right', 'chapelet de méditation')]","('incense holder', 'right', 'meditation bead')"
+MB150,fr,objects,"['bathtub', 'towel']",cold plunge tub
+MB150,fr,colours,<missing>,white
+MB150,fr,spatial_constraints,"[('bathtub', 'right', 'towel')]","('cold plunge tub', 'right', 'towel')"
+MB003,es,objects,"['charging case', 'wireless headphone']",wireless earbud
+MB003,es,colours,<missing>,white
+MB003,es,spatial_constraints,"[('wireless headphone', 'above', 'charging case')]","('wireless earbud', 'above', 'charging case')"
+MB004,es,objects,"['smartphone', 'support']",metal stand
+MB004,es,colours,<missing>,silver
+MB004,es,spatial_constraints,"[('smartphone', 'above', 'support')]","('smartphone', 'above', 'metal stand')"
+MB005,es,objects,"['stylu', 'tablet']",stylus pen
+MB005,es,colours,<missing>,gold
+MB005,es,spatial_constraints,"[('stylu', 'right', 'tablet')]","('stylus pen', 'right', 'tablet')"
+MB008,es,colours,black,silver
+MB009,es,objects,"['gaming headphone', 'video game controller']",gaming controller
+MB009,es,objects,"['gaming headphone', 'video game controller']",gaming headset
+MB009,es,colours,<missing>,white
+MB009,es,colours,<missing>,black
+MB009,es,spatial_constraints,"[('video game controller', 'left', 'gaming headphone')]","('gaming controller', 'left', 'gaming headset')"
+MB010,es,objects,"['remote control', 'smart screen']",smart display
+MB010,es,colours,<missing>,black
+MB010,es,spatial_constraints,"[('remote control', 'below', 'smart screen')]","('remote control', 'below', 'smart display')"
+MB011,es,objects,"['portable charger', 'usb cable']",power bank
+MB011,es,colours,<missing>,white
+MB011,es,spatial_constraints,"[('usb cable', 'below', 'portable charger')]","('usb cable', 'below', 'power bank')"
+MB012,es,objects,"['coffee cup', 'desk', 'laptop']",coffee mug
+MB012,es,colours,<missing>,white
+MB012,es,spatial_constraints,"[('coffee cup', 'right', 'laptop')]","('coffee mug', 'right', 'laptop')"
+MB013,es,objects,"['smartphone', 'wireless headphone']",wireless earbud
+MB013,es,colours,<missing>,white
+MB013,es,spatial_constraints,"[('wireless headphone', 'above', 'smartphone')]","('wireless earbud', 'above', 'smartphone')"
+MB015,es,objects,"['action camera', 'bicycle helmet']",cycling helmet
+MB015,es,colours,<missing>,white
+MB015,es,spatial_constraints,"[('action camera', 'left', 'bicycle helmet')]","('action camera', 'left', 'cycling helmet')"
+MB017,es,objects,"['motion controller', 'virtual reality glass']",vr headset
+MB017,es,colours,<missing>,white
+MB017,es,spatial_constraints,"[('virtual reality glass', 'above', 'motion controller')]","('vr headset', 'above', 'motion controller')"
+MB019,es,colours,grey,gray
+MB022,es,objects,"['headphone', 'stand']",gaming headset
+MB022,es,colours,<missing>,black
+MB022,es,colours,black,white
+MB022,es,spatial_constraints,[],"('gaming headset', 'above', 'headphone stand')"
+MB023,es,objects,"['activity bracelet', 'smartphone']",fitness tracker
+MB023,es,colours,<missing>,black
+MB023,es,spatial_constraints,"[('activity bracelet', 'left', 'smartphone')]","('fitness tracker', 'left', 'smartphone')"
+MB026,es,spatial_constraints,"[('ssd', 'right', 'usb cable')]","('usb cable', 'right', 'portable ssd')"
+MB027,es,objects,"['nightstand', 'smartphone', 'wireless charger']",wireless charging pad
+MB027,es,colours,<missing>,white
+MB027,es,spatial_constraints,[],"('smartphone', 'above', 'wireless charging pad')"
+MB028,es,colours,white,silver
+MB028,es,spatial_constraints,"[('smart lock', 'above', 'doorknob')]","('smart lock', 'above', 'door handle')"
+MB030,es,objects,"['mouse', 'mouse pad']",mousepad
+MB030,es,colours,<missing>,red
+MB030,es,spatial_constraints,"[('mouse', 'above', 'mouse pad')]","('gaming mouse', 'above', 'mousepad')"
+MB036,es,objects,"['cup', 'saucer', 'tea box']",teacup
+MB036,es,colours,blue green,teal
+MB036,es,colours,<missing>,white
+MB036,es,spatial_constraints,"[('cup', 'above', 'saucer'), ('tea box', 'above', 'cup')]","('tea box', 'above', 'teacup')"
+MB038,es,objects,['bottle'],lemon
+MB038,es,colours,<missing>,yellow
+MB042,es,objects,"['bote de proteína', 'botella mezcladora']",shaker bottle
+MB042,es,objects,"['bote de proteína', 'botella mezcladora']",protein powder jar
+MB042,es,colours,<missing>,black
+MB042,es,colours,<missing>,white
+MB042,es,spatial_constraints,"[('bote de proteína', 'left', 'botella mezcladora')]","('protein powder jar', 'left', 'shaker bottle')"
+MB044,es,objects,"['banana', 'muesli bar']",granola bar
+MB044,es,colours,<missing>,brown
+MB044,es,spatial_constraints,"[('muesli bar', 'left', 'banana')]","('granola bar', 'left', 'banana')"
+MB050,es,objects,['tablet'],chocolate bar
+MB050,es,objects,['tablet'],wrapper
+MB050,es,colours,<missing>,brown
+MB050,es,colours,<missing>,gold
+MB050,es,spatial_constraints,[],"('chocolate bar', 'above', 'wrapper')"
+MB054,es,objects,"['bottle', 'bundle of mint twig']",mint sprig
+MB054,es,colours,<missing>,green
+MB054,es,spatial_constraints,"[('bottle', 'above', 'bundle of mint twig')]","('water bottle', 'above', 'mint sprig')"
+MB055,es,objects,"['can', 'whisk']",matcha tin
+MB055,es,colours,<missing>,green
+MB055,es,spatial_constraints,"[('can', 'right', 'whisk')]","('matcha tin', 'right', 'bamboo whisk')"
+MB056,es,objects,"['cartón de leche de avena', 'cuenco de cerámica', 'mesa de madera']",ceramic bowl
+MB056,es,objects,"['cartón de leche de avena', 'cuenco de cerámica', 'mesa de madera']",oat milk carton
+MB056,es,colours,<missing>,white
+MB056,es,colours,<missing>,brown
+MB056,es,spatial_constraints,"[('cartón de leche de avena', 'right', 'cuenco de cerámica')]","('oat milk carton', 'right', 'ceramic bowl')"
+MB061,es,objects,"['box', 'sneaker']",shoebox
+MB061,es,colours,<missing>,red
+MB061,es,spatial_constraints,"[('sneaker', 'above', 'box')]","('sneaker', 'above', 'shoebox')"
+MB062,es,spatial_constraints,[],"('leather jacket', 'above', 'wooden hanger')"
+MB064,es,objects,"['leather case', 'wristwatch']",watch box
+MB064,es,colours,<missing>,black
+MB064,es,spatial_constraints,"[('wristwatch', 'above', 'leather case')]","('wristwatch', 'above', 'watch box')"
+MB066,es,objects,"['sneaker', 'sock']",running shoe
+MB066,es,colours,<missing>,blue
+MB066,es,spatial_constraints,"[('sneaker', 'left', 'sock')]","('running shoe', 'left', 'athletic sock')"
+MB069,es,spatial_constraints,[],"('canvas sneaker', 'above', 'skateboard')"
+MB074,es,objects,"['bufanda', 'jersey']",knit scarf
+MB074,es,objects,"['bufanda', 'jersey']",wool sweater
+MB074,es,colours,<missing>,gray
+MB074,es,colours,<missing>,white
+MB074,es,spatial_constraints,"[('jersey', 'above', 'bufanda')]","('wool sweater', 'above', 'knit scarf')"
+MB077,es,objects,"['hoodie', 'sweatpant']",jogger pant
+MB077,es,colours,<missing>,black
+MB077,es,spatial_constraints,"[('hoodie', 'above', 'sweatpant')]","('hoodie', 'above', 'jogger pant')"
+MB078,es,colours,cinnamon,tan
+MB080,es,objects,"['running shoe', 'short']",sneaker
+MB080,es,colours,<missing>,white
+MB080,es,spatial_constraints,"[('short', 'below', 'running shoe')]","('athletic short', 'below', 'sneaker')"
+MB083,es,objects,"['casco', 'culote']",cycling helmet
+MB083,es,objects,"['casco', 'culote']",cycling short
+MB083,es,colours,<missing>,black
+MB083,es,colours,<missing>,white
+MB083,es,spatial_constraints,"[('culote', 'right', 'casco')]","('cycling short', 'right', 'cycling helmet')"
+MB086,es,objects,"['handbag', 'shoe']",clutch bag
+MB086,es,objects,"['handbag', 'shoe']",platform heel
+MB086,es,colours,<missing>,black
+MB086,es,colours,<missing>,red
+MB086,es,spatial_constraints,"[('shoe', 'right', 'handbag')]","('platform heel', 'right', 'clutch bag')"
+MB089,es,objects,"['legging', 'sneaker']",sports shoe
+MB089,es,colours,<missing>,white
+MB089,es,spatial_constraints,"[('legging', 'right', 'sneaker')]","('gym legging', 'right', 'sports shoe')"
+MB090,es,colours,tawny,tan
+MB093,es,objects,"['baca', 'suv']",roof rack
+MB093,es,colours,<missing>,silver
+MB093,es,spatial_constraints,"[('baca', 'above', 'suv')]","('roof rack', 'above', 'suv')"
+MB103,es,objects,"['child seat', 'tourism']",family sedan
+MB103,es,colours,<missing>,white
+MB103,es,spatial_constraints,"[('child seat', 'right', 'tourism')]","('child seat', 'right', 'family sedan')"
+MB104,es,objects,"['rueda de repuesto', 'todoterreno']",spare tire
+MB104,es,objects,"['rueda de repuesto', 'todoterreno']",off road vehicle
+MB104,es,colours,<missing>,brown
+MB104,es,colours,<missing>,black
+MB104,es,spatial_constraints,"[('todoterreno', 'left', 'rueda de repuesto')]","('off road vehicle', 'left', 'spare tire')"
+MB105,es,objects,"['keychain', 'sedan']",key fob
+MB105,es,colours,<missing>,gold
+MB105,es,spatial_constraints,"[('sedan', 'above', 'keychain')]","('sedan', 'above', 'key fob')"
+MB108,es,required_text,[],ZOOM
+MB109,es,objects,"['motorhome', 'tent']",campervan
+MB109,es,colours,<missing>,beige
+MB109,es,spatial_constraints,"[('motorhome', 'left', 'tent')]","('campervan', 'left', 'camping tent')"
+MB110,es,objects,"['car', 'gas pump']",fuel pump
+MB110,es,colours,<missing>,silver
+MB110,es,spatial_constraints,"[('car', 'left', 'gas pump')]","('vintage car', 'left', 'fuel pump')"
+MB111,es,objects,"['car', 'roof rack']",sports hatchback
+MB111,es,colours,<missing>,black
+MB111,es,spatial_constraints,[],"('roof rack', 'above', 'sports hatchback')"
+MB115,es,spatial_constraints,[],"('limousine', 'above', 'red carpet')"
+MB118,es,objects,"['antena', 'todoterreno']",armored suv
+MB118,es,objects,"['antena', 'todoterreno']",radio antenna
+MB118,es,colours,<missing>,green
+MB118,es,colours,<missing>,black
+MB118,es,spatial_constraints,"[('antena', 'right', 'todoterreno')]","('radio antenna', 'right', 'armored suv')"
+MB119,es,objects,"['mapa urbano', 'microcoche']",city map
+MB119,es,objects,"['mapa urbano', 'microcoche']",micro car
+MB119,es,colours,<missing>,red
+MB119,es,colours,<missing>,white
+MB119,es,spatial_constraints,"[('microcoche', 'right', 'mapa urbano')]","('micro car', 'right', 'city map')"
+MB122,es,objects,"['capsule', 'jar']",supplement bottle
+MB122,es,colours,<missing>,white
+MB122,es,spatial_constraints,"[('capsule', 'right', 'jar')]","('capsule', 'right', 'supplement bottle')"
+MB124,es,objects,['jar'],flower
+MB124,es,colours,<missing>,pink
+MB128,es,objects,"['elastic band', 'water bottle']",resistance band
+MB128,es,colours,<missing>,red
+MB128,es,spatial_constraints,"[('elastic band', 'left', 'water bottle')]","('resistance band', 'left', 'water bottle')"
+MB129,es,objects,"['diffuser', 'jar']",essential oil bottle
+MB129,es,colours,<missing>,brown
+MB129,es,spatial_constraints,"[('jar', 'left', 'diffuser')]","('essential oil bottle', 'left', 'ceramic diffuser')"
+MB131,es,objects,"['diary', 'pen']",journal
+MB131,es,colours,<missing>,white
+MB131,es,spatial_constraints,"[('diary', 'left', 'pen')]","('journal', 'left', 'pen')"
+MB132,es,objects,"['smartphone', 'sports watch']",fitness watch
+MB132,es,colours,<missing>,black
+MB132,es,spatial_constraints,"[('sports watch', 'left', 'smartphone')]","('fitness watch', 'left', 'smartphone')"
+MB142,es,objects,"['almohada rectangular', 'esterilla de acupresión']",pillow
+MB142,es,objects,"['almohada rectangular', 'esterilla de acupresión']",acupressure mat
+MB142,es,colours,<missing>,purple
+MB142,es,colours,<missing>,white
+MB142,es,spatial_constraints,"[('esterilla de acupresión', 'right', 'almohada rectangular')]","('acupressure mat', 'right', 'pillow')"
+MB143,es,objects,"['nutritional bar wrapper', 'water bottle']",nutrition bar
+MB143,es,colours,<missing>,green
+MB143,es,spatial_constraints,"[('nutritional bar wrapper', 'above', 'water bottle')]","('nutrition bar', 'above', 'water bottle')"
+MB146,es,objects,"['elastic band', 'yoga mat']",stretching strap
+MB146,es,colours,<missing>,blue
+MB146,es,spatial_constraints,"[('elastic band', 'below', 'yoga mat')]","('stretching strap', 'below', 'yoga mat')"
+MB147,es,objects,"['jar', 'lamp', 'nightstand']",supplement bottle
+MB147,es,colours,<missing>,white
+MB147,es,spatial_constraints,"[('jar', 'right', 'lamp')]","('supplement bottle', 'right', 'moon lamp')"
+MB149,es,objects,"['incense holder', 'meditation rosary']",meditation bead
+MB149,es,colours,<missing>,brown
+MB149,es,spatial_constraints,"[('incense holder', 'right', 'meditation rosary')]","('incense holder', 'right', 'meditation bead')"
+MB150,es,objects,"['bathtub', 'towel']",cold plunge tub
+MB150,es,colours,<missing>,white
+MB150,es,spatial_constraints,"[('bathtub', 'right', 'towel')]","('cold plunge tub', 'right', 'towel')"
+MB003,ar,objects,"['charging case', 'wireless earphone']",wireless earbud
+MB003,ar,colours,<missing>,white
+MB003,ar,spatial_constraints,"[('wireless earphone', 'above', 'charging case')]","('wireless earbud', 'above', 'charging case')"
+MB005,ar,objects,"['disk', 'stylu']",stylus pen
+MB005,ar,objects,"['disk', 'stylu']",tablet
+MB005,ar,colours,<missing>,white
+MB005,ar,colours,<missing>,gold
+MB005,ar,spatial_constraints,"[('disk', 'right', 'stylu')]","('stylus pen', 'right', 'tablet')"
+MB008,ar,colours,black,silver
+MB009,ar,objects,"['game controller', 'gaming headset']",gaming controller
+MB009,ar,colours,<missing>,white
+MB009,ar,spatial_constraints,"[('game controller', 'left', 'gaming headset'), ('gaming headset', 'above', 'surface')]","('gaming controller', 'left', 'gaming headset')"
+MB010,ar,objects,"['remote control', 'smart screen']",smart display
+MB010,ar,colours,<missing>,black
+MB010,ar,spatial_constraints,"[('remote control', 'below', 'smart screen')]","('remote control', 'below', 'smart display')"
+MB011,ar,objects,"['charger', 'usb cable']",power bank
+MB011,ar,colours,<missing>,white
+MB011,ar,spatial_constraints,"[('usb cable', 'below', 'charger')]","('usb cable', 'below', 'power bank')"
+MB012,ar,objects,"['coffee cup', 'desk', 'laptop']",coffee mug
+MB012,ar,colours,<missing>,white
+MB012,ar,spatial_constraints,"[('coffee cup', 'right', 'laptop')]","('coffee mug', 'right', 'laptop')"
+MB014,ar,objects,"['desk', 'screen', 'webcam']",monitor
+MB014,ar,colours,<missing>,white
+MB014,ar,spatial_constraints,"[('webcam', 'above', 'screen')]","('webcam', 'above', 'monitor')"
+MB018,ar,objects,"['desk', 'keyboard', 'screen']",curved monitor
+MB018,ar,colours,<missing>,black
+MB018,ar,spatial_constraints,"[('keyboard', 'below', 'screen')]","('keyboard', 'below', 'curved monitor')"
+MB021,ar,objects,"['desktop', 'laptop', 'usb distributor']",usb hub
+MB021,ar,colours,<missing>,gray
+MB021,ar,spatial_constraints,"[('laptop', 'above', 'desktop'), ('usb distributor', 'left', 'laptop')]","('usb hub', 'left', 'laptop')"
+MB027,ar,objects,"['nightstand', 'smartphone', 'wireless charger']",wireless charging pad
+MB027,ar,colours,<missing>,white
+MB027,ar,spatial_constraints,"[('smartphone', 'above', 'wireless charger')]","('smartphone', 'above', 'wireless charging pad')"
+MB030,ar,objects,"['gaming mouse', 'mouse pad']",mousepad
+MB030,ar,colours,<missing>,red
+MB030,ar,spatial_constraints,[],"('gaming mouse', 'above', 'mousepad')"
+MB036,ar,objects,"['ceramic cup', 'small plate', 'tea box']",teacup
+MB036,ar,colours,blue green,teal
+MB036,ar,colours,<missing>,white
+MB036,ar,spatial_constraints,"[('ceramic cup', 'above', 'small plate'), ('tea box', 'above', 'ceramic cup')]","('tea box', 'above', 'teacup')"
+MB039,ar,objects,"['strawberry', 'yogurt bowl']",yogurt container
+MB039,ar,colours,<missing>,white
+MB039,ar,spatial_constraints,"[('yogurt bowl', 'left', 'strawberry')]","('yogurt container', 'left', 'strawberry')"
+MB040,ar,objects,"['box', 'cup']",cookie tin
+MB040,ar,objects,"['box', 'cup']",glass of milk
+MB040,ar,colours,<missing>,red
+MB040,ar,colours,<missing>,white
+MB040,ar,spatial_constraints,"[('box', 'right', 'cup')]","('glass of milk', 'left', 'cookie tin')"
+MB042,ar,objects,"['container', 'shaker bottle']",protein powder jar
+MB042,ar,colours,<missing>,black
+MB042,ar,spatial_constraints,"[('container', 'left', 'shaker bottle')]","('protein powder jar', 'left', 'shaker bottle')"
+MB045,ar,required_text,"['أومبر', 'كولد برو']",UMBER
+MB046,ar,objects,"['lemon', 'water bottle']",sparkling water can
+MB046,ar,objects,"['lemon', 'water bottle']",lime
+MB046,ar,colours,<missing>,blue
+MB046,ar,colours,<missing>,green
+MB046,ar,spatial_constraints,"[('lemon', 'above', 'marble'), ('water bottle', 'left', 'lemon')]","('sparkling water can', 'left', 'lime')"
+MB048,ar,objects,"['fresh raspberry', 'smoothie bottle']",berry
+MB048,ar,colours,<missing>,red
+MB048,ar,spatial_constraints,"[('smoothie bottle', 'left', 'fresh raspberry')]","('smoothie bottle', 'left', 'berry')"
+MB049,ar,objects,"['bamboo leg', 'glass teapot']",bamboo stalk
+MB049,ar,objects,"['bamboo leg', 'glass teapot']",tea bottle
+MB049,ar,colours,<missing>,white
+MB049,ar,colours,<missing>,green
+MB049,ar,spatial_constraints,"[('glass teapot', 'right', 'bamboo leg')]","('tea bottle', 'right', 'bamboo stalk')"
+MB050,ar,objects,['chocolate'],wrapper
+MB050,ar,colours,<missing>,gold
+MB050,ar,spatial_constraints,"[('chocolate', 'above', 'black marble')]","('chocolate bar', 'above', 'wrapper')"
+MB051,ar,objects,"['juice box', 'straw']",juice pouch
+MB051,ar,colours,<missing>,orange
+MB051,ar,spatial_constraints,"[('juice box', 'right', 'straw')]","('juice pouch', 'right', 'wooden straw')"
+MB052,ar,spatial_constraints,"[('bowl', 'above', 'bread')]","('almond butter jar', 'above', 'bread')"
+MB054,ar,objects,"['marble surface', 'mint branch', 'water bottle']",mint sprig
+MB054,ar,colours,<missing>,green
+MB054,ar,spatial_constraints,"[('mint branch', 'above', 'marble surface'), ('water bottle', 'above', 'mint branch')]","('water bottle', 'above', 'mint sprig')"
+MB055,ar,objects,"['bamboo whisk', 'ceramic surface', 'matcha box']",matcha tin
+MB055,ar,colours,<missing>,green
+MB055,ar,spatial_constraints,"[('matcha box', 'right', 'bamboo whisk')]","('matcha tin', 'right', 'bamboo whisk')"
+MB057,ar,colours,brown,white
+MB057,ar,spatial_constraints,"[('box', 'right', 'coconut')]","('coconut water can', 'right', 'coconut')"
+MB061,ar,objects,"['box', 'sneaker']",shoebox
+MB061,ar,colours,<missing>,red
+MB061,ar,spatial_constraints,"[('sneaker', 'above', 'box')]","('sneaker', 'above', 'shoebox')"
+MB063,ar,colours,light brown,tan
+MB064,ar,objects,"['box', 'watch']",wristwatch
+MB064,ar,colours,<missing>,gold
+MB064,ar,colours,gold,black
+MB064,ar,spatial_constraints,"[('watch', 'above', 'box')]","('wristwatch', 'above', 'watch box')"
+MB068,ar,objects,"['handbag', 'scarf']",leather tote bag
+MB068,ar,colours,<missing>,brown
+MB068,ar,spatial_constraints,"[('handbag', 'left', 'scarf')]","('leather tote bag', 'left', 'silk scarf')"
+MB069,ar,objects,"['shoe', 'skateboard']",canvas sneaker
+MB069,ar,colours,<missing>,white
+MB069,ar,spatial_constraints,"[('shoe', 'above', 'skateboard')]","('canvas sneaker', 'above', 'skateboard')"
+MB072,ar,objects,"['belt', 'shoe']",chelsea boot
+MB072,ar,colours,<missing>,black
+MB072,ar,spatial_constraints,"[('shoe', 'left', 'belt')]","('chelsea boot', 'left', 'leather belt')"
+MB075,ar,objects,"['sunscreen bottle', 'swimwear']",swimsuit
+MB075,ar,colours,<missing>,orange
+MB075,ar,spatial_constraints,"[('swimwear', 'left', 'sunscreen bottle')]","('swimsuit', 'left', 'sunscreen bottle')"
+MB076,ar,colours,dark blue,navy
+MB077,ar,objects,"['jacket', 'pant']",hoodie
+MB077,ar,colours,<missing>,gray
+MB077,ar,spatial_constraints,"[('jacket', 'above', 'pant')]","('hoodie', 'above', 'jogger pant')"
+MB078,ar,objects,"['handbag', 'shoe']",briefcase
+MB078,ar,colours,<missing>,tan
+MB078,ar,spatial_constraints,"[('shoe', 'left', 'handbag')]","('dress shoe', 'left', 'briefcase')"
+MB080,ar,objects,"['shoe', 'short']",sneaker
+MB080,ar,colours,<missing>,white
+MB080,ar,spatial_constraints,"[('short', 'below', 'shoe')]","('athletic short', 'below', 'sneaker')"
+MB083,ar,objects,"['bicycle helmet', 'bicycle short']",cycling helmet
+MB083,ar,objects,"['bicycle helmet', 'bicycle short']",cycling short
+MB083,ar,colours,<missing>,black
+MB083,ar,colours,<missing>,white
+MB083,ar,spatial_constraints,"[('bicycle short', 'right', 'bicycle helmet')]","('cycling short', 'right', 'cycling helmet')"
+MB085,ar,colours,dark blue,navy
+MB086,ar,objects,"['clutch bag', 'shoe']",platform heel
+MB086,ar,colours,<missing>,black
+MB086,ar,spatial_constraints,"[('shoe', 'right', 'clutch bag')]","('platform heel', 'right', 'clutch bag')"
+MB087,ar,objects,"['cargo pant', 'leather shoe']",leather boot
+MB087,ar,colours,<missing>,brown
+MB087,ar,spatial_constraints,"[('cargo pant', 'below', 'leather shoe')]","('cargo pant', 'below', 'leather boot')"
+MB088,ar,colours,dark blue,navy
+MB089,ar,objects,"['pant', 'sneaker']",sports shoe
+MB089,ar,objects,"['pant', 'sneaker']",gym legging
+MB089,ar,colours,<missing>,purple
+MB089,ar,colours,<missing>,white
+MB089,ar,spatial_constraints,"[('pant', 'right', 'sneaker')]","('gym legging', 'right', 'sports shoe')"
+MB090,ar,colours,light brown,tan
+MB093,ar,objects,"['car', 'roof rack']",suv
+MB093,ar,colours,<missing>,black
+MB093,ar,spatial_constraints,"[('roof rack', 'above', 'car')]","('roof rack', 'above', 'suv')"
+MB099,ar,colours,yellow,silver
+MB100,ar,colours,dark blue,navy
+MB101,ar,objects,"['flag', 'race car']",racing car
+MB101,ar,colours,<missing>,red
+MB101,ar,spatial_constraints,"[('race car', 'left', 'flag')]","('racing car', 'left', 'checkered flag')"
+MB103,ar,objects,"['car', 'child seat']",family sedan
+MB103,ar,colours,<missing>,white
+MB103,ar,spatial_constraints,"[('child seat', 'right', 'car')]","('child seat', 'right', 'family sedan')"
+MB104,ar,objects,"['car', 'spare tire']",off road vehicle
+MB104,ar,colours,<missing>,brown
+MB104,ar,spatial_constraints,"[('car', 'left', 'spare tire')]","('off road vehicle', 'left', 'spare tire')"
+MB105,ar,objects,"['car', 'key']",sedan
+MB105,ar,colours,<missing>,black
+MB105,ar,spatial_constraints,"[('car', 'above', 'key')]","('sedan', 'above', 'key fob')"
+MB106,ar,objects,"['charging cable', 'electric bike']",electric bicycle
+MB106,ar,colours,<missing>,white
+MB106,ar,spatial_constraints,"[('electric bike', 'left', 'charging cable')]","('electric bicycle', 'left', 'charging cable')"
+MB108,ar,objects,"['cardboard box', 'delivery truck']",delivery van
+MB108,ar,colours,<missing>,white
+MB108,ar,spatial_constraints,"[('delivery truck', 'left', 'cardboard box')]","('delivery van', 'left', 'cardboard box')"
+MB108,ar,required_text,[],ZOOM
+MB109,ar,objects,"['camper van', 'tent']",campervan
+MB109,ar,colours,<missing>,beige
+MB109,ar,spatial_constraints,"[('camper van', 'left', 'tent')]","('campervan', 'left', 'camping tent')"
+MB111,ar,objects,"['car', 'roof rack']",sports hatchback
+MB111,ar,colours,<missing>,black
+MB111,ar,spatial_constraints,"[('roof rack', 'above', 'car')]","('roof rack', 'above', 'sports hatchback')"
+MB112,ar,objects,['car'],siren light
+MB112,ar,colours,<missing>,red
+MB118,ar,objects,"['car', 'radio antenna']",armored suv
+MB118,ar,colours,<missing>,green
+MB118,ar,spatial_constraints,"[('radio antenna', 'right', 'car')]","('radio antenna', 'right', 'armored suv')"
+MB120,ar,objects,"['cone', 'motorcycle', 'track']",superbike
+MB120,ar,colours,<missing>,orange
+MB120,ar,spatial_constraints,"[('motorcycle', 'right', 'cone')]","('superbike', 'right', 'track cone')"
+MB123,ar,objects,"['sports bag', 'towel']",gym bag
+MB123,ar,colours,<missing>,black
+MB123,ar,spatial_constraints,"[('sports bag', 'left', 'towel')]","('gym bag', 'left', 'towel')"
+MB124,ar,objects,['cream'],flower
+MB124,ar,colours,<missing>,pink
+MB125,ar,objects,"['bottle', 'dumbbell', 'mat']",protein shaker
+MB125,ar,colours,<missing>,black
+MB125,ar,spatial_constraints,"[('bottle', 'left', 'dumbbell'), ('dumbbell', 'above', 'mat')]","('protein shaker', 'left', 'dumbbell')"
+MB126,ar,objects,"['candle', 'pillow']",meditation cushion
+MB126,ar,colours,<missing>,purple
+MB126,ar,spatial_constraints,"[('pillow', 'left', 'candle')]","('meditation cushion', 'left', 'candle')"
+MB131,ar,objects,"['notebook', 'pen']",journal
+MB131,ar,colours,<missing>,white
+MB131,ar,spatial_constraints,"[('notebook', 'left', 'pen')]","('journal', 'left', 'pen')"
+MB134,ar,colours,none,white
+MB134,ar,spatial_constraints,"[('bowl', 'left', 'glass cup')]","('collagen powder jar', 'left', 'glass')"
+MB139,ar,colours,blue green,teal
+MB142,ar,objects,"['pressure mat', 'rectangular pillow']",acupressure mat
+MB142,ar,colours,<missing>,purple
+MB142,ar,spatial_constraints,"[('pressure mat', 'right', 'rectangular pillow')]","('acupressure mat', 'right', 'pillow')"
+MB146,ar,objects,"['stretch band', 'yoga mat']",stretching strap
+MB146,ar,colours,<missing>,blue
+MB146,ar,spatial_constraints,"[('stretch band', 'below', 'yoga mat')]","('stretching strap', 'below', 'yoga mat')"
+MB148,ar,objects,"['jacket', 'shoe']",hydration vest
+MB148,ar,colours,<missing>,blue
+MB148,ar,spatial_constraints,"[('jacket', 'below', 'shoe')]","('hydration vest', 'below', 'trail running shoe')"
+MB149,ar,objects,"['holder', 'musk', 'surface']",meditation bead
+MB149,ar,colours,<missing>,brown
+MB149,ar,spatial_constraints,"[('holder', 'right', 'musk')]","('incense holder', 'right', 'meditation bead')"
+MB150,ar,objects,"['bathtub', 'towel']",cold plunge tub
+MB150,ar,colours,<missing>,white
+MB150,ar,spatial_constraints,"[('bathtub', 'right', 'towel')]","('cold plunge tub', 'right', 'towel')"
