@@ -1,0 +1,16 @@
+// Run once to get every file's name and Drive file ID from the
+// phase3a_interrater_staging folder. Check View > Logs / Execution log
+// after running for the full filename -> file ID mapping.
+
+function listImageFileIds() {
+  var FOLDER_ID = "1fGqqsNjF0BADBHBCBfRiWo3SP0uZqXZ6";
+  var folder = DriveApp.getFolderById(FOLDER_ID);
+  var files = folder.getFiles();
+  var mapping = [];
+  while (files.hasNext()) {
+    var f = files.next();
+    mapping.push(f.getName() + " -> " + f.getId());
+  }
+  mapping.sort(); // alphabetical, easier to scan
+  Logger.log(mapping.length + " files found:\n" + mapping.join("\n"));
+}

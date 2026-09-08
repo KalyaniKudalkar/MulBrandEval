@@ -1,0 +1,222 @@
+// ============================================================================
+// MulBrandEval — Phase 3A Inter-Rater Reliability Form — Generator
+// ============================================================================
+// Builds ONE Google Form shown identically to every rater (no branching, no
+// per-category quota-lock — unlike Layer 3, Krippendorff's Alpha requires
+// every rater to rate the exact same 30 images + 1 attention check).
+//
+// Rating dimensions and their order follow the exposé (section 4.6.1)
+// exactly: overall brand compliance, object presence, spatial positioning,
+// colour/attribute accuracy, typography.
+//
+// Each item shows the ENGLISH brief only (not translated) — this form
+// judges image compliance, not translation quality, so raters do not need
+// to know German/French/Spanish. This is a deliberate difference from the
+// Layer 3 native-speaker form, not an oversight.
+//
+// Image sizing: ImageItem.setWidth() forces a consistent display width
+// across all images, since SD v1.5 and FLUX outputs have different native
+// resolutions and would otherwise display at inconsistent sizes.
+//
+// FIX (2026-08-25, round 1): Brief text was previously attached via
+// imageItem.setHelpText(), which Google Forms renders only as a hover
+// tooltip on the image — visible on desktop, invisible on mobile (no
+// hover state). Brief text is now a separate SectionHeaderItem placed
+// immediately before each image, which renders as plain visible body
+// text on every device.
+//
+// FIXES (2026-08-25, round 2):
+//  - Form title no longer exposes internal labels ("Phase 3A",
+//    "(Inter-Rater)") to raters.
+//  - Removed redundant form description (it duplicated the consent
+//    section header text verbatim).
+//  - Removed imageItem.setTitle(item.briefId) — this was assumed to be
+//    invisible alt text, but Google Forms actually renders ImageItem
+//    titles as a visible caption, producing a duplicate brief-ID label
+//    directly above the image (the section header already shows it once).
+//  - Reworded instructions text: removed "below" (inaccurate once
+//    instructions live on their own page) and removed the sentence
+//    disclosing the attention check — telling raters a check exists
+//    undermines its purpose as a data-quality signal.
+//  - Added explicit setGoToPage(CONTINUE) to every page break. Once a
+//    form has ANY conditional branching (our age-gate question does),
+//    Apps Script/Google Forms requires every page break to have explicit
+//    navigation, or page order and the "Page X of Y" indicator become
+//    unreliable — this was the cause of the page 7→10 skip and the
+//    feedback page being bypassed on submit.
+//  - setProgressBar default changed to false, matching the manual
+//    settings change made in the live form (prevents a future
+//    regeneration from silently re-enabling it).
+//  - Pagination no longer strands a single item on its own last page.
+//    31 items at ITEMS_PER_PAGE=6 previously produced batches of
+//    6,6,6,6,6,1 — the lone final item (MB125) is now merged into the
+//    prior batch instead: 6,6,6,6,7. See computeBatchSizes().
+//
+// HOW TO USE:
+//   1. In the same Apps Script project (MulBrandEval_Survey_Forms), add
+//      two new script files:
+//        Phase3aData      <- this file's PHASE3A_ITEMS array (see
+//                            phase3a_items_data.gs.txt)
+//        Phase3aGenerator <- this file's content
+//   2. Run generatePhase3aForm(). Authorization prompt expected (same
+//      click-through as before) if this project hasn't used addImageItem
+//      with Drive blobs yet.
+//   3. Check the Execution log for the edit + published links.
+//   4. Test end-to-end BEFORE sharing: images load correctly and are a
+//      consistent size, brief text is legible ON DESKTOP AND MOBILE, grid
+//      order matches Overall/Objects/Spatial/Colour/Typography,
+//      attention-check image (MB125) is obviously non-compliant, feedback
+//      page appears before submit, progress bar and shuffle order behave
+//      as expected.
+//   NOTE: This creates a brand-new form (new edit/published URLs). It does
+//   NOT patch the existing live form — don't share the old link once this
+//   is regenerated.
+// ============================================================================
+
+var IMAGE_DISPLAY_WIDTH = 500; // pixels — applied uniformly to every image
+
+var DIMENSIONS = ["Overall", "Objects", "Spatial", "Colour", "Typography"];
+var SCALE_LOW = "1 (worst)";
+var SCALE_HIGH = "5 (best)";
+
+var FORM_TITLE = "MulBrandEval — Image Compliance Rating"; // rater-facing, no internal phase/round labels
+var CONSENT_TITLE = "MulBrandEval — Image Compliance Rating";
+var CONSENT_TEXT =
+  "Thank you for your interest in this study. As part of a master's thesis at " +
+  "SRH Hochschule Heidelberg, AI-generated product images are being rated for " +
+  "how well they match their brand brief. Participation is voluntary, takes " +
+  "about 10-15 minutes, and you may stop at any time without giving a reason. " +
+  "No names or contact details are collected; your responses are recorded " +
+  "anonymously and analysed only in aggregate for research purposes.";
+
+var AGE_QUESTION = "I am at least 18 years old and consent to participate.";
+var AGE_OPTIONS = ["Yes, I consent", "No"];
+var AGE_EXIT_TITLE = "Thank you for your interest";
+var AGE_EXIT_TEXT = "This study is for participants aged 18 and over. Thank you for your time!";
+
+var INSTRUCTIONS_TITLE = "How to rate each image";
+var INSTRUCTIONS_TEXT =
+  "For each image in this survey, you'll see its brand brief (what the image " +
+  "was supposed to show) followed by a rating grid. Rate each of the 5 " +
+  "dimensions on a scale from 1 to 5, where 1 = worst (completely fails that " +
+  "dimension) and 5 = best (fully satisfies that dimension):\n\n" +
+  "- Overall: your overall impression of how well the image matches the brief\n" +
+  "- Objects: are the required objects present in the image?\n" +
+  "- Spatial: are objects positioned as described (e.g. left/right/above/below)?\n" +
+  "- Colour: do objects have the correct colours?\n" +
+  "- Typography: is the required brand text legible and correctly rendered?";
+
+var FEEDBACK_TITLE = "Feedback (optional)";
+var FEEDBACK_QUESTION = "Was anything unclear, or is there anything else you'd like to share? (optional, feel free to skip)";
+
+var CLOSING_TEXT =
+  "Thank you very much for your time and careful ratings — this data " +
+  "directly supports the thesis's human evaluation results.";
+
+var ITEMS_PER_PAGE = 6; // small batches, matching the Layer 3 pagination approach
+
+
+// Computes batch sizes for paginating items, avoiding a lonely last page.
+// With a plain idx % ITEMS_PER_PAGE === 0 split, 31 items at size 6 leaves
+// a final page with just 1 item. This instead merges that leftover into the
+// previous batch (e.g. 6,6,6,6,7 instead of 6,6,6,6,6,1), only when exactly
+// 1 item would otherwise be stranded alone.
+function computeBatchSizes(totalItems, pageSize) {
+  var sizes = [];
+  var remaining = totalItems;
+  while (remaining > 0) {
+    if (remaining === pageSize + 1) {
+      sizes.push(pageSize + 1); // merge the lone leftover into this page
+      remaining -= (pageSize + 1);
+    } else if (remaining <= pageSize) {
+      sizes.push(remaining);
+      remaining = 0;
+    } else {
+      sizes.push(pageSize);
+      remaining -= pageSize;
+    }
+  }
+  return sizes;
+}
+
+
+function generatePhase3aForm() {
+  var items = PHASE3A_ITEMS; // from Phase3aData.gs
+
+  // Convert batch sizes into a lookup of item-indices where a new page starts
+  var batchSizes = computeBatchSizes(items.length, ITEMS_PER_PAGE);
+  var pageStartIndices = {};
+  var cumulativeIndex = 0;
+  batchSizes.forEach(function (size) {
+    pageStartIndices[cumulativeIndex] = true;
+    cumulativeIndex += size;
+  });
+
+  var form = FormApp.create(FORM_TITLE);
+  form.setCollectEmail(false);
+  form.setLimitOneResponsePerUser(false);
+  form.setShowLinkToRespondAgain(false);
+  form.setProgressBar(false);           // OFF by default — matches manual setting in the live form
+  form.setConfirmationMessage(CLOSING_TEXT);
+
+  // Page 0: consent + age gate
+  form.addSectionHeaderItem().setTitle(CONSENT_TITLE).setHelpText(CONSENT_TEXT);
+  var ageItem = form.addMultipleChoiceItem().setTitle(AGE_QUESTION).setRequired(true);
+
+  // Page 1: instructions
+  var pageInstructions = form.addPageBreakItem().setTitle(INSTRUCTIONS_TITLE);
+  form.addSectionHeaderItem().setTitle(INSTRUCTIONS_TITLE).setHelpText(INSTRUCTIONS_TEXT);
+  // Explicit navigation required: once ANY page break in the form has
+  // conditional navigation (our age question does), every other page break
+  // needs an explicit setGoToPage too, or Forms' page order/count becomes
+  // unreliable (this was the root cause of the page 7->10 skip).
+  pageInstructions.setGoToPage(FormApp.PageNavigationType.CONTINUE);
+
+  // Pages 2..N: rating items, batched per computeBatchSizes() above
+  items.forEach(function (item, idx) {
+    if (pageStartIndices[idx]) {
+      var pageBreak = form.addPageBreakItem().setTitle("...");
+      pageBreak.setGoToPage(FormApp.PageNavigationType.CONTINUE);
+    }
+
+    // Brief text as a visible section header — title + helpText both render
+    // as plain text on desktop AND mobile, unlike imageItem.setHelpText()
+    // which only shows on desktop hover.
+    form.addSectionHeaderItem()
+      .setTitle(item.briefId)
+      .setHelpText(item.briefText);
+
+    var blob = DriveApp.getFileById(item.fileId).getBlob();
+    var imageItem = form.addImageItem();
+    imageItem.setImage(blob);
+    imageItem.setWidth(IMAGE_DISPLAY_WIDTH);
+    // No setTitle() here — it renders as a visible caption on ImageItem,
+    // duplicating the brief ID already shown in the section header above.
+
+    var scaleColumns = [SCALE_LOW, "2", "3", "4", SCALE_HIGH];
+    form.addGridItem()
+      .setTitle("Ratings for " + item.briefId)
+      .setRows(DIMENSIONS)
+      .setColumns(scaleColumns)
+      .setRequired(true);
+  });
+
+  // Feedback page (optional), then submit
+  var pageFeedback = form.addPageBreakItem().setTitle(FEEDBACK_TITLE);
+  form.addParagraphTextItem().setTitle(FEEDBACK_QUESTION).setRequired(false);
+  pageFeedback.setGoToPage(FormApp.PageNavigationType.SUBMIT);
+
+  // Age exit page
+  var pageAgeExit = form.addPageBreakItem().setTitle(AGE_EXIT_TITLE);
+  form.addSectionHeaderItem().setTitle(AGE_EXIT_TITLE).setHelpText(AGE_EXIT_TEXT);
+  pageAgeExit.setGoToPage(FormApp.PageNavigationType.SUBMIT);
+
+  // Wire age branching
+  ageItem.setChoices([
+    ageItem.createChoice(AGE_OPTIONS[0], FormApp.PageNavigationType.CONTINUE),
+    ageItem.createChoice(AGE_OPTIONS[1], pageAgeExit)
+  ]);
+
+  Logger.log(form.getEditUrl() + "  |  PUBLISHED: " + form.getPublishedUrl());
+  return form.getEditUrl() + "  |  PUBLISHED: " + form.getPublishedUrl();
+}
