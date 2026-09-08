@@ -1,5 +1,5 @@
 node,dimension,accuracy,both_fail,both_pass,human_fail_only,pipeline_fail_only
-1,objects,0.55,25,41,7,47
-2,spatial,0.5416666666666666,25,40,8,47
-3,colour,0.5,30,30,5,55
-4,typography,0.44166666666666665,14,39,56,11
+1,objects,0.675,45,36,12,27
+2,spatial,0.6583333333333333,60,19,29,12
+3,colour,0.6333333333333333,51,25,10,34
+4,typography,0.4,23,25,70,2
