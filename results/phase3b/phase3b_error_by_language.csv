@@ -1,0 +1,4 @@
+language,ambiguous_input,dag_missed_spatial_reversal,dag_overcredited,false_negative,false_positive,human_holistic_scoring,human_overrated_overall,human_overrated_per_node,human_underrated_spatial,mixed_disagreement
+de,0,1,3,4,8,0,1,0,0,0
+es,0,0,1,5,4,1,2,0,1,0
+fr,1,0,2,3,3,1,1,1,0,1

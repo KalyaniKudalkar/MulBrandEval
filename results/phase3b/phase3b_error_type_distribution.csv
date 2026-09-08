@@ -1,0 +1,11 @@
+error_type,count
+false_positive,15
+false_negative,12
+dag_overcredited,6
+human_overrated_overall,4
+human_holistic_scoring,2
+dag_missed_spatial_reversal,1
+human_overrated_per_node,1
+ambiguous_input,1
+human_underrated_spatial,1
+mixed_disagreement,1

@@ -1,0 +1,5 @@
+suggested_primary_node,ambiguous_input,dag_missed_spatial_reversal,dag_overcredited,false_negative,false_positive,human_holistic_scoring,human_overrated_overall,human_overrated_per_node,human_underrated_spatial,mixed_disagreement
+colour,0,0,0,0,1,0,0,0,0,0
+objects,0,1,0,5,0,1,0,1,0,0
+spatial,1,0,6,7,2,1,4,0,0,0
+typography,0,0,0,0,12,0,0,0,1,1

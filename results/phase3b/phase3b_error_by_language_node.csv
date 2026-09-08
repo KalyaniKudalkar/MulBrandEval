@@ -1,0 +1,11 @@
+language,suggested_primary_node,ambiguous_input,dag_missed_spatial_reversal,dag_overcredited,false_negative,false_positive,human_holistic_scoring,human_overrated_overall,human_overrated_per_node,human_underrated_spatial,mixed_disagreement
+de,colour,0,0,0,0,1,0,0,0,0,0
+de,objects,0,1,0,2,0,0,0,0,0,0
+de,spatial,0,0,3,2,1,0,1,0,0,0
+de,typography,0,0,0,0,6,0,0,0,0,0
+es,objects,0,0,0,3,0,1,0,0,0,0
+es,spatial,0,0,1,2,1,0,2,0,0,0
+es,typography,0,0,0,0,3,0,0,0,1,0
+fr,objects,0,0,0,0,0,0,0,1,0,0
+fr,spatial,1,0,2,3,0,1,1,0,0,0
+fr,typography,0,0,0,0,3,0,0,0,0,1
