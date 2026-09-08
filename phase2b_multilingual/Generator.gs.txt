@@ -1,0 +1,370 @@
+// ============================================================================
+// MulBrandEval — Layer 3 Native-Speaker Validation — Form Generator
+// ============================================================================
+// Builds ONE Google Form for native-speaker validation of the MBB brief
+// translations (10 items/language, 2/category x 5 categories).
+//
+// ----------------------------------------------------------------------------
+// CRITICAL — PageBreakItem.setGoToPage() semantics (gotten wrong twice
+// before this version, so spelled out in full here):
+//
+//   somePageBreak.setGoToPage(target) sets the navigation for the SECTION
+//   THAT ENDS immediately before somePageBreak — i.e. it controls where the
+//   PREVIOUS page's "Next" button goes, NOT where somePageBreak's own page
+//   goes.
+//
+//   So: to control where page P exits to, you call .setGoToPage() on
+//   whichever page-break STARTS THE NEXT page after P in document order —
+//   never on the page-break that starts P itself.
+//
+//   The setExitOfPageBefore() helper below exists purely so every call site
+//   reads unambiguously ("this line closes the page BEFORE this break"),
+//   instead of relying on remembering the off-by-one rule each time.
+// ----------------------------------------------------------------------------
+//
+// FLOW:
+//   Page 0  Intro (English) + age gate -> "No" -> age-exit -> SUBMIT
+//   Page 1  Native-language question (English): DE/FR/ES/AR/None
+//     "None of these" -> none-exit (includes Image Compliance link) -> SUBMIT
+//     DE/FR/ES/AR -> that language's consent page
+//   Per language, back to back: consent -> (Yes) items -> feedback -> SUBMIT
+//                                        -> (No)  that language's decline -> SUBMIT
+//   All four decline pages, then age-exit, then none-exit are grouped at the
+//   very end, each with an explicit SUBMIT exit — nothing left to the
+//   document-order default anywhere in the whole form.
+//
+// Each rated item displays the English original above its translation.
+// Item order is NOT shuffled — it comes straight from Data_NativeSpeaker.gs,
+// which is itself in a fixed, deterministic order (see
+// phase2b_native_speaker_formdata.py).
+// ============================================================================
+
+// Both the "none of these" language-exit page and the closing screen point
+// to the same destination — the Phase 3A image-rating survey — so this is
+// one link, not two.
+var IMAGE_SURVEY_LINK = "[IMAGE_SURVEY_LINK_PLACEHOLDER]";
+
+var LANGUAGE_KEYS = ["de", "fr", "es", "ar"];
+
+// ---------------------------------------------------------------------------
+// English-language content. NOTE: EN.introTitle is used ONLY as the
+// FormApp.create() page title — it must never be repeated anywhere else in
+// the form body (that was the "title appears 3 times" bug: once from
+// create(), once from a redundant setDescription() call, once from a
+// section header repeating the same string — the latter two are gone now).
+// ---------------------------------------------------------------------------
+var EN = {
+  introTitle: "MulBrandEval — Translation Quality Rating",
+  introHeading: "Thank you for your interest in this study.",
+  introBody:
+    "This is part of a Master's thesis studying how well AI image-generation " +
+    "tools work across different languages before we can trust an AI " +
+    "model's output in German, French, Spanish or Arabic, we first need to " +
+    "know whether the text prompts it's given are being translated well. " +
+    "That's what this short survey checks.\n\n" +
+    "Participation is voluntary and you may stop at any time. No names or " +
+    "contact details are collected. Your responses are recorded anonymously " +
+    "and analyzed only in aggregate for research purposes.\n\n" +
+    "This should take about a minute of your time.\n\n" +
+    "Kalyani Vikas Kudalkar\n" +
+    "M.Sc. Applied Data Science and Analytics\n" +
+    "SRH Hochschule Heidelberg",
+  ageQuestion: "I am at least 18 years old and agree to participate.",
+  ageOptions: ["Yes, I agree", "No"],
+  ageExitTitle: "Thank you for your interest",
+  ageExitText: "This study is for participants aged 18 or older. Thank you for your time!",
+  nativeLanguageQuestion: "What is your native language (the language you learned first as a child)?",
+  nativeLanguageOptions: {
+    de: "German",
+    fr: "French",
+    es: "Spanish",
+    ar: "Arabic",
+    none: "None of these"
+  },
+  noneExitTitle: "Thank you for your interest",
+  noneExitText:
+    "This particular survey needs native speakers of German, French, Spanish " +
+    "or Arabic, so we can't include your rating here. But if you would like to " +
+    "help in another way, we also have a short survey rating AI-generated " +
+    "images, which has no language requirement at all. Thank you either way " +
+    "for considering it!",
+  noneExitLinkLabel: "Rate AI-generated images instead: ",
+  feedbackTitle: "One more thing (optional)",
+  feedbackQuestion: "Was there anything you noticed or anything else you would like to tell us? (optional: feel free to skip)",
+  closingText:
+    "Thank you very much for your time!\n\n" +
+    "As a small thank-you, here is a quick fact: there are more than 7,000 " +
+    "languages spoken in the world today and many share surprising " +
+    "connections through everyday words borrowed across them.\n\n" +
+    "Would you also like to see how sentences like these actually turn into " +
+    "AI-generated images?\n" +
+    "In the next part of this study, you would rate a few AI-generated images " +
+    "- it's quick.\n" +
+    "Interested? -> " + IMAGE_SURVEY_LINK
+};
+
+// ---------------------------------------------------------------------------
+// Per-language content. Decline pages no longer repeat their own title as a
+// section-item title (that was the "Vielen Dank..." x2 bug) — the page
+// banner (declineTitle) shows once, the message (declineText) is the item's
+// own title, shown once, no duplication.
+// ---------------------------------------------------------------------------
+var LANG_META = {
+  de: {
+    label: "German / Deutsch",
+    consentTitle: "MulBrandEval — Bewertung deutscher Übersetzungen",
+    consentText:
+      "Im Rahmen einer Masterarbeit an der SRH Hochschule Heidelberg werden ins " +
+      "Deutsche übersetzte Sätze bewertet.\n\n" +
+      "Die Teilnahme ist freiwillig, dauert nur etwa eine Minute, und Sie können " +
+      "jederzeit ohne Angabe von Gründen abbrechen.\n\n" +
+      "Es werden keine Namen oder Kontaktdaten erhoben; Ihre Angaben werden " +
+      "anonym erfasst und ausschließlich in aggregierter Form für " +
+      "wissenschaftliche Zwecke ausgewertet.",
+    consentQuestion: "Ich habe den obigen Text gelesen und stimme der Teilnahme zu.",
+    consentOptions: ["Ja, ich stimme zu", "Nein"],
+    declineTitle: "Vielen Dank für Ihr Interesse",
+    declineText: "Kein Problem — vielen Dank für Ihre Zeit!",
+    ratingInstruction:
+      "Bitte bewerten Sie für jeden der folgenden Sätze zwei Aspekte auf einer " +
+      "Skala von 1 bis 5:\n" +
+      "(1) Sprachfluss — liest sich der Satz natürlich auf Deutsch?\n" +
+      "(2) Bedeutungstreue — entspricht die Bedeutung dem englischen Original?\n\n" +
+      "Ein Satz kann bei einem Aspekt hoch und beim anderen niedrig bewertet " +
+      "werden. In der Tabelle sind diese als „SF\" und „BT\" abgekürzt.",
+    englishLabel: "Englisches Original",
+    translationLabel: "Deutsche Übersetzung",
+    fluencyLabel: "SF",
+    adequacyLabel: "BT",
+    scaleLow: "Sehr schlecht",
+    scaleHigh: "Ausgezeichnet"
+  },
+  fr: {
+    label: "French / Français",
+    consentTitle: "MulBrandEval — Évaluation des traductions françaises",
+    consentText:
+      "Dans le cadre d'un mémoire de master à la SRH Hochschule Heidelberg, " +
+      "des phrases traduites en français sont évaluées.\n\n" +
+      "La participation est volontaire, dure environ une minute, et vous " +
+      "pouvez arrêter à tout moment sans justification.\n\n" +
+      "Aucun nom ni coordonnée n'est collecté ; vos réponses sont enregistrées " +
+      "de manière anonyme et analysées uniquement de façon agrégée à des fins " +
+      "scientifiques.",
+    consentQuestion: "J'ai lu le texte ci-dessus et j'accepte de participer.",
+    consentOptions: ["Oui, j'accepte", "Non"],
+    declineTitle: "Merci de votre intérêt",
+    declineText: "Pas de problème — merci pour votre temps !",
+    ratingInstruction:
+      "Pour chacune des phrases suivantes, veuillez évaluer deux aspects sur " +
+      "une échelle de 1 à 5 :\n" +
+      "(1) Fluidité — la phrase se lit-elle naturellement en français ?\n" +
+      "(2) Fidélité au sens — le sens correspond-il à l'original anglais ?\n\n" +
+      "Une phrase peut obtenir un score élevé sur un aspect et faible sur " +
+      "l'autre. Ces aspects sont abrégés dans le tableau en « Fl » et « FS ».",
+    englishLabel: "Texte original anglais",
+    translationLabel: "Traduction française",
+    fluencyLabel: "Fl",
+    adequacyLabel: "FS",
+    scaleLow: "Très mauvais",
+    scaleHigh: "Excellent"
+  },
+  es: {
+    label: "Spanish / Español",
+    consentTitle: "MulBrandEval — Evaluación de traducciones al español",
+    consentText:
+      "Como parte de una tesis de máster en la SRH Hochschule Heidelberg, se " +
+      "están evaluando frases traducidas al español.\n\n" +
+      "La participación es voluntaria, dura aproximadamente un minuto, y " +
+      "puede abandonar en cualquier momento sin dar explicaciones.\n\n" +
+      "No se recopilan nombres ni datos de contacto; sus respuestas se " +
+      "registran de forma anónima y se analizan únicamente de manera " +
+      "agregada con fines científicos.",
+    consentQuestion: "He leído el texto anterior y acepto participar.",
+    consentOptions: ["Sí, acepto", "No"],
+    declineTitle: "Gracias por su interés",
+    declineText: "No hay problema — ¡gracias por su tiempo!",
+    ratingInstruction:
+      "Para cada una de las siguientes frases, evalúe dos aspectos en una " +
+      "escala del 1 al 5:\n" +
+      "(1) Fluidez — ¿se lee la frase de forma natural en español?\n" +
+      "(2) Fidelidad de significado — ¿el significado coincide con el " +
+      "original en inglés?\n\n" +
+      "Una frase puede obtener una puntuación alta en un aspecto y baja en " +
+      "el otro. En la tabla, estos aspectos se abrevian como «Fl» y «FS».",
+    englishLabel: "Texto original en inglés",
+    translationLabel: "Traducción al español",
+    fluencyLabel: "Fl",
+    adequacyLabel: "FS",
+    scaleLow: "Muy malo",
+    scaleHigh: "Excelente"
+  },
+  ar: {
+    label: "Arabic / العربية",
+    consentTitle: "MulBrandEval — تقييم الترجمات العربية",
+    consentText:
+      "كجزء من رسالة ماجستير في جامعة SRH Hochschule Heidelberg، يتم تقييم " +
+      "جمل مترجمة إلى العربية.\n\n" +
+      "المشاركة اختيارية، وتستغرق حوالي دقيقة واحدة، ويمكنك التوقف في أي وقت " +
+      "دون إبداء أسباب.\n\n" +
+      "لا يتم جمع أي أسماء أو بيانات تواصل؛ يتم تسجيل إجاباتك بشكل مجهول " +
+      "وتحليلها فقط بشكل مجمّع لأغراض بحثية.",
+    consentQuestion: "لقد قرأت النص أعلاه وأوافق على المشاركة.",
+    consentOptions: ["نعم، أوافق", "لا"],
+    declineTitle: "شكرًا لاهتمامك",
+    declineText: "لا مشكلة — شكرًا لوقتك!",
+    ratingInstruction:
+      "لكل جملة من الجمل التالية، يرجى تقييم جانبين على مقياس من 1 إلى 5:\n" +
+      "(1) الطلاقة — هل تُقرأ الجملة بشكل طبيعي باللغة العربية؟\n" +
+      "و(2) دقة المعنى — هل يتطابق المعنى مع الأصل الإنجليزي؟\n\n" +
+      "يمكن أن تحصل الجملة على تقييم مرتفع في جانب ومنخفض في الآخر. في " +
+      "الجدول، يُشار إلى هذين الجانبين بـ «الطلاقة» و«الدقة».",
+    englishLabel: "النص الإنجليزي الأصلي",
+    translationLabel: "الترجمة العربية",
+    fluencyLabel: "الطلاقة",
+    adequacyLabel: "الدقة",
+    scaleLow: "سيئ جدًا",
+    scaleHigh: "ممتاز"
+  }
+};
+
+// Reads unambiguously at every call site: "this closes the page BEFORE
+// nextPageBreak". See the CRITICAL note at the top of this file.
+function setExitOfPageBefore(nextPageBreak, target) {
+  nextPageBreak.setGoToPage(target);
+}
+
+function generateForm() {
+  if (typeof BRIEF_DATA === "undefined") {
+    Logger.log("STOPPED — Data_NativeSpeaker script file not found. Create a " +
+      "file named exactly 'Data_NativeSpeaker' and paste " +
+      "Data_NativeSpeaker.gs.txt's content into it, then run this again.");
+    return;
+  }
+
+  var form = FormApp.create(EN.introTitle);
+  form.setCollectEmail(false);
+  form.setLimitOneResponsePerUser(false);
+  form.setShowLinkToRespondAgain(false);
+  form.setProgressBar(false);
+  form.setConfirmationMessage(EN.closingText);
+
+  // ---- Page 0: intro + age gate ----
+  form.addSectionHeaderItem().setTitle(EN.introHeading).setHelpText(EN.introBody);
+  var ageItem = form.addMultipleChoiceItem().setTitle(EN.ageQuestion).setRequired(true);
+
+  // ---- Page 1: native-language question ----
+  form.addPageBreakItem().setTitle("Getting Started");
+  var nativeItem = form.addMultipleChoiceItem().setTitle(EN.nativeLanguageQuestion).setRequired(true);
+
+  // ---- Per language, back to back: consent -> items -> feedback ----
+  var consentItems = {};       // lang -> MultipleChoiceItem (for wiring "No")
+  var languageEntryPages = {}; // lang -> consent PageBreakItem (native-language branch target)
+  var itemsPages = {};         // lang -> items PageBreakItem (consent "Yes" branch target)
+
+  LANGUAGE_KEYS.forEach(function (lang) {
+    var meta = LANG_META[lang];
+    var items = BRIEF_DATA[lang]; // fixed, deterministic order — no shuffle
+
+    // Consent page
+    var pageConsent = form.addPageBreakItem().setTitle(meta.label);
+    languageEntryPages[lang] = pageConsent;
+    form.addSectionHeaderItem().setTitle(meta.consentTitle).setHelpText(meta.consentText);
+    var consentItem = form.addMultipleChoiceItem().setTitle(meta.consentQuestion).setRequired(true);
+    consentItems[lang] = consentItem;
+    // Consent's own exit is fully choice-driven (Yes -> items, No -> decline,
+    // wired further below) — no setGoToPage() needed on any page-break here.
+
+    // Items page — all 10 rating items on one page.
+    itemsPages[lang] = form.addPageBreakItem().setTitle(meta.label);
+    form.addSectionHeaderItem().setTitle(meta.consentTitle)
+      .setHelpText(meta.ratingInstruction + " (1 = " + meta.scaleLow + ", 5 = " + meta.scaleHigh + ")");
+    items.forEach(function (item) {
+      var combinedText = meta.englishLabel + ":\n" + item.text_en +
+        "\n\n" + meta.translationLabel + ":\n" + item.text;
+      form.addGridItem()
+        .setTitle(item.brief_id)
+        .setHelpText(combinedText)
+        .setRows([meta.fluencyLabel, meta.adequacyLabel])
+        .setColumns(["1", "2", "3", "4", "5"])
+        .setRequired(true);
+    });
+    // Items page's own exit: we WANT the default "continue to next section"
+    // here, since the next page-break added is this same language's
+    // feedback page — so deliberately no setGoToPage() call on it.
+
+    // Feedback page — separate page, not folded under the items.
+    form.addPageBreakItem().setTitle(EN.feedbackTitle);
+    form.addParagraphTextItem().setTitle(EN.feedbackQuestion).setRequired(false);
+    // Feedback page's own exit is set below, once the NEXT page-break in
+    // document order exists (either the next language's consent page, or —
+    // for Arabic, the last language — the first decline page).
+  });
+
+  // ---- Decline-exit pages, grouped together after all four languages ----
+  var declineExitPages = {};
+  LANGUAGE_KEYS.forEach(function (lang) {
+    var meta = LANG_META[lang];
+    var pageDecline = form.addPageBreakItem().setTitle(meta.declineTitle);
+    declineExitPages[lang] = pageDecline;
+    form.addSectionHeaderItem().setTitle(meta.declineText); // message only, no title repeat
+  });
+
+  // ---- Age-exit and none-exit, last two pages in the document ----
+  var pageAgeExit = form.addPageBreakItem().setTitle(EN.ageExitTitle);
+  form.addSectionHeaderItem().setTitle(EN.ageExitText); // message only, no title repeat
+
+  var pageNoneExit = form.addPageBreakItem().setTitle(EN.noneExitTitle);
+  form.addSectionHeaderItem().setTitle(EN.noneExitText + "\n\n" + EN.noneExitLinkLabel + IMAGE_SURVEY_LINK);
+
+  // ---- Wire branch choices (reliable regardless of document distance) ----
+  ageItem.setChoices([
+    ageItem.createChoice(EN.ageOptions[0], FormApp.PageNavigationType.CONTINUE),
+    ageItem.createChoice(EN.ageOptions[1], pageAgeExit)
+  ]);
+
+  var nativeChoices = LANGUAGE_KEYS.map(function (lang) {
+    return nativeItem.createChoice(EN.nativeLanguageOptions[lang], languageEntryPages[lang]);
+  });
+  nativeChoices.push(nativeItem.createChoice(EN.nativeLanguageOptions.none, pageNoneExit));
+  nativeItem.setChoices(nativeChoices);
+
+  LANGUAGE_KEYS.forEach(function (lang) {
+    var meta = LANG_META[lang];
+    consentItems[lang].setChoices([
+      consentItems[lang].createChoice(meta.consentOptions[0], itemsPages[lang]),
+      consentItems[lang].createChoice(meta.consentOptions[1], declineExitPages[lang])
+    ]);
+  });
+
+  // ---- Wire every default-flow exit EXPLICITLY, using setExitOfPageBefore ----
+  // Document order after the per-language blocks is:
+  //   [DE consent][DE items][DE feedback]
+  //   [FR consent][FR items][FR feedback]
+  //   [ES consent][ES items][ES feedback]
+  //   [AR consent][AR items][AR feedback]
+  //   [DE decline][FR decline][ES decline][AR decline]
+  //   [age-exit][none-exit]
+  //
+  // Each language's OWN feedback page must end in SUBMIT, not "continue"
+  // into the next language's consent page (the document-order default).
+  // Per the rule at the top of this file, that means calling setGoToPage()
+  // on the PageBreakItem that STARTS the page immediately after it.
+  setExitOfPageBefore(languageEntryPages["fr"], FormApp.PageNavigationType.SUBMIT); // closes DE feedback
+  setExitOfPageBefore(languageEntryPages["es"], FormApp.PageNavigationType.SUBMIT); // closes FR feedback
+  setExitOfPageBefore(languageEntryPages["ar"], FormApp.PageNavigationType.SUBMIT); // closes ES feedback
+  setExitOfPageBefore(declineExitPages["de"], FormApp.PageNavigationType.SUBMIT);   // closes AR feedback
+
+  // Each decline page must also end in SUBMIT immediately, not continue on
+  // into the next language's decline page.
+  setExitOfPageBefore(declineExitPages["fr"], FormApp.PageNavigationType.SUBMIT); // closes DE decline
+  setExitOfPageBefore(declineExitPages["es"], FormApp.PageNavigationType.SUBMIT); // closes FR decline
+  setExitOfPageBefore(declineExitPages["ar"], FormApp.PageNavigationType.SUBMIT); // closes ES decline
+  setExitOfPageBefore(pageAgeExit, FormApp.PageNavigationType.SUBMIT);            // closes AR decline
+  setExitOfPageBefore(pageNoneExit, FormApp.PageNavigationType.SUBMIT);           // closes age-exit
+  // none-exit is the LAST page in the document — nothing follows it, so its
+  // own exit is the form's natural end (Submit) with no call needed.
+
+  var url = form.getEditUrl() + "  |  PUBLISHED: " + form.getPublishedUrl();
+  Logger.log(url);
+  return url;
+}

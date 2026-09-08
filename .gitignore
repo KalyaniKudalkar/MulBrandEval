@@ -32,3 +32,10 @@ phase1a_realism_baseline/test_api.py
 phase1a_realism_baseline/test_replicate.py
 phase1a_realism_baseline/test_flux_replicate.py
 *.bak
+
+# Phase 3A - staged/renamed image copies for blind rating + thumbnail cache;
+# regenerable from data/generated_images/ + phase3a_*_secret_mapping.csv
+data/.thumb_cache/
+data/phase3a_interrater_staging/
+data/phase3a_primary_rater_staging_pass1/
+data/phase3a_primary_rater_staging_pass2/

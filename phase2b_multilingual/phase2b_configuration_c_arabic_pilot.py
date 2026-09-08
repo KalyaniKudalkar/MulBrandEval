@@ -40,13 +40,13 @@ OpenAI cost.
 Resume-safe: (brief_id, model, language) triples already present in the
 output CSV are skipped. Image-existence-aware throughout.
 
-Place this script at:  phase2b_multilingual/phase2b_configuration_c_evaluate_arabic_pilot.py
+Place this script at:  phase2b_multilingual/phase2b_configuration_c_arabic_pilot.py
   (mirrors phase2b_configuration_c_evaluate.py's placement and import
   pattern exactly — sys.path insertion below makes phase2a_dag_pipeline
   resolve correctly from this folder, no -m invocation needed.)
 
 Run from MulBrandEval/ root, same plain-script style as its siblings:
-  python phase2b_multilingual\\phase2b_configuration_c_evaluate_arabic_pilot.py
+  python phase2b_multilingual\\phase2b_configuration_c_arabic_pilot.py
 """
 
 import sys
